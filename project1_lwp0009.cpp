@@ -3,21 +3,22 @@
 #include<string>
 using namespace std;
 
-int createHeader() {
+void createHeader() {
 	    cout 
 		 << "******************************************************\n" 
 		 <<  "Amortization Table\n"
 		 << "******************************************************\n";
-	    cout << left << setw(8) <<"Month" << setw(13) << "Balance" << setw(8) << "Payment" << setw(7) << "Rate"
+	    cout << left << setw(8) << "Month" << setw(13) << "Balance" << setw(8) << "Payment" << setw(7) << "Rate"
 		 << setw(8) << "Interest" << "Principal\n";
 }
+
 
 int monthCalc(double balance, double payment, int interest) {
 	if (balance == 0) {
 		return 0;
 	}
 	if (interest/12.0/100.0 * balance >= payment) {
-		cout << "The interest payment is to great! Never can be paid.";
+		cout << "The interest payment is to great! Never can be paid.\n";
 		return -1;
 	}
 	if (balance < payment) {
@@ -73,23 +74,21 @@ int main() {
     	remainder = remainder - principal;
 
 		if (i == 0) {
-			cout << setw(8) << i << setw(13) << fixed << setprecision(2) << loanAmount << setw(8) 
-			<< "N/A" << setw(7) << "N/A" << setw(8) << "N/A" << "N/A" <<"\n";
+			cout << setw(8) << i  << "$" << setw(13) << fixed << setprecision(2) << loanAmount << setw(8) 
+			<< "N/A" << setw(7) << "N/A" << setw(8) << "N/A" << "N/A" << endl;
 			remainder = loanAmount;
 		}
 		else if (remainder <= 0) {
 			principal = previousBalance;
-			cout << setw(8) << i << setw(13) << 00.00 << setw(8) << setprecision(2)
-			<< previousBalance + previousBalance * monthlyInterest / 100.0 << setw(7) 
-			<< setprecision(1) << interestRate/12.0 << setw(8) << setprecision(2) << interestAmount << principal << "\n";
+			cout << setw(8) << i << "$" << setw(13) << 00.00 << "$" << setw(8) << setprecision(2)
+			<< previousBalance + previousBalance * monthlyInterest / 100.0  << "$" << setw(7) 
+			<< setprecision(1) << interestRate/12.0  << "$" << setw(8) << setprecision(2) << interestAmount  << "$"<< principal << endl;
 		}
 		else {
 			previousBalance = remainder;
-			cout << setw(8) << i << setw(13) << fixed << setprecision(2) << remainder << setw(8) 
-			<< monthlyPayments << setw(7) << setprecision(1) << monthlyInterest << setw(8) << setprecision(2)<< interestAmount << principal <<"\n";
+			cout << setw(8) << i  << "$" << setw(13)  << fixed << setprecision(2) << remainder  << "$" << setw(8) 
+			<< monthlyPayments  << "$" << setw(7) << setprecision(1) << monthlyInterest  << "$" << setw(8) << setprecision(2)<< interestAmount  << "$" << principal << endl;
 		}
 	}
 	return 0;
-
 }
-
