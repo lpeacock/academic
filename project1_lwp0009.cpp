@@ -96,7 +96,7 @@ int main() {
 	double interestSum = 0;
 	int months = 0;
 
-	for (months; remainder > 0; months++) {
+	for (; remainder > 0; months++) {
 		double interestAmount;
 		double principal;
 		double monthlyInterest;
