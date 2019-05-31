@@ -4,21 +4,29 @@
 using namespace std;
 
 void createHeader() {
-	    cout 
-		 << "******************************************************\n" 
-		 <<  "Amortization Table\n"
-		 << "******************************************************\n";
-	    cout << left << setw(8) << "Month" << setw(13) << "Balance" << setw(8) << "Payment" << setw(7) << "Rate"
-		 << setw(8) << "Interest" << "Principal\n";
+	cout 
+		<< "*********************************************************\n" 
+		<<  "\t\tAmortization Table\n"
+		<< "*********************************************************\n";
+	cout << left << setw(8) << "Month" << setw(14) << "Balance" << setw(9) 
+		 << "Payment" << setw(8) << "Rate"
+		 << setw(9) << "Interest" << "Principal\n";
 }
 
+void createFooter(int months, double interestSum) {
+	cout
+		<< "*********************************************************\n\n" 
+		<< "It takes " << months << " months to pay off the loan."
+		<< "\nTotal interset paid is : $" << interestSum << endl;
+
+}
 
 int monthCalc(double balance, double payment, int interest) {
 	if (balance == 0) {
 		return 0;
 	}
 	if (interest/12.0/100.0 * balance >= payment) {
-		cout << "The interest payment is to great! Never can be paid.\n";
+		cout << "The interest amount exceeds payment value! The balance never declines.\n";
 		return -1;
 	}
 	if (balance < payment) {
@@ -34,9 +42,11 @@ int main() {
 	double loanAmount;
 	int interestRate;
 	double monthlyPayments;
-
+	
+	//Input Verification and Testing
 	cout << "Loan Amount: ";
 	cin >> loanAmount;
+	// The loan must be non-negative
 	if (loanAmount == 0) {
 		cout << "Loan must be greater than $0!";
 		return 0;
@@ -44,6 +54,7 @@ int main() {
 
 	cout << "Interest Rate (% per year): ";
 	cin >> interestRate;
+	// Loans have interest rates.
 	if (interestRate == 0){
 		cout << "Interest Rate must be provided!";
 		return 0;
@@ -51,11 +62,12 @@ int main() {
 
 	cout << "Monthly Payments: ";
 	cin >> monthlyPayments;
+	// Loans have payments.
 	if (monthlyPayments == 0) {
 		cout << "Monthly Payments must be greater than $0!";
 		return 0;
 	}
-
+	// If monthCalc returns 0, then it is not a possible solution
 	if (monthCalc(loanAmount, monthlyPayments, interestRate) == -1){
 		return 0;
 	}
@@ -63,7 +75,9 @@ int main() {
 
 	double remainder = loanAmount;
 	double previousBalance = loanAmount;
-	for (int i = 0; i < monthCalc(loanAmount, monthlyPayments, interestRate) + 1; i++) {
+	double interestSum = 0;
+	int months = 0;
+	for (months; months <= monthCalc(loanAmount, monthlyPayments, interestRate); months++) {
 		double interestAmount;
 		double principal;
 		double monthlyInterest;
@@ -72,23 +86,34 @@ int main() {
 		interestAmount = remainder * monthlyInterest/100.0;
 		principal = monthlyPayments - interestAmount;
     	remainder = remainder - principal;
-
-		if (i == 0) {
-			cout << setw(8) << i  << "$" << setw(13) << fixed << setprecision(2) << loanAmount << setw(8) 
-			<< "N/A" << setw(7) << "N/A" << setw(8) << "N/A" << "N/A" << endl;
+		// First Month has a special printout.
+		if (months == 0) {
+			cout << setw(8) << months  << "$" << setw(13) << fixed << setprecision(2) << loanAmount << setw(9) 
+			<< "N/A" << setw(8) << "N/A" << setw(9) << "N/A" << "N/A" << endl;
 			remainder = loanAmount;
 		}
+		// The Final Case (The Final Month)
 		else if (remainder <= 0) {
 			principal = previousBalance;
-			cout << setw(8) << i << "$" << setw(13) << 00.00 << "$" << setw(8) << setprecision(2)
+			interestSum = interestSum + interestAmount;
+
+			cout << setw(8) << months << "$" << setw(13) << 00.00 << "$" << setw(8) << setprecision(2)
 			<< previousBalance + previousBalance * monthlyInterest / 100.0  << "$" << setw(7) 
-			<< setprecision(1) << interestRate/12.0  << "$" << setw(8) << setprecision(2) << interestAmount  << "$"<< principal << endl;
+			<< setprecision(1) << interestRate/12.0  << "$" << setw(8) << setprecision(2) 
+			<< interestAmount  << "$" << principal << endl;
 		}
+		// The normal case
 		else {
 			previousBalance = remainder;
-			cout << setw(8) << i  << "$" << setw(13)  << fixed << setprecision(2) << remainder  << "$" << setw(8) 
-			<< monthlyPayments  << "$" << setw(7) << setprecision(1) << monthlyInterest  << "$" << setw(8) << setprecision(2)<< interestAmount  << "$" << principal << endl;
+			interestSum = interestSum + interestAmount;
+
+			cout << setw(8) << months  << "$" << setw(13)  << fixed << setprecision(2) << remainder  << "$" << setw(8) 
+			<< monthlyPayments  << "$" << setw(7) << setprecision(1) << monthlyInterest  << "$" << setw(8) << setprecision(2)
+			<< interestAmount  << "$" << principal << endl;
 		}
+		//cout << interestSum;
 	}
+	
+	createFooter(months-1, interestSum);
 	return 0;
 }
