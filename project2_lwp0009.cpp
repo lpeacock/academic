@@ -17,6 +17,14 @@ const float BOB_SKILL = 50;
 const float CHARLIE_SKILL = 1;
 const int ROUND_AMOUNT = 10000;
 
+/*
+*Function used to pause the script.
+**/
+void pause() {
+	cout << "Press any key to continue...";
+	cin.ignore().get();
+}
+
 /* Input: A_alive indicates whether Aaron is alive */
 /* B_alive indicates whether Bob is alive */
 /* C_alive indicates whether Charlie is alive */
@@ -157,16 +165,184 @@ void Aaron_shoots2(bool& B_alive, bool& C_alive) {
 
 void test_at_least_two_alive(void) {
 	cout << "Unit Testing 1: Function – at_least_two_alive()\n";
-	cout << "Case 1: Aaron alive, Bob alive, Charlie alive\n";
+	cout << "\tCase 1: Aaron alive, Bob alive, Charlie alive\n";
 	assert(true == at_least_two_alive(true, true, true));
-	cout << "Case passed ...\n";
-	cout << "Case 2: Aaron dead, Bob alive, Charlie alive\n";
+	cout << "\tCase passed ...\n";
+	cout << "\tCase 2: Aaron dead, Bob alive, Charlie alive\n";
 	assert(true == at_least_two_alive(false, true, true));
-	cout << "Case passed ...\n";
-	cout << "Case 3: Aaron alive, Bob dead, Charlie alive\n";
+	cout << "\tCase passed ...\n";
+	cout << "\tCase 3: Aaron alive, Bob dead, Charlie alive\n";
 	assert(true == at_least_two_alive(true, false, true));
-	cout << "Case passed ...\n";
+	cout << "\tCase passed ...\n";
+	cout << "\tCase 4: Aaron alive, Bob alive, Charlie dead\n";
+	assert(true == at_least_two_alive(true, true, false));
+	cout << "\tCase passed ...\n";
+	cout << "\tCase 5: Aaron dead, Bob dead, Charlie alive\n";
+	assert(false == at_least_two_alive(false, false, true));
+	cout << "\tCase passed ...\n";
+	cout << "\tCase 6: Aaron dead, Bob alive, Charlie dead\n";
+	assert(false == at_least_two_alive(false, true, false));
+	cout << "\tCase passed ...\n";
+	cout << "\tCase 7: Aaron alive, Bob dead, Charlie dead\n";
+	assert(false == at_least_two_alive(true, false, false));
+	cout << "\tCase passed ...\n";
+	cout << "\tCase 8: Aaron dead, Bob dead, Charlie dead\n";
+	assert(false == at_least_two_alive(false, false, false));
+	cout << "\tCase passed ...\n";
+}	
+
+void test_Aaron_Shoots_1(void){
+	bool B_alive = true;
+	bool C_alive = true;
+	cout << "Unit Testing 2: Function Aaron_shoots1(Bob_alive, Charlie_alive)" << endl;
+	cout << "\tCase 1: Bob alive, Charlie alive\n\t\tAaron is shooting at Charlie" << endl;
+	Aaron_shoots1(B_alive, C_alive);
+	assert(B_alive == true);
+	if (C_alive)
+	{
+		cout << "\t\tAaron misses." << endl;
+	}
+	else 
+	{
+		cout << "\t\tCharlie is dead." << endl;
+	}
+
+	cout << "\tCase 2: Bob dead, Charlie alive\n\t\tAaron is shooting at Charlie" << endl;
+	B_alive = false;
+	C_alive = false;
+	Aaron_shoots1(B_alive, C_alive);
+	assert(B_alive == false);
+	if (C_alive)
+	{
+		cout << "\t\tAaron misses." << endl;
+	}
+	else 
+	{
+		cout << "\t\tCharlie is dead." << endl;
+	}
+
+	cout << "\tCase 3: Bob alive, Charlie dead\n\t\tAaron is shooting at Bob" << endl;
+	B_alive = false;
+	C_alive = false;
+	Aaron_shoots1(B_alive, C_alive);
+	assert(C_alive == false);
+	if (B_alive)
+	{
+		cout << "\t\tAaron misses." << endl;
+	}
+	else 
+	{
+		cout << "\t\tBob is dead." << endl;
+	}
 }
+void test_Bob_Shoots(void){
+	bool A_alive = true;
+	bool C_alive = true;
+	cout << "Unit Testing 3: Function Bob_shoots(Aaron_alive, Charlie_alive)" << endl;
+	cout << "\tCase 1: Aaron alive, Charlie alive\n\t\tBob is shooting at Charlie" << endl;
+	Bob_shoots(A_alive, C_alive);
+	assert(A_alive == true);
+	if (C_alive)
+	{
+		cout << "\t\tAaron misses." << endl;
+	}
+	else 
+	{
+		cout << "\t\tCharlie is dead." << endl;
+	}
+
+	cout << "\tCase 2: Aaron dead, Charlie alive\n\t\tBob is shooting at Charlie" << endl;
+	A_alive = false;
+	C_alive = false;
+	Bob_shoots(A_alive, C_alive);
+	assert(A_alive == false);
+	if (C_alive)
+	{
+		cout << "\t\tBob misses." << endl;
+	}
+	else 
+	{
+		cout << "\t\tCharlie is dead." << endl;
+	}
+
+	cout << "\tCase 3: Aaron alive, Charlie dead\n\t\tBob is shooting at Aaron" << endl;
+	A_alive = false;
+	C_alive = false;
+	Bob_shoots(A_alive, C_alive);
+	assert(C_alive == false);
+	if (A_alive)
+	{
+		cout << "\t\tBob misses." << endl;
+	}
+	else 
+	{
+		cout << "\t\tAaron is dead." << endl;
+	}
+}
+void test_Charlie_Shoots(void){
+	bool A_alive = true;
+	bool B_alive = true;
+	cout << "Unit Testing 4: Function Charlie_shoots(Aaron_alive, Charlie_alive)" << endl;
+	cout << "\tCase 1: Aaron alive, Bob alive\n\t\tCharlie is shooting at Bob" << endl;
+	Charlie_shoots(A_alive, B_alive);
+	assert(B_alive == false);
+	cout << "\t\tBob is dead." << endl;
+
+	cout << "\tCase 2: Aaron dead, Bob alive\n\t\tCharlie is shooting at Bob" << endl;
+	A_alive = false;
+	B_alive = false;
+	Charlie_shoots(A_alive, B_alive);
+	assert(B_alive == false);
+	cout << "\t\tBob is dead." << endl;
+
+	cout << "\tCase 3: Aaron alive, Bob dead\n\t\tCharlie is shooting at Aaron." << endl;
+	A_alive = false;
+	B_alive = false;
+	Charlie_shoots(A_alive, B_alive);
+	assert(A_alive == false);
+	cout << "\t\tAaron is dead" << endl;
+}
+
+
+void test_Aaron_Shoots_2(void){
+	bool B_alive = true;
+	bool C_alive = true;
+	cout << "Unit Testing 5: Function Aaron_shoots2(Bob_alive, Charlie_alive)" << endl;
+	cout << "\tCase 1: Bob alive, Charlie alive" << endl;
+	Aaron_shoots2(B_alive, C_alive);
+	assert(B_alive && C_alive == true);
+	cout << "\t\tAaron intentionally misses his first shot\n\t\tBoth Bob and Charlie are alive." << endl;
+
+	cout << "\tCase 2: Bob dead, Charlie alive" << endl;
+	B_alive = false;
+	C_alive = false;
+	Aaron_shoots2(B_alive, C_alive);
+	assert(B_alive == false);
+	if (C_alive)
+	{
+		cout << "\t\tAaron misses." << endl;
+	}
+	else 
+	{
+		cout << "\t\tCharlie is dead." << endl;
+	}
+
+	cout << "\tCase 3: Bob alive, Charlie dead" << endl;
+	B_alive = false;
+	C_alive = false;
+	Aaron_shoots2(B_alive, C_alive);
+	assert(C_alive == false);
+	if (B_alive)
+	{
+		cout << "\t\tAaron misses." << endl;
+	}
+	else 
+	{
+		cout << "\t\tBob is dead." << endl;
+	}
+}
+
+
 void determineVictory(bool A_alive, bool B_alive, bool C_alive, int& A_wins, int& B_wins, int& C_wins)
 {
 	if (A_alive)
@@ -193,36 +369,74 @@ void determineVictory(bool A_alive, bool B_alive, bool C_alive, int& A_wins, int
 int main() {
 	
 	srand(time(0));
+	cout << "*** Welcome to Lucas's Duel Simulator ***";
+	test_at_least_two_alive();
+	pause();
+	test_Aaron_Shoots_1();
+	pause();
+	test_Bob_Shoots();
+	pause();
+	test_Charlie_Shoots();
+	pause();
+	test_Aaron_Shoots_2();
 
 	int A_wins = 0;
 	int B_wins = 0;
 	int C_wins = 0;
-	for (int rounds = 0; rounds < ROUND_AMOUNT; rounds++)
-	{
-		bool aaronAlive = true;
-		bool bobAlive = true;
-		bool charlieAlive = true;
-		do
-		{
-			if(aaronAlive) {
-				Aaron_shoots2(bobAlive, charlieAlive);
-			}
-			if(bobAlive) {
-				Bob_shoots(aaronAlive, charlieAlive);
-			}
-			if(charlieAlive) {
-				Charlie_shoots(aaronAlive, bobAlive);
-			}
-		} while (at_least_two_alive(aaronAlive, bobAlive, charlieAlive));
-		determineVictory(aaronAlive, bobAlive, charlieAlive, A_wins, B_wins, C_wins);
+	int counter = 1;
+	double A_per_strat1;
+	double A_per_strat2;
 
+	while (counter <= 2) 
+	{	
+		cout << "Ready to test strategy " << counter <<" (run " << ROUND_AMOUNT << " times): " << endl;
+		pause();
+		for (int rounds = 0; rounds < ROUND_AMOUNT; rounds++)
+		{
+			bool aaronAlive = true;
+			bool bobAlive = true;
+			bool charlieAlive = true;
+			do
+			{
+				if(aaronAlive && counter == 1) {
+					Aaron_shoots1(bobAlive, charlieAlive);
+				}
+				if(aaronAlive && counter == 2) {
+					Aaron_shoots2(bobAlive, charlieAlive);
+				}				
+				if(bobAlive) {
+					Bob_shoots(aaronAlive, charlieAlive);
+				}
+				if(charlieAlive) {
+					Charlie_shoots(aaronAlive, bobAlive);
+				}
+			} while (at_least_two_alive(aaronAlive, bobAlive, charlieAlive));
+			determineVictory(aaronAlive, bobAlive, charlieAlive, A_wins, B_wins, C_wins);
+
+		}
+		double A_per = ((float)A_wins / ROUND_AMOUNT) * 100;
+		double B_per = ((float)B_wins / ROUND_AMOUNT) * 100;
+		double C_per = ((float)C_wins / ROUND_AMOUNT) * 100;
+		if (counter == 1) {
+			A_per_strat1 = A_per;
+		}
+		else 
+		{
+			A_per_strat2 = A_per;
+		}
+		cout << "Aaron won " << A_wins << "/" << ROUND_AMOUNT << " duels or %" << fixed << setprecision(2) << A_per << endl;
+		cout << "Bob won " << B_wins << "/" << ROUND_AMOUNT << " duels or %"  << B_per << endl; 
+		cout << "Charlie won " << C_wins << "/" << ROUND_AMOUNT << " duels or %" << C_per << endl;
+		cout << '\n' << endl;
+		counter++;
 	}
-	double A_per = ((float)A_wins / ROUND_AMOUNT) * 100;
-	double B_per = ((float)B_wins / ROUND_AMOUNT) * 100;
-	double C_per = ((float)C_wins / ROUND_AMOUNT) * 100;
-	cout << "Aaron won " << A_wins << "/" << ROUND_AMOUNT << " duels or %" << fixed << setprecision(2) << A_per << endl;
-	cout << "Bob won " << B_wins << "/" << ROUND_AMOUNT << " duels or %"  << B_per << endl; 
-	cout << "Charlie won " << C_wins << "/" << ROUND_AMOUNT << " duels or %" << C_per << endl;
-    
+	if (A_per_strat1 > A_per_strat2)
+	{
+		cout << "Strategy 1 is better than strategy 2." << endl;
+	}
+	else 
+	{
+		cout << "Strategy 2 is better than strategy 1." << endl;
+	}
 	return 0;
 }
