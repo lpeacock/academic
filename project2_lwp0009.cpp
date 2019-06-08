@@ -2,8 +2,9 @@
 // lwp0009
 // project2_lwp0009.cpp
 // Compile: (in bash) g++ project2_lwp0009.cpp
-// Recieved general c++ assistance from StackOverflow
+// Recieved general c++ assistance from StackOverflow primarly on srand()
 // But no outside collaboration
+// General overview of what functions to have were presented in project assignment
 
 # include <iostream>
 # include <stdlib.h>
@@ -12,9 +13,12 @@
 # include<iomanip>
 using namespace std;
 
+/*
+ * Constants for the skill level and round amount.
+ */
 const float AARON_SKILL = 1.0 / 3.0 * 100;
 const float BOB_SKILL = 50;
-const float CHARLIE_SKILL = 1;
+const float CHARLIE_SKILL = 100;
 const int ROUND_AMOUNT = 10000;
 
 /*
@@ -163,6 +167,11 @@ void Aaron_shoots2(bool& B_alive, bool& C_alive) {
 	}	
 }
 
+/*
+ * Test for the at_least_two_alive() function
+ * Asserts if returns false and more than two are alive 
+ * and if it returns true if less than two are alive
+ */
 void test_at_least_two_alive(void) {
 	cout << "Unit Testing 1: Function – at_least_two_alive()\n";
 	cout << "\tCase 1: Aaron alive, Bob alive, Charlie alive\n";
@@ -191,6 +200,9 @@ void test_at_least_two_alive(void) {
 	cout << "\tCase passed ...\n";
 }	
 
+/*
+ * Test case for Aaron's first shooting method. Asserts if there are unexpected death's or resurections.
+ */
 void test_Aaron_Shoots_1(void){
 	bool B_alive = true;
 	bool C_alive = true;
@@ -235,6 +247,10 @@ void test_Aaron_Shoots_1(void){
 		cout << "\t\tBob is dead." << endl;
 	}
 }
+
+/*
+ * Test case for Bob's shooting method. Asserts if there are unexpected death's or resurections.
+ */
 void test_Bob_Shoots(void){
 	bool A_alive = true;
 	bool C_alive = true;
@@ -279,10 +295,14 @@ void test_Bob_Shoots(void){
 		cout << "\t\tAaron is dead." << endl;
 	}
 }
+
+/*
+ * Test case for Charlie's shooting method. Asserts if there are unexpected death's or resurections.
+ */
 void test_Charlie_Shoots(void){
 	bool A_alive = true;
 	bool B_alive = true;
-	cout << "Unit Testing 4: Function Charlie_shoots(Aaron_alive, Charlie_alive)" << endl;
+	cout << "Unit Testing 4: Function Charlie_shoots(Aaron_alive, Bob_alive)" << endl;
 	cout << "\tCase 1: Aaron alive, Bob alive\n\t\tCharlie is shooting at Bob" << endl;
 	Charlie_shoots(A_alive, B_alive);
 	assert(B_alive == false);
@@ -303,7 +323,9 @@ void test_Charlie_Shoots(void){
 	cout << "\t\tAaron is dead" << endl;
 }
 
-
+/*
+ * Test case for Aaron's second shooting method. Asserts if there are unexpected death's or resurections.
+ */
 void test_Aaron_Shoots_2(void){
 	bool B_alive = true;
 	bool C_alive = true;
@@ -342,7 +364,9 @@ void test_Aaron_Shoots_2(void){
 	}
 }
 
-
+/*
+* Determines who wins the duel based off of who is still alive.
+*/
 void determineVictory(bool A_alive, bool B_alive, bool C_alive, int& A_wins, int& B_wins, int& C_wins)
 {
 	if (A_alive)
@@ -367,9 +391,9 @@ void determineVictory(bool A_alive, bool B_alive, bool C_alive, int& A_wins, int
 }
 
 int main() {
-	
+	// Initalization
 	srand(time(0));
-	cout << "*** Welcome to Lucas's Duel Simulator ***";
+	cout << "*** Welcome to Lucas's Duel Simulator ***" << endl;
 	test_at_least_two_alive();
 	pause();
 	test_Aaron_Shoots_1();
@@ -380,17 +404,19 @@ int main() {
 	pause();
 	test_Aaron_Shoots_2();
 
-	int A_wins = 0;
-	int B_wins = 0;
-	int C_wins = 0;
 	int counter = 1;
 	double A_per_strat1;
 	double A_per_strat2;
-
+	// Begin round 1 (Aaron_shoots1) and followed by round 2 (Aaron_shoots2)
 	while (counter <= 2) 
 	{	
+		int A_wins = 0;
+		int B_wins = 0;
+		int C_wins = 0;
+
 		cout << "Ready to test strategy " << counter <<" (run " << ROUND_AMOUNT << " times): " << endl;
 		pause();
+		// Test for the Amount of times set by round amount constant
 		for (int rounds = 0; rounds < ROUND_AMOUNT; rounds++)
 		{
 			bool aaronAlive = true;
@@ -430,6 +456,8 @@ int main() {
 		cout << '\n' << endl;
 		counter++;
 	}
+
+	//Determine better strategy
 	if (A_per_strat1 > A_per_strat2)
 	{
 		cout << "Strategy 1 is better than strategy 2." << endl;
