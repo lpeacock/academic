@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+        "windows": {
+            "options": {
+                "shell": {
+                    "executable": "c:\\windows\\sysnative\\bash.exe",
+                    "args": ["-c"]
+                }
+            }
+        },
+        "tasks": [
+            {
+                "label": "build hello world on WSL",
+                "type": "shell",
+                "command": "g++",
+                "args": [
+                    "/mnt/c/Users/lucas/Documents/COMP_2710/project3/project3_lwp0009.cpp"
+                ],
+                "group": {
+                    "kind": "build",
+                    "isDefault": true
+                }
+            }
+        ]
+    }
