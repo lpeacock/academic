@@ -143,15 +143,19 @@ void writefile(array<int, MAX_SIZE> output, string fileName) {
 }
 void testMerge() 
 {
-	
+		cout << "Unit Test Case 1: merge(array1, array2)" << endl;
+	cout << "\tCase 1.1: Empty String for fileName";
+
 }
 void testWriteFile() 
 {
+	cout << "Unit Test Case 2: writefile(string fileName, array output)" << endl;
+	cout << "\tCase 1.1: Empty String for fileName";
 
 }
 void testReadFile()
 {
-	cout << "Unit Test Case 1: readfile(string fileName)" << endl;
+	cout << "Unit Test Case 3: readfile(string fileName)" << endl;
 	cout << "\tCase 1.1: Empty String for fileName";
 	string fileName = "";
 	assert(readfile(fileName)[0] == 0);
