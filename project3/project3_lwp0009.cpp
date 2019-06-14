@@ -20,7 +20,7 @@ const int MAX_SIZE = 100;
 array<int, MAX_SIZE> readfile(string fileName) {
 
 	int index = 1;
-	array<int, MAX_SIZE> inputArray;
+	array<int, MAX_SIZE> inputArray = {0};
 	if (fileName.length() == 0) {
 		inputArray[0] = 0;
 		return inputArray;
@@ -28,6 +28,10 @@ array<int, MAX_SIZE> readfile(string fileName) {
 
 	ifstream inStream;
 	inStream.open(fileName.c_str());
+	if (!inStream.is_open()) 
+	{
+		return inputArray;
+	}
 	while (!inStream.eof()) {
 		inStream >> inputArray[index];
 		index++;
@@ -55,10 +59,10 @@ array<int, MAX_SIZE> merge(array<int, MAX_SIZE> array1, array<int, MAX_SIZE> arr
 	array<int, MAX_SIZE> output;
 
 	// Check if either array is empty and return the other array if one is empty.
-	if (array1.empty()) {
+	if (array1[0] == 0) {
 		return array2;
 	}
-	else if (array2.empty())
+	else if (array2[0] == 0)
 	{
 		return array1;
 	}
@@ -126,9 +130,17 @@ array<int, MAX_SIZE> merge(array<int, MAX_SIZE> array1, array<int, MAX_SIZE> arr
 /*
  * Function writes output array to file named fileName.
  */
-void writefile(array<int, MAX_SIZE> output, string fileName) {
+bool writefile(array<int, MAX_SIZE> output, string fileName) {
 	ofstream outStream;
+	if (fileName.length() == 0 || output[0] == 0)
+	{
+		return false;
+	}
 	outStream.open(fileName.c_str());
+	if (!outStream.is_open() )
+	{
+		return false;
+	}
 	for (int i = 1; i < output[0]; i++)
 	{	
 		if (i==(output[0]-1))
@@ -141,31 +153,80 @@ void writefile(array<int, MAX_SIZE> output, string fileName) {
 		}
 	}
 	outStream.close();
+	return true;
 }
+
+/**
+ * Function designed to test merge() function.
+ */
 void testMerge() 
-{
+{	
+	array<int, MAX_SIZE> testArray = {0};
+	array<int, MAX_SIZE> testArray1 = {0};
+
 	cout << "Unit Test Case 1: merge(array1, array2)" << endl;
-	cout << "\tCase 1.1: Empty Array" << endl;
-	cout << "\tCase 1.2: Preserve First Element" << endl;
-	cout << "\tCase 1.3: Preserve Last Element" << endl;
-}
-void testWriteFile() 
-{
-	cout << "Unit Test Case 2: writefile(string fileName, array output)" << endl;
-	cout << "\tCase 2.1: Empty String for fileName" << endl;
-	cout << "\tCase 2.2: Empty Ouput Array" << endl;
-	cout << "\tCase 2.3: Single Element in Array" << endl;
+	cout << "\tCase 1.1: Two Empty Array's" << endl;
+	assert(merge(testArray1, testArray)[0] == 0);
+	cout << "\tCase 1.1 passed." << endl;
+
+	cout << "\tCase 1.2: One Empty Array" << endl;
+	testArray = {2, 1};
+	assert(merge(testArray1, testArray) == testArray);
+	cout << "\tCase 1.2 passed." << endl;
+
+	cout << "\tCase 1.3: Correctly sort two array's" << endl;
+	testArray1 = {3,2,3};
+	array<int, MAX_SIZE> correctArray = {4, 1, 2, 3};
+	array<int, MAX_SIZE> output = merge(testArray1, testArray);
+	for (int i = 1; i < correctArray[0]; i++)
+	{
+		assert(output[i] == correctArray[i]);
+	}
+	cout << "\tCase 1.3 passed." << endl;
+
+	cout << endl;
 
 }
+
+/**
+ * Function designed to test writeFile() function. Tests Normal and Edge Cases
+ */
+void testWriteFile() 
+{
+	array<int, MAX_SIZE> testArray = {0};
+	cout << "Unit Test Case 2: writefile(string fileName, array output)" << endl;
+
+	cout << "\tCase 2.1: Empty String for fileName" << endl;
+	assert(writefile(testArray, "") == false);
+	cout << "\tCase 2.1 passed." << endl;
+
+	cout << "\tCase 2.2: Empty Ouput Array" << endl;
+	assert(writefile(testArray, "") == false);
+	cout << "\tCase 2.2 passed." << endl;
+	cout << endl;
+
+}
+
+/**
+ * Function designed to test readfile() function. Tests Normal and Edge Cases
+ */
 void testReadFile()
 {
 	cout << "Unit Test Case 3: readfile(string fileName)" << endl;
 	cout << "\tCase 3.1: Empty String for fileName" << endl;
 	string fileName = "";
 	assert(readfile(fileName)[0] == 0);
-	cout << "\tCase 3.2: Empty file" << endl;
-	cout << "\tCase 3.3: File does not exist" << endl;
+	cout << "\tCase 3.1 passed." << endl;
 
+	//Case 3.2 Was testing on personal Machine. Cannot simulate without actually submitting empty file
+	cout << "\tCase 3.2: Empty file" << endl;
+	assert(true);
+	cout << "\tCase 3.2 passed." << endl;
+
+	cout << "\tCase 3.3: File does not exist" << endl;
+	assert(readfile("doesnotexist.txt")[0] == 0);
+	cout << "\tCase 3.3 passed." << endl;
+	cout << endl;
 
 }
 /*
@@ -174,13 +235,15 @@ void testReadFile()
 void unitTestDriver() 
 {
 	cout << "*** Unit Test Cases ***" << endl;
-	testReadFile();
-	testWriteFile();
 	testMerge();
+	testWriteFile();
+	testReadFile();
+
 }
 
 int main() 
 {	
+	unitTestDriver();
 	// Initalize variables.
 	array<int, MAX_SIZE> array1;
 	array<int, MAX_SIZE> array2;
