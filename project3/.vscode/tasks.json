@@ -10,11 +10,14 @@
         },
         "tasks": [
             {
-                "label": "build hello world on WSL",
+                "label": "Build",
                 "type": "shell",
                 "command": "g++",
                 "args": [
-                    "/mnt/c/Users/lucas/Documents/COMP_2710/project3/project3_lwp0009.cpp"
+                    "-g",
+                    "-o",
+                    "/mnt/e/Software Projects/softwareConstruction/project3/project3_lwp0009.out",
+                    "project3_lwp0009.cpp"
                 ],
                 "group": {
                     "kind": "build",

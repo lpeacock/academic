@@ -61,6 +61,11 @@ array<int, MAX_SIZE> merge(array<int, MAX_SIZE> array1, array<int, MAX_SIZE> arr
 				index1++;
 			}
 
+            else if (((index2 >= array2[0] || index1 >= array1[0]) && (array1[index1]) == array2[index2]))
+            {
+                output[index] = array1[index1];
+                index1++;
+            }
 			else
 			{
 				output[index] = array1[index1];
@@ -83,7 +88,8 @@ void writefile(int outputArray[], int outputArray_size) {
 
 }
 
-int main() {
+int main() 
+{
 	array<int, MAX_SIZE> array1;
 	array<int, MAX_SIZE> array2;
 
