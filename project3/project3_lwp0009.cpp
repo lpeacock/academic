@@ -8,11 +8,12 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-# include <assert.h>
+#include <assert.h>
 #include <array>
 using namespace std;
 
 const int MAX_SIZE = 100;
+
 /*
  * Function converts array input from a file named fileName and returns the array read from the file.
  */
@@ -143,28 +144,41 @@ void writefile(array<int, MAX_SIZE> output, string fileName) {
 }
 void testMerge() 
 {
-		cout << "Unit Test Case 1: merge(array1, array2)" << endl;
-	cout << "\tCase 1.1: Empty String for fileName";
-
+	cout << "Unit Test Case 1: merge(array1, array2)" << endl;
+	cout << "\tCase 1.1: Empty Array" << endl;
+	cout << "\tCase 1.2: Preserve First Element" << endl;
+	cout << "\tCase 1.3: Preserve Last Element" << endl;
 }
 void testWriteFile() 
 {
 	cout << "Unit Test Case 2: writefile(string fileName, array output)" << endl;
-	cout << "\tCase 1.1: Empty String for fileName";
+	cout << "\tCase 2.1: Empty String for fileName" << endl;
+	cout << "\tCase 2.2: Empty Ouput Array" << endl;
+	cout << "\tCase 2.3: Single Element in Array" << endl;
 
 }
 void testReadFile()
 {
 	cout << "Unit Test Case 3: readfile(string fileName)" << endl;
-	cout << "\tCase 1.1: Empty String for fileName";
+	cout << "\tCase 3.1: Empty String for fileName" << endl;
 	string fileName = "";
 	assert(readfile(fileName)[0] == 0);
+	cout << "\tCase 3.2: Empty file" << endl;
+	cout << "\tCase 3.3: File does not exist" << endl;
+
+
 }
+/*
+ * Driver that implments all unit test cases.
+ */
 void unitTestDriver() 
 {
 	cout << "*** Unit Test Cases ***" << endl;
 	testReadFile();
+	testWriteFile();
+	testMerge();
 }
+
 int main() 
 {	
 	// Initalize variables.
