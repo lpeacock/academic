@@ -9,18 +9,18 @@
 #include <fstream>
 #include <string>
 #include <assert.h>
-#include <array>
 using namespace std;
 
 const int MAX_SIZE = 100;
 
+
 /*
  * Function converts array input from a file named fileName and returns the array read from the file.
  */
-array<int, MAX_SIZE> readfile(string fileName) {
-
+int* readfile(string fileName, int inputArray[])
+ 	{
 	int index = 1;
-	array<int, MAX_SIZE> inputArray = {0};
+	inputArray[0] = 0;
 	if (fileName.length() == 0) {
 		inputArray[0] = 0;
 		return inputArray;
@@ -55,8 +55,7 @@ array<int, MAX_SIZE> readfile(string fileName) {
 /*
  * Function merges array1 and array2 in acsending order and returns the output array.
  */
-array<int, MAX_SIZE> merge(array<int, MAX_SIZE> array1, array<int, MAX_SIZE> array2) {
-	array<int, MAX_SIZE> output;
+int* merge(int* array1, int* array2, int* output) {
 
 	// Check if either array is empty and return the other array if one is empty.
 	if (array1[0] == 0) {
@@ -130,7 +129,7 @@ array<int, MAX_SIZE> merge(array<int, MAX_SIZE> array1, array<int, MAX_SIZE> arr
 /*
  * Function writes output array to file named fileName.
  */
-bool writefile(array<int, MAX_SIZE> output, string fileName) {
+bool writefile(int* output, string fileName) {
 	ofstream outStream;
 	if (fileName.length() == 0 || output[0] == 0)
 	{
@@ -161,26 +160,29 @@ bool writefile(array<int, MAX_SIZE> output, string fileName) {
  */
 void testMerge() 
 {	
-	array<int, MAX_SIZE> testArray = {0};
-	array<int, MAX_SIZE> testArray1 = {0};
+	int testArray[] = {0};
+	int testArray1[] = {0};
+	int output[MAX_SIZE];
 
 	cout << "Unit Test Case 1: merge(array1, array2)" << endl;
 	cout << "\tCase 1.1: Two Empty Array's" << endl;
-	assert(merge(testArray1, testArray)[0] == 0);
+	assert(merge(testArray1, testArray, output)[0] == 0);
 	cout << "\tCase 1.1 passed." << endl;
 
 	cout << "\tCase 1.2: One Empty Array" << endl;
-	testArray = {2, 1};
-	assert(merge(testArray1, testArray) == testArray);
+	int testArray3[]  = {2, 1};
+	assert(merge(testArray1, testArray3, output) == testArray3);
 	cout << "\tCase 1.2 passed." << endl;
 
 	cout << "\tCase 1.3: Correctly sort two array's" << endl;
-	testArray1 = {3,2,3};
-	array<int, MAX_SIZE> correctArray = {4, 1, 2, 3};
-	array<int, MAX_SIZE> output = merge(testArray1, testArray);
+	int testArray4[] = {3,2,3};
+	int  correctArray[] = {4, 1, 2, 3};
+	int* output1 = merge(testArray3, testArray4, output);
+	cout << "This is output";
 	for (int i = 1; i < correctArray[0]; i++)
 	{
-		assert(output[i] == correctArray[i]);
+		cout << "This is output" <<output[i];
+		assert(output1[i] == correctArray[i]);
 	}
 	cout << "\tCase 1.3 passed." << endl;
 
@@ -193,7 +195,7 @@ void testMerge()
  */
 void testWriteFile() 
 {
-	array<int, MAX_SIZE> testArray = {0};
+	int testArray[] = {0};
 	cout << "Unit Test Case 2: writefile(string fileName, array output)" << endl;
 
 	cout << "\tCase 2.1: Empty String for fileName" << endl;
@@ -215,7 +217,8 @@ void testReadFile()
 	cout << "Unit Test Case 3: readfile(string fileName)" << endl;
 	cout << "\tCase 3.1: Empty String for fileName" << endl;
 	string fileName = "";
-	assert(readfile(fileName)[0] == 0);
+	int inputarray1[MAX_SIZE];
+	assert(readfile(fileName, inputarray1)[0] == 0);
 	cout << "\tCase 3.1 passed." << endl;
 
 	//Case 3.2 Was testing on personal Machine. Cannot simulate without actually submitting empty file
@@ -224,11 +227,13 @@ void testReadFile()
 	cout << "\tCase 3.2 passed." << endl;
 
 	cout << "\tCase 3.3: File does not exist" << endl;
-	assert(readfile("doesnotexist.txt")[0] == 0);
+	int inputarray2[MAX_SIZE];
+	assert(readfile("doesnotexist.txt", inputarray2)[0] == 0);
 	cout << "\tCase 3.3 passed." << endl;
 	cout << endl;
 
 }
+
 /*
  * Driver that implments all unit test cases.
  */
@@ -245,8 +250,8 @@ int main()
 {	
 	unitTestDriver();
 	// Initalize variables.
-	array<int, MAX_SIZE> array1;
-	array<int, MAX_SIZE> array2;
+	int* array1;
+	int* array2;
 	string outfileName;
 	string file1;
 	string file2;
@@ -256,21 +261,28 @@ int main()
 		 << "\nEnter the first input file name : ";
 	//cin >> file1;
 	file1 = "input1.txt";
-	array1 = readfile(file1);
+	int inputarray1[MAX_SIZE];
+	array1 = readfile(file1, inputarray1);
 
+	//Second file input
 	cout << "Enter the second input file name: ";
 	//cin >> file2;
 	file2 = "input2.txt";
-	array2 = readfile(file2);
+	int inputarray2[MAX_SIZE];
+	array2 = readfile(file2, inputarray2);
 
-	array<int, MAX_SIZE> output;
-	output = merge(array1, array2);
+	//Sort the files
+	int output1[MAX_SIZE];
+	int* output;
+	output = merge(array1, array2, output1);
 	cout << "The sorted list of " << output[0] - 1 << " numbers is: ";
 	for(int i = 1; i < output[0]; i++) 
 	{
 		cout << output[i] << " ";
 	}
 	cout << endl;
+
+	// Print out files.
 	outfileName = "output.txt";
 	writefile(output, outfileName);
 	cout << "*** Please check the new file - " << outfileName <<" ***\n*** Goodbye. ***" << endl;
