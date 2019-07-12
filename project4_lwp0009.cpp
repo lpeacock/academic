@@ -1,10 +1,10 @@
 // Lucas Peacock
 // lwp0009
-// project2_lwp0009.cpp
+// project4_lwp0009.cpp
 // Compile: (in bash) g++ -std=c++11 project4_lwp0009.cpp
-// Recieved general c++ assistance from StackOverflow 
-// But no outside collaboration
-// General overview of what functions to have were presented in project assignment
+// NOTE: Comment out one of the define statements below to test UNIT_TESTING or the trivia_quiz
+// Unit Testing Requires human interaction.
+// Recieved general c++ assistance from StackOverflow but no outside collaboration.
 
 # include <iostream>
 # include <stdlib.h>
@@ -12,9 +12,16 @@
 # include<string>
 using namespace std;
 
+/*DEFINE STATEMENTS */
+/*****************************************************************************/
+//#define UNIT_TESTING
+#define trivia_quiz
+/*****************************************************************************/
+
 /******************************************************************************
 *   Trivia Related Structures, Classes, and Methods                           *
 ******************************************************************************/
+
 /*
  * TriviaNode class is a simple node class which contains trivia information.
  */
@@ -26,13 +33,16 @@ struct TriviaNode {
 };
 
 /*
- * Trivia Deck class is a Linked List Class 
+ * TriviaDeck class is esssentially a Linked List Class.
+ * Head represents the first node in the list
  */
 class TriviaDeck {
 
     public:
     TriviaNode *head;
     int length;
+
+    //Add Trivia to the Deck.
     bool add(TriviaNode *node)
     {
         if (length == 0) {
@@ -51,6 +61,11 @@ class TriviaDeck {
     }
     bool isEmpty() {
         return length == 0;
+    }
+    // Constructor
+    TriviaDeck() {
+        length = 0;
+        head = NULL;
     }
 };
 
@@ -87,14 +102,17 @@ TriviaDeck triviaSetup() {
 }
 
 bool narrator(TriviaDeck deck, int amount) {
-    cout << "Length of Deck: \""<<deck.length << "\"";
-    if (amount > deck.length) {
-        cout << "Warning – There are only three trivia in the list." << endl;
+
+    if (deck.isEmpty()) {
+        cout << "Warning – The number of trivia to be asked must equal to or larger than 1.\n" << endl;
         return false;
     }
 
-    if (deck.isEmpty()) {
-        cout << "Warning – The number of trivia to be asked must equal to or larger than 1." << endl;
+    if (amount > deck.length) {
+        if (deck.length == 3) {
+            cout << "Warning – There are only three trivia in the list." << endl;
+        }
+        cout << "Warning – There are only "<< deck.length <<" trivia in the list." << endl;
         return false;
     }
 
@@ -108,17 +126,23 @@ bool narrator(TriviaDeck deck, int amount) {
         getline(cin, response);
         if (response.compare(currentQuestion ->answer) == 0) 
         {
+           #ifndef UNIT_TESTING
            string output = "Your answer is correct. You receive " + to_string(currentQuestion->value) + " points.";
-           cout << output;
+           cout << output << endl;
            points = points + currentQuestion->value;
+           #endif
         }
         else
         {
             boolResponse = false;
+            #ifndef UNIT_TESTING
             string output = "Your answer is wrong. The correct answer is: "; 
             cout << output << currentQuestion ->answer << endl;
+            #endif
         }
+        #ifndef UNIT_TESTING
         cout << "Your Total Points: " << points << endl << endl;
+        #endif 
         currentQuestion = currentQuestion->next;
 
         amount = amount -1;
@@ -126,76 +150,12 @@ bool narrator(TriviaDeck deck, int amount) {
     return boolResponse;
 }
 
-/******************************************************************************
-*   Unit Testing Functions and Wrapper                                        *
-******************************************************************************/
-
 /*
- * Tests no questions being passed into narrator
+ * Function to add new questions to the end of the three-presets
  */
-void test_noQuestions() {
-    TriviaDeck deck;
-    cout << "Unit Test Case 1: Ask no question. The program should give a warning message." << endl;
-    assert(!narrator(deck, 1));
-}
-
-/*
- * Tests only question from the pre-set.
- */
-void test_OneQuestion() {
-    TriviaDeck deck = triviaSetup();
-    cout << "Unit Test Case 2.1: Ask 1 question in the linked list. The tester enters an incorrect answer." << endl;
-    assert(!narrator(deck, 1));
-    cout << "Case 2.1 passed...\n" << endl;
-    cout << "Unit Test Case 2.2: Ask 1 question in the linked list. The tester enters an correct answer." << endl;
-    assert(narrator(deck, 1));
-    cout << "Case 2.2 passed...\n" << endl;
-
-}
-
-/*
- * Tests all questions being passed into narraor
- */
-void test_AllQuestions() {
-    TriviaDeck deck = triviaSetup();
-    cout << "Unit Test Case 3.1: Ask all the questions of the last trivia in the linked list." << endl;
-    assert(!narrator(deck, deck.length));
-    cout << "Case 3.1 passed...\n" << endl;
-    cout << "Unit Test Case 3.2: Ask 1 question in the linked list. The tester enters an correct answer." << endl;
-    assert(narrator(deck, deck.length));
-    cout << "Case 3.2 passed...\n" << endl;
-}
-
-/*
- * Tests amount > than the amount of questions in trivia
- */
-void test_tooMuch() {
-    TriviaDeck deck = triviaSetup();
-    cout << "Unit Test Case 4: Ask five questions in the linked list." << endl;
-    assert(!narrator(deck, 5));
-    cout << "Case 4 passed...\n" << endl;
-}
-
-/*
- * Wrapper for all unit testing
- */
-void UnitTesting() {
-    cout << "*** This is a debugging version ***" << endl;
-    test_noQuestions();
-    test_OneQuestion();
-    test_AllQuestions();
-    test_tooMuch();
-    cout << "*** End of Debugging Version ***" << endl;
-}
-
-#define UNIT_TESTING
-//#define trivia_quiz
-
-int main() {
-    #ifdef trivia_quiz
-    TriviaDeck deck = triviaSetup();
+TriviaDeck insertQuestions() {
     string repeat = "Yes";
-    cout << "*** Welcome to Luke's trivia quiz game***" << endl;
+    TriviaDeck deck = triviaSetup();
 
     // While loop to create new tests 
     while (repeat.compare("Yes") == 0) {
@@ -223,8 +183,82 @@ int main() {
         cout << "Continue? (Yes/No): ";
         getline(cin, repeat);
     }
+    cout << endl;
+    return deck;
+}
 
+/******************************************************************************
+*   Unit Testing Functions and Wrapper                                        *
+******************************************************************************/
 
+/*
+ * Tests no questions being passed into narrator
+ */
+void test_noQuestions() {
+    TriviaDeck deck;
+    cout << "Unit Test Case 1: Ask no question. The program should give a warning message." << endl;
+    assert(!narrator(deck, 1));
+}
+
+/*
+ * Tests only question from the pre-set.
+ */
+void test_OneQuestion() {
+    TriviaDeck deck = triviaSetup();
+    cout << "Unit Test Case 2.1: Ask 1 question in the linked list. The tester enters an incorrect answer." << endl;
+    assert(!narrator(deck, 1));
+    deck.head = deck.head->next;
+    cout << "Case 2.1 passed...\n" << endl;
+    cout << "Unit Test Case 2.2: Ask 1 question in the linked list. The tester enters an correct answer." << endl;
+    assert(narrator(deck, 1));
+    cout << "Case 2.2 passed...\n" << endl;
+
+}
+
+/*
+ * Tests all questions being passed into narraor
+ */
+void test_AllQuestions() {
+    TriviaDeck deck = triviaSetup();
+    cout << "Unit Test Case 3.1: Ask all the questions of the last trivia in the linked list. The tester inputs all incorrect answers" << endl;
+    assert(!narrator(deck, deck.length));
+    cout << "Case 3.1 passed...\n" << endl;
+    cout << "Unit Test Case 3.2: Ask 1 question in the linked list. The tester enters all correct answer." << endl;
+    assert(narrator(deck, deck.length));
+    cout << "Case 3.2 passed...\n" << endl;
+}
+
+/*
+ * Tests amount > than the amount of questions in trivia
+ */
+void test_tooMuch() {
+    TriviaDeck deck = triviaSetup();
+    cout << "Unit Test Case 4: Ask five questions in the linked list." << endl;
+    assert(!narrator(deck, 5));
+    cout << "Case 4 passed...\n" << endl;
+}
+
+/*
+ * Wrapper for all unit testing
+ */
+void UnitTesting() {
+    cout << "*** This is a debugging version ***" << endl;
+    test_noQuestions();
+    test_OneQuestion();
+    test_AllQuestions();
+    test_tooMuch();
+    cout << "*** End of Debugging Version ***" << endl;
+}
+
+/******************************************************************************
+*   Main Functions (Trivia Game and Unit Testing)                             *
+******************************************************************************/
+
+int main() {
+    #ifdef trivia_quiz
+    cout << "*** Welcome to Luke's trivia quiz game***" << endl;
+    TriviaDeck deck = insertQuestions();
+    
     narrator(deck, deck.length);
     cout << "*** Thank you for playing the trivia game. Goodbye! ***" << endl;
 }
