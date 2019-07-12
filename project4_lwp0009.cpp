@@ -14,8 +14,8 @@ using namespace std;
 
 /*DEFINE STATEMENTS */
 /*****************************************************************************/
-//#define UNIT_TESTING
-#define trivia_quiz
+#define UNIT_TESTING
+//#define trivia_quiz
 /*****************************************************************************/
 
 /******************************************************************************
@@ -70,7 +70,7 @@ class TriviaDeck {
 };
 
 /*
- * Creates three hard-coded trivia questions passed back in a Trivia-Deck (Linked-List Class)
+ * Creates three hard-coded trivia questions returned back in a Trivia-Deck (Linked-List Class)
  */
 TriviaDeck triviaSetup() {
     string questions[3] = {"How long was the shortest war on record? (Hint: how many minutes)", 
@@ -100,26 +100,38 @@ TriviaDeck triviaSetup() {
     deck.head = prev;
     return deck;
 }
-
-bool narrator(TriviaDeck deck, int amount) {
+/*
+ * The narrator method asks the trivia questions and evaluates user resonse.
+ * Param:
+ * deck -> Trivia Linked List to be iterated through.
+ * amount -> Number of desired trivia questions to be asked.
+ * Return (Integer):
+ * 0 -> All questions and answers are correct
+ * 1 -> Incorrect Answer found
+ * -1 -> Warning Recieved
+ */
+int narrator(TriviaDeck deck, int amount) {
 
     if (deck.isEmpty()) {
         cout << "Warning – The number of trivia to be asked must equal to or larger than 1.\n" << endl;
-        return false;
+        return -1;
     }
 
     if (amount > deck.length) {
         if (deck.length == 3) {
             cout << "Warning – There are only three trivia in the list." << endl;
+            return -1;
         }
+        else {
         cout << "Warning – There are only "<< deck.length <<" trivia in the list." << endl;
-        return false;
+        return -1;
+        }
     }
 
     TriviaNode *currentQuestion = deck.head;
     string response;
     int points = 0;
-    bool boolResponse = true;
+    int intResponse = 0;
     while (currentQuestion != NULL && amount > 0) 
     {
         cout << "Question: " <<currentQuestion ->question << "\nAnswer: ";
@@ -134,7 +146,7 @@ bool narrator(TriviaDeck deck, int amount) {
         }
         else
         {
-            boolResponse = false;
+            intResponse = 1;
             #ifndef UNIT_TESTING
             string output = "Your answer is wrong. The correct answer is: "; 
             cout << output << currentQuestion ->answer << endl;
@@ -147,7 +159,7 @@ bool narrator(TriviaDeck deck, int amount) {
 
         amount = amount -1;
     }
-    return boolResponse;
+    return intResponse;
 }
 
 /*
@@ -197,7 +209,7 @@ TriviaDeck insertQuestions() {
 void test_noQuestions() {
     TriviaDeck deck;
     cout << "Unit Test Case 1: Ask no question. The program should give a warning message." << endl;
-    assert(!narrator(deck, 1));
+    assert(narrator(deck, 1) == -1);
 }
 
 /*
@@ -206,11 +218,11 @@ void test_noQuestions() {
 void test_OneQuestion() {
     TriviaDeck deck = triviaSetup();
     cout << "Unit Test Case 2.1: Ask 1 question in the linked list. The tester enters an incorrect answer." << endl;
-    assert(!narrator(deck, 1));
+    assert(narrator(deck, 1) == 1);
     deck.head = deck.head->next;
     cout << "Case 2.1 passed...\n" << endl;
     cout << "Unit Test Case 2.2: Ask 1 question in the linked list. The tester enters an correct answer." << endl;
-    assert(narrator(deck, 1));
+    assert(narrator(deck, 1)== 0);
     cout << "Case 2.2 passed...\n" << endl;
 
 }
@@ -221,10 +233,10 @@ void test_OneQuestion() {
 void test_AllQuestions() {
     TriviaDeck deck = triviaSetup();
     cout << "Unit Test Case 3.1: Ask all the questions of the last trivia in the linked list. The tester inputs all incorrect answers" << endl;
-    assert(!narrator(deck, deck.length));
+    assert(narrator(deck, deck.length) == 1);
     cout << "Case 3.1 passed...\n" << endl;
     cout << "Unit Test Case 3.2: Ask 1 question in the linked list. The tester enters all correct answer." << endl;
-    assert(narrator(deck, deck.length));
+    assert(narrator(deck, deck.length) == 0);
     cout << "Case 3.2 passed...\n" << endl;
 }
 
@@ -234,7 +246,7 @@ void test_AllQuestions() {
 void test_tooMuch() {
     TriviaDeck deck = triviaSetup();
     cout << "Unit Test Case 4: Ask five questions in the linked list." << endl;
-    assert(!narrator(deck, 5));
+    assert(narrator(deck, 5) == -1);
     cout << "Case 4 passed...\n" << endl;
 }
 
