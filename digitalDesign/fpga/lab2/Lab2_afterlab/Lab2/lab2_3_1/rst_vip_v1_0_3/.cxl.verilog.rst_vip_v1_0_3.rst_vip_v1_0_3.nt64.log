@@ -1,0 +1,11 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2110 "Module rst_vip_if found in library xilinx_vip."
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: rst_vip_v1_0_3_top."
+MESSAGE "$root top modules: rst_vip_v1_0_3_top."
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 0[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

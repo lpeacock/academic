@@ -1,0 +1,2 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/jesd204c_v4_2_0
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -work jesd204c_v4_2_0 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/jesd204c_v4_2_0/.cxl.verilog.jesd204c_v4_2_0.jesd204c_v4_2_0.nt64.cmf

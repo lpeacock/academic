@@ -1,0 +1,15 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+WARNING VCP2515 "Undefined module: xpm_fifo_sync was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_lib.v" 126  3
+WARNING VCP2515 "Undefined module: xpm_cdc_handshake was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_lib.v" 167  3
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+WARNING VCP2635 "Selection index out of range: 32." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_3g_formatter.v" 132  46
+WARNING VCP2635 "Selection index out of range: 32." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_3g_formatter.v" 132  63
+WARNING VCP2641 "Redundant digits given in number 2'b000." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_3g_sync_extract.v" 248  45
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: v_sdi_rx_vid_bridge_v2_0_0_lib_sync_fifo v_sdi_rx_vid_bridge_v2_0_0_lib_sync_bus v_sdi_rx_vid_bridge_v2_0_0."
+MESSAGE "$root top modules: v_sdi_rx_vid_bridge_v2_0_0_lib_sync_fifo v_sdi_rx_vid_bridge_v2_0_0_lib_sync_bus v_sdi_rx_vid_bridge_v2_0_0."
+SUCCESS "Compile success 0 Errors 5 Warnings  Analysis time: 1[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

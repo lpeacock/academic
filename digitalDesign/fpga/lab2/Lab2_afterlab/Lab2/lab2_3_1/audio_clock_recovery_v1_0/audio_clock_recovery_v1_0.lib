@@ -1,0 +1,45 @@
+timestamp=1580964347721
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/audio_clock_recovery_unit_v1_0/hdl/audio_clock_recovery_unit_v1_0_rfs.sv=0*2350*10582
+LastVerilogToplevel=audio_clock_recovery_v1_0
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000078789c1d8c310e83300c00bf921d419b74ebda8e5dbb59b25c6350844b504c22fafb462c27dd0dd7aba332c684ac8917ccc2a94afe61f578755d5c798cb97bdce16d920db430193c1397afacbbc1b4cd044a9f00af06a46997dcf4b4b3e30d3d0c7ce810b74bbba9ebad86c5873f7ea82b49|c73a565f2ade592f8ac1c68f484c9216172e92890ec3fac0705b37c52e4d93ce
+
+[audio_clock_recovery_v1_0]
+A/audio_clock_recovery_v1_0=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_clock_recovery_unit_v1_0/hdl/audio_clock_recovery_unit_v1_0_rfs.sv|1215|1*32170
+BinI32/audio_clock_recovery_v1_0=3*18087
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_clock_recovery_unit_v1_0/hdl/audio_clock_recovery_unit_v1_0_rfs.sv|1215
+SLP=3*18211
+Version=10.5.217.6767 (Windows)|00000078789c1d8c310e83300c00bf921d419b74ebda8e5dbb59b25c6350844b504c22fafb462c27dd0dd7aba332c684ac8917ccc2a94afe61f578755d5c798cb97bdce16d920db430193c1397afacbbc1b4cd044a9f00af06a46997dcf4b4b3e30d3d0c7ce810b74bbba9ebad86c5873f7ea82b49|9ba3f7a4df44350ef01fc6ef070d865a31e4925177af6e5b98f65bf6a5d8bf17892dfea146599c589788d6218c78223a6d16e61237e5e94599fa681fa3826047
+
+[audio_clock_recovery_v1_0_axi]
+A/audio_clock_recovery_v1_0_axi=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_clock_recovery_unit_v1_0/hdl/audio_clock_recovery_unit_v1_0_rfs.sv|4|1*390
+BinI32/audio_clock_recovery_v1_0_axi=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_clock_recovery_unit_v1_0/hdl/audio_clock_recovery_unit_v1_0_rfs.sv|4
+SLP=3*6349
+Version=10.5.217.6767 (Windows)|00000078789c1d8c310e83300c00bf921d419b74ebda8e5dbb59b25c6350844b504c22fafb462c27dd0dd7aba332c684ac8917ccc2a94afe61f578755d5c798cb97bdce16d920db430193c1397afacbbc1b4cd044a9f00af06a46997dcf4b4b3e30d3d0c7ce810b74bbba9ebad86c5873f7ea82b49|9ba3f7a4df44350ef01fc6ef070d865aa591f0b57025c2f87db7a727b45be91a0c7849a20b35e9332b7e0b971f85e38ae342e15b8d1a91a3eda4f3adbeb9fc8c
+
+[audio_clock_recovery_v1_0_sys]
+A/audio_clock_recovery_v1_0_sys=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_clock_recovery_unit_v1_0/hdl/audio_clock_recovery_unit_v1_0_rfs.sv|517|1*12416
+BinI32/audio_clock_recovery_v1_0_sys=3*11145
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_clock_recovery_unit_v1_0/hdl/audio_clock_recovery_unit_v1_0_rfs.sv|517
+SLP=3*14296
+Version=10.5.217.6767 (Windows)|00000078789c1d8c310e83300c00bf921d419b74ebda8e5dbb59b25c6350844b504c22fafb462c27dd0dd7aba332c684ac8917ccc2a94afe61f578755d5c798cb97bdce16d920db430193c1397afacbbc1b4cd044a9f00af06a46997dcf4b4b3e30d3d0c7ce810b74bbba9ebad86c5873f7ea82b49|9ba3f7a4df44350ef01fc6ef070d865ab70cc186cf2441bf441ec43dd27a255443092a6b3c3c410f3034a7bf07579ce1dabe295cc6e44d109d37f81e5305450e
+
+[~MFT]
+0=6|0audio_clock_recovery_v1_0.mgf|10582|0
+1=4|1audio_clock_recovery_v1_0.mgf|32170|0
+3=8|3audio_clock_recovery_v1_0.mgf|18211|0
+
+[~U]
+$root=12|0*0|
+audio_clock_recovery_v1_0=12|0*1810||0x10
+audio_clock_recovery_v1_0_axi=12|0*230|
+audio_clock_recovery_v1_0_sys=12|0*1089|

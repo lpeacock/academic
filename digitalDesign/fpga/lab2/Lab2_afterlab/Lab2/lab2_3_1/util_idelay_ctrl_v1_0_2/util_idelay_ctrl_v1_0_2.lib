@@ -1,0 +1,29 @@
+timestamp=1580964941829
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/util_idelay_ctrl_v1_0/hdl/util_idelay_ctrl_v1_0_vl_rfs.v=0*509*1108
+LastVerilogToplevel=util_idelay_ctrl_v1_0_2_util_idelay_ctrl
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c92163e6697a0ade25a39e78ac3cb523d37d1
+
+[util_idelay_ctrl_v1_0_2_util_idelay_ctrl]
+A/util_idelay_ctrl_v1_0_2_util_idelay_ctrl=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/util_idelay_ctrl_v1_0/hdl/util_idelay_ctrl_v1_0_vl_rfs.v|33|1*390
+BinI32/util_idelay_ctrl_v1_0_2_util_idelay_ctrl=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/util_idelay_ctrl_v1_0/hdl/util_idelay_ctrl_v1_0_vl_rfs.v|33
+SLP=3*624
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|5d0ada7ac3d6a9d25b68d174b5a3d331097987ad86e0c3de08e650c3849a6c3016d351724870882f358292abc86fdd3a37c6f33eda698a9996bfcb16138fb6a2
+
+[~MFT]
+0=4|0util_idelay_ctrl_v1_0_2.mgf|1108|0
+1=2|1util_idelay_ctrl_v1_0_2.mgf|390|0
+3=4|3util_idelay_ctrl_v1_0_2.mgf|624|0
+
+[~U]
+$root=12|0*0|
+util_idelay_ctrl_v1_0_2_util_idelay_ctrl=12|0*214||0x10

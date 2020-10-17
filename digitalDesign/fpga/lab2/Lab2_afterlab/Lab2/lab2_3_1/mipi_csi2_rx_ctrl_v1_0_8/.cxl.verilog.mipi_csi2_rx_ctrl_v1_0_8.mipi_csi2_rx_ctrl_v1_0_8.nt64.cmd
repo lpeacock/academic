@@ -1,0 +1,2 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/mipi_csi2_rx_ctrl_v1_0_8
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -work mipi_csi2_rx_ctrl_v1_0_8 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/mipi_csi2_rx_ctrl_v1_0_8/.cxl.verilog.mipi_csi2_rx_ctrl_v1_0_8.mipi_csi2_rx_ctrl_v1_0_8.nt64.cmf

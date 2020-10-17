@@ -1,0 +1,2 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/roe_framer_v2_1_0
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  -l roe_framer_v2_1_0 +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -sv2k12 -work roe_framer_v2_1_0 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/roe_framer_v2_1_0/.cxl.systemverilog.roe_framer_v2_1_0.roe_framer_v2_1_0.nt64.cmf

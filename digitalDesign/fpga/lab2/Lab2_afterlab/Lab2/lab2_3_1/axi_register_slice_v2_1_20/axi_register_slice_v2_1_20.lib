@@ -1,0 +1,141 @@
+timestamp=1580965185099
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v=0*9250*41519
+LastVerilogToplevel=axi_register_slice_v2_1_20_axi_register_slice
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c9216c079fec783a887eb1826762093e75ce3
+
+[axi_register_slice_v2_1_20_auto_dest]
+A/axi_register_slice_v2_1_20_auto_dest=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|1297|1*50767
+BinI32/axi_register_slice_v2_1_20_auto_dest=3*45576
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|1297
+SLP=3*46660
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|50d10da8502f13e97ed405bf28eaa656fc65cf6eaabd6b41b47e6b452dea03aa0b7af70610eeeebc32d10685078d959e999641340f374d6ff8df868ad1bbc57f
+
+[axi_register_slice_v2_1_20_auto_slr]
+A/axi_register_slice_v2_1_20_auto_slr=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|1135|1*42819
+BinI32/axi_register_slice_v2_1_20_auto_slr=3*42827
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|1135
+SLP=3*43425
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|50d10da8502f13e97ed405bf28eaa656fc65cf6eaabd6b41b47e6b452dea03aad41ac55c026d2a86376dc325c9db391b50023aa086901074648ca534a0124e8a
+
+[axi_register_slice_v2_1_20_auto_src]
+A/axi_register_slice_v2_1_20_auto_src=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|1223|1*46627
+BinI32/axi_register_slice_v2_1_20_auto_src=3*43877
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|1223
+SLP=3*44951
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|50d10da8502f13e97ed405bf28eaa656fc65cf6eaabd6b41b47e6b452dea03aa90d55ae33ad54c640bef606839331a248ac9ee02fcc5047c95a1e5509e15a972
+
+[axi_register_slice_v2_1_20_axi_register_slice]
+A/axi_register_slice_v2_1_20_axi_register_slice=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|3704|1*145048
+BinI32/axi_register_slice_v2_1_20_axi_register_slice=3*106210
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|3704
+SLP=3*116437
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|50d10da8502f13e97ed405bf28eaa656c192ceb8112411a883f5e88f94b8efa282ab37dd23b8e3952455443adbe2f2933b366a7071601a135a1dfa2e6b3ab39e
+
+[axi_register_slice_v2_1_20_axic_reg_srl_fifo]
+A/axi_register_slice_v2_1_20_axic_reg_srl_fifo=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|3420|1*55598
+BinI32/axi_register_slice_v2_1_20_axic_reg_srl_fifo=3*47311
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|3420
+SLP=3*52788
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|50d10da8502f13e97ed405bf28eaa656fe050c32dd0f4f134688a891f76a018484a94642725a38c159ccc732b0db7bf940c11f5d27aaa4399fbe348eceb5158fa33dbdd5f2ad26ea718e7fdfae5f353e
+
+[axi_register_slice_v2_1_20_axic_register_slice]
+A/axi_register_slice_v2_1_20_axic_register_slice=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|1476|1*65255
+BinI32/axi_register_slice_v2_1_20_axic_register_slice=3*57003
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|1476
+SLP=3*66009
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|50d10da8502f13e97ed405bf28eaa656fe050c32dd0f4f134688a891f76a01847176624afac9e882ec6639abdb21d240667294729c2098abe0ecc3f8d17a15ce
+
+[axi_register_slice_v2_1_20_dest_region_slr]
+A/axi_register_slice_v2_1_20_dest_region_slr=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|3016|1*123417
+BinI32/axi_register_slice_v2_1_20_dest_region_slr=3*90012
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|3016
+SLP=3*96978
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|50d10da8502f13e97ed405bf28eaa656a0bc30c9106014e13ac1277e1695aec00145fc05d0aa8a3c0744f37d6fade11388748804db3b89a91dcbef8578b148d0
+
+[axi_register_slice_v2_1_20_middle_region_slr]
+A/axi_register_slice_v2_1_20_middle_region_slr=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|2691|1*135876
+BinI32/axi_register_slice_v2_1_20_middle_region_slr=3*99858
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|2691
+SLP=3*104827
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|50d10da8502f13e97ed405bf28eaa65604a85fce2e315f4385e8050900c248738dd2049c942ddeb734d213db7e86cb7d26527262ddaa47cb266f3a3c4d9b973abb049c43ad5287d70f7ba11b86106eba
+
+[axi_register_slice_v2_1_20_multi_slr]
+A/axi_register_slice_v2_1_20_multi_slr=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|2179|1*80925
+BinI32/axi_register_slice_v2_1_20_multi_slr=3*72400
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|2179
+SLP=3*73670
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|50d10da8502f13e97ed405bf28eaa6563ad03835c2377c7cc02f9fd7878a429041d3c9f4f041c4e5f289ae8d980002002e53f2d3ec37bd788cb21aee8038a9fa
+
+[axi_register_slice_v2_1_20_single_slr]
+A/axi_register_slice_v2_1_20_single_slr=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|3258|1*105103
+BinI32/axi_register_slice_v2_1_20_single_slr=3*74034
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|3258
+SLP=3*79371
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|50d10da8502f13e97ed405bf28eaa656e896dbe769d1d2a07f91b59d020dfc125121394477866a71157bcb91f27e928ee93d9860def374b87e0afa969491463e
+
+[axi_register_slice_v2_1_20_source_region_slr]
+A/axi_register_slice_v2_1_20_source_region_slr=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|2832|1*112933
+BinI32/axi_register_slice_v2_1_20_source_region_slr=3*81508
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|2832
+SLP=3*87715
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|50d10da8502f13e97ed405bf28eaa656e896dbe769d1d2a07f91b59d020dfc12b7a92f023cc2fcf81175e49fbb63c8bf26527262ddaa47cb266f3a3c4d9b973abae3c7f40b983d6be58338709d32ed87
+
+[axi_register_slice_v2_1_20_srl_rtl]
+A/axi_register_slice_v2_1_20_srl_rtl=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|1452|1*63129
+BinI32/axi_register_slice_v2_1_20_srl_rtl=3*54885
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|1452
+SLP=3*56635
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|50d10da8502f13e97ed405bf28eaa656a6eb61fa9bafc11f5da766d1b3f8d2dacaaecfccf29d7d2ed850c27202108be8bace812b9a13ba463dea2eb49be35194
+
+[axi_register_slice_v2_1_20_tdm_sample]
+A/axi_register_slice_v2_1_20_tdm_sample=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|1031|1*40233
+BinI32/axi_register_slice_v2_1_20_tdm_sample=3*41500
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|1031
+SLP=3*42295
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|50d10da8502f13e97ed405bf28eaa6569377d12c6dc81ae6a92d780b6c29d330dc2cdde2216d295a4038288d2fc9b253702d9e69a1a1ed2b2010a64855f92041
+
+[axi_register_slice_v2_1_20_test_master]
+A/axi_register_slice_v2_1_20_test_master=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|50|1*390
+BinI32/axi_register_slice_v2_1_20_test_master=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|50
+SLP=3*18200
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|50d10da8502f13e97ed405bf28eaa6569377d12c6dc81ae6a92d780b6c29d33053003ba2043d9b1aa8cc76687a539871745759aa346967ba702b3876892de51e
+
+[axi_register_slice_v2_1_20_test_slave]
+A/axi_register_slice_v2_1_20_test_slave=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|572|1*22999
+BinI32/axi_register_slice_v2_1_20_test_slave=3*25911
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v|572
+SLP=3*35900
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|50d10da8502f13e97ed405bf28eaa6569377d12c6dc81ae6a92d780b6c29d330fbacbf6549f65346af7a813be0c09538364ec5b7220abd64766329a4d904baf4
+
+[~MFT]
+0=18|0axi_register_slice_v2_1_20.mgf|41519|0
+1=16|1axi_register_slice_v2_1_20.mgf|145048|0
+3=32|3axi_register_slice_v2_1_20.mgf|116437|0
+
+[~U]
+$root=12|0*0|
+axi_register_slice_v2_1_20_auto_dest=12|0*3246|
+axi_register_slice_v2_1_20_auto_slr=12|0*2450|
+axi_register_slice_v2_1_20_auto_src=12|0*2848|
+axi_register_slice_v2_1_20_axi_register_slice=12|0*7390||0x10
+axi_register_slice_v2_1_20_axic_reg_srl_fifo=12|0*3676|
+axi_register_slice_v2_1_20_axic_register_slice=12|0*4507|
+axi_register_slice_v2_1_20_dest_region_slr=12|0*6357|
+axi_register_slice_v2_1_20_middle_region_slr=12|0*6829|
+axi_register_slice_v2_1_20_multi_slr=12|0*4898|
+axi_register_slice_v2_1_20_single_slr=12|0*5445|
+axi_register_slice_v2_1_20_source_region_slr=12|0*5894|
+axi_register_slice_v2_1_20_srl_rtl=12|0*4193|
+axi_register_slice_v2_1_20_tdm_sample=12|0*2182|
+axi_register_slice_v2_1_20_test_master=12|0*326|
+axi_register_slice_v2_1_20_test_slave=12|0*1346|

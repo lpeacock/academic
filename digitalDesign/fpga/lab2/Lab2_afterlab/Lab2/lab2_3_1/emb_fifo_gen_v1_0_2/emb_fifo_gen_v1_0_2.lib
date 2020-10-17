@@ -1,0 +1,29 @@
+timestamp=1580964536584
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emb_fifo_gen_v1_0/hdl/emb_fifo_gen_v1_0_rfs.sv=0*2530*10704
+LastVerilogToplevel=emb_fifo_gen_v1_0_2
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000072789c1d8cbb0a80300c007fa5bbf868dd5c7574750b845a5329c62a8d8a9f6f7139b81bae6445fb8c3ef803578af8686cd0a82244b78454f41d4c4249806f670586c3dd3bc54bc09fab05b6b3813103adbf2865fdedefd8a286cabd5c85b3ce3756a53c66d3e60333bc285f|c73a565f2ade592f8ac1c68f484c921623e9dc8733ee8f34fb85d59f841d7430
+
+[emb_fifo_gen_v1_0_2]
+A/emb_fifo_gen_v1_0_2=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/emb_fifo_gen_v1_0/hdl/emb_fifo_gen_v1_0_rfs.sv|54|1*374
+BinI32/emb_fifo_gen_v1_0_2=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/emb_fifo_gen_v1_0/hdl/emb_fifo_gen_v1_0_rfs.sv|54
+SLP=3*4845
+Version=10.5.217.6767 (Windows)|00000072789c1d8cbb0a80300c007fa5bbf868dd5c7574750b845a5329c62a8d8a9f6f7139b81bae6445fb8c3ef803578af8686cd0a82244b78454f41d4c4249806f670586c3dd3bc54bc09fab05b6b3813103adbf2865fdedefd8a286cabd5c85b3ce3756a53c66d3e60333bc285f|699ea539d94397804a6fc7f719ca866cbf3fc520e31a0fe17d873edbb0a7a93ef79758c852ea0814d4538376be2f8887
+
+[~MFT]
+0=4|0emb_fifo_gen_v1_0_2.mgf|10704|0
+1=2|1emb_fifo_gen_v1_0_2.mgf|374|0
+3=4|3emb_fifo_gen_v1_0_2.mgf|4845|0
+
+[~U]
+$root=12|0*0|
+emb_fifo_gen_v1_0_2=12|0*182||0x10

@@ -1,0 +1,109 @@
+timestamp=1580964575359
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_bit_synchronizer.v_gtwizard_ultrascale_v1_5_gthe3_cpll_cal.v_gtwizard_ultrascale_v1_5_gthe3_cpll_cal_freq_counter.v_gtwizard_ultrascale_v1_5_gtwiz_buffbypass_rx.v_gtwizard_ultrascale_v1_5_gtwiz_buffbypass_tx.v_gtwizard_ultrascale_v1_5_gtwiz_reset.v_gtwizard_ultrascale_v1_5_gtwiz_userclk_rx.v_gtwizard_ultrascale_v1_5_gtwiz_userclk_tx.v_gtwizard_ultrascale_v1_5_gtwiz_userdata_rx.v_gtwizard_ultrascale_v1_5_gtwiz_userdata_tx.v_gtwizard_ultrascale_v1_5_reset_synchronizer.v=0*6350*25077
+LastVerilogToplevel=gtwizard_ultrascale_v1_5_4_gtwiz_userdata_tx
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c921621d36de3456fd7db993b633d8ce2c953
+
+[gtwizard_ultrascale_v1_5_4_bit_synchronizer]
+A/gtwizard_ultrascale_v1_5_4_bit_synchronizer=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_bit_synchronizer.v|55|1*470
+BinI32/gtwizard_ultrascale_v1_5_4_bit_synchronizer=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_bit_synchronizer.v|55
+SLP=3*832
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|779254a7f386b60b5e6c7976d6b7fe78765fe08b8049a4716b07b3fe7fdf3a2e85d6d55664039480b369a6c632d162feb0b6f4170159185c346fe4ab1d6b2db9a0c11b526ccccabc8b536cc3784176f8
+
+[gtwizard_ultrascale_v1_5_4_gthe3_cpll_cal]
+A/gtwizard_ultrascale_v1_5_4_gthe3_cpll_cal=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gthe3_cpll_cal.v|55|1*2614
+BinI32/gtwizard_ultrascale_v1_5_4_gthe3_cpll_cal=3*1184
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gthe3_cpll_cal.v|55
+SLP=3*10046
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|779254a7f386b60b5e6c7976d6b7fe783f919eb15f5adef450b90c7bfcef918d2c0294025fa6798ed9fccb935064235e87512a2032e1bd4f90db679c2fb2f30c4a0ef43851c83d32523f0d2d47fd46b4
+
+[gtwizard_ultrascale_v1_5_4_gthe3_cpll_cal_freq_counter]
+A/gtwizard_ultrascale_v1_5_4_gthe3_cpll_cal_freq_counter=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gthe3_cpll_cal_freq_counter.v|55|1*25962
+BinI32/gtwizard_ultrascale_v1_5_4_gthe3_cpll_cal_freq_counter=3*18569
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gthe3_cpll_cal_freq_counter.v|55
+SLP=3*20946
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|20e705d13ad0dc8a71a0fe0684658c766547acf171db82165cdb2645444d650c2a4e6409ad7762ba5156dbc4ab4068fc188614468d6d5d0ec941963958d4b349873a61350a045404907d2a972fa0ec46
+
+[gtwizard_ultrascale_v1_5_4_gtwiz_buffbypass_rx]
+A/gtwizard_ultrascale_v1_5_4_gtwiz_buffbypass_rx=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_buffbypass_rx.v|55|1*31000
+BinI32/gtwizard_ultrascale_v1_5_4_gtwiz_buffbypass_rx=3*22870
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_buffbypass_rx.v|55
+SLP=3*27156
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|779254a7f386b60b5e6c7976d6b7fe78a39cf0e1deaac992a253aec76cf569c4d47ffad0d676f00903804a9579ad3a101321ba87341227d43c71b7a76b281b4a81825efc259c00a0f1a22f79628003f7
+
+[gtwizard_ultrascale_v1_5_4_gtwiz_buffbypass_tx]
+A/gtwizard_ultrascale_v1_5_4_gtwiz_buffbypass_tx=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_buffbypass_tx.v|55|1*40973
+BinI32/gtwizard_ultrascale_v1_5_4_gtwiz_buffbypass_tx=3*28960
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_buffbypass_tx.v|55
+SLP=3*33694
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|779254a7f386b60b5e6c7976d6b7fe78a39cf0e1deaac992a253aec76cf569c4c1b8fdc4611794f3845ed1654476a2e774babfcb928f0a241804766bc916e85f5ea9dd093ed107809105fb1c414634f7
+
+[gtwizard_ultrascale_v1_5_4_gtwiz_reset]
+A/gtwizard_ultrascale_v1_5_4_gtwiz_reset=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_reset.v|55|1*51599
+BinI32/gtwizard_ultrascale_v1_5_4_gtwiz_reset=3*35695
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_reset.v|55
+SLP=3*39815
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|779254a7f386b60b5e6c7976d6b7fe78a39cf0e1deaac992a253aec76cf569c48f42b20d15a4a68c97e67623d7a9c34d3bf495749653b09d130319015c1daa6b
+
+[gtwizard_ultrascale_v1_5_4_gtwiz_userclk_rx]
+A/gtwizard_ultrascale_v1_5_4_gtwiz_userclk_rx=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_userclk_rx.v|55|1*72725
+BinI32/gtwizard_ultrascale_v1_5_4_gtwiz_userclk_rx=3*44892
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_userclk_rx.v|55
+SLP=3*45979
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|779254a7f386b60b5e6c7976d6b7fe78a39cf0e1deaac992a253aec76cf569c4275cc284a157ab19c89567d036214008a6aa6b1542660c3b5d93267cb2483e9ec10c851f77c76bda3db184a0ff3b67c7
+
+[gtwizard_ultrascale_v1_5_4_gtwiz_userclk_tx]
+A/gtwizard_ultrascale_v1_5_4_gtwiz_userclk_tx=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_userclk_tx.v|55|1*78371
+BinI32/gtwizard_ultrascale_v1_5_4_gtwiz_userclk_tx=3*46498
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_userclk_tx.v|55
+SLP=3*47585
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|779254a7f386b60b5e6c7976d6b7fe78a39cf0e1deaac992a253aec76cf569c41a8c07c84a75f897421a26b8c58c47099d8b4e8ef1374421143aa6249ef854701c13f70287f8f566ea8b83c041f9f0be
+
+[gtwizard_ultrascale_v1_5_4_gtwiz_userdata_rx]
+A/gtwizard_ultrascale_v1_5_4_gtwiz_userdata_rx=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_userdata_rx.v|55|1*84017
+BinI32/gtwizard_ultrascale_v1_5_4_gtwiz_userdata_rx=3*48105
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_userdata_rx.v|55
+SLP=3*58385
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|779254a7f386b60b5e6c7976d6b7fe78a39cf0e1deaac992a253aec76cf569c49c4976cf2195788e9cef9d524f49a7ab1fb58f0a3a44e3da46a7f015baec158db5ac93e9f9ff11dbb833768e2c83d15f
+
+[gtwizard_ultrascale_v1_5_4_gtwiz_userdata_tx]
+A/gtwizard_ultrascale_v1_5_4_gtwiz_userdata_tx=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_userdata_tx.v|55|1*92608
+BinI32/gtwizard_ultrascale_v1_5_4_gtwiz_userdata_tx=3*63048
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_userdata_tx.v|55
+SLP=3*75275
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|779254a7f386b60b5e6c7976d6b7fe78a39cf0e1deaac992a253aec76cf569c4834eb8748b89124effb7ccbc664c760b6193f4a92f037bdc9ef5731d07cf843c7d3183d727d5f09a033b3ace50fdf9a0
+
+[gtwizard_ultrascale_v1_5_4_reset_synchronizer]
+A/gtwizard_ultrascale_v1_5_4_reset_synchronizer=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_reset_synchronizer.v|55|1*23888
+BinI32/gtwizard_ultrascale_v1_5_4_reset_synchronizer=3*17565
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_reset_synchronizer.v|55
+SLP=3*18102
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|779254a7f386b60b5e6c7976d6b7fe785948718c1367b9deab5f63ddc2adae2f14e8a405042888e4131997d495d5f5575200a1865070a288025241c92bd7027d22b1df66ab1ba6ff4760eebc97af867b
+
+[~MFT]
+0=14|0gtwizard_ultrascale_v1_5_4.mgf|25077|0
+1=12|1gtwizard_ultrascale_v1_5_4.mgf|92608|0
+3=24|3gtwizard_ultrascale_v1_5_4.mgf|75275|0
+
+[~U]
+$root=12|0*0|
+gtwizard_ultrascale_v1_5_4_bit_synchronizer=12|0*342|
+gtwizard_ultrascale_v1_5_4_gthe3_cpll_cal=12|0*650||0x10
+gtwizard_ultrascale_v1_5_4_gthe3_cpll_cal_freq_counter=12|0*2076|
+gtwizard_ultrascale_v1_5_4_gtwiz_buffbypass_rx=12|0*2516||0x10
+gtwizard_ultrascale_v1_5_4_gtwiz_buffbypass_tx=12|0*3123||0x10
+gtwizard_ultrascale_v1_5_4_gtwiz_reset=12|0*3778||0x10
+gtwizard_ultrascale_v1_5_4_gtwiz_userclk_rx=12|0*4775||0x10
+gtwizard_ultrascale_v1_5_4_gtwiz_userclk_tx=12|0*5188||0x10
+gtwizard_ultrascale_v1_5_4_gtwiz_userdata_rx=12|0*5601||0x10
+gtwizard_ultrascale_v1_5_4_gtwiz_userdata_tx=12|0*5977||0x10
+gtwizard_ultrascale_v1_5_4_reset_synchronizer=12|0*1780|

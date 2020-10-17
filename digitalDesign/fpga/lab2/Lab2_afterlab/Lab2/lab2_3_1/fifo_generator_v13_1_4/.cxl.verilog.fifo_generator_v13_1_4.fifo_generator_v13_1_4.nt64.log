@@ -1,0 +1,11 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol srst_wrst_busy has not been declared in module fifo_generator_v13_1_4_bhv_ver_ss." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/fifo_generator_v13_1/simulation/fifo_generator_vlog_beh.v" 7858  28
+MESSAGE "Pass 2. Processing instantiations."
+WARNING VCP1251 "The warning message cannot be shown because a protected code block was seen in the current compilation session. Any further warnings will be disregarded."
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "$root top modules: *none*."
+SUCCESS "Compile success 0 Errors 10 Warnings  Analysis time: 1[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

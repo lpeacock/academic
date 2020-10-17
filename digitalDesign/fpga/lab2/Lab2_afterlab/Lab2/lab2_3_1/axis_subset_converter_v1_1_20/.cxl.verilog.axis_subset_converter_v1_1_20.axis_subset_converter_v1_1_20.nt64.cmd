@@ -1,0 +1,2 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/axis_subset_converter_v1_1_20
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -work axis_subset_converter_v1_1_20 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/axis_subset_converter_v1_1_20/.cxl.verilog.axis_subset_converter_v1_1_20.axis_subset_converter_v1_1_20.nt64.cmf

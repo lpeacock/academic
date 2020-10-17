@@ -1,0 +1,29 @@
+timestamp=1580965239326
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_memory_init_v1_0/hdl/axi_memory_init_v1_0_vl_rfs.sv=0*1787*6050
+LastVerilogToplevel=axi_memory_init_v1_0_1_top
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|0000008a789c258cbb0ec2300c007f257b9542c2c60a232b9b25cb3529b2c8a38ad3aafc3d51594eba1bce46a3896ae39273e0869bc3b3b1d1d02e98422af58b92e5dfd1994132bfa40eb72b3c355485b83229dc0baf29e4a6302f6f824893874707d2dc42ed7ad8d1f1820e46dee328cba9dfa2b1baf98ff33f9e01315a|c73a565f2ade592f8ac1c68f484c921602b8355f90b4d78349373ad2ffe4bf9e
+
+[axi_memory_init_v1_0_1_top]
+A/axi_memory_init_v1_0_1_top=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_memory_init_v1_0/hdl/axi_memory_init_v1_0_vl_rfs.sv|56|1*390
+BinI32/axi_memory_init_v1_0_1_top=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_memory_init_v1_0/hdl/axi_memory_init_v1_0_vl_rfs.sv|56
+SLP=3*11071
+Version=10.5.217.6767 (Windows)|0000008a789c258cbb0ec2300c007f257b9542c2c60a232b9b25cb3529b2c8a38ad3aafc3d51594eba1bce46a3896ae39273e0869bc3b3b1d1d02e98422af58b92e5dfd1994132bfa40eb72b3c355485b83229dc0baf29e4a6302f6f824893874707d2dc42ed7ad8d1f1820e46dee328cba9dfa2b1baf98ff33f9e01315a|f6b1f33658ad2e546bae3fe4fd32babe05904e48fa9d2ec46be4521fca51258d43ceee7b34d64c7ba11ada006286c8b9ee2b228efd0070ed79621fb35afa1a74
+
+[~MFT]
+0=4|0axi_memory_init_v1_0_1.mgf|6050|0
+1=2|1axi_memory_init_v1_0_1.mgf|390|0
+3=4|3axi_memory_init_v1_0_1.mgf|11071|0
+
+[~U]
+$root=12|0*0|
+axi_memory_init_v1_0_1_top=12|0*182||0x10

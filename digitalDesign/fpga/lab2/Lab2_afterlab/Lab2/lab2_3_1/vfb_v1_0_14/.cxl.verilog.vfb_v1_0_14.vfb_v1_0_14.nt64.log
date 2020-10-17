@@ -1,0 +1,10 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: vfb_v1_0_14_arst_ff vfb_v1_0_14_reorder vfb_v1_0_14_op_inf."
+MESSAGE "$root top modules: vfb_v1_0_14_arst_ff vfb_v1_0_14_reorder vfb_v1_0_14_op_inf."
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 1[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

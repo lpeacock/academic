@@ -1,0 +1,69 @@
+timestamp=1580964841908
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/stma_v1_0/hdl/stma_v1_0_rfs.sv=0*4974*25773
+LastVerilogToplevel=stma_v1_0_0_top
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000067789c1d8c390e80201000bf424f3cc0ce564b5bbb4d36886088eb11168ccf97d84c32534c4582d3818fc256c870da354439f430b38b0c94ad61182f9b0f7726067f6f06c82c1aa602343eb958f4b7bf63870a6afb521deea6dc4854fce85de90f7b5f2452|c73a565f2ade592f8ac1c68f484c9216c87df09ddb57616316478e644967df98
+
+[stma_v1_0_0_c2h]
+A/stma_v1_0_0_c2h=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/stma_v1_0/hdl/stma_v1_0_rfs.sv|1165|1*41463
+BinI32/stma_v1_0_0_c2h=3*42758
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/stma_v1_0/hdl/stma_v1_0_rfs.sv|1165
+SLP=3*57935
+Version=10.5.217.6767 (Windows)|00000067789c1d8c390e80201000bf424f3cc0ce564b5bbb4d36886088eb11168ccf97d84c32534c4582d3818fc256c870da354439f430b38b0c94ad61182f9b0f7726067f6f06c82c1aa602343eb958f4b7bf63870a6afb521deea6dc4854fce85de90f7b5f2452|e5d0ca6481d1a894e988923f91c4d03dd4428409fe3ce06c9abae14db69243f2ea51c63fff35e004b351352a442e972b
+
+[stma_v1_0_0_fifo_bram]
+A/stma_v1_0_0_fifo_bram=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/stma_v1_0/hdl/stma_v1_0_rfs.sv|657|1*21180
+BinI32/stma_v1_0_0_fifo_bram=3*27470
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/stma_v1_0/hdl/stma_v1_0_rfs.sv|657
+SLP=3*37215
+Version=10.5.217.6767 (Windows)|00000067789c1d8c390e80201000bf424f3cc0ce564b5bbb4d36886088eb11168ccf97d84c32534c4582d3818fc256c870da354439f430b38b0c94ad61182f9b0f7726067f6f06c82c1aa602343eb958f4b7bf63870a6afb521deea6dc4854fce85de90f7b5f2452|544e457e72d5ec68357041db95c0cb69d9a38da82b184f35bed942b2ff7009e9e0c6f21e77cf5c853e38c0ec916bf8ac
+
+[stma_v1_0_0_fifo_lut]
+A/stma_v1_0_0_fifo_lut=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/stma_v1_0/hdl/stma_v1_0_rfs.sv|72|1*374
+BinI32/stma_v1_0_0_fifo_lut=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/stma_v1_0/hdl/stma_v1_0_rfs.sv|72
+SLP=3*20085
+Version=10.5.217.6767 (Windows)|00000067789c1d8c390e80201000bf424f3cc0ce564b5bbb4d36886088eb11168ccf97d84c32534c4582d3818fc256c870da354439f430b38b0c94ad61182f9b0f7726067f6f06c82c1aa602343eb958f4b7bf63870a6afb521deea6dc4854fce85de90f7b5f2452|544e457e72d5ec68357041db95c0cb69adb9993fecd1693e56d8bb6898ee390f60cd385cdd882081a8bb8316409dc745
+
+[stma_v1_0_0_h2c]
+A/stma_v1_0_0_h2c=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/stma_v1_0/hdl/stma_v1_0_rfs.sv|2164|1*74510
+BinI32/stma_v1_0_0_h2c=3*66394
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/stma_v1_0/hdl/stma_v1_0_rfs.sv|2164
+SLP=3*76265
+Version=10.5.217.6767 (Windows)|00000067789c1d8c390e80201000bf424f3cc0ce564b5bbb4d36886088eb11168ccf97d84c32534c4582d3818fc256c870da354439f430b38b0c94ad61182f9b0f7726067f6f06c82c1aa602343eb958f4b7bf63870a6afb521deea6dc4854fce85de90f7b5f2452|8e5d234fff1feeffcd0c5f78a087c4e33e75d1929b0cc407a691fb560255b4f96c3fa46108006dfc99159c234e3a4d81
+
+[stma_v1_0_0_simple_dport_bram_rst]
+A/stma_v1_0_0_simple_dport_bram_rst=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/stma_v1_0/hdl/stma_v1_0_rfs.sv|1028|1*37383
+BinI32/stma_v1_0_0_simple_dport_bram_rst=3*40630
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/stma_v1_0/hdl/stma_v1_0_rfs.sv|1028
+SLP=3*42158
+Version=10.5.217.6767 (Windows)|00000067789c1d8c390e80201000bf424f3cc0ce564b5bbb4d36886088eb11168ccf97d84c32534c4582d3818fc256c870da354439f430b38b0c94ad61182f9b0f7726067f6f06c82c1aa602343eb958f4b7bf63870a6afb521deea6dc4854fce85de90f7b5f2452|787fff5cd750fcefc7467de935363fef96179d4a40a91a6dff4af52f21a703f8ec75ce7157213b37eb0a2d646e50c41cdc175ebc81099eb5d94325e0c81f4719
+
+[stma_v1_0_0_top]
+A/stma_v1_0_0_top=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/stma_v1_0/hdl/stma_v1_0_rfs.sv|2795|1*101602
+BinI32/stma_v1_0_0_top=3*81494
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/stma_v1_0/hdl/stma_v1_0_rfs.sv|2795
+SLP=3*83356
+Version=10.5.217.6767 (Windows)|00000067789c1d8c390e80201000bf424f3cc0ce564b5bbb4d36886088eb11168ccf97d84c32534c4582d3818fc256c870da354439f430b38b0c94ad61182f9b0f7726067f6f06c82c1aa602343eb958f4b7bf63870a6afb521deea6dc4854fce85de90f7b5f2452|141027b4b333d366490225e58cdfa3a16bdec30bb84277a5df2101dd9a533d7c87f615ea9feb0d0ad823aee0e2659db8
+
+[~MFT]
+0=9|0stm_v1_0.mgf|25773|0
+1=7|1stm_v1_0.mgf|101602|0
+3=14|3stm_v1_0.mgf|83356|0
+
+[~U]
+$root=12|0*0|
+stma_v1_0_0_c2h=12|0*1986|
+stma_v1_0_0_fifo_bram=12|0*912|
+stma_v1_0_0_fifo_lut=12|0*230|
+stma_v1_0_0_h2c=12|0*3118|
+stma_v1_0_0_simple_dport_bram_rst=12|0*1620|
+stma_v1_0_0_top=12|0*4243||0x10

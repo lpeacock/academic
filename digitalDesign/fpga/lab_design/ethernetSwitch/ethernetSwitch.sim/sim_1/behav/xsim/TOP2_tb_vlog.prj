@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ethernetSwitch.srcs/sources_1/new/TOP.v" \
+"../../../../ethernetSwitch.srcs/sources_1/new/buffer.v" \
+"../../../../ethernetSwitch.srcs/sources_1/new/intergapDetector.v" \
+"../../../../ethernetSwitch.srcs/sources_1/new/macRetriever.v" \
+"../../../../ethernetSwitch.srcs/sources_1/new/preambleDetector.v" \
+"../../../../ethernetSwitch.srcs/sources_1/new/TOP2_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

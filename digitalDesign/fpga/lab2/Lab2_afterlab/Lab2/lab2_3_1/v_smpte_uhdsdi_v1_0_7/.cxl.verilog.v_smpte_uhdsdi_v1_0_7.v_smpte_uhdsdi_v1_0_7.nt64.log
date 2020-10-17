@@ -1,0 +1,11 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol framer_nsp has not been declared in module v_smpte_uhdsdi_v1_0_7_rx." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_smpte_uhdsdi_v1_0/hdl/v_smpte_uhdsdi_v1_0_vl_rfs.v" 9586  32
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: v_smpte_uhdsdi_v1_0_7."
+MESSAGE "$root top modules: v_smpte_uhdsdi_v1_0_7."
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 0[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

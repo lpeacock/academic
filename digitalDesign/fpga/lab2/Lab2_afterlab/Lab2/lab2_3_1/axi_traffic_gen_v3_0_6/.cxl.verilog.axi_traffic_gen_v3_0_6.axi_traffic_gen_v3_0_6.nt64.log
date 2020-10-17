@@ -1,0 +1,18 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2113 "Module axi_traffic_gen_v3_0_6_bmg_wrap found in current working library."
+WARNING VCP2515 "Undefined module: xpm_memory_spram was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_traffic_gen_v3_0/hdl/axi_traffic_gen_v3_0_rfs.v" 13465  3
+WARNING VCP2515 "Undefined module: dist_mem_gen_v8_0_13 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_traffic_gen_v3_0/hdl/axi_traffic_gen_v3_0_rfs.v" 13525  5
+WARNING VCP2515 "Undefined module: cdc_sync was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_traffic_gen_v3_0/hdl/axi_traffic_gen_v3_0_rfs.v" 15203  3
+MESSAGE "Pass 2. Processing instantiations."
+WARNING VCP2597 "Some unconnected ports remain at instance: slv_wr. Module axi_traffic_gen_v3_0_6_s_w_channel has unconnected  port(s) : reg1_disallow_excl, reg1_sgl_slv_wr, reg1_wrs_block_rds, err_new_slv, wr_reg_decode, wr_reg_data, aw_agen_addr, aw_agen_valid_out, cmdram_we, slvram_wr_data, awfifo_valid, awfifo_out, wfifo_valid, wfifo_out." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_traffic_gen_v3_0/hdl/axi_traffic_gen_v3_0_rfs.v" 10860  1
+WARNING VCP2597 "Some unconnected ports remain at instance: slv_rd. Module axi_traffic_gen_v3_0_6_s_r_channel has unconnected  port(s) : reg1_sgl_slv_rd, rd_reg_decode, rd_reg_data_raw, reg1_disallow_excl, rddec6_valid_ff, addrram_rd_out, ar_agen0_addr, ar_agen0_valid_out, arfifo_valid, arfifo_out, cmd_out_mr_i." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_traffic_gen_v3_0/hdl/axi_traffic_gen_v3_0_rfs.v" 10913  1
+WARNING VCP2597 "Some unconnected ports remain at instance: sharedram_blk. Module axi_traffic_gen_v3_0_6_sharedram_wrap has unconnected  port(s) : mram_out." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_traffic_gen_v3_0/hdl/axi_traffic_gen_v3_0_rfs.v" 10963  1
+WARNING VCP2958 "Parameter C_RAMINIT_ADDRRAM0_F not found." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_traffic_gen_v3_0/hdl/axi_traffic_gen_v3_0_rfs.v" 15384  51
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: axi_traffic_gen_v3_0_6_top."
+MESSAGE "$root top modules: axi_traffic_gen_v3_0_6_top."
+SUCCESS "Compile success 0 Errors 7 Warnings  Analysis time: 1[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

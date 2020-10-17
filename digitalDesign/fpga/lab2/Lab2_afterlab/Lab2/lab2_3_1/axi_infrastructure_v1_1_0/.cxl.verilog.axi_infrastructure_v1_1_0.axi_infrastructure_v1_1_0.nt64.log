@@ -1,0 +1,11 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+WARNING VCP2515 "Undefined module: SRL16E was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_infrastructure_v1_1/hdl/axi_infrastructure_v1_1_vl_rfs.v" 406  7
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: axi_infrastructure_v1_1_0_axi2vector axi_infrastructure_v1_1_0_axic_srl_fifo axi_infrastructure_v1_1_0_vector2axi."
+MESSAGE "$root top modules: axi_infrastructure_v1_1_0_axi2vector axi_infrastructure_v1_1_0_axic_srl_fifo axi_infrastructure_v1_1_0_vector2axi."
+SUCCESS "Compile success 0 Errors 1 Warnings  Analysis time: 0[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

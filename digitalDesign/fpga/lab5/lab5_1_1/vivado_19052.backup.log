@@ -1,0 +1,828 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Feb 27 07:47:52 2020
+# Process ID: 19052
+# Current directory: C:/Users/lucas/Documents/fpga/lab5/lab5_1_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13528 C:\Users\lucas\Documents\fpga\lab5\lab5_1_1\lab5_1_1.xpr
+# Log file: C:/Users/lucas/Documents/fpga/lab5/lab5_1_1/vivado.log
+# Journal file: C:/Users/lucas/Documents/fpga/lab5/lab5_1_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lucas/Documents/fpga/lab5/lab5_1_1/lab5_1_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 749.758 ; gain = 100.730
+update_compile_order -fileset sources_1
+add_files -fileset utils_1 -norecurse C:/Users/lucas/Documents/fpga/lab5/lab5_prehook.tcl
+set_property STEPS.INIT_DESIGN.TCL.PRE [ get_files C:/Users/lucas/Documents/fpga/lab5/lab5_prehook.tcl -of [get_fileset utils_1] ] [get_runs impl_1]
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Feb 27 07:51:46 2020] Launched synth_1...
+Run output will be captured here: C:/Users/lucas/Documents/fpga/lab5/lab5_1_1/lab5_1_1.runs/synth_1/runme.log
+[Thu Feb 27 07:51:46 2020] Launched impl_1...
+Run output will be captured here: C:/Users/lucas/Documents/fpga/lab5/lab5_1_1/lab5_1_1.runs/impl_1/runme.log
+open_project C:/Users/lucas/Documents/fpga/lab5/lab5_1_2/lab5_1_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+update_compile_order -fileset sources_1
+current_project lab5_1_1
+current_project lab5_1_2
+current_project lab5_1_1
+set_property top sr_latch [current_fileset]
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  C:/Users/lucas/Documents/fpga/lab5/lab5_1_1/lab5_1_1.srcs/sources_1/new/sr_latch_tb.v]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Feb 27 07:54:23 2020] Launched synth_1...
+Run output will be captured here: C:/Users/lucas/Documents/fpga/lab5/lab5_1_1/lab5_1_1.runs/synth_1/runme.log
+[Thu Feb 27 07:54:23 2020] Launched impl_1...
+Run output will be captured here: C:/Users/lucas/Documents/fpga/lab5/lab5_1_1/lab5_1_1.runs/impl_1/runme.log
+current_project lab5_1_2
+set_property STEPS.INIT_DESIGN.TCL.PRE [ get_files C:/Users/lucas/Documents/fpga/lab5/lab5_prehook.tcl -of [get_fileset utils_1] ] [get_runs impl_1]
+WARNING: [Vivado 12-818] No files matched 'C:/Users/lucas/Documents/fpga/lab5/lab5_prehook.tcl'
+set_property is_enabled false [get_files  C:/Users/lucas/Documents/fpga/lab5/lab5_1_2/lab5_1_2.srcs/sources_1/new/sr_latch_gated_tb.v]
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.2
+  **** Build date : Nov  6 2019 at 22:12:23
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2019.2.0
+  **** Build date : Nov 06 2019-23:28:22
+    ** Copyright 2017-2019 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 2647.203 ; gain = 4.805
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292696218A
+open_hw_target: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 3895.996 ; gain = 1248.793
+set_property PROGRAM.FILE {C:/Users/lucas/Documents/fpga/lab5/lab5_1_1/lab5_1_1.runs/impl_1/sr_latch.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+current_project lab5_1_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/lucas/Documents/fpga/lab5/lab5_1_1/lab5_1_1.runs/impl_1/sr_latch.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property is_enabled true [get_files  C:/Users/lucas/Documents/fpga/lab5/lab5_1_1/lab5_1_1.srcs/sources_1/new/sr_latch_tb.v]
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lucas/Documents/fpga/lab5/lab5_1_1/lab5_1_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'sr_latch_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/lucas/Documents/fpga/lab5/lab5_1_1/lab5_1_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sr_latch_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lucas/Documents/fpga/lab5/lab5_1_1/lab5_1_1.sim/sim_1/behav/xsim'
+"xelab -wto d0578b7c966f4368a4d84aca1bffe9e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sr_latch_tb_behav xil_defaultlib.sr_latch_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto d0578b7c966f4368a4d84aca1bffe9e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sr_latch_tb_behav xil_defaultlib.sr_latch_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/lucas/Documents/fpga/lab5/lab5_1_1/lab5_1_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sr_latch_tb_behav -key {Behavioral:sim_1:Functional:sr_latch_tb} -tclbatch {sr_latch_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source sr_latch_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 3985.043 ; gain = 38.367
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sr_latch_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 3985.043 ; gain = 57.648
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 160 ns
+current_project lab5_1_2
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Feb 27 08:00:18 2020] Launched synth_1...
+Run output will be captured here: C:/Users/lucas/Documents/fpga/lab5/lab5_1_2/lab5_1_2.runs/synth_1/runme.log
+[Thu Feb 27 08:00:18 2020] Launched impl_1...
+Run output will be captured here: C:/Users/lucas/Documents/fpga/lab5/lab5_1_2/lab5_1_2.runs/impl_1/runme.log
+add_files -fileset utils_1 -norecurse C:/Users/lucas/Documents/fpga/lab5/lab5_prehook.tcl
+set_property STEPS.INIT_DESIGN.TCL.PRE [ get_files C:/Users/lucas/Documents/fpga/lab5/lab5_prehook.tcl -of [get_fileset utils_1] ] [get_runs impl_1]
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Feb 27 08:04:04 2020] Launched impl_1...
+Run output will be captured here: C:/Users/lucas/Documents/fpga/lab5/lab5_1_2/lab5_1_2.runs/impl_1/runme.log
+current_project lab5_1_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 4003.645 ; gain = 0.000
+current_project lab5_1_2
+open_hw_manager
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/lucas/Documents/fpga/lab5/lab5_1_1/lab5_1_1.runs/impl_1/sr_latch.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292696218A
+set_property PROGRAM.FILE {C:\Users\lucas\Documents\fpga\lab5\lab5_1_1\lab5_1_1.runs\impl_1\sr_latch.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/lucas/Documents/fpga/lab5/lab5_1_2/lab5_1_2.runs/impl_1/sr_latch_gated.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lucas/Documents/fpga/lab5/lab5_1_2/lab5_1_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'sr_latch_gated' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/lucas/Documents/fpga/lab5/lab5_1_2/lab5_1_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sr_latch_gated_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lucas/Documents/fpga/lab5/lab5_1_2/lab5_1_2.sim/sim_1/behav/xsim'
+"xelab -wto 26e05561406c4073b7dccafe3c62a0c5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sr_latch_gated_behav xil_defaultlib.sr_latch_gated xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 26e05561406c4073b7dccafe3c62a0c5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sr_latch_gated_behav xil_defaultlib.sr_latch_gated xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.sr_latch_gated
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sr_latch_gated_behav
+
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/lucas/Documents/fpga/lab5/lab5_1_2/lab5_1_2.sim/sim_1/behav/xsim/xsim.dir/sr_latch_gated_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/lucas/Documents/fpga/lab5/lab5_1_2/lab5_1_2.sim/sim_1/behav/xsim/xsim.dir/sr_latch_gated_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Feb 27 08:10:28 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2019.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Feb 27 08:10:28 2020...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 4003.645 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/lucas/Documents/fpga/lab5/lab5_1_2/lab5_1_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sr_latch_gated_behav -key {Behavioral:sim_1:Functional:sr_latch_gated} -tclbatch {sr_latch_gated.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source sr_latch_gated.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sr_latch_gated_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 4003.645 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 160 ns
+set_property is_enabled true [get_files  C:/Users/lucas/Documents/fpga/lab5/lab5_1_2/lab5_1_2.srcs/sources_1/new/sr_latch_gated_tb.v]
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/Users/lucas/Documents/fpga/lab5/lab5_1_2/lab5_1_2.sim/sim_1/behav/xsim/simulate.log"
+update_compile_order -fileset sources_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 4003.645 ; gain = 0.000
+current_project lab5_1_1
+close_project
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/lucas/Documents/fpga/lab5/lab5_1_1/lab5_1_1.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/lucas/Documents/fpga/lab5/lab5_1_1/lab5_1_1.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Thu Feb 27 08:11:35 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2019.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Feb 27 08:11:35 2020...
+close_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 4003.645 ; gain = 0.000
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lucas/Documents/fpga/lab5/lab5_1_2/lab5_1_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'sr_latch_gated_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/lucas/Documents/fpga/lab5/lab5_1_2/lab5_1_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sr_latch_gated_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lucas/Documents/fpga/lab5/lab5_1_2/lab5_1_2.sim/sim_1/behav/xsim'
+"xelab -wto 26e05561406c4073b7dccafe3c62a0c5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sr_latch_gated_tb_behav xil_defaultlib.sr_latch_gated_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 26e05561406c4073b7dccafe3c62a0c5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sr_latch_gated_tb_behav xil_defaultlib.sr_latch_gated_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/lucas/Documents/fpga/lab5/lab5_1_2/lab5_1_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sr_latch_gated_tb_behav -key {Behavioral:sim_1:Functional:sr_latch_gated_tb} -tclbatch {sr_latch_gated_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source sr_latch_gated_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sr_latch_gated_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 4003.645 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 160 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 4003.645 ; gain = 0.000
+close_project
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/lucas/Documents/fpga/lab5/lab5_1_2/lab5_1_2.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/lucas/Documents/fpga/lab5/lab5_1_2/lab5_1_2.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Thu Feb 27 08:13:26 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2019.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Feb 27 08:13:26 2020...
+open_project C:/Users/lucas/Documents/fpga/lab5/lab5_1_3/lab5_1_3.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  C:/Users/lucas/Documents/fpga/lab5/lab5_1_3/lab5_1_3.srcs/sources_1/new/d_latch_tb.v]
+add_files -fileset utils_1 -norecurse C:/Users/lucas/Documents/fpga/lab5/lab5_prehook.tcl
+set_property STEPS.WRITE_BITSTREAM.TCL.PRE [ get_files C:/Users/lucas/Documents/fpga/lab5/lab5_prehook.tcl -of [get_fileset utils_1] ] [get_runs impl_1]
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Feb 27 08:14:20 2020] Launched synth_1...
+Run output will be captured here: C:/Users/lucas/Documents/fpga/lab5/lab5_1_3/lab5_1_3.runs/synth_1/runme.log
+[Thu Feb 27 08:14:20 2020] Launched impl_1...
+Run output will be captured here: C:/Users/lucas/Documents/fpga/lab5/lab5_1_3/lab5_1_3.runs/impl_1/runme.log
+open_project C:/Users/lucas/Documents/fpga/lab5/lab5_2_1/lab5_2_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lucas/Documents/fpga/lab5/lab5_2_1/lab5_2_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'D_ff_behavior_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/lucas/Documents/fpga/lab5/lab5_2_1/lab5_2_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj D_ff_behavior_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lucas/Documents/fpga/lab5/lab5_2_1/lab5_2_1.sim/sim_1/behav/xsim'
+"xelab -wto 5ef4319ac4ad4e01b50d341592f0369d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot D_ff_behavior_tb_behav xil_defaultlib.D_ff_behavior_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 5ef4319ac4ad4e01b50d341592f0369d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot D_ff_behavior_tb_behav xil_defaultlib.D_ff_behavior_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/lucas/Documents/fpga/lab5/lab5_2_1/lab5_2_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "D_ff_behavior_tb_behav -key {Behavioral:sim_1:Functional:D_ff_behavior_tb} -tclbatch {D_ff_behavior_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source D_ff_behavior_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'D_ff_behavior_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 4004.813 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 160 ns
+open_project C:/Users/lucas/Documents/fpga/lab5/lab5_2_2/lab5_2_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lucas/Documents/fpga/lab5/lab5_2_2/lab5_2_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'three_d_latch_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/lucas/Documents/fpga/lab5/lab5_2_2/lab5_2_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj three_d_latch_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lucas/Documents/fpga/lab5/lab5_2_2/lab5_2_2.sim/sim_1/behav/xsim'
+"xelab -wto 47a8d4baf6334171a2d6c1fe095d7713 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot three_d_latch_tb_behav xil_defaultlib.three_d_latch_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 47a8d4baf6334171a2d6c1fe095d7713 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot three_d_latch_tb_behav xil_defaultlib.three_d_latch_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/lucas/Documents/fpga/lab5/lab5_2_2/lab5_2_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "three_d_latch_tb_behav -key {Behavioral:sim_1:Functional:three_d_latch_tb} -tclbatch {three_d_latch_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source three_d_latch_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 50ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'three_d_latch_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 50ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 4016.164 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 50 ns
+current_project lab5_1_3
+set_property STEPS.OPT_DESIGN.TCL.PRE [ get_files C:/Users/lucas/Documents/fpga/lab5/lab5_prehook.tcl -of [get_fileset utils_1] ] [get_runs impl_1]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -jobs 8
+[Thu Feb 27 08:17:26 2020] Launched impl_1...
+Run output will be captured here: C:/Users/lucas/Documents/fpga/lab5/lab5_1_3/lab5_1_3.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/lucas/Documents/fpga/lab5/lab5_1_3/lab5_1_3.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Feb 27 08:20:25 2020] Launched synth_1...
+Run output will be captured here: C:/Users/lucas/Documents/fpga/lab5/lab5_1_3/lab5_1_3.runs/synth_1/runme.log
+[Thu Feb 27 08:20:25 2020] Launched impl_1...
+Run output will be captured here: C:/Users/lucas/Documents/fpga/lab5/lab5_1_3/lab5_1_3.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.2
+  **** Build date : Nov  6 2019 at 22:12:23
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2019.2.0
+  **** Build date : Nov 06 2019-23:28:22
+    ** Copyright 2017-2019 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 4016.164 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292696218A
+set_property PROGRAM.FILE {C:/Users/lucas/Documents/fpga/lab5/lab5_1_3/lab5_1_3.runs/impl_1/d_latch.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/lucas/Documents/fpga/lab5/lab5_1_3/lab5_1_3.runs/impl_1/d_latch.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property is_enabled true [get_files  C:/Users/lucas/Documents/fpga/lab5/lab5_1_3/lab5_1_3.srcs/sources_1/new/d_latch_tb.v]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lucas/Documents/fpga/lab5/lab5_1_3/lab5_1_3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'd_latch_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/lucas/Documents/fpga/lab5/lab5_1_3/lab5_1_3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj d_latch_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lucas/Documents/fpga/lab5/lab5_1_3/lab5_1_3.sim/sim_1/behav/xsim'
+"xelab -wto 2262ad1920c047da88c30422c2ed5473 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot d_latch_tb_behav xil_defaultlib.d_latch_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 2262ad1920c047da88c30422c2ed5473 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot d_latch_tb_behav xil_defaultlib.d_latch_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/lucas/Documents/fpga/lab5/lab5_1_3/lab5_1_3.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "d_latch_tb_behav -key {Behavioral:sim_1:Functional:d_latch_tb} -tclbatch {d_latch_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source d_latch_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'd_latch_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 4028.234 ; gain = 0.000
+run 200 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 200 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/lucas/Documents/fpga/lab5/lab5_1_3/lab5_1_3.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/lucas/Documents/fpga/lab5/lab5_1_3/lab5_1_3.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Thu Feb 27 08:25:44 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2019.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Feb 27 08:25:44 2020...
+open_project C:/Users/lucas/Documents/fpga/lab5/lab5_2_3/lab5_2_3.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lucas/Documents/fpga/lab5/lab5_2_3/lab5_2_3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'D_ff_with_asynch_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/lucas/Documents/fpga/lab5/lab5_2_3/lab5_2_3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj D_ff_with_asynch_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lucas/Documents/fpga/lab5/lab5_2_3/lab5_2_3.sim/sim_1/behav/xsim'
+"xelab -wto e9502de1d1d84281ae6273df179d8adb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot D_ff_with_asynch_tb_behav xil_defaultlib.D_ff_with_asynch_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto e9502de1d1d84281ae6273df179d8adb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot D_ff_with_asynch_tb_behav xil_defaultlib.D_ff_with_asynch_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/lucas/Documents/fpga/lab5/lab5_2_3/lab5_2_3.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "D_ff_with_asynch_tb_behav -key {Behavioral:sim_1:Functional:D_ff_with_asynch_tb} -tclbatch {D_ff_with_asynch_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source D_ff_with_asynch_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'D_ff_with_asynch_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 4029.992 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 100 ns
+set_property is_enabled false [get_files  C:/Users/lucas/Documents/fpga/lab5/lab5_2_3/lab5_2_3.srcs/sources_1/new/D_ff_with_asynch_tb.v]
+add_files -fileset utils_1 -norecurse C:/Users/lucas/Documents/fpga/lab5/lab5_prehook.tcl
+set_property STEPS.OPT_DESIGN.TCL.PRE [ get_files C:/Users/lucas/Documents/fpga/lab5/lab5_prehook.tcl -of [get_fileset utils_1] ] [get_runs impl_1]
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Feb 27 08:29:37 2020] Launched synth_1...
+Run output will be captured here: C:/Users/lucas/Documents/fpga/lab5/lab5_2_3/lab5_2_3.runs/synth_1/runme.log
+[Thu Feb 27 08:29:37 2020] Launched impl_1...
+Run output will be captured here: C:/Users/lucas/Documents/fpga/lab5/lab5_2_3/lab5_2_3.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.2
+  **** Build date : Nov  6 2019 at 22:12:23
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2019.2.0
+  **** Build date : Nov 06 2019-23:28:22
+    ** Copyright 2017-2019 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 4039.305 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292696218A
+set_property PROGRAM.FILE {C:/Users/lucas/Documents/fpga/lab5/lab5_2_3/lab5_2_3.runs/impl_1/D_ff_with_asynch.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/lucas/Documents/fpga/lab5/lab5_2_3/lab5_2_3.runs/impl_1/D_ff_with_asynch.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+current_project lab5_2_1
+current_sim simulation_4
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/lucas/Documents/fpga/lab5/lab5_2_1/lab5_2_1.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/lucas/Documents/fpga/lab5/lab5_2_1/lab5_2_1.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Thu Feb 27 08:33:52 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2019.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Feb 27 08:33:52 2020...
+current_project lab5_2_2
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/lucas/Documents/fpga/lab5/lab5_2_2/lab5_2_2.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/lucas/Documents/fpga/lab5/lab5_2_2/lab5_2_2.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Thu Feb 27 08:34:01 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2019.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Feb 27 08:34:01 2020...
+open_project C:/Users/lucas/Documents/fpga/lab5/lab5_2_4/lab5_2_4.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lucas/Documents/fpga/lab5/lab5_2_4/lab5_2_4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'D_ff_synch_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/lucas/Documents/fpga/lab5/lab5_2_4/lab5_2_4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj D_ff_synch_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lucas/Documents/fpga/lab5/lab5_2_4/lab5_2_4.sim/sim_1/behav/xsim'
+"xelab -wto 5759ffe9a87d4d60b5fb76a1f55c20cf --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot D_ff_synch_tb_behav xil_defaultlib.D_ff_synch_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 5759ffe9a87d4d60b5fb76a1f55c20cf --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot D_ff_synch_tb_behav xil_defaultlib.D_ff_synch_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/lucas/Documents/fpga/lab5/lab5_2_4/lab5_2_4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "D_ff_synch_tb_behav -key {Behavioral:sim_1:Functional:D_ff_synch_tb} -tclbatch {D_ff_synch_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source D_ff_synch_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'D_ff_synch_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 4053.223 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 300 ns
+add_files -fileset utils_1 -norecurse C:/Users/lucas/Documents/fpga/lab5/lab5_prehook.tcl
+set_property STEPS.OPT_DESIGN.TCL.PRE [ get_files C:/Users/lucas/Documents/fpga/lab5/lab5_prehook.tcl -of [get_fileset utils_1] ] [get_runs impl_1]
+set_property is_enabled false [get_files  C:/Users/lucas/Documents/fpga/lab5/lab5_2_4/lab5_2_4.srcs/sources_1/new/D_ff_synch_tb.v]
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Feb 27 08:36:29 2020] Launched synth_1...
+Run output will be captured here: C:/Users/lucas/Documents/fpga/lab5/lab5_2_4/lab5_2_4.runs/synth_1/runme.log
+[Thu Feb 27 08:36:29 2020] Launched impl_1...
+Run output will be captured here: C:/Users/lucas/Documents/fpga/lab5/lab5_2_4/lab5_2_4.runs/impl_1/runme.log
+open_project C:/Users/lucas/Documents/fpga/lab5/lab5_2_5/lab5_2_5.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+update_compile_order -fileset sources_1
+current_project lab5_2_4
+current_project lab5_2_5
+add_files -fileset utils_1 -norecurse C:/Users/lucas/Documents/fpga/lab5/lab5_prehook.tcl
+set_property STEPS.INIT_DESIGN.TCL.PRE [ get_files C:/Users/lucas/Documents/fpga/lab5/lab5_prehook.tcl -of [get_fileset utils_1] ] [get_runs impl_1]
+current_project lab5_2_4
+current_project lab5_2_5
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Feb 27 08:39:15 2020] Launched synth_1...
+Run output will be captured here: C:/Users/lucas/Documents/fpga/lab5/lab5_2_5/lab5_2_5.runs/synth_1/runme.log
+[Thu Feb 27 08:39:15 2020] Launched impl_1...
+Run output will be captured here: C:/Users/lucas/Documents/fpga/lab5/lab5_2_5/lab5_2_5.runs/impl_1/runme.log
+current_project lab5_2_3
+current_sim simulation_7
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+open_hw_manager
+close_project
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/lucas/Documents/fpga/lab5/lab5_2_3/lab5_2_3.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/lucas/Documents/fpga/lab5/lab5_2_3/lab5_2_3.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Thu Feb 27 08:45:02 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2019.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Feb 27 08:45:02 2020...
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292696218A
+set_property PROGRAM.FILE {C:/Users/lucas/Documents/fpga/lab5/lab5_2_4/lab5_2_4.runs/impl_1/D_ff_synch_reset.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+current_project lab5_2_4
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/lucas/Documents/fpga/lab5/lab5_2_4/lab5_2_4.runs/impl_1/D_ff_synch_reset.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/lucas/Documents/fpga/lab5/lab5_2_4/lab5_2_4.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/lucas/Documents/fpga/lab5/lab5_2_4/lab5_2_4.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Thu Feb 27 08:53:06 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2019.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Feb 27 08:53:06 2020...
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292696218A
+set_property PROGRAM.FILE {C:\Users\lucas\Documents\fpga\lab5\lab5_2_4\lab5_2_4.runs\impl_1\D_ff_synch_reset.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/lucas/Documents/fpga/lab5/lab5_2_5/lab5_2_5.runs/impl_1/T_ff_enable_behavior.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 27 08:55:26 2020...

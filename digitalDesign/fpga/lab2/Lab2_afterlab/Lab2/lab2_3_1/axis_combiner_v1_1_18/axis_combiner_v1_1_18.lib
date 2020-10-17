@@ -1,0 +1,29 @@
+timestamp=1580965147374
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axis_combiner_v1_1/hdl/axis_combiner_v1_1_vl_rfs.v=0*1662*5632
+LastVerilogToplevel=axis_combiner_v1_1_18_top
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c92160a7b6606053205bd9597a57b55d2cd4f
+
+[axis_combiner_v1_1_18_top]
+A/axis_combiner_v1_1_18_top=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_combiner_v1_1/hdl/axis_combiner_v1_1_vl_rfs.v|56|1*390
+BinI32/axis_combiner_v1_1_18_top=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_combiner_v1_1/hdl/axis_combiner_v1_1_vl_rfs.v|56
+SLP=3*14435
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|dce807a9fe92959ee4163b8bd88598f2aa32047936a898ea738de5f51fa3d75f26527262ddaa47cb266f3a3c4d9b973af8e5821bb08c623ed09db4b9fac67a18
+
+[~MFT]
+0=4|0axis_combiner_v1_1_18.mgf|5632|0
+1=2|1axis_combiner_v1_1_18.mgf|390|0
+3=4|3axis_combiner_v1_1_18.mgf|14435|0
+
+[~U]
+$root=12|0*0|
+axis_combiner_v1_1_18_top=12|0*230||0x10

@@ -1,0 +1,168 @@
+timestamp=1580964284121
+
+[~A]
+ModifyID=1
+Version=74
+
+[addmacc_macro]
+A/addmacc=21|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/ADDMACC_MACRO.vhd|58|1*1015
+BinI32/addmacc=3*429
+I=0*166655
+I/addmacc=0*176262
+M=11|0|vde|1580964280046|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/ADDMACC_MACRO.vhd|0*165588*0xec584df199b7af55b26002c65c065fbdc75890f3|0*166524*0xaeff33d0d327e4f66feab22160c8fa0a
+M/addmacc=21|0|vde|1580964280054|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/ADDMACC_MACRO.vhd|0*167017*0xc9c16e452b714df62b36ca203133cc28dd550d8d|0*176120*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/ADDMACC_MACRO.vhd|35
+Version=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|10c1d65aa9f75c73267a1ff197013754154904eb53d2bec89bdb9b7e379cfeb60d13741a21d26d959a0dc8a898c88e3e
+Version/addmacc=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|77b9ec75a69fdd3e767fad494a7f645c26527262ddaa47cb266f3a3c4d9b973a66e9c180eec0ad84def52f172a1ecc99
+
+[addsub_macro]
+A/addsub=21|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/ADDSUB_MACRO.vhd|62|1*23841
+BinI32/addsub=3*4310
+I=0*178043
+I/addsub=0*185854
+M=11|0|vde|1580964280410|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/ADDSUB_MACRO.vhd|0*177041*0xd39603b71a72526f1a746557177e29b66a496fff|0*177914*0xaeff33d0d327e4f66feab22160c8fa0a
+M/addsub=21|0|vde|1580964280417|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/ADDSUB_MACRO.vhd|0*178404*0x1b62ab9a8f22910a95c7709655f4d2d18264ed7e|0*185715*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/ADDSUB_MACRO.vhd|37
+Version=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|d6c43e6991662410b3ec0846c7344d011a27617f4231fb4f2c15f36112e23e9fcabfc1afb80a6c16b690b276c94f0035
+Version/addsub=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|8b8cb091f1443baad9096ee797a54f89002e75c89043bba467266860579dc587
+
+[bram_sdp_macro]
+A/bram_v=A/bram_V 21|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/BRAM_SDP_MACRO.vhd|217|1*53905
+BinI32/bram_v=3*7387
+I=0*239869
+I/bram_v=I/bram_V 0*343104
+M=11|0|vde|1580964280738|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/BRAM_SDP_MACRO.vhd|0*187144*0x8f1bf78ba3bcb79f00a99246168d8acc646c2d98|0*239736*0xaeff33d0d327e4f66feab22160c8fa0a
+M/bram_v=M/bram_V 21|0|vde|1580964280770|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/BRAM_SDP_MACRO.vhd|0*240160*0x471e341e9d70add312e2aab2695cadfb39995bf8|0*342961*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/BRAM_SDP_MACRO.vhd|38
+Version=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|489ebc55e1b99559d6982b05913f80d3d08942e27ca3603e355b963b13bb1fd1a46249bb4a01a2bdd7f2917f7942518d
+Version/bram_v=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|c576c41b95c9fed156687ad5069d6e4d3290aa7c95cc7bb6e27e31235bb261bb
+
+[bram_single_macro]
+A/bram_v=A/bram_V 21|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/BRAM_SINGLE_MACRO.vhd|211|1*590218
+BinI32/bram_v=3*44240
+I=0*397055
+I/bram_v=I/bram_V 0*484009
+M=11|0|vde|1580964281258|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/BRAM_SINGLE_MACRO.vhd|0*344437*0x020cfc05423e825c4585c418c8b034d232a84bf9|0*396916*0xaeff33d0d327e4f66feab22160c8fa0a
+M/bram_v=M/bram_V 21|0|vde|1580964281286|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/BRAM_SINGLE_MACRO.vhd|0*397349*0x736fbc51756b97ee56cd2dc8b59200586d570f33|0*483860*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/BRAM_SINGLE_MACRO.vhd|38
+Version=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|0f4c6d8fee30a39f6d0b87b893502565c8ce8e8bdad9cb64a120a38093f3f275fd36f248275cf3f2be220267cc7953e5
+Version/bram_v=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|c576c41b95c9fed156687ad5069d6e4d275ba9e0a8a0a7fd249f8a4c252464db
+
+[bram_tdp_macro]
+A/bram_v=A/bram_V 21|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd|224|1*1007622
+BinI32/bram_v=3*79103
+I=0*538490
+I/bram_v=I/bram_V 0*616359
+M=11|0|vde|1580964281737|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd|0*485377*0xbab81a69216e7508a80e206543ffeeeac365a24a|0*538357*0xaeff33d0d327e4f66feab22160c8fa0a
+M/bram_v=M/bram_V 21|0|vde|1580964281764|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd|0*538781*0x7592c60e5dc715a975cd614226c8086adeda8968|0*616216*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd|36
+Version=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|ab03db6112ea96fba100d016b646a4aff6dba3b65617c13e04a0528858ff9341211d8f7a2669eb01a80b70f145d1eaa0
+Version/bram_v=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|c576c41b95c9fed156687ad5069d6e4dd1883679045a6e593778662b04b2219d
+
+[counter_load_macro]
+A/counter=21|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/COUNTER_LOAD_MACRO.vhd|52|1*1377923
+BinI32/counter=3*106416
+I=0*618113
+I/counter=0*624532
+M=11|0|vde|1580964282152|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/COUNTER_LOAD_MACRO.vhd|0*617157*0x9b49bdd6871eb1e2009d17966734d93b4dc6a2d3|0*617972*0xaeff33d0d327e4f66feab22160c8fa0a
+M/counter=21|0|vde|1580964282159|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/COUNTER_LOAD_MACRO.vhd|0*618480*0x0010e2b06f1047304447372b5df454890ca21fdf|0*624380*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/COUNTER_LOAD_MACRO.vhd|33
+Version=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|6483e464d933bc96c223216f31e538336edf4a64a34760b05dce7e9845a3edae2de3d87af6d15b4e49a709306a8c1f64
+Version/counter=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|ec8a9ceecd40c97da6d5687ce01e262f26527262ddaa47cb266f3a3c4d9b973ae973e87de0ecadf9856fab2a8c1bf837
+
+[counter_tc_macro]
+A/count=21|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/COUNTER_TC_MACRO.vhd|54|1*1405588
+BinI32/count=3*108876
+I=0*626368
+I/count=0*632738
+M=11|0|vde|1580964282471|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/COUNTER_TC_MACRO.vhd|0*625338*0xe39ab7cd15a0c737bd500ba253317c9ca24c3ca5|0*626231*0xaeff33d0d327e4f66feab22160c8fa0a
+M/count=21|0|vde|1580964282478|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/COUNTER_TC_MACRO.vhd|0*626733*0x5621862765c9fff918110d3d758d952972b93178|0*632592*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/COUNTER_TC_MACRO.vhd|34
+Version=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|313e0136a43ec9ef302e3c0cb130a9f3b04763ef0a79fc24d06b7fd4964ef84deeb67cefb908031315b55a04825fb45b
+Version/count=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|83f108281f15d2988eecb56eba2e7e4602bcad109195a76091d8a4d998f6a6d0
+
+[eq_compare_macro]
+A/compare=21|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/EQ_COMPARE_MACRO.vhd|55|1*1428781
+BinI32/compare=3*111308
+I=0*634591
+I/compare=0*642010
+M=11|0|vde|1580964282782|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/EQ_COMPARE_MACRO.vhd|0*633515*0xdaa5a526eb37c605bb6dca27473add249afe0b85|0*634454*0xaeff33d0d327e4f66feab22160c8fa0a
+M/compare=21|0|vde|1580964282788|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/EQ_COMPARE_MACRO.vhd|0*634956*0x1e474d4a1f797a4b42ba4b93df7b4174d4a505fc|0*641862*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/EQ_COMPARE_MACRO.vhd|34
+Version=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|4f4cff5e52513594c657ee6ef2bcbf987563a5fffa209d593edadba5fc85e7a7f6d32d769f9b100a29c8760055f9498e
+Version/compare=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|d13f95a574420958af9aea0a1cdf359f26527262ddaa47cb266f3a3c4d9b973a307c4331af80023deaba30134228563c
+
+[fifo_dualclock_macro]
+A/fifo_v=A/fifo_V 21|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/FIFO_DUALCLOCK_MACRO.vhd|70|1*1453876
+BinI32/fifo_v=3*114400
+I=0*644526
+I/fifo_v=I/fifo_V 0*667626
+M=11|0|vde|1580964283096|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/FIFO_DUALCLOCK_MACRO.vhd|0*642901*0xe34dcc61649795e0f01fc62d023b47bba2cd8038|0*644381*0xaeff33d0d327e4f66feab22160c8fa0a
+M/fifo_v=M/fifo_V 21|0|vde|1580964283105|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/FIFO_DUALCLOCK_MACRO.vhd|0*644851*0x1bb4076a0aa419a096f2a89305d2b5d609c43caf|0*667471*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/FIFO_DUALCLOCK_MACRO.vhd|36
+Version=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|11fffe2a5ea18c1c31cee2c1624b52d8ec47ea1416ad9515bd67b230037a4094d887cef8dab6b9bc90682398009d5270
+Version/fifo_v=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|52931e3650cd8ecbb653ca996f9332ec21051833fb129b48df21e34dc51735a4
+
+[fifo_sync_macro]
+A/fifo_v=A/fifo_V 21|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/FIFO_SYNC_MACRO.vhd|69|1*1490422
+BinI32/fifo_v=3*120851
+I=0*670100
+I/fifo_v=I/fifo_V 0*693287
+M=11|0|vde|1580964283425|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/FIFO_SYNC_MACRO.vhd|0*668552*0xe5e82ec60914af4c77885771fa7a1ef4797a3168|0*669965*0xaeff33d0d327e4f66feab22160c8fa0a
+M/fifo_v=M/fifo_V 21|0|vde|1580964283435|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/FIFO_SYNC_MACRO.vhd|0*670420*0xbd798333854e623fbdaca21547c832f260a5eaa1|0*693142*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/FIFO_SYNC_MACRO.vhd|36
+Version=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|84d203130f08237aff4a517c5a6f2b4596a1f1a03e3f2b4f6bf88c85c6fb06cf41c6e6ad220bebeec2fd39a2ca2a17f3
+Version/fifo_v=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|52931e3650cd8ecbb653ca996f9332ece19c9583650fa0b80cf8b349ae7f77e0
+
+[macc_macro]
+A/macc=21|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/MACC_MACRO.vhd|58|1*1526207
+BinI32/macc=3*127406
+I=0*695060
+I/macc=0*706001
+M=11|0|vde|1580964283758|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/MACC_MACRO.vhd|0*694108*0x78ad08b6ad623077f4f5de8efbc5924bf40b816f|0*694935*0xaeff33d0d327e4f66feab22160c8fa0a
+M/macc=21|0|vde|1580964283765|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/MACC_MACRO.vhd|0*695419*0x8c1325a5299f395c20ab57924df8356258602751|0*705868*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/MACC_MACRO.vhd|35
+Version=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|904c4ab259b8d172a2078a241b03ce3e8b567c2a8ad34a91a127a83c7d72dbac41e08fe861af3fc6c433d7f1c7b1489d
+Version/macc=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|019704e1f5cbb12377e959fc0b56bb0eadb34e6034b9bfcb7e73fce850801248
+
+[mult_macro]
+A/mult=21|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/MULT_MACRO.vhd|54|1*1561283
+BinI32/mult=3*131543
+I=0*707605
+I/mult=0*718937
+M=11|0|vde|1580964284073|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/MULT_MACRO.vhd|0*706761*0xfe4e02d6b6b75e01f1027450a2b6181f31ae4236|0*707480*0xaeff33d0d327e4f66feab22160c8fa0a
+M/mult=21|0|vde|1580964284080|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/MULT_MACRO.vhd|0*707964*0x83f2da15e3a7952504d6f6fc78bf59811404d604|0*718804*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/MULT_MACRO.vhd|35
+Version=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|22846e205089ed2c137ac2aed063f2eec9a00421f644fe535a3f11ad735d45975dae11b3bcf24e27658a72a0f04ab26e
+Version/mult=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|9f77fc8ae93e3452636f9bcf39f66c6c6fcaaa144b37e2176c53d75503aa3895
+
+[vcomponents]
+BinI32/vcomponents=3*0
+E=1*0
+I=0*163841
+I/vcomponents=I/VCOMPONENTS 0*165021
+M=3|0|vde|1580964279721|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/unimacro_VCOMP.vhd|0*483*0x58d9f4c3a68b3753ed7a21bce4e252068fdc875c|0*163711*0xaeff33d0d327e4f66feab22160c8fa0a
+M/vcomponents=M/VCOMPONENTS 4|0|vde|1580964279727|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/unimacro_VCOMP.vhd|0*164046*0x18b7f1e6818a65f900d2c9f96b0a0531a6143919|0*164877*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=C:/Xilinx/Vivado/2019.2/data/vhdl/src/unimacro/unimacro_VCOMP.vhd|13
+Version=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|515eb0c028b0b76d96d623f265802b8541045b85972121bfee619c61c2928e31336e4cdf2dbb3b6ec41c829bd598e02b
+Version/vcomponents=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|515eb0c028b0b76d96d623f265802b8541045b85972121bfee619c61c2928e31336e4cdf2dbb3b6ec41c829bd598e02b
+
+[~MFT]
+0=92|0unimacro.mgf|718937|0
+1=13|1unimacro.mgf|1561283|0
+3=13|3unimacro.mgf|131543|0
+
+[~U]
+addmacc_macro=ADDMACC_MACRO 11|0*165238|
+addsub_macro=ADDSUB_MACRO 11|0*176696|
+bram_sdp_macro=BRAM_SDP_MACRO 11|0*186312|
+bram_single_macro=BRAM_SINGLE_MACRO 11|0*343632|
+bram_tdp_macro=BRAM_TDP_MACRO 11|0*484485|
+counter_load_macro=COUNTER_LOAD_MACRO 11|0*616832|
+counter_tc_macro=COUNTER_TC_MACRO 11|0*624997|
+eq_compare_macro=EQ_COMPARE_MACRO 11|0*633170|
+fifo_dualclock_macro=FIFO_DUALCLOCK_MACRO 11|0*642444|
+fifo_sync_macro=FIFO_SYNC_MACRO 11|0*668126|
+macc_macro=MACC_MACRO 11|0*693782|
+mult_macro=MULT_MACRO 11|0*706455|
+vcomponents=VCOMPONENTS 3|0*0|0*128

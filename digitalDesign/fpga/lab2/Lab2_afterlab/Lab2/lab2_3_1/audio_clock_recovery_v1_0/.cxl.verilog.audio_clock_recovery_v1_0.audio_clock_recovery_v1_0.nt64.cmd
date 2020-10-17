@@ -1,0 +1,2 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/audio_clock_recovery_v1_0
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  -l audio_clock_recovery_v1_0 +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -sv2k12 -work audio_clock_recovery_v1_0 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/audio_clock_recovery_v1_0/.cxl.systemverilog.audio_clock_recovery_v1_0.audio_clock_recovery_v1_0.nt64.cmf

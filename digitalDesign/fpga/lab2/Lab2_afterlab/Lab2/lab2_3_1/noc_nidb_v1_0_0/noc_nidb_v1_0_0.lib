@@ -1,0 +1,92 @@
+timestamp=1580964753193
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nidb_v1_0/hdl/noc_nidb_v1_0_vl_rfs.sv=0*4859*10356
+CUSP_Counter=1
+LastVerilogToplevel=noc_nidb_v1_0_0
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|0000006e789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395a68a9f6f7139b81bae64154ec2e097191f8d0d36aaf081161f8bbe83495c14e09bacc070d27db89004d66bb3c076363066a05d938b597ffb3bb6a8a1a2972b7fd5f9c6aa94c7ecda7c837526c9|c73a565f2ade592f8ac1c68f484c9216c66a5ba3effa19eded02e9364dd40bb9
+
+[UnitScopePackage_1]
+A/UnitScopePackage_1=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nidb_v1_0/hdl/noc_nidb_v1_0_vl_rfs.sv|0|1*43749
+BinI32/UnitScopePackage_1=3*35254
+CUSP=2
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nidb_v1_0/hdl/noc_nidb_v1_0_vl_rfs.sv|0
+SLP=3*35441
+Version=10.5.217.6767 (Windows)|0000006e789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395a68a9f6f7139b81bae64154ec2e097191f8d0d36aaf081161f8bbe83495c14e09bacc070d27db89004d66bb3c076363066a05d938b597ffb3bb6a8a1a2972b7fd5f9c6aa94c7ecda7c837526c9|fab98aed36991913255ea6c02c9bb53e4dc7b1d77717ad53c996fab9a47702eb6271247946f549c70c12da0d64d6e3ac
+
+[\*queue#([]bit) \]
+A/\*queue#([]bit) \=22|||1*21443
+AICT=404726976757505
+BinI32/\*queue#([]bit) \=3*13514
+CLI=0*2278
+SLP=3*15213
+Version=10.5.217.6767 (Windows)|0000006e789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395a68a9f6f7139b81bae64154ec2e097191f8d0d36aaf081161f8bbe83495c14e09bacc070d27db89004d66bb3c076363066a05d938b597ffb3bb6a8a1a2972b7fd5f9c6aa94c7ecda7c837526c9|ac315f1ee53bd5e82d18c46d474b59c486ecc9714881a909134cfbf0b9847b330433f285a926e29a28cc9054c272e0c7
+
+[\noc_npp_if \\noc_npp_if.sig_in \\ \]
+A/\noc_npp_if \\noc_npp_if.sig_in \\ \=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nidb_v1_0/hdl/noc_nidb_v1_0_vl_rfs.sv|89|1*18035
+BinI32/\noc_npp_if \\noc_npp_if.sig_in \\ \=3*12697
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nidb_v1_0/hdl/noc_nidb_v1_0_vl_rfs.sv|89
+SLP=3*12902
+Version=10.5.217.6767 (Windows)|0000006e789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395a68a9f6f7139b81bae64154ec2e097191f8d0d36aaf081161f8bbe83495c14e09bacc070d27db89004d66bb3c076363066a05d938b597ffb3bb6a8a1a2972b7fd5f9c6aa94c7ecda7c837526c9|2acfb0d9a6174c638ca3a3a9ac4fc735c496d7877c3e9096a71e55d07277ae2dbf83c9c8505c26fca63f243539160607ecc7ff0b7d6597529f4670122f4ee476
+
+[\noc_npp_if \\noc_npp_if.sig_out \\ \]
+A/\noc_npp_if \\noc_npp_if.sig_out \\ \=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nidb_v1_0/hdl/noc_nidb_v1_0_vl_rfs.sv|98|1*19732
+BinI32/\noc_npp_if \\noc_npp_if.sig_out \\ \=3*13103
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nidb_v1_0/hdl/noc_nidb_v1_0_vl_rfs.sv|98
+SLP=3*13309
+Version=10.5.217.6767 (Windows)|0000006e789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395a68a9f6f7139b81bae64154ec2e097191f8d0d36aaf081161f8bbe83495c14e09bacc070d27db89004d66bb3c076363066a05d938b597ffb3bb6a8a1a2972b7fd5f9c6aa94c7ecda7c837526c9|2acfb0d9a6174c638ca3a3a9ac4fc735023db0fb6129e3d924494a1deb7eff258ee34e923fb3c4639bda9decd509fbc53246d75025b21fe1d58c28b13afe1818
+
+[nidb_bfm]
+A/nidb_bfm=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nidb_v1_0/hdl/noc_nidb_v1_0_vl_rfs.sv|696|1*9789
+BinI32/nidb_bfm=3*2748
+CUSP=UnitScopePackage_1
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nidb_v1_0/hdl/noc_nidb_v1_0_vl_rfs.sv|696
+SLP=3*8144
+Version=10.5.217.6767 (Windows)|0000006e789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395a68a9f6f7139b81bae64154ec2e097191f8d0d36aaf081161f8bbe83495c14e09bacc070d27db89004d66bb3c076363066a05d938b597ffb3bb6a8a1a2972b7fd5f9c6aa94c7ecda7c837526c9|0180e7ad7ac464fb32a50b38a597c5b729569913b9a8c789df855022dbca65412353199f538ff34a4efac6325c238ff9
+
+[nidb_class]
+A/nidb_class=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nidb_v1_0/hdl/noc_nidb_v1_0_vl_rfs.sv|519|1*26541
+AICT=404726976756480
+BinI32/nidb_class=3*16341
+CLI=0*3767
+CUSP=UnitScopePackage_1
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nidb_v1_0/hdl/noc_nidb_v1_0_vl_rfs.sv|519
+SLP=3*25831
+Version=10.5.217.6767 (Windows)|0000006e789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395a68a9f6f7139b81bae64154ec2e097191f8d0d36aaf081161f8bbe83495c14e09bacc070d27db89004d66bb3c076363066a05d938b597ffb3bb6a8a1a2972b7fd5f9c6aa94c7ecda7c837526c9|95650354b76868ea2e782324af831f82846d5ec2a6baaf6951bebe2386a263801157a315651117a372841aeec1d2925b
+
+[noc_nidb_v1_0_0]
+A/noc_nidb_v1_0_0=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nidb_v1_0/hdl/noc_nidb_v1_0_vl_rfs.sv|3|1*374
+BinI32/noc_nidb_v1_0_0=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nidb_v1_0/hdl/noc_nidb_v1_0_vl_rfs.sv|3
+SLP=3*1672
+Version=10.5.217.6767 (Windows)|0000006e789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395a68a9f6f7139b81bae64154ec2e097191f8d0d36aaf081161f8bbe83495c14e09bacc070d27db89004d66bb3c076363066a05d938b597ffb3bb6a8a1a2972b7fd5f9c6aa94c7ecda7c837526c9|f7a736e7865e376f4622cb2db4cedc40aedf8e41f2d51434737d70fffa4db875d19315a39cfac24042895e771443394a
+
+[noc_npp_if]
+A/noc_npp_if=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nidb_v1_0/hdl/noc_nidb_v1_0_vl_rfs.sv|81|1*7499
+BinI32/noc_npp_if=3*2455
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nidb_v1_0/hdl/noc_nidb_v1_0_vl_rfs.sv|81
+SLP=3*2634
+Version=10.5.217.6767 (Windows)|0000006e789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395a68a9f6f7139b81bae64154ec2e097191f8d0d36aaf081161f8bbe83495c14e09bacc070d27db89004d66bb3c076363066a05d938b597ffb3bb6a8a1a2972b7fd5f9c6aa94c7ecda7c837526c9|4308178dfbcf6f9d7e67ba369811379fa1c2a8faaca7928bf06c0e570976a1fcba73b57ba49c9b071502e21f26f6431b
+
+[~MFT]
+0=12|0noc_nidb_v1_0_0.mgf|10356|0
+1=9|1noc_nidb_v1_0_0.mgf|43749|0
+3=18|3noc_nidb_v1_0_0.mgf|35441|0
+
+[~U]
+$root=12|0*0|
+UnitScopePackage_1=12|0*4534||0x40200000
+\*queue#([]bit) \=12|||0x10030000
+\noc_npp_if \\noc_npp_if.sig_in \\ \=12|0*1587||0x80040000
+\noc_npp_if \\noc_npp_if.sig_out \\ \=12|0*1932||0x80040000
+nidb_bfm=12|0*1192|
+nidb_class=12|0*2759||0x30000
+noc_nidb_v1_0_0=12|0*390||0x10
+noc_npp_if=12|0*838||0x80000

@@ -1,0 +1,38 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+WARNING VCP2515 "Undefined module: axi_data_fifo_v2_1_19_axic_fifo was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v" 1045  6
+WARNING VCP2515 "Undefined module: MUXCY was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v" 4150  11
+WARNING VCP2515 "Undefined module: XORCY was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v" 4181  11
+WARNING VCP2515 "Undefined module: generic_baseblocks_v2_1_0_carry_latch_and was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v" 4191  14
+WARNING VCP2515 "Undefined module: generic_baseblocks_v2_1_0_carry_and was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v" 4226  12
+WARNING VCP2515 "Undefined module: generic_baseblocks_v2_1_0_command_fifo was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v" 4387  10
+WARNING VCP2515 "Undefined module: generic_baseblocks_v2_1_0_comparator_sel_static was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v" 4882  12
+WARNING VCP2515 "Undefined module: generic_baseblocks_v2_1_0_carry_or was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v" 4942  12
+WARNING VCP2515 "Undefined module: LUT6_2 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v" 5092  11
+WARNING VCP2515 "Undefined module: FDRE was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v" 5226  12
+WARNING VCP2515 "Undefined module: LUT6 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v" 5241  9
+WARNING VCP2515 "Undefined module: FDSE was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v" 5251  10
+WARNING VCP2515 "Undefined module: comparator_sel_static was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v" 5284  12
+WARNING VCP2515 "Undefined module: carry_and was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v" 5302  14
+WARNING VCP2515 "Undefined module: carry_or was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v" 5312  14
+WARNING VCP2515 "Undefined module: comparator_sel was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v" 5331  12
+WARNING VCP2515 "Undefined module: LUT4 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v" 6336  11
+WARNING VCP2515 "Undefined module: generic_baseblocks_v2_1_0_comparator_sel was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v" 6414  12
+WARNING VCP2515 "Undefined module: carry_latch_and was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v" 6484  12
+WARNING VCP2515 "Undefined module: blk_mem_gen_v8_4_4 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v" 8565  5
+WARNING VCP2515 "Undefined module: fifo_generator_v13_2_5 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v" 8994  5
+WARNING VCP2515 "Undefined module: axi_register_slice_v2_1_20_axi_register_slice was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v" 9106  5
+WARNING VCP2515 "Undefined module: RAMB18E1 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v" 11016  7
+WARNING VCP2515 "Undefined module: axi_clock_converter_v2_1_19_axic_sample_cycle_ratio was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v" 13125  11
+WARNING VCP2515 "Undefined module: axi_clock_converter_v2_1_19_axic_sync_clock_converter was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v" 13527  13
+WARNING VCP2515 "Undefined module: axi_protocol_converter_v2_1_20_axi_protocol_converter was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v" 15091  13
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+WARNING VCP3005 "The implicit event expression list (@*) is empty; the process will never be executed." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v" 3163  14
+WARNING VCP3005 "The implicit event expression list (@*) is empty; the process will never be executed." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v" 3255  14
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: axi_dwidth_converter_v2_1_20_top."
+MESSAGE "$root top modules: axi_dwidth_converter_v2_1_20_top."
+SUCCESS "Compile success 0 Errors 28 Warnings  Analysis time: 1[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

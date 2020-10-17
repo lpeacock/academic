@@ -1,0 +1,29 @@
+timestamp=1580965143308
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axis_broadcaster_v1_1/hdl/axis_broadcaster_v1_1_vl_rfs.v=0*1609*5313
+LastVerilogToplevel=axis_broadcaster_v1_1_19_core
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c9216b467102f5d446b1f36175e5eb79c8f59
+
+[axis_broadcaster_v1_1_19_core]
+A/axis_broadcaster_v1_1_19_core=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_broadcaster_v1_1/hdl/axis_broadcaster_v1_1_vl_rfs.v|59|1*390
+BinI32/axis_broadcaster_v1_1_19_core=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_broadcaster_v1_1/hdl/axis_broadcaster_v1_1_vl_rfs.v|59
+SLP=3*12916
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|f31e7947d6bd367101bcf3753cf05361262473939cf77f0a85239b1f263fe269a5d927b8d308004edb9cf8378fda56b13bf4bda698e08576c315fa183ea844de
+
+[~MFT]
+0=4|0axis_broadcaster_v1_1_19.mgf|5313|0
+1=2|1axis_broadcaster_v1_1_19.mgf|390|0
+3=4|3axis_broadcaster_v1_1_19.mgf|12916|0
+
+[~U]
+$root=12|0*0|
+axis_broadcaster_v1_1_19_core=12|0*230||0x10

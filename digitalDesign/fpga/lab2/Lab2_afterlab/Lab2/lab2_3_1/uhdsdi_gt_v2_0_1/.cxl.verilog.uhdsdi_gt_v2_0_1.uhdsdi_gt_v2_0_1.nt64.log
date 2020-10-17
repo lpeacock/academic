@@ -1,0 +1,14 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2113 "Module nidru_20_wrapper found in current working library."
+WARNING VCP2515 "Undefined module: FD was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/uhdsdi_gt_v2_0/hdl/drp_ctrl/uhdsdi_gt_sync_block.v" 24  3
+WARNING VCP2515 "Undefined module: GTHE4_COMMON was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/uhdsdi_gt_v2_0/hdl/gt_common/uhdsdi_gthe4_common.v" 923  7
+WARNING VCP2515 "Undefined module: GTYE4_COMMON was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/uhdsdi_gt_v2_0/hdl/gt_common/gtwizard_ultrascale_v1_7_gtye4_common.v" 1065  7
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: uhdsdi_control uhdsdi_gthe4_common gtwizard_ultrascale_v1_7_7_1_gtye4_common."
+MESSAGE "$root top modules: uhdsdi_control uhdsdi_gthe4_common gtwizard_ultrascale_v1_7_7_1_gtye4_common."
+SUCCESS "Compile success 0 Errors 3 Warnings  Analysis time: 0[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

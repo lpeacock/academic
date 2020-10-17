@@ -1,0 +1,19 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2124 "Package sc_util_v1_0_4_pkg found in library smartconnect_v1_0."
+MESSAGE_SP VCP2110 "Module sc_util_v1_0_4_axic_reg_srl_fifo found in library smartconnect_v1_0."
+MESSAGE_SP VCP2110 "Module sc_util_v1_0_4_axi_reg_stall found in library smartconnect_v1_0."
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol awid_index has not been declared in module axi_firewall_v1_0_8_top in generate block gen_no_write." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_firewall_v1_0/hdl/axi_firewall_v1_0_vl_rfs.sv" 1656  23
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol bid_index has not been declared in module axi_firewall_v1_0_8_top in generate block gen_no_write." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_firewall_v1_0/hdl/axi_firewall_v1_0_vl_rfs.sv" 1657  22
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol wrev_id has not been declared in module axi_firewall_v1_0_8_top in generate block gen_no_write." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_firewall_v1_0/hdl/axi_firewall_v1_0_vl_rfs.sv" 1660  20
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol arid_index has not been declared in module axi_firewall_v1_0_8_top in generate block gen_no_read." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_firewall_v1_0/hdl/axi_firewall_v1_0_vl_rfs.sv" 1693  23
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol rid_index has not been declared in module axi_firewall_v1_0_8_top in generate block gen_no_read." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_firewall_v1_0/hdl/axi_firewall_v1_0_vl_rfs.sv" 1694  22
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol rrev_id has not been declared in module axi_firewall_v1_0_8_top in generate block gen_no_read." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_firewall_v1_0/hdl/axi_firewall_v1_0_vl_rfs.sv" 1697  20
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: axi_firewall_v1_0_8_top."
+MESSAGE "$root top modules: axi_firewall_v1_0_8_top."
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 0[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

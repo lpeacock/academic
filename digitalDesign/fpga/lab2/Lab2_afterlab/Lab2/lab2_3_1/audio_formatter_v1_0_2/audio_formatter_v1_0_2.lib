@@ -1,0 +1,149 @@
+timestamp=1580965126483
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v=0*11550*51122
+LastVerilogToplevel=audio_formatter_v1_0_2
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c9216a3a99a5d6202b7f993e8360a0347ad45
+
+[audio_formatter_v1_0_2]
+A/audio_formatter_v1_0_2=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|3|1*374
+BinI32/audio_formatter_v1_0_2=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|3
+SLP=3*6113
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c6b18647b471f416205c1e761ebd0d8566bc69b554219c2b9552c8d68d2672ade0b32bf36200f0f81f6ae6644450e292
+
+[audio_formatter_v1_0_2_aes_dec]
+A/audio_formatter_v1_0_2_aes_dec=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|991|1*72575
+BinI32/audio_formatter_v1_0_2_aes_dec=3*22066
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|991
+SLP=3*23789
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c6b18647b471f416205c1e761ebd0d85a4371f8d74c348137ebad0e66245423e5ae80a4960549af5fea6351702c3cb84a5aca08ce5e3ace1589bc563db153a15
+
+[audio_formatter_v1_0_2_aes_enc]
+A/audio_formatter_v1_0_2_aes_enc=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|883|1*67487
+BinI32/audio_formatter_v1_0_2_aes_enc=3*17289
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|883
+SLP=3*20580
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c6b18647b471f416205c1e761ebd0d858898342034e70649b5185028e4f47648604da25efa0396635d2a42733743414eeaf0a556811eab6afb54733d13ae8b0f
+
+[audio_formatter_v1_0_2_mm2s]
+A/audio_formatter_v1_0_2_mm2s=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|4465|1*175339
+BinI32/audio_formatter_v1_0_2_mm2s=3*90953
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|4465
+SLP=3*95710
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c6b18647b471f416205c1e761ebd0d85264af6a06de73baa0a7857d3f5cc7f17cdf058d5a0f77dfe60a4051460d7208fa4f816be84f6010b50606dab17970bc3
+
+[audio_formatter_v1_0_2_mm2s_buffer]
+A/audio_formatter_v1_0_2_mm2s_buffer=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|5104|1*192747
+BinI32/audio_formatter_v1_0_2_mm2s_buffer=3*98292
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|5104
+SLP=3*103276
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c6b18647b471f416205c1e761ebd0d85547ba65ed17cf118aff54717f416f31f505dcd2b9cbf83f5de208ab1176b946b10bcb9cae632dc63bcb6c6e533546558
+
+[audio_formatter_v1_0_2_mm2s_command_gen]
+A/audio_formatter_v1_0_2_mm2s_command_gen=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|5444|1*207104
+BinI32/audio_formatter_v1_0_2_mm2s_command_gen=3*105940
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|5444
+SLP=3*115145
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c6b18647b471f416205c1e761ebd0d85547ba65ed17cf118aff54717f416f31fb0458e0a2b86377c7b012f1883f61b1126527262ddaa47cb266f3a3c4d9b973aff303190e336960439e2d1aff6b4c1c6
+
+[audio_formatter_v1_0_2_mm2s_registers]
+A/audio_formatter_v1_0_2_mm2s_registers=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|3876|1*150603
+BinI32/audio_formatter_v1_0_2_mm2s_registers=3*75092
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|3876
+SLP=3*82532
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c6b18647b471f416205c1e761ebd0d857ae0f0ed3f259739015b7ab6e123bd29923d4110a010bc2716ea9748fd6771c9133f369106c1443af9d390c5c51c6f64
+
+[audio_formatter_v1_0_2_mm2s_sync]
+A/audio_formatter_v1_0_2_mm2s_sync=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|4831|1*163161
+BinI32/audio_formatter_v1_0_2_mm2s_sync=3*87639
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|4831
+SLP=3*89622
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c6b18647b471f416205c1e761ebd0d857ae0f0ed3f259739015b7ab6e123bd29e238769b042337cf750fed952327d5203f115b37023334615dfde670b5e0cde6
+
+[audio_formatter_v1_0_2_mm2s_top]
+A/audio_formatter_v1_0_2_mm2s_top=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|3547|1*43111
+BinI32/audio_formatter_v1_0_2_mm2s_top=3*11934
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|3547
+SLP=3*12441
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c6b18647b471f416205c1e761ebd0d857ae0f0ed3f259739015b7ab6e123bd291a21d90d77c01c63ab5f732875da167936211e24711d1386744d698a2d33ab05
+
+[audio_formatter_v1_0_2_reset]
+A/audio_formatter_v1_0_2_reset=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|589|1*58178
+BinI32/audio_formatter_v1_0_2_reset=3*12947
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|589
+SLP=3*15164
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c6b18647b471f416205c1e761ebd0d859809b32d6ce1cd51e4ab4ca8f3179e5d3e48304def491d2a7c4e2364417e17f5a53bd745898d1f98f0742c45ea9e56af
+
+[audio_formatter_v1_0_2_s2mm]
+A/audio_formatter_v1_0_2_s2mm=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|2050|1*102716
+BinI32/audio_formatter_v1_0_2_s2mm=3*40875
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|2050
+SLP=3*45593
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c6b18647b471f416205c1e761ebd0d8561a12cad7ab4375a47f2e33836eee3dc70ff418e12e82088f9686b505a018b9c69540823c18c4bc93ed8a6d0bd0227c1
+
+[audio_formatter_v1_0_2_s2mm_buffer]
+A/audio_formatter_v1_0_2_s2mm_buffer=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|2702|1*122911
+BinI32/audio_formatter_v1_0_2_s2mm_buffer=3*48396
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|2702
+SLP=3*57372
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c6b18647b471f416205c1e761ebd0d85f128c63f4c2e5cbd28ded586e31bcb76a165e3dbaf41a4239819f26fb0bca29d5db28e8258f5df08ae98413d1892c13f
+
+[audio_formatter_v1_0_2_s2mm_command_gen]
+A/audio_formatter_v1_0_2_s2mm_command_gen=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|3230|1*139165
+BinI32/audio_formatter_v1_0_2_s2mm_command_gen=3*62131
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|3230
+SLP=3*70836
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c6b18647b471f416205c1e761ebd0d85f128c63f4c2e5cbd28ded586e31bcb7645b89f5ed1bbf6a5cd8efcb7586c554226527262ddaa47cb266f3a3c4d9b973a6adaf0b82f9196810204532d28577d29
+
+[audio_formatter_v1_0_2_s2mm_registers]
+A/audio_formatter_v1_0_2_s2mm_registers=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|1439|1*76261
+BinI32/audio_formatter_v1_0_2_s2mm_registers=3*24783
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|1439
+SLP=3*32225
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c6b18647b471f416205c1e761ebd0d85e4ae60dd6d58a977556df5da337c64f23ef1b6e4c388885f4d340e5eff3d273e599c8b32ef9deed0dcf05f512fe1f561
+
+[audio_formatter_v1_0_2_s2mm_sync]
+A/audio_formatter_v1_0_2_s2mm_sync=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|2435|1*89714
+BinI32/audio_formatter_v1_0_2_s2mm_sync=3*37530
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|2435
+SLP=3*39620
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c6b18647b471f416205c1e761ebd0d85e4ae60dd6d58a977556df5da337c64f2a63a899fd414011c674eafcc7275a2fb951321930bdd83a6e4f8ae49c4ee4369
+
+[audio_formatter_v1_0_2_s2mm_top]
+A/audio_formatter_v1_0_2_s2mm_top=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|1070|1*26487
+BinI32/audio_formatter_v1_0_2_s2mm_top=3*10263
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/audio_formatter_v1_0/hdl/audio_formatter_v1_0_rfs.v|1070
+SLP=3*11090
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c6b18647b471f416205c1e761ebd0d85e4ae60dd6d58a977556df5da337c64f26de952aa5a15dd9dbcabac7f0523477d1b8d412b68f5a45062602b1db3adc9f0
+
+[~MFT]
+0=19|0audio_formatter_v1_0_2.mgf|51122|0
+1=17|1audio_formatter_v1_0_2.mgf|207104|0
+3=34|3audio_formatter_v1_0_2.mgf|115145|0
+
+[~U]
+$root=12|0*0|
+audio_formatter_v1_0_2=12|0*326||0x10
+audio_formatter_v1_0_2_aes_dec=12|0*3791|
+audio_formatter_v1_0_2_aes_enc=12|0*3304|
+audio_formatter_v1_0_2_mm2s=12|0*9571|
+audio_formatter_v1_0_2_mm2s_buffer=12|0*10431|
+audio_formatter_v1_0_2_mm2s_command_gen=12|0*10947|
+audio_formatter_v1_0_2_mm2s_registers=12|0*7934|
+audio_formatter_v1_0_2_mm2s_sync=12|0*8838|
+audio_formatter_v1_0_2_mm2s_top=12|0*2127|
+audio_formatter_v1_0_2_reset=12|0*2938|
+audio_formatter_v1_0_2_s2mm=12|0*5852|
+audio_formatter_v1_0_2_s2mm_buffer=12|0*6731|
+audio_formatter_v1_0_2_s2mm_command_gen=12|0*7323|
+audio_formatter_v1_0_2_s2mm_registers=12|0*4211|
+audio_formatter_v1_0_2_s2mm_sync=12|0*5141|
+audio_formatter_v1_0_2_s2mm_top=12|0*1307|

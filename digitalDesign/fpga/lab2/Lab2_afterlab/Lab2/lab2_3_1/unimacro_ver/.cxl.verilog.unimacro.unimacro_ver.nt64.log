@@ -1,0 +1,28 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+WARNING VCP2515 "Undefined module: DSP48E1 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unimacro/ADDMACC_MACRO.v" 234  12
+WARNING VCP2515 "Undefined module: DSP48A1 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unimacro/ADDMACC_MACRO.v" 278  12
+WARNING VCP2515 "Undefined module: DSP48E was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unimacro/ADDSUB_MACRO.v" 186  11
+WARNING VCP2515 "Undefined module: RAMB18 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unimacro/BRAM_SDP_MACRO.v" 818  19
+WARNING VCP2515 "Undefined module: RAMB18SDP was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unimacro/BRAM_SDP_MACRO.v" 915  18
+WARNING VCP2515 "Undefined module: RAMB36 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unimacro/BRAM_SDP_MACRO.v" 1094  17
+WARNING VCP2515 "Undefined module: RAMB36SDP was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unimacro/BRAM_SDP_MACRO.v" 1259  18
+WARNING VCP2515 "Undefined module: RAMB18E1 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unimacro/BRAM_SDP_MACRO.v" 1374  19
+WARNING VCP2515 "Undefined module: RAMB36E1 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unimacro/BRAM_SDP_MACRO.v" 1906  17
+WARNING VCP2515 "Undefined module: RAMB8BWER was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unimacro/BRAM_SDP_MACRO.v" 2576  19
+WARNING VCP2515 "Undefined module: RAMB16BWER was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unimacro/BRAM_SDP_MACRO.v" 2760  19
+WARNING VCP2515 "Undefined module: FIFO18 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unimacro/FIFO_DUALCLOCK_MACRO.v" 217  21
+WARNING VCP2515 "Undefined module: FIFO18_36 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unimacro/FIFO_DUALCLOCK_MACRO.v" 246  21
+WARNING VCP2515 "Undefined module: FIFO36 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unimacro/FIFO_DUALCLOCK_MACRO.v" 276  21
+WARNING VCP2515 "Undefined module: FIFO36_72 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unimacro/FIFO_DUALCLOCK_MACRO.v" 308  21
+WARNING VCP2515 "Undefined module: FIFO18E1 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unimacro/FIFO_DUALCLOCK_MACRO.v" 346  21
+WARNING VCP2515 "Undefined module: FIFO36E1 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unimacro/FIFO_DUALCLOCK_MACRO.v" 420  21
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol REGCCE has not been declared in module BRAM_SINGLE_MACRO in generate block bram9_single_stan_1." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v" 2170  32
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: ADDMACC_MACRO ADDSUB_MACRO BRAM_SDP_MACRO BRAM_SINGLE_MACRO BRAM_TDP_MACRO COUNTER_LOAD_MACRO COUNTER_TC_MACRO EQ_COMPARE_MACRO FIFO_DUALCLOCK_MACRO FIFO_SYNC_MACRO MACC_MACRO MULT_MACRO."
+MESSAGE "$root top modules: ADDMACC_MACRO ADDSUB_MACRO BRAM_SDP_MACRO BRAM_SINGLE_MACRO BRAM_TDP_MACRO COUNTER_LOAD_MACRO COUNTER_TC_MACRO EQ_COMPARE_MACRO FIFO_DUALCLOCK_MACRO FIFO_SYNC_MACRO MACC_MACRO MULT_MACRO."
+SUCCESS "Compile success 0 Errors 17 Warnings  Analysis time: 1[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

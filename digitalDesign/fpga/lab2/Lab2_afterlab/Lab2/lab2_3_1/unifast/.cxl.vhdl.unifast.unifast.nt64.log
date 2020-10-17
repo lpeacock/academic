@@ -1,0 +1,19 @@
+Aldec, Inc. VHDL Compiler, build 10.5.217.6767
+VLM Initialized with path: "C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\library.cfg".
+DAGGEN WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\vhdl\src\unifast\primitive\DSP48E1.vhd
+COMP96 Compile Entity "DSP48E1"
+COMP96 Compile Architecture "DSP48E1_V" of Entity "DSP48E1"
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\vhdl\src\unifast\primitive\MMCME2_ADV.vhd
+COMP96 Compile Entity "MMCME2_ADV"
+COMP96 Compile Architecture "MMCME2_ADV_V" of Entity "MMCME2_ADV"
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\vhdl\src\unifast\primitive\PLLE2_ADV.vhd
+COMP96 Compile Entity "PLLE2_ADV"
+COMP96 Compile Architecture "PLLE2_ADV_V" of Entity "PLLE2_ADV"
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\vhdl\src\unifast\secureip\GTHE2_CHANNEL.vhd
+COMP96 Compile Entity "GTHE2_CHANNEL"
+COMP96 Compile Architecture "GTHE2_CHANNEL_FAST_V" of Entity "GTHE2_CHANNEL"
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\vhdl\src\unifast\secureip\GTXE2_CHANNEL.vhd
+COMP96 Compile Entity "GTXE2_CHANNEL"
+COMP96 Compile Architecture "GTXE2_CHANNEL_FAST_V" of Entity "GTXE2_CHANNEL"
+COMP96 Compile success 0 Errors 0 Warnings  Analysis time :  2.0 [s]

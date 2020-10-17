@@ -1,0 +1,43 @@
+Aldec, Inc. VHDL Compiler, build 10.5.217.6767
+VLM Initialized with path: "C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\library.cfg".
+DAGGEN WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\ip\xilinx\hdmi_gt_controller_v1_0\hdl\src\vhd\nidru_20_v_7.vhd
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\ip\xilinx\hdmi_gt_controller_v1_0\hdl\src\vhd\bs_flex_v_2.vhd
+COMP96 Compile Entity "bs_flex"
+COMP96 Compile Architecture "behavior" of Entity "bs_flex"
+ELAB1 WARNING ELAB1_0026: "There is no default binding for component "rotwdt". (No entity named "rotwdt" was found)." "C:\Xilinx\Vivado\2019.2\data\ip\xilinx\hdmi_gt_controller_v1_0\hdl\src\vhd\bs_flex_v_2.vhd" 112 0
+ELAB1 WARNING ELAB1_0026: "There is no default binding for component "control". (No entity named "control" was found)." "C:\Xilinx\Vivado\2019.2\data\ip\xilinx\hdmi_gt_controller_v1_0\hdl\src\vhd\bs_flex_v_2.vhd" 130 0
+COMP96 Compile Entity "control"
+COMP96 Compile Architecture "behavior" of Entity "control"
+COMP96 Compile Entity "rotwdt"
+COMP96 Compile Architecture "behavior" of Entity "rotwdt"
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\ip\xilinx\hdmi_gt_controller_v1_0\hdl\src\vhd\nidru_20_wrapper.vhd
+COMP96 Compile Entity "nidru_20_wrapper"
+COMP96 Compile Architecture "Behavioral" of Entity "nidru_20_wrapper"
+COMP96 Compile success 0 Errors 2 Warnings  Analysis time :  0.6 [s]

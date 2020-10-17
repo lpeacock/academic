@@ -1,0 +1,2 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/axi_dbg_hub
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  -l axi_dbg_hub +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -sv2k12 -work axi_dbg_hub -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/axi_dbg_hub/.cxl.systemverilog.axi_dbg_hub.axi_dbg_hub.nt64.cmf

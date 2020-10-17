@@ -1,0 +1,88 @@
+timestamp=1580965415036
+
+[~A]
+ModifyID=1
+Version=74
+
+[dsp_macro_rtl]
+A/synth=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/dsp_macro_v1_0/hdl/dsp_macro_v1_0_rfs.vhd|4845|1*3525
+BinI32/synth=3*7272
+I=0*42532
+I/synth=0*76097
+M=11|0|vde|1580965414477|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/dsp_macro_v1_0/hdl/dsp_macro_v1_0_rfs.vhd|0*38331*0xbea8bc7c920f60ad3ebd1e818b9f35a66449fa22|0*42385*0xbba181862c44b92d99e8f49010ab70a1
+M/synth=21|0|vde|1580965414487|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/dsp_macro_v1_0/hdl/dsp_macro_v1_0_rfs.vhd|0*42946*0x1d248816d2fac7a355a156fb45ee433f44143d28|0*75941*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/dsp_macro_v1_0/hdl/dsp_macro_v1_0_rfs.vhd|4845
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|ca1a4d464b902c513f012105c3ee6cef130d19cb7ea214bb507466acd39f1e1c5a23e5b3beee91b4839629004cfc4495
+Version/synth=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|e480b5c213cbe1f7e091cb6c53388268d54d744c28b9a8ee319bd7f17a6d345f
+
+[dsp_macro_synth]
+A/synth=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/dsp_macro_v1_0/hdl/dsp_macro_v1_0_rfs.vhd|4845|1*11723
+BinI32/synth=3*26003
+I=0*81513
+I/synth=0*113045
+M=11|0|vde|1580965414507|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/dsp_macro_v1_0/hdl/dsp_macro_v1_0_rfs.vhd|0*77381*0x76ba6877bf9dfb3a7f4532c6259be74eb9c46d7e|0*81364*0xbba181862c44b92d99e8f49010ab70a1
+M/synth=21|0|vde|1580965414822|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/dsp_macro_v1_0/hdl/dsp_macro_v1_0_rfs.vhd|0*81865*0x38f4b333ff12f0d597219a674e46299bbe1d0f06|0*112887*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/dsp_macro_v1_0/hdl/dsp_macro_v1_0_rfs.vhd|4845
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|b6cef7d66bbd7893332137604ff0ec29619cacb4f9fe74b6b375adeb6197b8ab089486f49a781fe345c93635408c10c1
+Version/synth=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|e480b5c213cbe1f7e091cb6c5338826876276daeb263485e7dc34fe54a024877
+
+[dsp_macro_v1_0_0]
+A/xilinx=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/dsp_macro_v1_0/hdl/dsp_macro_v1_0_rfs.vhd|4845|1*24423
+BinI32/xilinx=3*43168
+I=0*136237
+I/xilinx=0*139501
+M=11|0|vde|1580965414854|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/dsp_macro_v1_0/hdl/dsp_macro_v1_0_rfs.vhd|0*132158*0xe0012318869cfc60fc39b34ac7089dc3085c8f45|0*136087*0xbba181862c44b92d99e8f49010ab70a1
+M/xilinx=21|0|vde|1580965414856|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/dsp_macro_v1_0/hdl/dsp_macro_v1_0_rfs.vhd|0*136622*0x2a5346d79cb2c405efb8fea4448be34d6589233e|0*139341*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/dsp_macro_v1_0/hdl/dsp_macro_v1_0_rfs.vhd|4845
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|e4ce990f19c17e927e7e9d4e37b2bfee12c493cf5908fc5e1467d8625c499cc918cd8874f3b53c7177e5a98871df6951
+Version/xilinx=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|2575045bca4fea1fc1b003ee1cd0d9a0bcdb13d030f6b167010bfe073f34bf62
+
+[dsp_macro_v1_0_0_comp]
+E=1*474
+I=0*9135
+M=3|0|vde|1580965414453|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/dsp_macro_v1_0/hdl/dsp_macro_v1_0_rfs.vhd|0*5079*0x7ff6c1f04aba08292d96463af9bef2a28fcdb94c|0*8980*0xbba181862c44b92d99e8f49010ab70a1
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/dsp_macro_v1_0/hdl/dsp_macro_v1_0_rfs.vhd|4845
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|e4ce990f19c17e927e7e9d4e37b2bfee35e6e2b94525101c12ad30f9705b4e4fa6c64a6f68a7b42ac9ca15a452a0825c
+
+[dsp_macro_v1_0_0_pkg]
+BinI32/dsp_macro_v1_0_0_pkg=3*0
+E=1*928
+I=0*19182
+I/dsp_macro_v1_0_0_pkg=0*37194
+M=3|0|vde|1580965414456|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/dsp_macro_v1_0/hdl/dsp_macro_v1_0_rfs.vhd|0*11245*0x3579f8a77864a3946be62193d0222366c0d5da8a|0*19028*0xbba181862c44b92d99e8f49010ab70a1
+M/dsp_macro_v1_0_0_pkg=4|0|vde|1580965414463|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/dsp_macro_v1_0/hdl/dsp_macro_v1_0_rfs.vhd|0*19484*0xb89f85e63b85e44c998a3cbfbb30fb75f6adb0dc|0*37017*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/dsp_macro_v1_0/hdl/dsp_macro_v1_0_rfs.vhd|4845
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|e4ce990f19c17e927e7e9d4e37b2bfeed82a56b8f9e588b2a2645f1531372c3877f2818bd6d5ecb7afdcf2199fc29f14
+Version/dsp_macro_v1_0_0_pkg=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|e4ce990f19c17e927e7e9d4e37b2bfeed82a56b8f9e588b2a2645f1531372c3877f2818bd6d5ecb7afdcf2199fc29f14
+
+[dsp_macro_v1_0_0_viv]
+A/synth=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/dsp_macro_v1_0/hdl/dsp_macro_v1_0_rfs.vhd|4845|1*20721
+BinI32/synth=3*39947
+I=0*118915
+I/synth=0*130898
+M=11|0|vde|1580965414839|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/dsp_macro_v1_0/hdl/dsp_macro_v1_0_rfs.vhd|0*114416*0x93b990cda3b24a787b7d8ce733854bb800eb16d7|0*118761*0xbba181862c44b92d99e8f49010ab70a1
+M/synth=21|0|vde|1580965414843|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/dsp_macro_v1_0/hdl/dsp_macro_v1_0_rfs.vhd|0*119272*0x9cc1006a5d91adfe6f1aae64f467acdb266cf429|0*130735*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/dsp_macro_v1_0/hdl/dsp_macro_v1_0_rfs.vhd|4845
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|e4ce990f19c17e927e7e9d4e37b2bfee3205d0d234b44dadd00df61b6d70f36b8300ff2af1a861666cb1bdf25b07b31f
+Version/synth=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|e480b5c213cbe1f7e091cb6c53388268447151e70b74b573c5e220b9bd7a9cf1
+
+[dsp_macro_v1_0_0_viv_comp]
+E=1*0
+I=0*4483
+M=3|0|vde|1580965414425|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/dsp_macro_v1_0/hdl/dsp_macro_v1_0_rfs.vhd|0*354*0xb56d5583919fe93add069db87065380465cb5558|0*4324*0xbba181862c44b92d99e8f49010ab70a1
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/dsp_macro_v1_0/hdl/dsp_macro_v1_0_rfs.vhd|4845
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|e4ce990f19c17e927e7e9d4e37b2bfeeab7d0fa2e3a30b9ecc81d433c3cb41e526527262ddaa47cb266f3a3c4d9b973af88b773793041d07823298e36665608d
+
+[~MFT]
+0=46|0dsp_macro_v1_0_0.mgf|139501|0
+1=7|1dsp_macro_v1_0_0.mgf|24423|0
+3=5|3dsp_macro_v1_0_0.mgf|43168|0
+
+[~U]
+dsp_macro_rtl=11|0*37517|
+dsp_macro_synth=11|0*76565|
+dsp_macro_v1_0_0=11|0*131357|
+dsp_macro_v1_0_0_comp=3|0*4749|0*4898
+dsp_macro_v1_0_0_pkg=3|0*9397|0*9881
+dsp_macro_v1_0_0_viv=11|0*113579|
+dsp_macro_v1_0_0_viv_comp=3|0*0|0*169

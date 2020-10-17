@@ -1,0 +1,27 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+WARNING VCP2515 "Undefined module: XPHY was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_phy_v1_0/hdl/xphy_bank/rld3_pl_phy_v1_0_xphy_bank.sv" 554  15
+WARNING VCP2515 "Undefined module: IBUF was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_phy_v1_0/hdl/xphy_bank/rld3_pl_phy_v1_0_xphy_bank.sv" 586  19
+WARNING VCP2515 "Undefined module: OBUF was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_phy_v1_0/hdl/xphy_bank/rld3_pl_phy_v1_0_xphy_bank.sv" 593  19
+WARNING VCP2515 "Undefined module: IOBUF was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_phy_v1_0/hdl/xphy_bank/rld3_pl_phy_v1_0_xphy_bank.sv" 635  15
+WARNING VCP2515 "Undefined module: IOBUFDS was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_phy_v1_0/hdl/xphy_bank/rld3_pl_phy_v1_0_xphy_bank.sv" 857  11
+WARNING VCP2515 "Undefined module: IBUFDS_DIFF_OUT was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_phy_v1_0/hdl/xphy_bank/rld3_pl_phy_v1_0_xphy_bank.sv" 876  25
+WARNING VCP2515 "Undefined module: OBUFDS was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_phy_v1_0/hdl/xphy_bank/rld3_pl_phy_v1_0_xphy_bank.sv" 896  33
+WARNING VCP2515 "Undefined module: OBUFDS_DPHY was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_phy_v1_0/hdl/xphy_bank/rld3_pl_phy_v1_0_xphy_bank.sv" 907  48
+WARNING VCP2515 "Undefined module: IBUFDS_DPHY was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_phy_v1_0/hdl/xphy_bank/rld3_pl_phy_v1_0_xphy_bank.sv" 921  54
+WARNING VCP2515 "Undefined module: XPIO_VREF was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_phy_v1_0/hdl/xphy_bank/rld3_pl_phy_v1_0_xphy_bank.sv" 1323  11
+WARNING VCP2515 "Undefined module: IBUFDS was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_phy_v1_0/hdl/clocking/rld3_pl_phy_v1_0_pll.sv" 184  14
+WARNING VCP2515 "Undefined module: BUFG was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_phy_v1_0/hdl/clocking/rld3_pl_phy_v1_0_pll.sv" 223  6
+WARNING VCP2515 "Undefined module: XPLL was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_phy_v1_0/hdl/clocking/rld3_pl_phy_v1_0_pll.sv" 267  9
+WARNING VCP2515 "Undefined module: BUFGCE_DIV was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_phy_v1_0/hdl/clocking/rld3_pl_phy_v1_0_pll.sv" 314  11
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol pll_fb_out has not been declared in module rld3_pl_phy_v1_0_0_pll." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_phy_v1_0/hdl/clocking/rld3_pl_phy_v1_0_pll.sv" 297  28
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol pll_fb_in has not been declared in module rld3_pl_phy_v1_0_0_pll." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_phy_v1_0/hdl/clocking/rld3_pl_phy_v1_0_pll.sv" 298  27
+WARNING VCP2597 "Some unconnected ports remain at instance: xphy_bank_inst. Module rld3_pl_phy_v1_0_0_xphy_bank has unconnected  port(s) : HSRX_DISABLE, IBUF_DISABLE_EXTERNAL, DCI_TERM_DISABLE_EXTERNAL, VREF." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_phy_v1_0/hdl/xphy_bank/rld3_pl_phy_v1_0_xphy_bank_wrapper.sv" 234  1
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: rld3_pl_phy_v1_0_0_xphy_bank_wrapper rld3_pl_phy_v1_0_0_pll."
+MESSAGE "$root top modules: rld3_pl_phy_v1_0_0_xphy_bank_wrapper rld3_pl_phy_v1_0_0_pll."
+SUCCESS "Compile success 0 Errors 15 Warnings  Analysis time: 0[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

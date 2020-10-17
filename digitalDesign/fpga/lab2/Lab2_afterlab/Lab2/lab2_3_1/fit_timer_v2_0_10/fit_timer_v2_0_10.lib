@@ -1,0 +1,36 @@
+timestamp=1580964561824
+
+[~A]
+ModifyID=1
+Version=74
+
+[divide_part]
+A/vhdl_rtl=A/VHDL_RTL 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/fit_timer_v2_0/hdl/fit_timer_v2_0_vh_rfs.vhd|113|1*0
+BinI32/vhdl_rtl=3*0
+I=0*787
+I/vhdl_rtl=I/VHDL_RTL 0*4034
+M=11|0|vde|1580964561453|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/fit_timer_v2_0/hdl/fit_timer_v2_0_vh_rfs.vhd|0*249*0xeb04bf2a20de3e51d5c8392c9a87c8d5cde7a73f|0*639*0x24f53803c3278f1d7f185bd51c58332c
+M/vhdl_rtl=M/VHDL_RTL 21|0|vde|1580964561746|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/fit_timer_v2_0/hdl/fit_timer_v2_0_vh_rfs.vhd|0*992*0x8063cbd4c7b8d04a69035ff2b2178b628aee8480|0*3874*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/fit_timer_v2_0/hdl/fit_timer_v2_0_vh_rfs.vhd|90
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|6998a57a4ac31b2104e3fa7bffc60e72f129c82bf5e485c42f4cb1d6a19d615d0fa4bf9d204b63d0bf0814a5b750b531
+Version/vhdl_rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|754e984e259afcd301a53efbf4cd1e839d8b4e8ef1374421143aa6249ef854709debfdf56fb3c48116ac85702b4037d2
+
+[fit_timer]
+A/vhdl_rtl=A/VHDL_RTL 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/fit_timer_v2_0/hdl/fit_timer_v2_0_vh_rfs.vhd|422|1*8610
+BinI32/vhdl_rtl=3*1463
+I=0*5292
+I/vhdl_rtl=I/VHDL_RTL 0*11611
+M=11|0|vde|1580964561768|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/fit_timer_v2_0/hdl/fit_timer_v2_0_vh_rfs.vhd|0*4679*0x2814922f87491c98a79ad38679c2ca5952f4bbb7|0*5146*0x24f53803c3278f1d7f185bd51c58332c
+M/vhdl_rtl=M/VHDL_RTL 21|0|vde|1580964561770|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/fit_timer_v2_0/hdl/fit_timer_v2_0_vh_rfs.vhd|0*5534*0x0bb5af4bb32b7f5eeb3d7969d7c97224cc228ce8|0*11453*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/fit_timer_v2_0/hdl/fit_timer_v2_0_vh_rfs.vhd|399
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|f449a5bb1b217b3b152c93ba05c73aabb9026f15b4eda400c3832a21ffdbeabd8eed2f1a61e706912b50c36bed67cdbe
+Version/vhdl_rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|754e984e259afcd301a53efbf4cd1e839d8b4e8ef1374421143aa6249ef8547049bb3a0043cac07c9505fdcfebab66e7
+
+[~MFT]
+0=14|0fit_timer_v2_0_10.mgf|11611|0
+1=2|1fit_timer_v2_0_10.mgf|8610|0
+3=2|3fit_timer_v2_0_10.mgf|1463|0
+
+[~U]
+divide_part=Divide_part 11|0*0|
+fit_timer=FIT_timer 11|0*4393|

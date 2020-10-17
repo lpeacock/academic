@@ -1,0 +1,197 @@
+timestamp=1580964531166
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal.sv_ddr4_pl_v1_0_cal_addr_decode.sv_ddr4_pl_v1_0_cal_bfifo.sv_ddr4_pl_v1_0_cal_config_rom.sv_ddr4_pl_v1_0_cal_cplx.sv_ddr4_pl_v1_0_cal_cplx_data.sv_ddr4_pl_v1_0_cal_debug_microblaze.sv_ddr4_pl_v1_0_cal_mc_odt.sv_ddr4_pl_v1_0_cal_odt.sv_ddr4_pl_v1_0_cal_pi.sv_ddr4_pl_v1_0_cal_rd_en.sv_ddr4_pl_v1_0_cal_read.sv_ddr4_pl_v1_0_cal_sync.sv_ddr4_pl_v1_0_cal_top.sv_ddr4_pl_v1_0_cal_wr_bit.sv_ddr4_pl_v1_0_cal_wr_byte.sv_ddr4_pl_v1_0_cal_write.sv_ddr4_pl_v1_0_cal_xsdb_arbiter.sv_ddr4_pl_v1_0_cal_xsdb_bram.sv_ddr4_pl_v1_0_chipscope_xsdb_slave.sv_ddr4_pl_v1_0_dp_AB9.sv=0*25289*129826
+LastVerilogToplevel=ddr4_pl_v1_0_0_cal_top
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0e802010c07e85ddf8009d5c757475bbe4828086782ae1d0f8f9129726edd09284b5b1c340f8486cb011853f8df5b1187a98d94506ba8d66182f731fee4c0c6bd834905e144c19a8d7e462d6dffe8e2d4aa8cc4b950f75be9128f951bb541f45a62636|c73a565f2ade592f8ac1c68f484c9216ce1e3bbb7ad67904f692c1d70b196026
+
+[ddr4_pl_v1_0_0_bram_tdp]
+A/ddr4_pl_v1_0_0_bram_tdp=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/xsdb/ddr4_pl_v1_0_dp_AB9.sv|174|1*527054
+BinI32/ddr4_pl_v1_0_0_bram_tdp=3*513458
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/xsdb/ddr4_pl_v1_0_dp_AB9.sv|174
+SLP=3*516195
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0e802010c07e85ddf8009d5c757475bbe4828086782ae1d0f8f9129726edd09284b5b1c340f8486cb011853f8df5b1187a98d94506ba8d66182f731fee4c0c6bd834905e144c19a8d7e462d6dffe8e2d4aa8cc4b950f75be9128f951bb541f45a62636|695c6df4aba6f04268c1efba311705d76eb9685af8fd82d630809fc7843c14e47c4b024617a33c26dab99821db34224e
+
+[ddr4_pl_v1_0_0_cal]
+A/ddr4_pl_v1_0_0_cal=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal.sv|70|1*422
+BinI32/ddr4_pl_v1_0_0_cal=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal.sv|70
+SLP=3*62378
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0e802010c07e85ddf8009d5c757475bbe4828086782ae1d0f8f9129726edd09284b5b1c340f8486cb011853f8df5b1187a98d94506ba8d66182f731fee4c0c6bd834905e144c19a8d7e462d6dffe8e2d4aa8cc4b950f75be9128f951bb541f45a62636|695c6df4aba6f04268c1efba311705d7392a10bde9aba68fd1b752ed4966c64cd2f582bd17f39581ba861c26d6a23499
+
+[ddr4_pl_v1_0_0_cal_addr_decode]
+A/ddr4_pl_v1_0_0_cal_addr_decode=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_addr_decode.sv|91|1*99350
+BinI32/ddr4_pl_v1_0_0_cal_addr_decode=3*82216
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_addr_decode.sv|91
+SLP=3*162803
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0e802010c07e85ddf8009d5c757475bbe4828086782ae1d0f8f9129726edd09284b5b1c340f8486cb011853f8df5b1187a98d94506ba8d66182f731fee4c0c6bd834905e144c19a8d7e462d6dffe8e2d4aa8cc4b950f75be9128f951bb541f45a62636|695c6df4aba6f04268c1efba311705d700a05589c8b0adfc66b06e40e53e5d4f619ac378b2a2ad58f2559f86a698be542c5f30e6110811a7a73620d279796c23
+
+[ddr4_pl_v1_0_0_cal_bfifo]
+A/ddr4_pl_v1_0_0_cal_bfifo=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_bfifo.sv|68|1*337011
+BinI32/ddr4_pl_v1_0_0_cal_bfifo=3*276524
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_bfifo.sv|68
+SLP=3*278949
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0e802010c07e85ddf8009d5c757475bbe4828086782ae1d0f8f9129726edd09284b5b1c340f8486cb011853f8df5b1187a98d94506ba8d66182f731fee4c0c6bd834905e144c19a8d7e462d6dffe8e2d4aa8cc4b950f75be9128f951bb541f45a62636|695c6df4aba6f04268c1efba311705d73c343d21a09f0322bdb81a03623624417694e1cb8755f6ee87590110b1c14f99
+
+[ddr4_pl_v1_0_0_cal_config_rom]
+A/ddr4_pl_v1_0_0_cal_config_rom=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_config_rom.sv|68|1*194584
+BinI32/ddr4_pl_v1_0_0_cal_config_rom=3*197838
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_config_rom.sv|68
+SLP=3*202632
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0e802010c07e85ddf8009d5c757475bbe4828086782ae1d0f8f9129726edd09284b5b1c340f8486cb011853f8df5b1187a98d94506ba8d66182f731fee4c0c6bd834905e144c19a8d7e462d6dffe8e2d4aa8cc4b950f75be9128f951bb541f45a62636|695c6df4aba6f04268c1efba311705d7ba08bb27c219623ac7702de26afe3edf58578b14ac997332a8a422f8fa840713e7bf112ce4f58d054507e9ec638b3209
+
+[ddr4_pl_v1_0_0_cal_cplx]
+A/ddr4_pl_v1_0_0_cal_cplx=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_cplx.sv|68|1*293632
+BinI32/ddr4_pl_v1_0_0_cal_cplx=3*228591
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_cplx.sv|68
+SLP=3*257528
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0e802010c07e85ddf8009d5c757475bbe4828086782ae1d0f8f9129726edd09284b5b1c340f8486cb011853f8df5b1187a98d94506ba8d66182f731fee4c0c6bd834905e144c19a8d7e462d6dffe8e2d4aa8cc4b950f75be9128f951bb541f45a62636|695c6df4aba6f04268c1efba311705d745384fdea10ed4613245c3956ab789d1756ecc380f2222bac65591b31aa21c6f
+
+[ddr4_pl_v1_0_0_cal_cplx_data]
+A/ddr4_pl_v1_0_0_cal_cplx_data=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_cplx_data.sv|71|1*340161
+BinI32/ddr4_pl_v1_0_0_cal_cplx_data=3*279777
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_cplx_data.sv|71
+SLP=3*292714
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0e802010c07e85ddf8009d5c757475bbe4828086782ae1d0f8f9129726edd09284b5b1c340f8486cb011853f8df5b1187a98d94506ba8d66182f731fee4c0c6bd834905e144c19a8d7e462d6dffe8e2d4aa8cc4b950f75be9128f951bb541f45a62636|695c6df4aba6f04268c1efba311705d7c7a37857d08e068fc2f4d9db8003614319bad41f8910fe8fe5c92c8f0951ccd35e415f930d9c16e7bcf3b65a1237a767
+
+[ddr4_pl_v1_0_0_cal_debug_microblaze]
+A/ddr4_pl_v1_0_0_cal_debug_microblaze=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_debug_microblaze.sv|68|1*348133
+BinI32/ddr4_pl_v1_0_0_cal_debug_microblaze=3*300821
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_debug_microblaze.sv|68
+SLP=3*345122
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0e802010c07e85ddf8009d5c757475bbe4828086782ae1d0f8f9129726edd09284b5b1c340f8486cb011853f8df5b1187a98d94506ba8d66182f731fee4c0c6bd834905e144c19a8d7e462d6dffe8e2d4aa8cc4b950f75be9128f951bb541f45a62636|695c6df4aba6f04268c1efba311705d723c6f95603a474de3f5ac44dc334a8a56fa6e9d5579983dc0839b21d970f5cf170725d8dcd55d71f656f18ce09faab41
+
+[ddr4_pl_v1_0_0_cal_mc_odt]
+A/ddr4_pl_v1_0_0_cal_mc_odt=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_mc_odt.sv|68|1*329544
+BinI32/ddr4_pl_v1_0_0_cal_mc_odt=3*269765
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_mc_odt.sv|68
+SLP=3*274901
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0e802010c07e85ddf8009d5c757475bbe4828086782ae1d0f8f9129726edd09284b5b1c340f8486cb011853f8df5b1187a98d94506ba8d66182f731fee4c0c6bd834905e144c19a8d7e462d6dffe8e2d4aa8cc4b950f75be9128f951bb541f45a62636|695c6df4aba6f04268c1efba311705d780d85890e0139b35222df59a228abd2d26527262ddaa47cb266f3a3c4d9b973abe4caf00a387065fddd4e0dc047bcfa7
+
+[ddr4_pl_v1_0_0_cal_odt]
+A/ddr4_pl_v1_0_0_cal_odt=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_odt.sv|68|1*385154
+BinI32/ddr4_pl_v1_0_0_cal_odt=3*371938
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_odt.sv|68
+SLP=3*377071
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0e802010c07e85ddf8009d5c757475bbe4828086782ae1d0f8f9129726edd09284b5b1c340f8486cb011853f8df5b1187a98d94506ba8d66182f731fee4c0c6bd834905e144c19a8d7e462d6dffe8e2d4aa8cc4b950f75be9128f951bb541f45a62636|695c6df4aba6f04268c1efba311705d74068a3b5fb55cef284621adad94b2d46bfb1d0498bd1c84cb074d73648758544
+
+[ddr4_pl_v1_0_0_cal_pi]
+A/ddr4_pl_v1_0_0_cal_pi=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_pi.sv|68|1*392603
+BinI32/ddr4_pl_v1_0_0_cal_pi=3*378685
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_pi.sv|68
+SLP=3*380060
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0e802010c07e85ddf8009d5c757475bbe4828086782ae1d0f8f9129726edd09284b5b1c340f8486cb011853f8df5b1187a98d94506ba8d66182f731fee4c0c6bd834905e144c19a8d7e462d6dffe8e2d4aa8cc4b950f75be9128f951bb541f45a62636|695c6df4aba6f04268c1efba311705d7455f15e6e6f7d8ed6b7d6888e6671368197899d63eabb5d0b96cd4ec7e51cbae
+
+[ddr4_pl_v1_0_0_cal_rd_en]
+A/ddr4_pl_v1_0_0_cal_rd_en=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_rd_en.sv|68|1*403687
+BinI32/ddr4_pl_v1_0_0_cal_rd_en=3*381040
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_rd_en.sv|68
+SLP=3*392809
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0e802010c07e85ddf8009d5c757475bbe4828086782ae1d0f8f9129726edd09284b5b1c340f8486cb011853f8df5b1187a98d94506ba8d66182f731fee4c0c6bd834905e144c19a8d7e462d6dffe8e2d4aa8cc4b950f75be9128f951bb541f45a62636|695c6df4aba6f04268c1efba311705d779844fe0a70f53cfbe661f623eb660f0d9a59b101a1eb6eb2422aa150d17184b
+
+[ddr4_pl_v1_0_0_cal_read]
+A/ddr4_pl_v1_0_0_cal_read=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_read.sv|68|1*411933
+BinI32/ddr4_pl_v1_0_0_cal_read=3*398085
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_read.sv|68
+SLP=3*402884
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0e802010c07e85ddf8009d5c757475bbe4828086782ae1d0f8f9129726edd09284b5b1c340f8486cb011853f8df5b1187a98d94506ba8d66182f731fee4c0c6bd834905e144c19a8d7e462d6dffe8e2d4aa8cc4b950f75be9128f951bb541f45a62636|695c6df4aba6f04268c1efba311705d7a09526bfe622b175d74600d4b8481bc24017082e9b986c43adce57c67b6feb2d
+
+[ddr4_pl_v1_0_0_cal_sync]
+A/ddr4_pl_v1_0_0_cal_sync=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_sync.sv|68|1*431498
+BinI32/ddr4_pl_v1_0_0_cal_sync=3*420693
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_sync.sv|68
+SLP=3*423131
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0e802010c07e85ddf8009d5c757475bbe4828086782ae1d0f8f9129726edd09284b5b1c340f8486cb011853f8df5b1187a98d94506ba8d66182f731fee4c0c6bd834905e144c19a8d7e462d6dffe8e2d4aa8cc4b950f75be9128f951bb541f45a62636|695c6df4aba6f04268c1efba311705d7284814594fdc80dd5cc223325b5cd97d83a420a89590944896a4c5cdc557c3de
+
+[ddr4_pl_v1_0_0_cal_top]
+A/ddr4_pl_v1_0_0_cal_top=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_top.sv|71|1*434791
+BinI32/ddr4_pl_v1_0_0_cal_top=3*423839
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_top.sv|71
+SLP=3*475339
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0e802010c07e85ddf8009d5c757475bbe4828086782ae1d0f8f9129726edd09284b5b1c340f8486cb011853f8df5b1187a98d94506ba8d66182f731fee4c0c6bd834905e144c19a8d7e462d6dffe8e2d4aa8cc4b950f75be9128f951bb541f45a62636|695c6df4aba6f04268c1efba311705d75263b0bc8af9a4a63d1771b360b678c9461ea0a4b7109b574cf3c7fd0d1f5614
+
+[ddr4_pl_v1_0_0_cal_wr_bit]
+A/ddr4_pl_v1_0_0_cal_wr_bit=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_wr_bit.sv|68|1*516167
+BinI32/ddr4_pl_v1_0_0_cal_wr_bit=3*504449
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_wr_bit.sv|68
+SLP=3*505596
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0e802010c07e85ddf8009d5c757475bbe4828086782ae1d0f8f9129726edd09284b5b1c340f8486cb011853f8df5b1187a98d94506ba8d66182f731fee4c0c6bd834905e144c19a8d7e462d6dffe8e2d4aa8cc4b950f75be9128f951bb541f45a62636|695c6df4aba6f04268c1efba311705d773bae1cf669e1fd5a348ea2bacbe378126527262ddaa47cb266f3a3c4d9b973a4a45784ed0a80bfaee895a455911cc86
+
+[ddr4_pl_v1_0_0_cal_wr_byte]
+A/ddr4_pl_v1_0_0_cal_wr_byte=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_wr_byte.sv|68|1*518377
+BinI32/ddr4_pl_v1_0_0_cal_wr_byte=3*506246
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_wr_byte.sv|68
+SLP=3*506783
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0e802010c07e85ddf8009d5c757475bbe4828086782ae1d0f8f9129726edd09284b5b1c340f8486cb011853f8df5b1187a98d94506ba8d66182f731fee4c0c6bd834905e144c19a8d7e462d6dffe8e2d4aa8cc4b950f75be9128f951bb541f45a62636|695c6df4aba6f04268c1efba311705d776009f787eaf2785a25f64fa5dc93f74be07524948b67fbfd8c7d46af4c5c5a2071a7bf8982f2ee0c1e7260927b6368b
+
+[ddr4_pl_v1_0_0_cal_write]
+A/ddr4_pl_v1_0_0_cal_write=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_write.sv|68|1*419395
+BinI32/ddr4_pl_v1_0_0_cal_write=3*404493
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_write.sv|68
+SLP=3*416185
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0e802010c07e85ddf8009d5c757475bbe4828086782ae1d0f8f9129726edd09284b5b1c340f8486cb011853f8df5b1187a98d94506ba8d66182f731fee4c0c6bd834905e144c19a8d7e462d6dffe8e2d4aa8cc4b950f75be9128f951bb541f45a62636|695c6df4aba6f04268c1efba311705d7d600e116a205145f9efca27f29d358f34ad2eefcdf363f65efe9831745d40075
+
+[ddr4_pl_v1_0_0_cal_xsdb_arbiter]
+A/ddr4_pl_v1_0_0_cal_xsdb_arbiter=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_xsdb_arbiter.sv|68|1*220484
+BinI32/ddr4_pl_v1_0_0_cal_xsdb_arbiter=3*211200
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_xsdb_arbiter.sv|68
+SLP=3*214857
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0e802010c07e85ddf8009d5c757475bbe4828086782ae1d0f8f9129726edd09284b5b1c340f8486cb011853f8df5b1187a98d94506ba8d66182f731fee4c0c6bd834905e144c19a8d7e462d6dffe8e2d4aa8cc4b950f75be9128f951bb541f45a62636|695c6df4aba6f04268c1efba311705d762217841d11dae283ffec44d7bebbb9d9d40d8719d373c310454dc77564aacd766a98ad7d14b5f8a6a16eabfe52a4f1e
+
+[ddr4_pl_v1_0_0_cal_xsdb_bram]
+A/ddr4_pl_v1_0_0_cal_xsdb_bram=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_xsdb_bram.sv|69|1*229871
+BinI32/ddr4_pl_v1_0_0_cal_xsdb_bram=3*217263
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/ddr4_pl_v1_0_cal_xsdb_bram.sv|69
+SLP=3*227610
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0e802010c07e85ddf8009d5c757475bbe4828086782ae1d0f8f9129726edd09284b5b1c340f8486cb011853f8df5b1187a98d94506ba8d66182f731fee4c0c6bd834905e144c19a8d7e462d6dffe8e2d4aa8cc4b950f75be9128f951bb541f45a62636|695c6df4aba6f04268c1efba311705d706a75b51238226eb15ae8b042d421c181df8365e53c8e9faab15d031be33045c214ae15aa262e609262d400248fae457
+
+[ddr4_pl_v1_0_0_cfg_mem_mod]
+A/ddr4_pl_v1_0_0_cfg_mem_mod=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/xsdb/ddr4_pl_v1_0_dp_AB9.sv|66|1*521115
+BinI32/ddr4_pl_v1_0_0_cfg_mem_mod=3*507186
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/xsdb/ddr4_pl_v1_0_dp_AB9.sv|66
+SLP=3*511964
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0e802010c07e85ddf8009d5c757475bbe4828086782ae1d0f8f9129726edd09284b5b1c340f8486cb011853f8df5b1187a98d94506ba8d66182f731fee4c0c6bd834905e144c19a8d7e462d6dffe8e2d4aa8cc4b950f75be9128f951bb541f45a62636|695c6df4aba6f04268c1efba311705d702e11b5563d43c35875a9a3a0d421ab5007e517bba568cd863cb43d2bc1e99dd975405c7364b80a4a560390b47ddf8a4
+
+[ddr4_pl_v1_0_0_chipscope_xsdb_slave]
+A/ddr4_pl_v1_0_0_chipscope_xsdb_slave=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/xsdb/ddr4_pl_v1_0_chipscope_xsdb_slave.sv|29|1*211280
+BinI32/ddr4_pl_v1_0_0_chipscope_xsdb_slave=3*204805
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_v1_0/hdl/cal/xsdb/ddr4_pl_v1_0_chipscope_xsdb_slave.sv|29
+SLP=3*208509
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0e802010c07e85ddf8009d5c757475bbe4828086782ae1d0f8f9129726edd09284b5b1c340f8486cb011853f8df5b1187a98d94506ba8d66182f731fee4c0c6bd834905e144c19a8d7e462d6dffe8e2d4aa8cc4b950f75be9128f951bb541f45a62636|695c6df4aba6f04268c1efba311705d7a2d2c3cbcc915d0f68b055c046bce813627d3f33a07cb7a856ecd0274bb245e7336da758f9e5cdab39e02f5d13cab1a2
+
+[~MFT]
+0=25|0ddr4_pl_v1_0_0.mgf|129826|0
+1=23|1ddr4_pl_v1_0_0.mgf|527054|0
+3=46|3ddr4_pl_v1_0_0.mgf|516195|0
+
+[~U]
+$root=12|0*0|
+ddr4_pl_v1_0_0_bram_tdp=12|0*24922|
+ddr4_pl_v1_0_0_cal=12|0*342|
+ddr4_pl_v1_0_0_cal_addr_decode=12|0*5639|
+ddr4_pl_v1_0_0_cal_bfifo=12|0*14729||0x10
+ddr4_pl_v1_0_0_cal_config_rom=12|0*8898|
+ddr4_pl_v1_0_0_cal_cplx=12|0*13428|
+ddr4_pl_v1_0_0_cal_cplx_data=12|0*15109|
+ddr4_pl_v1_0_0_cal_debug_microblaze=12|0*15596||0x10
+ddr4_pl_v1_0_0_cal_mc_odt=12|0*14330|
+ddr4_pl_v1_0_0_cal_odt=12|0*16874||0x10
+ddr4_pl_v1_0_0_cal_pi=12|0*17268|
+ddr4_pl_v1_0_0_cal_rd_en=12|0*18129|
+ddr4_pl_v1_0_0_cal_read=12|0*18660|
+ddr4_pl_v1_0_0_cal_sync=12|0*19911|
+ddr4_pl_v1_0_0_cal_top=12|0*20215||0x10
+ddr4_pl_v1_0_0_cal_wr_bit=12|0*23735|
+ddr4_pl_v1_0_0_cal_wr_byte=12|0*24033|
+ddr4_pl_v1_0_0_cal_write=12|0*19148|
+ddr4_pl_v1_0_0_cal_xsdb_arbiter=12|0*9866|
+ddr4_pl_v1_0_0_cal_xsdb_bram=12|0*10390|
+ddr4_pl_v1_0_0_cfg_mem_mod=12|0*24375|
+ddr4_pl_v1_0_0_chipscope_xsdb_slave=12|0*9374|

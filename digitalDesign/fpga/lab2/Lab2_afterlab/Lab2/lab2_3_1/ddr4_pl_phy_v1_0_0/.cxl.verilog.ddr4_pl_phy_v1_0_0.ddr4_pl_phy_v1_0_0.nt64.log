@@ -1,0 +1,25 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+WARNING VCP2515 "Undefined module: IBUFDS was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_phy_v1_0/hdl/clocking/ddr4_pl_phy_v1_0_pll.sv" 176  14
+WARNING VCP2515 "Undefined module: IBUF was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_phy_v1_0/hdl/clocking/ddr4_pl_phy_v1_0_pll.sv" 192  14
+WARNING VCP2515 "Undefined module: BUFG was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_phy_v1_0/hdl/clocking/ddr4_pl_phy_v1_0_pll.sv" 214  16
+WARNING VCP2515 "Undefined module: BUFGCE_DIV was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_phy_v1_0/hdl/clocking/ddr4_pl_phy_v1_0_pll.sv" 228  11
+WARNING VCP2515 "Undefined module: XPLL was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_phy_v1_0/hdl/clocking/ddr4_pl_phy_v1_0_pll.sv" 286  9
+WARNING VCP2515 "Undefined module: XPHY was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_phy_v1_0/hdl/xphy_bank/ddr4_pl_phy_v1_0_xphy_bank.sv" 555  15
+WARNING VCP2515 "Undefined module: OBUF was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_phy_v1_0/hdl/xphy_bank/ddr4_pl_phy_v1_0_xphy_bank.sv" 594  19
+WARNING VCP2515 "Undefined module: IOBUF was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_phy_v1_0/hdl/xphy_bank/ddr4_pl_phy_v1_0_xphy_bank.sv" 636  15
+WARNING VCP2515 "Undefined module: IOBUFDS was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_phy_v1_0/hdl/xphy_bank/ddr4_pl_phy_v1_0_xphy_bank.sv" 858  11
+WARNING VCP2515 "Undefined module: IOBUFDS_DIFF_OUT_DCIEN was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_phy_v1_0/hdl/xphy_bank/ddr4_pl_phy_v1_0_xphy_bank.sv" 872  11
+WARNING VCP2515 "Undefined module: OBUFDS was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_phy_v1_0/hdl/xphy_bank/ddr4_pl_phy_v1_0_xphy_bank.sv" 892  33
+WARNING VCP2515 "Undefined module: OBUFDS_DPHY was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_phy_v1_0/hdl/xphy_bank/ddr4_pl_phy_v1_0_xphy_bank.sv" 903  48
+WARNING VCP2515 "Undefined module: IBUFDS_DPHY was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_phy_v1_0/hdl/xphy_bank/ddr4_pl_phy_v1_0_xphy_bank.sv" 917  54
+WARNING VCP2515 "Undefined module: XPIO_VREF was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_phy_v1_0/hdl/xphy_bank/ddr4_pl_phy_v1_0_xphy_bank.sv" 1294  11
+MESSAGE "Pass 2. Processing instantiations."
+WARNING VCP2597 "Some unconnected ports remain at instance: xphy_bank_inst. Module ddr4_pl_phy_v1_0_0_xphy_bank has unconnected  port(s) : LPTX_I_RX_O, LPTX_T_RX_DISABLE, HSRX_DISABLE, VREF." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/ddr4_pl_phy_v1_0/hdl/xphy_bank/ddr4_pl_phy_v1_0_xphy_bank_wrapper.sv" 230  1
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: ddr4_pl_phy_v1_0_0_pll ddr4_pl_phy_v1_0_0_xphy_bank_wrapper."
+MESSAGE "$root top modules: ddr4_pl_phy_v1_0_0_pll ddr4_pl_phy_v1_0_0_xphy_bank_wrapper."
+SUCCESS "Compile success 0 Errors 15 Warnings  Analysis time: 0[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

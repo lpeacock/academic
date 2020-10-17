@@ -1,0 +1,1122 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Jan 30 08:08:56 2020
+# Process ID: 9408
+# Current directory: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3264 C:\Temp\lucaspeacock\FPGA\Lab2\lab2_2_1\lab2_2_1.xpr
+# Log file: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/vivado.log
+# Journal file: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1\vivado.jou
+#-----------------------------------------------------------
+INFO: [Common 17-1239] XILINX_LOCAL_USER_DATA is set to 'no'.
+start_gui
+open_project C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.xpr
+INFO: [Project 1-313] Project file moved from 'C:/temp/lucaspeacock/lab2/editable/lab2_2_1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 950.203 ; gain = 208.184
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292710606A
+set_property PROGRAM.FILE {C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/impl_1/lab2_2_1.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/impl_1/lab2_2_1.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+import_files -norecurse //ausamba.auburn.edu/homes/downloads/lab2_2_1_partA_tb.v
+update_compile_order -fileset sources_1
+set_property top lab2_2_1_partA_tb [current_fileset]
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'lab2_2_1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj lab2_2_1_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/comparator_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/lab2_2_1_partA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab2_2_1_partA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/imports/new/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/lab2_2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab2_2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto ac199e6377eb48a182e07ea8d84b7446 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot lab2_2_1_behav xil_defaultlib.lab2_2_1 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port y [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/lab2_2_1.v:36]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.comparator_dataflow
+Compiling module xil_defaultlib.lab2_2_1_partA
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.lab2_2_1
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot lab2_2_1_behav
+
+****** Webtalk v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/xsim/xsim.dir/lab2_2_1_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/xsim/xsim.dir/lab2_2_1_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Jan 30 08:22:11 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2018.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Jan 30 08:22:11 2020...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "lab2_2_1_behav -key {Behavioral:sim_1:Functional:lab2_2_1} -tclbatch {lab2_2_1.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source lab2_2_1.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'lab2_2_1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 1717.309 ; gain = 23.512
+update_compile_order -fileset sources_1
+set_property target_simulator ActiveHDL [current_project]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/imports/downloads/lab2_2_1_partA_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/lab2_2_1.v:]
+update_ip_catalog
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl'
+INFO: [USF-Active-HDL-33] Finding simulator installation...
+INFO: [USF-Active-HDL-36] Using simulator executables from 'C:\Aldec\Active-HDL-10.5a\bin'
+INFO: [USF-Active-HDL-5] Simulation object is 'sim_1'...
+INFO: [USF-Active-HDL-28] Inspecting fileset 'sim_1' for IP generation...
+INFO: [USF-Active-HDL-28] Inspecting fileset 'sources_1' for IP generation...
+INFO: [Vivado 12-3458] The update_compile_order command is not intended for use in the GUI, where compile order updates occur based on project changes and the hierarchy update settings. No update performed.
+INFO: [Vivado 12-3458] The update_compile_order command is not intended for use in the GUI, where compile order updates occur based on project changes and the hierarchy update settings. No update performed.
+INFO: [USF-Active-HDL-24] Inspecting design source files for 'lab2_2_1_partA_tb' in fileset 'sim_1'...
+INFO: [USF-Active-HDL-39] Finding global include files...
+INFO: [USF-Active-HDL-40] Finding include directories and verilog header directory paths...
+INFO: [USF-Active-HDL-41] Fetching design files from 'sim_1'...
+INFO: [USF-Active-HDL-82] Active-HDL::Compile design
+INFO: [USF-Active-HDL-87] Creating automatic 'do' files...
+INFO: [USF-Active-HDL-89] C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl/lab2_2_1_partA_tb_compile.do
+INFO: [USF-Active-HDL-46] Executing 'COMPILE' step in 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl'
+        1 file(s) copied.
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 1733.512 ; gain = 1.832
+INFO: [USF-Active-HDL-78] Step results log file:'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl/compile.log'
+ERROR: [USF-Active-HDL-48] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl/compile.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1733.512 ; gain = 1.832
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl'
+INFO: [USF-Active-HDL-33] Finding simulator installation...
+INFO: [USF-Active-HDL-36] Using simulator executables from 'C:\Aldec\Active-HDL-10.5a\bin'
+INFO: [USF-Active-HDL-5] Simulation object is 'sim_1'...
+INFO: [USF-Active-HDL-28] Inspecting fileset 'sim_1' for IP generation...
+INFO: [USF-Active-HDL-28] Inspecting fileset 'sources_1' for IP generation...
+INFO: [Vivado 12-3458] The update_compile_order command is not intended for use in the GUI, where compile order updates occur based on project changes and the hierarchy update settings. No update performed.
+INFO: [Vivado 12-3458] The update_compile_order command is not intended for use in the GUI, where compile order updates occur based on project changes and the hierarchy update settings. No update performed.
+INFO: [USF-Active-HDL-24] Inspecting design source files for 'lab2_2_1_partA_tb' in fileset 'sim_1'...
+INFO: [USF-Active-HDL-39] Finding global include files...
+INFO: [USF-Active-HDL-40] Finding include directories and verilog header directory paths...
+INFO: [USF-Active-HDL-41] Fetching design files from 'sim_1'...
+INFO: [USF-Active-HDL-82] Active-HDL::Compile design
+INFO: [USF-Active-HDL-87] Creating automatic 'do' files...
+INFO: [USF-Active-HDL-89] C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl/lab2_2_1_partA_tb_compile.do
+INFO: [USF-Active-HDL-46] Executing 'COMPILE' step in 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl'
+        1 file(s) copied.
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 1733.836 ; gain = 0.000
+INFO: [USF-Active-HDL-78] Step results log file:'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl/compile.log'
+ERROR: [USF-Active-HDL-48] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl/compile.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:14 . Memory (MB): peak = 1733.836 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl'
+INFO: [USF-Active-HDL-33] Finding simulator installation...
+INFO: [USF-Active-HDL-36] Using simulator executables from 'C:\Aldec\Active-HDL-10.5a\bin'
+INFO: [USF-Active-HDL-5] Simulation object is 'sim_1'...
+INFO: [USF-Active-HDL-28] Inspecting fileset 'sim_1' for IP generation...
+INFO: [USF-Active-HDL-28] Inspecting fileset 'sources_1' for IP generation...
+INFO: [Vivado 12-3458] The update_compile_order command is not intended for use in the GUI, where compile order updates occur based on project changes and the hierarchy update settings. No update performed.
+INFO: [Vivado 12-3458] The update_compile_order command is not intended for use in the GUI, where compile order updates occur based on project changes and the hierarchy update settings. No update performed.
+INFO: [USF-Active-HDL-24] Inspecting design source files for 'lab2_2_1_partA_tb' in fileset 'sim_1'...
+INFO: [USF-Active-HDL-39] Finding global include files...
+INFO: [USF-Active-HDL-40] Finding include directories and verilog header directory paths...
+INFO: [USF-Active-HDL-41] Fetching design files from 'sim_1'...
+INFO: [USF-Active-HDL-82] Active-HDL::Compile design
+INFO: [USF-Active-HDL-87] Creating automatic 'do' files...
+INFO: [USF-Active-HDL-89] C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl/lab2_2_1_partA_tb_compile.do
+INFO: [USF-Active-HDL-46] Executing 'COMPILE' step in 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl'
+        1 file(s) copied.
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 1733.836 ; gain = 0.000
+INFO: [USF-Active-HDL-78] Step results log file:'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl/compile.log'
+ERROR: [USF-Active-HDL-48] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl/compile.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 1733.836 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl'
+INFO: [USF-Active-HDL-33] Finding simulator installation...
+INFO: [USF-Active-HDL-36] Using simulator executables from 'C:\Aldec\Active-HDL-10.5a\bin'
+INFO: [USF-Active-HDL-5] Simulation object is 'sim_1'...
+INFO: [USF-Active-HDL-28] Inspecting fileset 'sim_1' for IP generation...
+INFO: [USF-Active-HDL-28] Inspecting fileset 'sources_1' for IP generation...
+INFO: [Vivado 12-3458] The update_compile_order command is not intended for use in the GUI, where compile order updates occur based on project changes and the hierarchy update settings. No update performed.
+INFO: [Vivado 12-3458] The update_compile_order command is not intended for use in the GUI, where compile order updates occur based on project changes and the hierarchy update settings. No update performed.
+INFO: [USF-Active-HDL-24] Inspecting design source files for 'lab2_2_1_partA_tb' in fileset 'sim_1'...
+INFO: [USF-Active-HDL-39] Finding global include files...
+INFO: [USF-Active-HDL-40] Finding include directories and verilog header directory paths...
+INFO: [USF-Active-HDL-41] Fetching design files from 'sim_1'...
+INFO: [USF-Active-HDL-82] Active-HDL::Compile design
+INFO: [USF-Active-HDL-87] Creating automatic 'do' files...
+INFO: [USF-Active-HDL-89] C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl/lab2_2_1_partA_tb_compile.do
+INFO: [USF-Active-HDL-46] Executing 'COMPILE' step in 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl'
+        1 file(s) copied.
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 1733.836 ; gain = 0.000
+INFO: [USF-Active-HDL-78] Step results log file:'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl/compile.log'
+ERROR: [USF-Active-HDL-48] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl/compile.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 1733.836 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl'
+INFO: [USF-Active-HDL-33] Finding simulator installation...
+INFO: [USF-Active-HDL-36] Using simulator executables from 'C:\Aldec\Active-HDL-10.5a\bin'
+INFO: [USF-Active-HDL-5] Simulation object is 'sim_1'...
+INFO: [USF-Active-HDL-28] Inspecting fileset 'sim_1' for IP generation...
+INFO: [USF-Active-HDL-28] Inspecting fileset 'sources_1' for IP generation...
+INFO: [Vivado 12-3458] The update_compile_order command is not intended for use in the GUI, where compile order updates occur based on project changes and the hierarchy update settings. No update performed.
+INFO: [Vivado 12-3458] The update_compile_order command is not intended for use in the GUI, where compile order updates occur based on project changes and the hierarchy update settings. No update performed.
+INFO: [USF-Active-HDL-24] Inspecting design source files for 'lab2_2_1_partA_tb' in fileset 'sim_1'...
+INFO: [USF-Active-HDL-39] Finding global include files...
+INFO: [USF-Active-HDL-40] Finding include directories and verilog header directory paths...
+INFO: [USF-Active-HDL-41] Fetching design files from 'sim_1'...
+INFO: [USF-Active-HDL-82] Active-HDL::Compile design
+INFO: [USF-Active-HDL-87] Creating automatic 'do' files...
+INFO: [USF-Active-HDL-89] C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl/lab2_2_1_partA_tb_compile.do
+INFO: [USF-Active-HDL-46] Executing 'COMPILE' step in 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl'
+        1 file(s) copied.
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1733.836 ; gain = 0.000
+INFO: [USF-Active-HDL-78] Step results log file:'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl/compile.log'
+ERROR: [USF-Active-HDL-48] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl/compile.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:16 . Memory (MB): peak = 1733.836 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl'
+INFO: [USF-Active-HDL-33] Finding simulator installation...
+INFO: [USF-Active-HDL-36] Using simulator executables from 'C:\Aldec\Active-HDL-10.5a\bin'
+INFO: [USF-Active-HDL-5] Simulation object is 'sim_1'...
+INFO: [USF-Active-HDL-28] Inspecting fileset 'sim_1' for IP generation...
+INFO: [USF-Active-HDL-28] Inspecting fileset 'sources_1' for IP generation...
+INFO: [Vivado 12-3458] The update_compile_order command is not intended for use in the GUI, where compile order updates occur based on project changes and the hierarchy update settings. No update performed.
+INFO: [Vivado 12-3458] The update_compile_order command is not intended for use in the GUI, where compile order updates occur based on project changes and the hierarchy update settings. No update performed.
+INFO: [USF-Active-HDL-24] Inspecting design source files for 'lab2_2_1_partA_tb' in fileset 'sim_1'...
+INFO: [USF-Active-HDL-39] Finding global include files...
+INFO: [USF-Active-HDL-40] Finding include directories and verilog header directory paths...
+INFO: [USF-Active-HDL-41] Fetching design files from 'sim_1'...
+INFO: [USF-Active-HDL-82] Active-HDL::Compile design
+INFO: [USF-Active-HDL-87] Creating automatic 'do' files...
+INFO: [USF-Active-HDL-89] C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl/lab2_2_1_partA_tb_compile.do
+INFO: [USF-Active-HDL-46] Executing 'COMPILE' step in 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl'
+        1 file(s) copied.
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 1733.836 ; gain = 0.000
+INFO: [USF-Active-HDL-83] Active-HDL::Simulate design
+INFO: [USF-Active-HDL-46] Executing 'SIMULATE' step in 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl'
+Program launched (PID=8608)
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 1733.836 ; gain = 0.000
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl'
+INFO: [USF-Active-HDL-33] Finding simulator installation...
+INFO: [USF-Active-HDL-36] Using simulator executables from 'C:\Aldec\Active-HDL-10.5a\bin'
+INFO: [USF-Active-HDL-5] Simulation object is 'sim_1'...
+INFO: [USF-Active-HDL-28] Inspecting fileset 'sim_1' for IP generation...
+INFO: [USF-Active-HDL-28] Inspecting fileset 'sources_1' for IP generation...
+INFO: [Vivado 12-3458] The update_compile_order command is not intended for use in the GUI, where compile order updates occur based on project changes and the hierarchy update settings. No update performed.
+INFO: [Vivado 12-3458] The update_compile_order command is not intended for use in the GUI, where compile order updates occur based on project changes and the hierarchy update settings. No update performed.
+INFO: [USF-Active-HDL-24] Inspecting design source files for 'lab2_2_1_partA_tb' in fileset 'sim_1'...
+INFO: [USF-Active-HDL-39] Finding global include files...
+INFO: [USF-Active-HDL-40] Finding include directories and verilog header directory paths...
+INFO: [USF-Active-HDL-41] Fetching design files from 'sim_1'...
+INFO: [USF-Active-HDL-82] Active-HDL::Compile design
+INFO: [USF-Active-HDL-87] Creating automatic 'do' files...
+INFO: [USF-Active-HDL-89] C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl/lab2_2_1_partA_tb_compile.do
+INFO: [USF-Active-HDL-46] Executing 'COMPILE' step in 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl'
+        1 file(s) copied.
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:15 . Memory (MB): peak = 1733.836 ; gain = 0.000
+INFO: [USF-Active-HDL-83] Active-HDL::Simulate design
+INFO: [USF-Active-HDL-46] Executing 'SIMULATE' step in 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.sim/sim_1/behav/activehdl'
+Program launched (PID=1596)
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:18 . Memory (MB): peak = 1733.836 ; gain = 0.000
+set_property is_enabled false [get_files  C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/imports/downloads/lab2_2_1_partA_tb.v]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Thu Jan 30 08:42:50 2020] Launched synth_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Thu Jan 30 08:43:47 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Thu Jan 30 08:46:49 2020] Launched synth_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/synth_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Thu Jan 30 08:47:02 2020] Launched synth_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Thu Jan 30 08:47:47 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/impl_1/runme.log
+open_project C:/Temp/lucaspeacock/FPGA/Lab2/lab2_1_1/lab2_1_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+current_project lab2_2_1
+current_project lab2_1_1
+current_project lab2_2_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Thu Jan 30 08:49:31 2020] Launched synth_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Thu Jan 30 08:50:15 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/impl_1/runme.log
+open_project C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_1/lab2_3_1.xpr
+INFO: [Project 1-313] Project file moved from 'C:/temp/lucaspeacock/lab2/editable/lab2_3_1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+update_compile_order -fileset sources_1
+current_project lab2_2_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Jan 30 08:51:33 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/impl_1/runme.log
+current_project lab2_3_1
+current_project lab2_2_1
+current_project lab2_1_1
+close_project
+current_project lab2_2_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/impl_1/lab2_2_1.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+current_project lab2_3_1
+launch_runs synth_1 -jobs 4
+[Thu Jan 30 08:55:42 2020] Launched synth_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_1/lab2_3_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Thu Jan 30 08:57:29 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_1/lab2_3_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Jan 30 08:58:41 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_1/lab2_3_1.runs/impl_1/runme.log
+current_project lab2_2_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Thu Jan 30 09:00:41 2020] Launched synth_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/synth_1/runme.log
+close_hw
+launch_runs impl_1 -jobs 4
+[Thu Jan 30 09:01:26 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.1
+  **** Build date : Apr  4 2018-19:32:53
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292710606A
+set_property PROGRAM.FILE {C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_1/lab2_3_1.runs/impl_1/rca_dataflow.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+current_project lab2_3_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_1/lab2_3_1.runs/impl_1/rca_dataflow.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+current_project lab2_2_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Jan 30 09:02:44 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/impl_1/runme.log
+current_project lab2_3_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Jan 30 09:04:08 2020] Launched synth_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_1/lab2_3_1.runs/synth_1/runme.log
+close_project
+****** Webtalk v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_1/lab2_3_1.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_1/lab2_3_1.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Thu Jan 30 09:04:30 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2018.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Jan 30 09:04:30 2020...
+open_project C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_1/lab2_3_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+update_compile_order -fileset sources_1
+launch_runs impl_1 -jobs 4
+[Thu Jan 30 09:04:53 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_1/lab2_3_1.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.1
+  **** Build date : Apr  4 2018-19:32:53
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292710606A
+set_property PROGRAM.FILE {C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/impl_1/lab2_2_1.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+current_project lab2_2_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/impl_1/lab2_2_1.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: lab2_2_1
+WARNING: [Synth 8-2539] port m must not be declared to be an array [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/lab2_2_1.v:26]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2114.328 ; gain = 117.293
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'lab2_2_1' [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/lab2_2_1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'comparator_dataflow' [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/comparator_dataflow.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'comparator_dataflow' (1#1) [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/comparator_dataflow.v:23]
+INFO: [Synth 8-6157] synthesizing module 'lab2_2_1_partA' [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/lab2_2_1_partA.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'lab2_2_1_partA' (2#1) [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/lab2_2_1_partA.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mux2' [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/imports/new/mux2.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mux2' (3#1) [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/imports/new/mux2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'bcdto7segment_dataflow' [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/imports/new/bcdto7segment_dataflow.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bcdto7segment_dataflow' (4#1) [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/imports/new/bcdto7segment_dataflow.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'lab2_2_1' (5#1) [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/lab2_2_1.v:23]
+WARNING: [Synth 8-3331] design comparator_dataflow has unconnected port v[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2152.695 ; gain = 155.660
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2152.695 ; gain = 155.660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2152.695 ; gain = 155.660
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 9 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/constrs_1/imports/lab1_4_2/Nexys4DDR_Master.xdc]
+Finished Parsing XDC File [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/constrs_1/imports/lab1_4_2/Nexys4DDR_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 2488.988 ; gain = 491.953
+16 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 2488.988 ; gain = 491.953
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2488.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'lab2_2_1' [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/lab2_2_1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'comparator_dataflow' [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/comparator_dataflow.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'comparator_dataflow' (1#1) [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/comparator_dataflow.v:23]
+INFO: [Synth 8-6157] synthesizing module 'lab2_2_1_partA' [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/lab2_2_1_partA.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'lab2_2_1_partA' (2#1) [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/lab2_2_1_partA.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mux2' [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/imports/new/mux2.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mux2' (3#1) [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/imports/new/mux2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'bcdto7segment_dataflow' [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/imports/new/bcdto7segment_dataflow.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bcdto7segment_dataflow' (4#1) [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/imports/new/bcdto7segment_dataflow.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'lab2_2_1' (5#1) [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/lab2_2_1.v:23]
+WARNING: [Synth 8-3331] design comparator_dataflow has unconnected port v[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2523.391 ; gain = 34.402
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2523.391 ; gain = 34.402
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2523.391 ; gain = 34.402
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 9 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/constrs_1/imports/lab1_4_2/Nexys4DDR_Master.xdc]
+Finished Parsing XDC File [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/constrs_1/imports/lab1_4_2/Nexys4DDR_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:11 . Memory (MB): peak = 2544.898 ; gain = 55.910
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Thu Jan 30 09:13:30 2020] Launched synth_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Thu Jan 30 09:14:18 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Jan 30 09:15:43 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/impl_1/lab2_2_1.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2580.430 ; gain = 29.320
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'lab2_2_1' [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/lab2_2_1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'comparator_dataflow' [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/comparator_dataflow.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'comparator_dataflow' (1#1) [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/comparator_dataflow.v:23]
+INFO: [Synth 8-6157] synthesizing module 'lab2_2_1_partA' [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/lab2_2_1_partA.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'lab2_2_1_partA' (2#1) [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/lab2_2_1_partA.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mux2' [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/imports/new/mux2.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mux2' (3#1) [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/imports/new/mux2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'bcdto7segment_dataflow' [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/imports/new/bcdto7segment_dataflow.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bcdto7segment_dataflow' (4#1) [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/imports/new/bcdto7segment_dataflow.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'lab2_2_1' (5#1) [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/lab2_2_1.v:23]
+WARNING: [Synth 8-3331] design comparator_dataflow has unconnected port v[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2618.301 ; gain = 67.191
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2618.301 ; gain = 67.191
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2618.301 ; gain = 67.191
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 9 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/constrs_1/imports/lab1_4_2/Nexys4DDR_Master.xdc]
+Finished Parsing XDC File [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/constrs_1/imports/lab1_4_2/Nexys4DDR_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 2647.684 ; gain = 96.574
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Thu Jan 30 09:28:43 2020] Launched synth_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/synth_1/runme.log
+open_project C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_2/lab2_2_2.xpr
+INFO: [Project 1-313] Project file moved from 'C:/temp/lucaspeacock/lab2/editable/lab2_2_2' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+update_compile_order -fileset sources_1
+current_project lab2_2_1
+launch_runs impl_1 -jobs 4
+[Thu Jan 30 09:29:28 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/impl_1/runme.log
+current_project lab2_2_2
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_2/lab2_2_2.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Thu Jan 30 09:30:31 2020] Launched synth_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_2/lab2_2_2.runs/synth_1/runme.log
+current_project lab2_2_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Jan 30 09:30:49 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/impl_1/runme.log
+current_project lab2_2_2
+launch_runs impl_1 -jobs 4
+[Thu Jan 30 09:31:19 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_2/lab2_2_2.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/impl_1/lab2_2_1.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Common 17-70] Application Exception: LTTTHWSessionUtil - null wave manager returned from session
+current_project lab2_2_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Thu Jan 30 09:33:10 2020] Launched synth_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/synth_1/runme.log
+current_project lab2_2_2
+current_project lab2_2_1
+launch_runs impl_1 -jobs 4
+[Thu Jan 30 09:33:55 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Jan 30 09:35:12 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.runs/impl_1/lab2_2_1.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+current_project lab2_2_2
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Jan 30 09:37:02 2020] Launched synth_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_2/lab2_2_2.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Thu Jan 30 09:37:47 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_2/lab2_2_2.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Jan 30 09:38:59 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_2/lab2_2_2.runs/impl_1/runme.log
+current_project lab2_2_1
+current_project lab2_3_1
+current_project lab2_2_2
+current_project lab2_3_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Jan 30 09:40:24 2020] Launched synth_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_1/lab2_3_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Thu Jan 30 09:41:12 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_1/lab2_3_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Jan 30 09:42:26 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_1/lab2_3_1.runs/impl_1/runme.log
+current_project lab2_2_1
+close_project
+****** Webtalk v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Thu Jan 30 09:43:36 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2018.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Jan 30 09:43:36 2020...
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292710606A
+set_property PROGRAM.FILE {C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_2/lab2_2_2.runs/impl_1/bcdto2outof5.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_2/lab2_2_2.runs/impl_1/bcdto2outof5.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Jan 30 09:49:35 2020] Launched synth_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_2/lab2_2_2.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Thu Jan 30 09:50:37 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_2/lab2_2_2.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Thu Jan 30 09:52:14 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_2/lab2_2_2.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Jan 30 09:54:19 2020] Launched synth_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_2/lab2_2_2.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Thu Jan 30 09:55:03 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_2/lab2_2_2.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Jan 30 09:56:14 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_2/lab2_2_2.runs/impl_1/runme.log
+open_project C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_2/lab2_3_2.xpr
+INFO: [Project 1-313] Project file moved from 'C:/temp/lucaspeacock/lab2/editable/lab2_3_2' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+file mkdir C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_2/lab2_3_2.srcs/sources_1/new
+close [ open C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_2/lab2_3_2.srcs/sources_1/new/lab2_3_2.v w ]
+add_files C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_2/lab2_3_2.srcs/sources_1/new/lab2_3_2.v
+update_compile_order -fileset sources_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_2/lab2_2_2.runs/impl_1/bcdto2outof5.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Common 17-70] Application Exception: LTTTHWSessionUtil - null wave manager returned from session
+current_project lab2_2_2
+close_project
+****** Webtalk v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_2/lab2_2_2.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_2/lab2_2_2.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Thu Jan 30 10:00:36 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2018.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Jan 30 10:00:36 2020...
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292710606A
+set_property PROGRAM.FILE {C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_1/lab2_3_1.runs/impl_1/rca_dataflow.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+current_project lab2_3_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_1/lab2_3_1.runs/impl_1/rca_dataflow.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+current_project lab2_3_2
+import_files -norecurse C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/lab2_2_1.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property top lab2_3_2 [current_fileset]
+update_compile_order -fileset sources_1
+import_files -norecurse C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_1/lab2_3_1.srcs/sources_1/new/rca_dataflow.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+current_project lab2_3_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Jan 30 10:08:37 2020] Launched synth_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_1/lab2_3_1.runs/synth_1/runme.log
+open_project C:/Temp/lucaspeacock/FPGA/Lab2/lab2_4_1/lab2_4_1.xpr
+INFO: [Project 1-313] Project file moved from 'C:/temp/lucaspeacock/lab2/editable/lab2_4_1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+update_compile_order -fileset sources_1
+current_project lab2_3_1
+launch_runs impl_1 -jobs 4
+[Thu Jan 30 10:09:23 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_1/lab2_3_1.runs/impl_1/runme.log
+current_project lab2_4_1
+current_project lab2_3_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Jan 30 10:10:38 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_1/lab2_3_1.runs/impl_1/runme.log
+current_project lab2_3_2
+launch_runs synth_1 -jobs 4
+[Thu Jan 30 10:11:37 2020] Launched synth_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_2/lab2_3_2.runs/synth_1/runme.log
+current_project lab2_3_1
+close_project
+current_project lab2_3_2
+import_files -norecurse C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_1/lab2_3_1.srcs/sources_1/new/fulladder_dataflow.v
+reset_run synth_1
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+[Thu Jan 30 10:12:38 2020] Launched synth_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_2/lab2_3_2.runs/synth_1/runme.log
+import_files -norecurse {C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/lab2_2_1_partA.v C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/lab2_2_1.v C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/comparator_dataflow.v}
+WARNING: [filemgmt 20-354] The following file(s) were not imported. Local copy of file(s) already exists:
+C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/lab2_2_1.v
+Hint: use the '-force' option to overwrite the local copies.
+update_compile_order -fileset sources_1
+import_files -norecurse {C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/imports/new/mux2.v C:/Temp/lucaspeacock/FPGA/Lab2/lab2_1_1/lab2_1_1.srcs/sources_1/imports/new/bcdto7segment_dataflow.v}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+WARNING: [HDL 9-2994] overwriting previous definition of module lab2_2_1 [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_2/lab2_3_2.srcs/sources_1/imports/new/lab2_2_1.v:23]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'lab2_2_1()' found in library 'xil_defaultlib'
+Duplicate found at line 23 of file C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/lab2_2_1.v
+	(Active) Duplicate found at line 23 of file C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_2/lab2_3_2.srcs/sources_1/imports/new/lab2_2_1.v
+[Thu Jan 30 10:15:09 2020] Launched synth_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_2/lab2_3_2.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+WARNING: [HDL 9-2994] overwriting previous definition of module lab2_2_1 [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_2/lab2_3_2.srcs/sources_1/imports/new/lab2_2_1.v:23]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'lab2_2_1()' found in library 'xil_defaultlib'
+Duplicate found at line 23 of file C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/lab2_2_1.v
+	(Active) Duplicate found at line 23 of file C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_2/lab2_3_2.srcs/sources_1/imports/new/lab2_2_1.v
+[Thu Jan 30 10:16:35 2020] Launched synth_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_2/lab2_3_2.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Thu Jan 30 10:17:16 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_2/lab2_3_2.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Jan 30 10:18:30 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_2/lab2_3_2.runs/impl_1/runme.log
+current_project lab2_4_1
+update_compile_order -fileset sources_1
+current_project lab2_3_2
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+WARNING: [HDL 9-2994] overwriting previous definition of module lab2_2_1 [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_2/lab2_3_2.srcs/sources_1/imports/new/lab2_2_1.v:23]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'lab2_2_1()' found in library 'xil_defaultlib'
+Duplicate found at line 23 of file C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/lab2_2_1.v
+	(Active) Duplicate found at line 23 of file C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_2/lab2_3_2.srcs/sources_1/imports/new/lab2_2_1.v
+[Thu Jan 30 10:20:13 2020] Launched synth_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_2/lab2_3_2.runs/synth_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+current_project lab2_4_1
+current_project lab2_3_2
+launch_runs synth_1 -jobs 4
+WARNING: [HDL 9-2994] overwriting previous definition of module lab2_2_1 [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_2/lab2_3_2.srcs/sources_1/imports/new/lab2_2_1.v:23]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'lab2_2_1()' found in library 'xil_defaultlib'
+Duplicate found at line 23 of file C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/lab2_2_1.srcs/sources_1/new/lab2_2_1.v
+	(Active) Duplicate found at line 23 of file C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_2/lab2_3_2.srcs/sources_1/imports/new/lab2_2_1.v
+[Thu Jan 30 10:21:19 2020] Launched synth_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_2/lab2_3_2.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Thu Jan 30 10:22:25 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_2/lab2_3_2.runs/impl_1/runme.log
+current_project lab2_4_1
+launch_runs synth_1 -jobs 4
+[Thu Jan 30 10:23:18 2020] Launched synth_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_4_1/lab2_4_1.runs/synth_1/runme.log
+current_project lab2_3_2
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Jan 30 10:23:38 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_2/lab2_3_2.runs/impl_1/runme.log
+current_project lab2_4_1
+launch_runs impl_1 -jobs 4
+[Thu Jan 30 10:24:02 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_4_1/lab2_4_1.runs/impl_1/runme.log
+current_project lab2_3_2
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.1
+  **** Build date : Apr  4 2018-19:32:53
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292710606A
+set_property PROGRAM.FILE {C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_2/lab2_3_2.runs/impl_1/lab2_3_2.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_2/lab2_3_2.runs/impl_1/lab2_3_2.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+current_project lab2_4_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Jan 30 10:25:34 2020] Launched impl_1...
+Run output will be captured here: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_4_1/lab2_4_1.runs/impl_1/runme.log
+current_project lab2_3_2
+close_project
+****** Webtalk v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_2/lab2_3_2.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_3_2/lab2_3_2.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Thu Jan 30 10:26:38 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2018.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Jan 30 10:26:38 2020...
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292710606A
+set_property PROGRAM.FILE {C:/Temp/lucaspeacock/FPGA/Lab2/lab2_4_1/lab2_4_1.runs/impl_1/rca_dataflow.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Temp/lucaspeacock/FPGA/Lab2/lab2_4_1/lab2_4_1.runs/impl_1/rca_dataflow.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: rca_dataflow
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3010.199 ; gain = 16.391
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'rca_dataflow' [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_4_1/lab2_4_1.srcs/sources_1/imports/new/rca_dataflow.v:23]
+INFO: [Synth 8-6157] synthesizing module 'fulladder_dataflow' [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_4_1/lab2_4_1.srcs/sources_1/imports/new/fulladder_dataflow.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'fulladder_dataflow' (1#1) [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_4_1/lab2_4_1.srcs/sources_1/imports/new/fulladder_dataflow.v:23]
+INFO: [Synth 8-6157] synthesizing module 'carrylookahead' [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_4_1/lab2_4_1.srcs/sources_1/new/carrylookahead.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'carrylookahead' (2#1) [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_4_1/lab2_4_1.srcs/sources_1/new/carrylookahead.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'rca_dataflow' (3#1) [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_4_1/lab2_4_1.srcs/sources_1/imports/new/rca_dataflow.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 3032.008 ; gain = 38.199
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 3032.008 ; gain = 38.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 3032.008 ; gain = 38.199
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_4_1/lab2_4_1.srcs/constrs_1/imports/lab1_4_2/Nexys4DDR_Master.xdc]
+Finished Parsing XDC File [C:/Temp/lucaspeacock/FPGA/Lab2/lab2_4_1/lab2_4_1.srcs/constrs_1/imports/lab1_4_2/Nexys4DDR_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 3134.801 ; gain = 140.992
+9 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 3134.801 ; gain = 140.992

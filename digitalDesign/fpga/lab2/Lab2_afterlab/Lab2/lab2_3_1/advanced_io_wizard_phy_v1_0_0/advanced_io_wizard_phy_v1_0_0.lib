@@ -1,0 +1,141 @@
+timestamp=1580964335845
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv=0*7361*35396
+LastVerilogToplevel=advanced_io_wizard_phy_v1_0_0_BitSlipInLogic_Toplevel
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|0000007c789c1d8c310ec2300c00bf92bd6a69c2c60a232b9b25cb24295898348adb14783d519793ee86ebc550a8947c0cc8336efca312303fbf582d8e389a8e930f5cbaf3096e1a8b82ac9e142eb35fdf312d0a537e1008dd1d5c1b90a62596a6bbed1d8f6861f01f19381fda4d4cafd5bdacfb0325a12c9a|c73a565f2ade592f8ac1c68f484c9216624fc698f66a21580deb1f982004f734
+
+[\advanced_io_wizard_phy_v1_0_0_reset_if \\advanced_io_wizard_phy_v1_0_0_reset_if.async \\ \]
+A/\advanced_io_wizard_phy_v1_0_0_reset_if \\advanced_io_wizard_phy_v1_0_0_reset_if.async \\ \=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|658|1*19341
+BinI32/\advanced_io_wizard_phy_v1_0_0_reset_if \\advanced_io_wizard_phy_v1_0_0_reset_if.async \\ \=3*12054
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|658
+SLP=3*12314
+Version=10.5.217.6767 (Windows)|0000007c789c1d8c310ec2300c00bf92bd6a69c2c60a232b9b25cb24295898348adb14783d519793ee86ebc550a8947c0cc8336efca312303fbf582d8e389a8e930f5cbaf3096e1a8b82ac9e142eb35fdf312d0a537e1008dd1d5c1b90a62596a6bbed1d8f6861f01f19381fda4d4cafd5bdacfb0325a12c9a|a869b367d0a7ff53a488fd319b1c5ab71199bb2f70cfa76cb4f189fc167d076515bd115c34cbf92ad0a8af752675e84c70e07825d6c4453c136949e1aafcb450035d881100d6ae78d1e3e378fa01aab0
+
+[\advanced_io_wizard_phy_v1_0_0_reset_if \\advanced_io_wizard_phy_v1_0_0_reset_if.sync \\ \]
+A/\advanced_io_wizard_phy_v1_0_0_reset_if \\advanced_io_wizard_phy_v1_0_0_reset_if.sync \\ \=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|643|1*16560
+BinI32/\advanced_io_wizard_phy_v1_0_0_reset_if \\advanced_io_wizard_phy_v1_0_0_reset_if.sync \\ \=3*11529
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|643
+SLP=3*11788
+Version=10.5.217.6767 (Windows)|0000007c789c1d8c310ec2300c00bf92bd6a69c2c60a232b9b25cb24295898348adb14783d519793ee86ebc550a8947c0cc8336efca312303fbf582d8e389a8e930f5cbaf3096e1a8b82ac9e142eb35fdf312d0a537e1008dd1d5c1b90a62596a6bbed1d8f6861f01f19381fda4d4cafd5bdacfb0325a12c9a|a869b367d0a7ff53a488fd319b1c5ab71199bb2f70cfa76cb4f189fc167d076557580e37b6fea29b961f94e1ee4ac8199060eb1c03793d4f93134e8f6a8d85b674cd798f789830332420d48086bc9788
+
+[advanced_io_wizard_phy_v1_0_0_BitSlipInLogic_4b]
+A/advanced_io_wizard_phy_v1_0_0_BitSlipInLogic_4b=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|3648|1*132783
+BinI32/advanced_io_wizard_phy_v1_0_0_BitSlipInLogic_4b=3*86422
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|3648
+SLP=3*89453
+Version=10.5.217.6767 (Windows)|0000007c789c1d8c310ec2300c00bf92bd6a69c2c60a232b9b25cb24295898348adb14783d519793ee86ebc550a8947c0cc8336efca312303fbf582d8e389a8e930f5cbaf3096e1a8b82ac9e142eb35fdf312d0a537e1008dd1d5c1b90a62596a6bbed1d8f6861f01f19381fda4d4cafd5bdacfb0325a12c9a|a42949a17736ca829e5f27171cebfd5532dad1dea90ca0f186b13f2072588b07bb7609af01356212bb9a4c834cd6ad3f9d86ca17e08f252355ddfce0dd9badf9adb4cf6f608f9918ed04857261e46715
+
+[advanced_io_wizard_phy_v1_0_0_BitSlipInLogic_8b]
+A/advanced_io_wizard_phy_v1_0_0_BitSlipInLogic_8b=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|3324|1*115578
+BinI32/advanced_io_wizard_phy_v1_0_0_BitSlipInLogic_8b=3*78190
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|3324
+SLP=3*81410
+Version=10.5.217.6767 (Windows)|0000007c789c1d8c310ec2300c00bf92bd6a69c2c60a232b9b25cb24295898348adb14783d519793ee86ebc550a8947c0cc8336efca312303fbf582d8e389a8e930f5cbaf3096e1a8b82ac9e142eb35fdf312d0a537e1008dd1d5c1b90a62596a6bbed1d8f6861f01f19381fda4d4cafd5bdacfb0325a12c9a|a42949a17736ca829e5f27171cebfd5532dad1dea90ca0f186b13f2072588b0737af3d025d38c353d58c2eb83f9a2bbe27a51d668d123e50829f98278c9bd9c69b1078bd14e6326b3deffbd9f0a29307
+
+[advanced_io_wizard_phy_v1_0_0_BitSlipInLogic_Toplevel]
+A/advanced_io_wizard_phy_v1_0_0_BitSlipInLogic_Toplevel=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|3978|1*148357
+BinI32/advanced_io_wizard_phy_v1_0_0_BitSlipInLogic_Toplevel=3*93577
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|3978
+SLP=3*95126
+Version=10.5.217.6767 (Windows)|0000007c789c1d8c310ec2300c00bf92bd6a69c2c60a232b9b25cb24295898348adb14783d519793ee86ebc550a8947c0cc8336efca312303fbf582d8e389a8e930f5cbaf3096e1a8b82ac9e142eb35fdf312d0a537e1008dd1d5c1b90a62596a6bbed1d8f6861f01f19381fda4d4cafd5bdacfb0325a12c9a|a42949a17736ca829e5f27171cebfd5532dad1dea90ca0f186b13f2072588b0799dc8eea48774b5f445c0e97a1c0a888496d0fb9cebd4ba0bd2fac06dd07250d4497542f5ef64ebbfbde7dd2a351c6f9
+
+[advanced_io_wizard_phy_v1_0_0_C2BCEtc]
+A/advanced_io_wizard_phy_v1_0_0_C2BCEtc=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|4461|1*145242
+BinI32/advanced_io_wizard_phy_v1_0_0_C2BCEtc=3*91964
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|4461
+SLP=3*92941
+Version=10.5.217.6767 (Windows)|0000007c789c1d8c310ec2300c00bf92bd6a69c2c60a232b9b25cb24295898348adb14783d519793ee86ebc550a8947c0cc8336efca312303fbf582d8e389a8e930f5cbaf3096e1a8b82ac9e142eb35fdf312d0a537e1008dd1d5c1b90a62596a6bbed1d8f6861f01f19381fda4d4cafd5bdacfb0325a12c9a|a42949a17736ca829e5f27171cebfd5532dad1dea90ca0f186b13f2072588b078aefc6a78a97eb16b697958a9c9d76315df23377394a6d98074a08e0de125460
+
+[advanced_io_wizard_phy_v1_0_0_C3BCEtc]
+A/advanced_io_wizard_phy_v1_0_0_C3BCEtc=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|4348|1*127740
+BinI32/advanced_io_wizard_phy_v1_0_0_C3BCEtc=3*84102
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|4348
+SLP=3*85195
+Version=10.5.217.6767 (Windows)|0000007c789c1d8c310ec2300c00bf92bd6a69c2c60a232b9b25cb24295898348adb14783d519793ee86ebc550a8947c0cc8336efca312303fbf582d8e389a8e930f5cbaf3096e1a8b82ac9e142eb35fdf312d0a537e1008dd1d5c1b90a62596a6bbed1d8f6861f01f19381fda4d4cafd5bdacfb0325a12c9a|a42949a17736ca829e5f27171cebfd5532dad1dea90ca0f186b13f2072588b075dba7cfc0ad9adb4b0da17e56b9de0a57d36420ce97ec4446a5b5c7eb8110399
+
+[advanced_io_wizard_phy_v1_0_0_Fdcr]
+A/advanced_io_wizard_phy_v1_0_0_Fdcr=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|4259|1*156553
+BinI32/advanced_io_wizard_phy_v1_0_0_Fdcr=3*95921
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|4259
+SLP=3*96941
+Version=10.5.217.6767 (Windows)|0000007c789c1d8c310ec2300c00bf92bd6a69c2c60a232b9b25cb24295898348adb14783d519793ee86ebc550a8947c0cc8336efca312303fbf582d8e389a8e930f5cbaf3096e1a8b82ac9e142eb35fdf312d0a537e1008dd1d5c1b90a62596a6bbed1d8f6861f01f19381fda4d4cafd5bdacfb0325a12c9a|a42949a17736ca829e5f27171cebfd5532dad1dea90ca0f186b13f2072588b07cf0ff78fecd60431e870583202a3865c0b3da32d4e2137a4b748ed0f233ae56c
+
+[advanced_io_wizard_phy_v1_0_0_GenPulse]
+A/advanced_io_wizard_phy_v1_0_0_GenPulse=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|4181|1*130855
+BinI32/advanced_io_wizard_phy_v1_0_0_GenPulse=3*85929
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|4181
+SLP=3*86165
+Version=10.5.217.6767 (Windows)|0000007c789c1d8c310ec2300c00bf92bd6a69c2c60a232b9b25cb24295898348adb14783d519793ee86ebc550a8947c0cc8336efca312303fbf582d8e389a8e930f5cbaf3096e1a8b82ac9e142eb35fdf312d0a537e1008dd1d5c1b90a62596a6bbed1d8f6861f01f19381fda4d4cafd5bdacfb0325a12c9a|a42949a17736ca829e5f27171cebfd5532dad1dea90ca0f186b13f2072588b076665dd186292f8308c6e881db8523d12b859e4e032c0c0d4886ef1aef76c2d3e
+
+[advanced_io_wizard_phy_v1_0_0_bank_wrapper]
+A/advanced_io_wizard_phy_v1_0_0_bank_wrapper=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|724|1*22121
+BinI32/advanced_io_wizard_phy_v1_0_0_bank_wrapper=3*12580
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|724
+SLP=3*29223
+Version=10.5.217.6767 (Windows)|0000007c789c1d8c310ec2300c00bf92bd6a69c2c60a232b9b25cb24295898348adb14783d519793ee86ebc550a8947c0cc8336efca312303fbf582d8e389a8e930f5cbaf3096e1a8b82ac9e142eb35fdf312d0a537e1008dd1d5c1b90a62596a6bbed1d8f6861f01f19381fda4d4cafd5bdacfb0325a12c9a|a42949a17736ca829e5f27171cebfd55a788cf6a4cac761fa3c55ddfc8356a557792c2f1a7ae67700812ea36e8d3f5f9538f854f0ea6d170f0993236e8aeca9acdb56ff7285d7c5ddba403ee1104b580
+
+[advanced_io_wizard_phy_v1_0_0_reset_if]
+A/advanced_io_wizard_phy_v1_0_0_reset_if=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|626|1*13030
+BinI32/advanced_io_wizard_phy_v1_0_0_reset_if=3*11188
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|626
+SLP=3*11395
+Version=10.5.217.6767 (Windows)|0000007c789c1d8c310ec2300c00bf92bd6a69c2c60a232b9b25cb24295898348adb14783d519793ee86ebc550a8947c0cc8336efca312303fbf582d8e389a8e930f5cbaf3096e1a8b82ac9e142eb35fdf312d0a537e1008dd1d5c1b90a62596a6bbed1d8f6861f01f19381fda4d4cafd5bdacfb0325a12c9a|a42949a17736ca829e5f27171cebfd55a788cf6a4cac761fa3c55ddfc8356a556d1d6f17cf87116c15a5430449b9b5a0afca344304afca9c652faadcd0846281
+
+[advanced_io_wizard_phy_v1_0_0_reset_sm]
+A/advanced_io_wizard_phy_v1_0_0_reset_sm=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|173|1*4699
+BinI32/advanced_io_wizard_phy_v1_0_0_reset_sm=3*2740
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|173
+SLP=3*7093
+Version=10.5.217.6767 (Windows)|0000007c789c1d8c310ec2300c00bf92bd6a69c2c60a232b9b25cb24295898348adb14783d519793ee86ebc550a8947c0cc8336efca312303fbf582d8e389a8e930f5cbaf3096e1a8b82ac9e142eb35fdf312d0a537e1008dd1d5c1b90a62596a6bbed1d8f6861f01f19381fda4d4cafd5bdacfb0325a12c9a|a42949a17736ca829e5f27171cebfd55a788cf6a4cac761fa3c55ddfc8356a5559c5733391173ad820eba6082b5ca870afca344304afca9c652faadcd0846281
+
+[advanced_io_wizard_phy_v1_0_0_rx_versal_deskew_main]
+A/advanced_io_wizard_phy_v1_0_0_rx_versal_deskew_main=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|1454|1*84576
+BinI32/advanced_io_wizard_phy_v1_0_0_rx_versal_deskew_main=3*40819
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|1454
+SLP=3*52531
+Version=10.5.217.6767 (Windows)|0000007c789c1d8c310ec2300c00bf92bd6a69c2c60a232b9b25cb24295898348adb14783d519793ee86ebc550a8947c0cc8336efca312303fbf582d8e389a8e930f5cbaf3096e1a8b82ac9e142eb35fdf312d0a537e1008dd1d5c1b90a62596a6bbed1d8f6861f01f19381fda4d4cafd5bdacfb0325a12c9a|a42949a17736ca829e5f27171cebfd55a788cf6a4cac761fa3c55ddfc8356a5566b1d8a7991beba15ad4727bacde1ac541af0d47430faeba0064a7515f89c227260a0abba632a4b3e27690165d065fa0
+
+[advanced_io_wizard_phy_v1_0_0_rx_versal_deskew_top]
+A/advanced_io_wizard_phy_v1_0_0_rx_versal_deskew_top=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|2875|1*101485
+BinI32/advanced_io_wizard_phy_v1_0_0_rx_versal_deskew_top=3*69868
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|2875
+SLP=3*74287
+Version=10.5.217.6767 (Windows)|0000007c789c1d8c310ec2300c00bf92bd6a69c2c60a232b9b25cb24295898348adb14783d519793ee86ebc550a8947c0cc8336efca312303fbf582d8e389a8e930f5cbaf3096e1a8b82ac9e142eb35fdf312d0a537e1008dd1d5c1b90a62596a6bbed1d8f6861f01f19381fda4d4cafd5bdacfb0325a12c9a|75ab7c875f36acba56913981fc57711c14adf845ded21878478495470276cb6dafd243bfaf7371feb6944eccd42e6cc3ebc7ae11d352d6b1e09ab6952f131bc8cae8b96ff53f1f293492cab9de56220c
+
+[advanced_io_wizard_phy_v1_0_0_sync_cell]
+A/advanced_io_wizard_phy_v1_0_0_sync_cell=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|49|1*470
+BinI32/advanced_io_wizard_phy_v1_0_0_sync_cell=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_phy_v1_0/hdl/advanced_io_wizard_phy_v1_0_rfs.sv|49
+SLP=3*2039
+Version=10.5.217.6767 (Windows)|0000007c789c1d8c310ec2300c00bf92bd6a69c2c60a232b9b25cb24295898348adb14783d519793ee86ebc550a8947c0cc8336efca312303fbf582d8e389a8e930f5cbaf3096e1a8b82ac9e142eb35fdf312d0a537e1008dd1d5c1b90a62596a6bbed1d8f6861f01f19381fda4d4cafd5bdacfb0325a12c9a|a42949a17736ca829e5f27171cebfd55a788cf6a4cac761fa3c55ddfc8356a55877f24c05c155a783896f5ad17d6fcb118f06e79e522cf525fda22434b5275ee
+
+[~MFT]
+0=18|0advanced_io_wizard_phy_v1_0_0.mgf|35396|0
+1=16|1advanced_io_wizard_phy_v1_0_0.mgf|156553|0
+3=32|3advanced_io_wizard_phy_v1_0_0.mgf|96941|0
+
+[~U]
+$root=12|0*0|
+\advanced_io_wizard_phy_v1_0_0_reset_if \\advanced_io_wizard_phy_v1_0_0_reset_if.async \\ \=12|0*1860||0x80040000
+\advanced_io_wizard_phy_v1_0_0_reset_if \\advanced_io_wizard_phy_v1_0_0_reset_if.sync \\ \=12|0*1376||0x80040000
+advanced_io_wizard_phy_v1_0_0_BitSlipInLogic_4b=12|0*5934|
+advanced_io_wizard_phy_v1_0_0_BitSlipInLogic_8b=12|0*4931|
+advanced_io_wizard_phy_v1_0_0_BitSlipInLogic_Toplevel=12|0*6639||0x10
+advanced_io_wizard_phy_v1_0_0_C2BCEtc=12|0*6342|
+advanced_io_wizard_phy_v1_0_0_C3BCEtc=12|0*5339|
+advanced_io_wizard_phy_v1_0_0_Fdcr=12|0*7080|
+advanced_io_wizard_phy_v1_0_0_GenPulse=12|0*5637|
+advanced_io_wizard_phy_v1_0_0_bank_wrapper=12|0*2343||0x10
+advanced_io_wizard_phy_v1_0_0_reset_if=12|0*963||0x80000
+advanced_io_wizard_phy_v1_0_0_reset_sm=12|0*659||0x10
+advanced_io_wizard_phy_v1_0_0_rx_versal_deskew_main=12|0*3687|
+advanced_io_wizard_phy_v1_0_0_rx_versal_deskew_top=12|0*4195||0x10
+advanced_io_wizard_phy_v1_0_0_sync_cell=12|0*342||0x10

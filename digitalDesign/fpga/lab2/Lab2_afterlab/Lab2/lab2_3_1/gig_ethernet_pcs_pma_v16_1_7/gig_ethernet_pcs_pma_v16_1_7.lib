@@ -1,0 +1,418 @@
+timestamp=1580964571198
+
+[~A]
+LastVerilogToplevel=protected_d0d830dd12aa4cb83f1151537d4f7b532aa460ca3aad91c6eaa1aed74daac32b138ee4d7f6ec78d63731aa890b9eb172
+ModifyID=2
+Version=74
+
+[$root]
+A/$root=22|||1*87492
+BinI32/$root=3*119772
+SLP=3*119876
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c92163c9ea57f1645e61eb5a33cf3db50c9b3
+
+[auto_neg]
+A/rtl=A/RTL 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157|1*30537
+BinI32/rtl=3*60363
+I=0*155116
+I/rtl=I/RTL 0*175339
+M=11|0|vde|1580964568238|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*153191*0x62d0be32c1f1f8c2e9dbf011ed5cac546166c7e1|0*154950*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=M/RTL 21|0|vde|1580964568242|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*155413*0x4dd2387d831b40476e46d773ea3b86e03378d4f5|0*175166*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|b1ca0ef712d4e37e4fba631f117de98cbf54c37a5929d0b0bef44c4f98f3ba185eedcb35479878e587c33623d7ccf700
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098eb5721e9778ee1bb969e23068761a1bc2
+
+[auto_neg_pack]
+E=1*28721
+I=0*135728
+I/auto_neg_pack=I/AUTO_NEG_PACK 0*136351
+M=3|0|vde|1580964568224|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*132314*0xd43843a0d5d1af83fb3ba6aa25ba9371c4118f28|0*135557*0xbba181862c44b92d99e8f49010ab70a1
+M/auto_neg_pack=M/AUTO_NEG_PACK 4|0|vde|1580964568227|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*135935*0x9890cc8196b84fd57bcf22f6fb993ff1df856c60|0*136164*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|6f4ad09c80ad5c04f9ae7c6e48f5e41a66be5b58cd0c2a717368334458f335d1ac20c40af61db2d3700d658f0f71ecbb
+Version/auto_neg_pack=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|6f4ad09c80ad5c04f9ae7c6e48f5e41a66be5b58cd0c2a717368334458f335d1ac20c40af61db2d3700d658f0f71ecbb
+
+[auto_neg_rx]
+A/rtl=A/RTL 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157|1*33869
+BinI32/rtl=3*72247
+I=0*178149
+I/rtl=I/RTL 0*198314
+M=11|0|vde|1580964568253|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*176212*0x7faf96f8683724b7d6755625cda89f29fc5b2baa|0*177980*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=M/RTL 21|0|vde|1580964568256|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*178449*0xf72a98f7229585fdd672a828b2482d2aa82d0bb2|0*198138*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|e38b7eea4f8e720be57886838d12ef0df58f879bee1c742c71190caa566671aaf532437545c2bb94f544b6cf6f8f99e7
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098eda8ae118eab3631ff10c6a761930f3e2
+
+[auto_neg_tx_rx]
+A/rtl=A/RTL 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157|1*37185
+BinI32/rtl=3*84133
+I=0*201210
+I/rtl=I/RTL 0*209699
+M=11|0|vde|1580964568267|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*199209*0x23716b9b992008823cc0b8d8cf42aac30fa2e8ea|0*201038*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=M/RTL 21|0|vde|1580964568269|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*201545*0xddc51a11b6254075c705fc90ab25645a9962ad92|0*209520*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|40fee25d79d24ed911a7601445cec6d2f6b62cadfeaeeeea08de63662cefa72071f95611031ff64201da4ebf3df4a24a
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098ea73258c5de8176701d24909b563f83a2
+
+[bus_sync_block]
+A/bus_sync_structural=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157|1*2271
+BinI32/bus_sync_structural=3*462
+I=0*8602
+I/bus_sync_structural=0*10256
+M=11|0|vde|1580964568103|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*8006*0x99b8bd5c90d24a6763d39e7c05a50ec316ada4f4|0*8430*0xbba181862c44b92d99e8f49010ab70a1
+M/bus_sync_structural=21|0|vde|1580964568105|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*8905*0xa82496dd13cbad4c72ad00d0106a0ac3fef37e16|0*10061*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|595afb3e8f88de645c90398ceecfab70856dcc5f4d5c1e63a133f9e52be22463627a57a38ddeed1fda479e17ee7fdacd
+Version/bus_sync_structural=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|f131566d1699cc91a4f4cd81d314076bb2dbc36c1fadb90dc7e17026a0ce40f8f6481a77ef60876b38aceb93d06e8d9b
+
+[decode_8b10b]
+A/rtl=A/RTL 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157|1*42083
+BinI32/rtl=3*87130
+I=0*222143
+I/rtl=I/RTL 0*275552
+M=11|0|vde|1580964568559|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*221410*0x569e5f883e7f10886326bbb9a4194b2742e4dce9|0*221973*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=M/RTL 21|0|vde|1580964568566|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*222476*0x164a1819b4fc98af96a1b1c4565d5e0787465e3e|0*275375*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d20c4a7bff2bbd953c9087d8e1ea1c1102a0db48750986d6ffa915cdd1d82c4816ad7c84c67b54a858caa7bdffa25024
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098e4c4e7094de70ebee337eaf2a3427fe5f
+
+[encode_8b10b]
+A/rtl=A/RTL 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157|1*49079
+BinI32/rtl=3*88047
+I=0*276902
+I/rtl=I/RTL 0*329840
+M=11|0|vde|1580964568576|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*276190*0x4f7a3aa00ac3b8c32ca16ca10b4f53da601321e4|0*276732*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=M/RTL 21|0|vde|1580964568578|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*277235*0x8301cf5144334fab7320838eb0604660ac7d97f1|0*329663*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|35b9957f130633980cf5ac84fbd1a3d249c34694eafa0d209b9ad4e8bbf0d00623ff1871e3fbd70c9a49b2a2e263bc34
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098e821016268603e52c7d69a107e6faad2d
+
+[gig_ethernet_pcs_pma_v16_1_7]
+A/xilinx=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157|1*80957
+BinI32/xilinx=3*116099
+I=0*428367
+I/xilinx=0*441764
+M=11|0|vde|1580964568946|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*423611*0xd7000353fca3dbb2dc717ddf5640c5b39f05d535|0*428181*0xbba181862c44b92d99e8f49010ab70a1
+M/xilinx=21|0|vde|1580964569211|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*428604*0x8a974602d80094fa9de123ddabc2ee44ab409a7e|0*441568*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|979b05b7ad31498dda50ef3522400e3e58b4dc746c6aee0424fcc860c1067b9ca88133bc3d40940db033e9c0b4467aa947b8186b0d306dffc35b05fa1ea993a4
+Version/xilinx=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|2575045bca4fea1fc1b003ee1cd0d9a0e678d727c219922c841262bf5471178e
+
+[gpcs_pma_gen]
+A/rtl=A/RTL 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157|1*64791
+BinI32/rtl=3*98159
+I=0*362521
+I/rtl=I/RTL 0*415533
+M=11|0|vde|1580964568624|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*357815*0x591cc86b9a288886e4543a7784b3b77d372a0540|0*362351*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=M/RTL 21|0|vde|1580964568914|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*363158*0x52180ffee83de7ad64f326c836c7e9a2b2199137|0*415356*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|7f50f2c67150d95af591e9bfa9311b57b57c0f54d12e3b0ca18d1ad1aa2849820d010a8fcfa1a64cb2445b9226253e41
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098ef5747fd738a573277ab4af1981a4024d
+
+[gpcs_pma_gen_pack]
+E=1*80395
+I=0*421424
+I/gpcs_pma_gen_pack=I/GPCS_PMA_GEN_PACK 0*422114
+M=3|0|vde|1580964568940|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*416992*0xce358e4617167b837f31c099aaf95de3d7b214ee|0*421249*0xbba181862c44b92d99e8f49010ab70a1
+M/gpcs_pma_gen_pack=M/GPCS_PMA_GEN_PACK 4|0|vde|1580964568943|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*421674*0xc04cd047b5b72d016ddd326750882133ab89fddb|0*421919*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|0d29da0c844a7d28bd7b0db313f99dfa671f813308c4e6472b7b389a1e5eff156d85158c62c5a6221bf33d4640ab1446
+Version/gpcs_pma_gen_pack=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|0d29da0c844a7d28bd7b0db313f99dfa671f813308c4e6472b7b389a1e5eff156d85158c62c5a6221bf33d4640ab1446
+
+[management]
+A/rtl=A/RTL 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157|1*22013
+BinI32/rtl=3*43937
+I=0*107564
+I/rtl=I/RTL 0*131873
+M=11|0|vde|1580964568207|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*104580*0x2c5e42d458bfdc2d6a3603ca8aa90c916bc72831|0*107396*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=M/RTL 21|0|vde|1580964568211|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*107895*0xddbee128b877f18b52362e36e775fc008ebd3e73|0*131698*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|26ca712690bb2a36713f9007309e91f4a1d42905868915cbf65e9f676cb425e7beb00682c6ec24a83b94abe6fca3e175
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098e1f9f3f6cf8de89a2edbf3472b71c8b0d
+
+[management_pack]
+E=1*19993
+I=0*96794
+M=3|0|vde|1580964568193|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*92062*0x2e2301dc0af8055f0360bae0ce5dafed3abb0818|0*96621*0xbba181862c44b92d99e8f49010ab70a1
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|247e2e38b70925d503db1e5b4fc3c4dcfa6a93282fedeecafe895db8f06fa252cc6722ccbcb8e8804055b1be32583e11
+
+[mdio_interface]
+A/rtl=A/RTL 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157|1*20521
+BinI32/rtl=3*39762
+I=0*98107
+I/rtl=I/RTL 0*103446
+M=11|0|vde|1580964568196|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*97290*0x8ea2690e999f1e883ccc0632eadbc2fd9aadaa7a|0*97935*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=M/RTL 21|0|vde|1580964568198|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*98330*0x69e7084d0c882c606df50db47e31e2fb11feb704|0*103267*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|c918935372bc3fbd6a02bd5910a40daaa2c45bf914c6ff932d16f430a120b6c63730945d0a333ebd5819f394bff61f71
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098ec6a0cc12f20c7aa31c0480bf0e034316
+
+[nativepkg]
+BinI32/nativepkg=3*54924
+E=1*29247
+I=0*139758
+I/nativepkg=I/NativePkg 0*152252
+M=3|0|vde|1580964568230|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*137406*0x5e987d053fdcde27a4df318f5d07f0bb2668b87c|0*139591*0xbba181862c44b92d99e8f49010ab70a1
+M/nativepkg=M/NativePkg 4|0|vde|1580964568233|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*140118*0x931e2e9921383334ebd8fe415af9359976246204|0*152073*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|a75bf386131b678fdf2ebc8cfb87df7cdf31f63967ce5a0c454382956ff093b34c57c203f255c21e0256244286a640df
+Version/nativepkg=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|a75bf386131b678fdf2ebc8cfb87df7cdf31f63967ce5a0c454382956ff093b34c57c203f255c21e0256244286a640df
+
+[protected_d0d830dd12aa4cb83f1151537d4f7b532aa460ca3aad91c6eaa1aed74daac32b138ee4d7f6ec78d63731aa890b9eb172]
+A/protected_d0d830dd12aa4cb83f1151537d4f7b532aa460ca3aad91c6eaa1aed74daac32b138ee4d7f6ec78d63731aa890b9eb172=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.v|65|1*87930
+BinI32/protected_d0d830dd12aa4cb83f1151537d4f7b532aa460ca3aad91c6eaa1aed74daac32b138ee4d7f6ec78d63731aa890b9eb172=3*119944
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.v|65
+SLP=3*125235
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|3585c00b39204649d6e5579a3e717c17e3b7cfe44a9b3eac16b28f9739bda605e6bf51b6cd07818ea82f17ca0707c9a46142c13add85006dd8fc8363d9370cc546d4eae656ae6fdb1c0d053c9b6d1a2af3025c87b4054e8e004281adbf69f1af9c4975344747473c35c2cadb1e7d861e
+
+[ptp_pack]
+E=1*6172
+I=0*27014
+M=3|0|vde|1580964568124|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*24431*0x7ddeaf3dd92070884057ca23abc217951f9ca235|0*26848*0xbba181862c44b92d99e8f49010ab70a1
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|7d40739e47fe128756355ae7d318a78fbf54c37a5929d0b0bef44c4f98f3ba18852047eaa08da8c05a8c434b4d33c660
+
+[qsgmii_rx_elastic_buffer]
+A/structural=A/STRUCTURAL 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157|1*3473
+BinI32/structural=3*1055
+I=0*14556
+I/structural=I/STRUCTURAL 0*23659
+M=11|0|vde|1580964568116|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*13443*0x829b7d10f014c95fcd2963c9f72507eb674835df|0*14374*0xbba181862c44b92d99e8f49010ab70a1
+M/structural=M/STRUCTURAL 21|0|vde|1580964568118|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*14901*0x32b6b5df036986f9cead686064f7c85cb8937c09|0*23463*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|532e8d3f87dcfebc2661821bc5e7b40cf1f3dcbda5ed96a6ba8ed1a093ffd6eadee517a8f11eaca41eeada4f35cf50f3676232e9c4bdae21838825e30326ae72
+Version/structural=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|017cf3c45c1b74f7d70505b5559ba0fe08525e0f0edfc8fb950e07e43888f593a1fddff3b66b4ad0653b10fa1857451a
+
+[qsgmii_rx_elastic_buffer_pack]
+E=1*2963
+I=0*12032
+I/qsgmii_rx_elastic_buffer_pack=I/QSGMII_RX_ELASTIC_BUFFER_PACK 0*12806
+M=3|0|vde|1580964568110|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*10941*0x7030f61214f99ec36cd40ca31a082eafbd8064e5|0*11845*0xbba181862c44b92d99e8f49010ab70a1
+M/qsgmii_rx_elastic_buffer_pack=M/QSGMII_RX_ELASTIC_BUFFER_PACK 4|0|vde|1580964568113|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*12294*0x0404e2e2462e6a1ee8e56d332d1e0c174f28d0fb|0*12587*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|532e8d3f87dcfebc2661821bc5e7b40c8549995f2253d80404675faa9f4e6efb5a777944b736242ddede309e20d73280c4ac37c597e31a8508545a1b27a0d488
+Version/qsgmii_rx_elastic_buffer_pack=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|532e8d3f87dcfebc2661821bc5e7b40c8549995f2253d80404675faa9f4e6efb5a777944b736242ddede309e20d73280c4ac37c597e31a8508545a1b27a0d488
+
+[reset_sync_block]
+A/rtl=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157|1*1355
+BinI32/rtl=3*237
+I=0*5332
+I/rtl=0*7410
+M=11|0|vde|1580964568096|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*4751*0x0bc25fd510c03991b94200107acff869bda4bdb6|0*5158*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=21|0|vde|1580964568098|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*5637*0x23122c19f78826ed1e0e344a48ac6d72234c66db|0*7229*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|c14b87ca6e9af0f6e16021f7b4d3117ec36b823cda479557cdedf4756c45936deee9e25af9cf8330d65899d6aaa0307b
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098e75ce9368335ba63ea8e8e460353b126e
+
+[rx]
+A/rtl=A/RTL 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157|1*16917
+BinI32/rtl=3*29072
+I=0*77269
+I/rtl=I/RTL 0*91449
+M=11|0|vde|1580964568186|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*76068*0x80bea13ca0b7c38ec54be2f9cbb542a64125bebd|0*77109*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=M/RTL 21|0|vde|1580964568188|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*77512*0x7546c648c632e5603e895dc10c8312c96ccc4f55|0*91282*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|232ec7ebb4ea4ff270a1141c95f2e3baeefa015ff24a8295f5cdaa6b2d6eee1e
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098e8310fb03d8e2e806a986f579863c8a37
+
+[rx_elastic_buffer]
+A/rtl=A/RTL 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157|1*57691
+BinI32/rtl=3*88709
+I=0*331283
+I/rtl=I/RTL 0*339523
+M=11|0|vde|1580964568590|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*330483*0x575e8a881071f3eb9deea1de650e44ebb899e35b|0*331108*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=M/RTL 21|0|vde|1580964568592|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*331621*0xe1b161e14af221f7a26f83c11b7af17b59df4c4d|0*339341*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|e6abd7390c2b6d15919bbc628087b1381bad9dc70634ea71e2de789f439427d6afb443fb730d38794cb1975045760797
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098e573915873dd45a3f047b7303aad38f6b
+
+[rx_elastic_buffer_1588]
+A/structural=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157|1*11382
+BinI32/structural=3*16473
+I=0*50652
+I/structural=0*63157
+M=11|0|vde|1580964568156|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*49283*0x08f6ff9c846233f96bf9767041022226fb85f017|0*50472*0xbba181862c44b92d99e8f49010ab70a1
+M/structural=21|0|vde|1580964568158|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*50995*0x49f67eb1c60d0255c33a6ed8f0303e91dafa1ffd|0*62963*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|e6abd7390c2b6d15919bbc628087b1387dbb46af431203478a99b2cc06e145da21c02777231d5e8aaa6ba1a5a1d66d94
+Version/structural=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|017cf3c45c1b74f7d70505b5559ba0fe08525e0f0edfc8fb950e07e43888f59364ea3c8f478ff50b3291673cef5b5d74
+
+[rx_elastic_buffer_1588_cor_tmr]
+A/structural=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157|1*8491
+BinI32/structural=3*9001
+I=0*35990
+I/structural=0*48498
+M=11|0|vde|1580964568143|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*34656*0x2c297b5c8619bffe30a83502af7bdfacade96dfd|0*35802*0xbba181862c44b92d99e8f49010ab70a1
+M/structural=21|0|vde|1580964568146|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*36341*0x0c6904982bebd5cfe1e3003490ebe69446546686|0*48296*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|e6abd7390c2b6d15919bbc628087b138fd7f8e8078261a047d6aafba236b611d8242a95e740cc272ab5d85e85fe9ad7f007190e04e14907ee9acc450c2160371
+Version/structural=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|017cf3c45c1b74f7d70505b5559ba0fe08525e0f0edfc8fb950e07e43888f5934ec896790854d86af99be3feb2964bed
+
+[rx_elastic_buffer_sgmii]
+A/rtl=A/RTL 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157|1*59999
+BinI32/rtl=3*92653
+I=0*341116
+I/rtl=I/RTL 0*351819
+M=11|0|vde|1580964568601|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*340257*0xdc1b6d3c04cec6e2598f02c07272e982084e6a60|0*340935*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=M/RTL 21|0|vde|1580964568603|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*341460*0x0eb01690595417e668c1b5d9cc93c5d058b242ec|0*351631*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|e6abd7390c2b6d15919bbc628087b138ea283f5c9d23d688e9e15c1eae77a24526527262ddaa47cb266f3a3c4d9b973aeba7a264a4731abdf071b15724b146e8
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098e2961ab7f3ef3ceb7c7d535ea43bf1c46
+
+[rx_pack]
+E=1*16413
+I=0*74843
+I/rx_pack=I/RX_PACK 0*75424
+M=3|0|vde|1580964568180|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*73642*0x7aee045b84883c8e0689c3ce4559085b4f81b2be|0*74678*0xbba181862c44b92d99e8f49010ab70a1
+M/rx_pack=M/RX_PACK 4|0|vde|1580964568183|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*75044*0x2b9e5398c8dbcbd7d75af33bad1374fce3e3fc2b|0*75249*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|50a97d925b59952a4795d7be69053fdb26527262ddaa47cb266f3a3c4d9b973a37c8ec4a91169245bcb8105c9c63d070
+Version/rx_pack=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|50a97d925b59952a4795d7be69053fdb26527262ddaa47cb266f3a3c4d9b973a37c8ec4a91169245bcb8105c9c63d070
+
+[sync_block]
+A/structural=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157|1*480
+BinI32/structural=3*0
+I=0*2185
+I/structural=0*4152
+M=11|0|vde|1580964568060|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*1630*0xa6f0adf58914942edfbcef52464e6cefe89575f9|0*2017*0xbba181862c44b92d99e8f49010ab70a1
+M/structural=21|0|vde|1580964568065|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*2484*0x3504fe78b65d187c02fec48e237a63dcb0513056|0*3970*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|e14c2c68ca48b9693bb50e4057911131d4bc45290eadd02580072790401abe197b2723628db4cedf1353af942bd8efd6
+Version/structural=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|017cf3c45c1b74f7d70505b5559ba0fe08525e0f0edfc8fb950e07e43888f593846caf930e1a1a555eb19ba398879ba6
+
+[sync_block_pack]
+E=1*0
+I=0*1170
+M=3|0|vde|1580964567759|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*318*0x952992e585917777624889dcf7b2acd8c6f8bed2|0*997*0xbba181862c44b92d99e8f49010ab70a1
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|4246e2f8203b9cd221991dd222ead3f4f764c499d727566b389eed58e690e7fc6b5ccb08aac3c3cd6b61dcfb14dc5cf9
+
+[synchronise]
+A/rtl=A/RTL 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157|1*40374
+BinI32/rtl=3*84368
+I=0*213134
+I/rtl=I/RTL 0*217107
+M=11|0|vde|1580964568283|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*212373*0x9c52ec7ec0a23d65d9896fbe3f93089f3335b123|0*212965*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=M/RTL 21|0|vde|1580964568285|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*213386*0xc38f847cdd94df0cb78161536d3a1f9d1c3f4480|0*216931*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|b2284516c9d892a166accf0ae597e05d00f7590de431c8bd6869823c2d4d339bf215cc59f6cb7eb0230e25b5fcc1c893
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098eda778a7fa9c6d88a08b3f7fa39623a7d
+
+[synchronise_pack]
+E=1*39925
+I=0*211202
+I/synchronise_pack=I/SYNCHRONISE_PACK 0*211846
+M=3|0|vde|1580964568275|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*210422*0xb3e5726a9dffb14ccb28d385cd0c7e9b50bf7425|0*211028*0xbba181862c44b92d99e8f49010ab70a1
+M/synchronise_pack=M/SYNCHRONISE_PACK 4|0|vde|1580964568278|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*211412*0x15105a07ecdccb12338433ee5bfbbff0bcff62a8|0*211653*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|2a591fd46f43d963134532d436f49acaada6956d3dfc37be153dd1e70905a6625358abfdc49d21914ff532788bf11d56
+Version/synchronise_pack=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|2a591fd46f43d963134532d436f49acaada6956d3dfc37be153dd1e70905a6625358abfdc49d21914ff532788bf11d56
+
+[tbi]
+A/rtl=A/RTL 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157|1*63107
+BinI32/rtl=3*97463
+I=0*353984
+I/rtl=I/RTL 0*356194
+M=11|0|vde|1580964568611|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*352699*0xf52fabc2b3e022b2c3be80951e4d8a40af098788|0*353823*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=M/RTL 21|0|vde|1580964568613|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*354308*0x634d92ae6aca94f1f2c9bdeb82f5b8cc039dbce8|0*356026*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|bcca367d1fa9dfe005d9820fd9b8042dcfecc2a3e49f5d819151dfc7867a1d2a
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098ecfecc2a3e49f5d819151dfc7867a1d2a
+
+[tbi_pack]
+BinI32/tbi_pack=3*86702
+E=1*41434
+I=0*220123
+I/tbi_pack=I/TBI_PACK 0*220930
+M=3|0|vde|1580964568292|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*217731*0xa0a40574706c833c10c56121bff65fd0938c9624|0*219957*0xbba181862c44b92d99e8f49010ab70a1
+M/tbi_pack=M/TBI_PACK 4|0|vde|1580964568295|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*220325*0x4a119e074fca037e8467c7c0a131f7d900fa2c79|0*220753*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|1d69c3be4e3c8039495031818156fcd79edabdbd6a10eae3f9e581bcfd56130f6f027b28ca7efd0b85896932ed82773d
+Version/tbi_pack=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|1d69c3be4e3c8039495031818156fcd79edabdbd6a10eae3f9e581bcfd56130f6f027b28ca7efd0b85896932ed82773d
+
+[timer_rx_latency_correct]
+A/structural=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157|1*6709
+BinI32/structural=3*6721
+I=0*28312
+I/structural=0*30695
+M=11|0|vde|1580964568127|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*27497*0x04610895fe09da2bcec6b3b6e43126fd8063754a|0*28130*0xbba181862c44b92d99e8f49010ab70a1
+M/structural=21|0|vde|1580964568129|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*28689*0xfdffce6211f393003853ffe026e22b0e2e4a60ad|0*30499*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|550ca190eb75982d0a4d8802d9b1898df1227776965e5fdbf2a6455cabb0ed536cab5f0f5b972aadaef8a88bb2029930020de307c97d29f81a8dd8463a0a6f30
+Version/structural=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|017cf3c45c1b74f7d70505b5559ba0fe08525e0f0edfc8fb950e07e43888f593bef72aef79e1a54a93611606184f7613
+
+[timer_rx_latency_correct_cf]
+A/structural=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157|1*7712
+BinI32/structural=3*8296
+I=0*32096
+I/structural=0*33866
+M=11|0|vde|1580964568135|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*31351*0x2ec3ce7132fdac1ba4445a93b9aca43a4015acec|0*31911*0xbba181862c44b92d99e8f49010ab70a1
+M/structural=21|0|vde|1580964568137|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*32476*0x79367dd3a9ae9e389f6559b93b95f34d8a884162|0*33667*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|550ca190eb75982d0a4d8802d9b1898dc62903f4101917575564bf70c55453c4f9b864ad5576185cf9c4f7639c71c51e9444d247f70aa69aec49672f94928b12
+Version/structural=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|017cf3c45c1b74f7d70505b5559ba0fe08525e0f0edfc8fb950e07e43888f5931a0afa99202011964cefadd6552b65e1
+
+[tx]
+A/rtl=A/RTL 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157|1*14777
+BinI32/rtl=3*24027
+I=0*66606
+I/rtl=I/RTL 0*73077
+M=11|0|vde|1580964568174|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*65765*0x6581fadb119a98280f4826ff6e7260e09ffbb261|0*66446*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=M/RTL 21|0|vde|1580964568176|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*66881*0x7c7a8565783dc04fda614d4feaea1934c5e56245|0*72910*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|1d62c1352ff267b7203c5d097239fdaab40387579d1ed21c94ff86d502a1291f
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098ec2c33340c2635220118d59d602adcc0a
+
+[tx_pack]
+E=1*14305
+I=0*64652
+I/tx_pack=I/TX_PACK 0*65233
+M=3|0|vde|1580964568168|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*63829*0x744deb3bbf25bbce37c00c863fa5bc4972d17437|0*64487*0xbba181862c44b92d99e8f49010ab70a1
+M/tx_pack=M/TX_PACK 4|0|vde|1580964568171|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|0*64853*0x64df8974ab99b5f7ffeb91480cf06f7b8d6063a9|0*65058*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gig_ethernet_pcs_pma_v16_1/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd|15157
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|40059d2a7dc78bdeb8c1b1b4a817df8126527262ddaa47cb266f3a3c4d9b973aace1a01d7acb077c13565c15d12cd179
+Version/tx_pack=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|40059d2a7dc78bdeb8c1b1b4a817df8126527262ddaa47cb266f3a3c4d9b973aace1a01d7acb077c13565c15d12cd179
+
+[~MFT]
+0=2|0gig_ethernet_pcs_pma_v16_1_7.mgf|442286|0
+1=2|1gig_ethernet_pcs_pma_v16_1_7.mgf|87930|0
+3=4|3gig_ethernet_pcs_pma_v16_1_7.mgf|125235|0
+
+[~U]
+$root=12|0*442040|
+auto_neg=AUTO_NEG 11|0*152622|
+auto_neg_pack=AUTO_NEG_PACK 3|0*132000|0*132141
+auto_neg_rx=AUTO_NEG_RX 11|0*175640|
+auto_neg_tx_rx=AUTO_NEG_TX_RX 11|0*198618|
+bus_sync_block=11|0*7751|
+decode_8b10b=DECODE_8B10B 11|0*221141|
+encode_8b10b=ENCODE_8B10B 11|0*275921|
+gig_ethernet_pcs_pma_v16_1_7=11|0*422382|
+gpcs_pma_gen=GPCS_PMA_GEN 11|0*356666|
+gpcs_pma_gen_pack=GPCS_PMA_GEN_PACK 3|0*416686|0*416831
+management=MANAGEMENT 11|0*103753|
+management_pack=MANAGEMENT_PACK 3|0*91696|0*91839
+mdio_interface=MDIO_INTERFACE 11|0*97003|
+nativepkg=NativePkg 3|0*136572|0*136709
+protected_d0d830dd12aa4cb83f1151537d4f7b532aa460ca3aad91c6eaa1aed74daac32b138ee4d7f6ec78d63731aa890b9eb172=12|0*442286||0x10
+ptp_pack=3|0*24079|0*24215
+qsgmii_rx_elastic_buffer=QSGMII_RX_ELASTIC_BUFFER 11|0*13098|
+qsgmii_rx_elastic_buffer_pack=QSGMII_RX_ELASTIC_BUFFER_PACK 3|0*10579|0*10752
+reset_sync_block=11|0*4494|
+rx=RX 11|0*75633|
+rx_elastic_buffer=RX_ELASTIC_BUFFER 11|0*330209|
+rx_elastic_buffer_1588=RX_ELASTIC_BUFFER_1588 11|0*48892|
+rx_elastic_buffer_1588_cor_tmr=RX_ELASTIC_BUFFER_1588_COR_TMR 11|0*34257|
+rx_elastic_buffer_sgmii=RX_ELASTIC_BUFFER_SGMII 11|0*339929|
+rx_pack=RX_PACK 3|0*73356|0*73491
+sync_block=11|0*1379|
+sync_block_pack=3|0*0|0*143
+synchronise=SYNCHRONISE 11|0*212073|
+synchronise_pack=SYNCHRONISE_PACK 3|0*210118|0*210262
+tbi=TBI 11|0*352263|
+tbi_pack=TBI_PACK 3|0*217363|0*217499
+timer_rx_latency_correct=11|0*27216|
+timer_rx_latency_correct_cf=11|0*31083|
+tx=TX 11|0*65442|
+tx_pack=TX_PACK 3|0*63543|0*63678

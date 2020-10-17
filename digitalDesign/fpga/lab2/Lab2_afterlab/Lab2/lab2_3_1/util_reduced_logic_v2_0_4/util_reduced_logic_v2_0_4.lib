@@ -1,0 +1,29 @@
+timestamp=1580964943850
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/util_reduced_logic_v2_0/hdl/util_reduced_logic_v2_0_vl_rfs.v=0*501*1120
+LastVerilogToplevel=util_reduced_logic_v2_0_4_util_reduced_logic
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c9216e622866a4637e8f107b3f1791d4269f3
+
+[util_reduced_logic_v2_0_4_util_reduced_logic]
+A/util_reduced_logic_v2_0_4_util_reduced_logic=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/util_reduced_logic_v2_0/hdl/util_reduced_logic_v2_0_vl_rfs.v|73|1*390
+BinI32/util_reduced_logic_v2_0_4_util_reduced_logic=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/util_reduced_logic_v2_0/hdl/util_reduced_logic_v2_0_vl_rfs.v|73
+SLP=3*1184
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|d20368d06fad1962c00dc232c1ef11c824aeeef06496ccb7c617c64fb253b784647cc4c8fc754a20df16817d104f59a0799c202e108502c1b56c1ba58b59df45
+
+[~MFT]
+0=4|0util_reduced_logic_v2_0_4.mgf|1120|0
+1=2|1util_reduced_logic_v2_0_4.mgf|390|0
+3=4|3util_reduced_logic_v2_0_4.mgf|1184|0
+
+[~U]
+$root=12|0*0|
+util_reduced_logic_v2_0_4_util_reduced_logic=12|0*198||0x10

@@ -1,0 +1,29 @@
+timestamp=1580964368607
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axis_ila_pp_v1_0/hdl/axis_ila_pp_v1_0_rfs.v=0*9762*99998
+LastVerilogToplevel=axis_ila_pp_v1_0_0_axis_ila_pp
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c921680ead433804b3a085158c8a32d55d1ff
+
+[axis_ila_pp_v1_0_0_axis_ila_pp]
+A/axis_ila_pp_v1_0_0_axis_ila_pp=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_ila_pp_v1_0/hdl/axis_ila_pp_v1_0_rfs.v|4|1*390
+BinI32/axis_ila_pp_v1_0_0_axis_ila_pp=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_ila_pp_v1_0/hdl/axis_ila_pp_v1_0_rfs.v|4
+SLP=3*459563
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|d3a782ab56ae8b6631a519281acae1310937db6e0f64055bcbe3fc77b3d8037247a695ac6bcb456620ab78a728f6c1a6
+
+[~MFT]
+0=4|0axis_ila_pp_v1_0_0.mgf|99998|0
+1=2|1axis_ila_pp_v1_0_0.mgf|390|0
+3=4|3axis_ila_pp_v1_0_0.mgf|459563|0
+
+[~U]
+$root=12|0*0|
+axis_ila_pp_v1_0_0_axis_ila_pp=12|0*182||0x10

@@ -1,0 +1,2 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/i2s_receiver_v1_0_3
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  -l i2s_receiver_v1_0_3 +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -sv2k12 -work i2s_receiver_v1_0_3 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/i2s_receiver_v1_0_3/.cxl.systemverilog.i2s_receiver_v1_0_3.i2s_receiver_v1_0_3.nt64.cmf

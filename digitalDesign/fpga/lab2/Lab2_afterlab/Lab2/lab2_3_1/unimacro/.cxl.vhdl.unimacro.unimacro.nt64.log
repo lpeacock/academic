@@ -1,0 +1,43 @@
+Aldec, Inc. VHDL Compiler, build 10.5.217.6767
+VLM Initialized with path: "C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\library.cfg".
+DAGGEN WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\vhdl\src\unimacro\unimacro_VCOMP.vhd
+COMP96 Compile Package "VCOMPONENTS"
+COMP96 Compile Package Body "VCOMPONENTS"
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\vhdl\src\unimacro\ADDMACC_MACRO.vhd
+COMP96 Compile Entity "ADDMACC_MACRO"
+COMP96 Compile Architecture "addmacc" of Entity "ADDMACC_MACRO"
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\vhdl\src\unimacro\ADDSUB_MACRO.vhd
+COMP96 Compile Entity "ADDSUB_MACRO"
+COMP96 Compile Architecture "addsub" of Entity "ADDSUB_MACRO"
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\vhdl\src\unimacro\BRAM_SDP_MACRO.vhd
+COMP96 Compile Entity "BRAM_SDP_MACRO"
+COMP96 Compile Architecture "bram_V" of Entity "BRAM_SDP_MACRO"
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\vhdl\src\unimacro\BRAM_SINGLE_MACRO.vhd
+COMP96 Compile Entity "BRAM_SINGLE_MACRO"
+COMP96 Compile Architecture "bram_V" of Entity "BRAM_SINGLE_MACRO"
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\vhdl\src\unimacro\BRAM_TDP_MACRO.vhd
+COMP96 Compile Entity "BRAM_TDP_MACRO"
+COMP96 Compile Architecture "bram_V" of Entity "BRAM_TDP_MACRO"
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\vhdl\src\unimacro\COUNTER_LOAD_MACRO.vhd
+COMP96 Compile Entity "COUNTER_LOAD_MACRO"
+COMP96 Compile Architecture "counter" of Entity "COUNTER_LOAD_MACRO"
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\vhdl\src\unimacro\COUNTER_TC_MACRO.vhd
+COMP96 Compile Entity "COUNTER_TC_MACRO"
+COMP96 Compile Architecture "count" of Entity "COUNTER_TC_MACRO"
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\vhdl\src\unimacro\EQ_COMPARE_MACRO.vhd
+COMP96 Compile Entity "EQ_COMPARE_MACRO"
+COMP96 Compile Architecture "compare" of Entity "EQ_COMPARE_MACRO"
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\vhdl\src\unimacro\FIFO_DUALCLOCK_MACRO.vhd
+COMP96 Compile Entity "FIFO_DUALCLOCK_MACRO"
+COMP96 Compile Architecture "fifo_V" of Entity "FIFO_DUALCLOCK_MACRO"
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\vhdl\src\unimacro\FIFO_SYNC_MACRO.vhd
+COMP96 Compile Entity "FIFO_SYNC_MACRO"
+COMP96 Compile Architecture "fifo_V" of Entity "FIFO_SYNC_MACRO"
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\vhdl\src\unimacro\MACC_MACRO.vhd
+COMP96 Compile Entity "MACC_MACRO"
+COMP96 Compile Architecture "macc" of Entity "MACC_MACRO"
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\vhdl\src\unimacro\MULT_MACRO.vhd
+COMP96 Compile Entity "MULT_MACRO"
+COMP96 Compile Architecture "mult" of Entity "MULT_MACRO"
+COMP96 Compile success 0 Errors 0 Warnings  Analysis time :  4.0 [s]

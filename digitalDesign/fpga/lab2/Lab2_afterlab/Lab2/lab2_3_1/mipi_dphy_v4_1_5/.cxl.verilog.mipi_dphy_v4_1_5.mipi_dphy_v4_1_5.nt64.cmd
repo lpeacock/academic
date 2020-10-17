@@ -1,0 +1,2 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/mipi_dphy_v4_1_5
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  -l mipi_dphy_v4_1_5 +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -sv2k12 -work mipi_dphy_v4_1_5 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/mipi_dphy_v4_1_5/.cxl.systemverilog.mipi_dphy_v4_1_5.mipi_dphy_v4_1_5.nt64.cmf

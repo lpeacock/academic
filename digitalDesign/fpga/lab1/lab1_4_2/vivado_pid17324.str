@@ -1,0 +1,814 @@
+/*
+
+Xilinx Vivado v2019.2 (64-bit) [Major: 2019, Minor: 2]
+SW Build: 2708876 on Wed Nov  6 21:40:23 MST 2019
+IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+
+Process ID (PID): 17324
+License: Customer
+
+Current time: 	Mon Jan 27 07:52:53 CST 2020
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 3840x2160
+Screen resolution (DPI): 250
+Available screens: 1
+Available disk space: 645 GB
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=30
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	lucas
+User home directory: C:/Users/lucas
+User working directory: C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.2
+RDI_DATADIR: C:/Xilinx/Vivado/2019.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.2/bin
+
+Vivado preferences file location: C:/Users/lucas/AppData/Roaming/Xilinx/Vivado/2019.2/vivado.xml
+Vivado preferences directory: C:/Users/lucas/AppData/Roaming/Xilinx/Vivado/2019.2/
+Vivado layouts directory: C:/Users/lucas/AppData/Roaming/Xilinx/Vivado/2019.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2/vivado.log
+Vivado journal file location: 	C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2/vivado.jou
+Engine tmp dir: 	C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2/.Xil/Vivado-17324-Peacock-XPS
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.2
+
+
+GUI allocated memory:	198 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 661 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bB (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\lucas\OneDrive - Auburn University\FPGA\lab1_4_2\lab1_4_2.xpr. Version: Vivado v2019.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2/lab1_4_2.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2/lab1_4_2.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/lucas/Documents/fpga/lab1_4_2' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 145 MB (+149529kb) [00:00:13]
+// [Engine Memory]: 728 MB (+611412kb) [00:00:13]
+// WARNING: HEventQueue.dispatchEvent() is taking  3701 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 757 MB. GUI used memory: 88 MB. Current time: 1/27/20, 7:53:00 AM CST
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 785.027 ; gain = 98.469 
+// Project name: lab1_4_2; location: C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2; part: xc7a100tcsg324-1
+// [Engine Memory]: 768 MB (+4718kb) [00:00:17]
+dismissDialog("Open Project"); // bB (cr)
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (bcdto7segment_dataflow.v) elapsed time: 0.2s
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, bcdto7segment_dataflow (bcdto7segment_dataflow.v)]", 2, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, bcdto7segment_dataflow (bcdto7segment_dataflow.v)]", 2, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectCodeEditor("bcdto7segment_dataflow.v", 189, 380); // ch (w, cr)
+// Elapsed time: 67 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 100, 340); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 100, 340, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("bcdto7segment_dataflow.v", 191, 389); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 544, 485); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 1415, 548); // ch (w, cr)
+// Elapsed time: 163 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 167, 460); // ch (w, cr)
+// Elapsed time: 76 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 1387, 576); // ch (w, cr)
+// Elapsed time: 16 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 359, 549); // ch (w, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 90 MB. Current time: 1/27/20, 7:59:26 AM CST
+// Elapsed time: 28 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 402, 555); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 521, 542); // ch (w, cr)
+// Elapsed time: 12 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 129, 349); // ch (w, cr)
+// Elapsed time: 30 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 380, 543); // ch (w, cr)
+// Elapsed time: 46 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 197, 430); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 176, 335); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 236, 422); // ch (w, cr)
+// Elapsed time: 11 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 111, 432); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 111, 432, false, false, false, false, true); // ch (w, cr) - Double Click
+// Elapsed time: 18 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 225, 26); // ch (w, cr)
+// Elapsed time: 42 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 407, 539); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 394, 470); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 497, 476); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 592, 470); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 397, 466); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 485, 455); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 579, 463); // ch (w, cr)
+// Elapsed time: 20 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 117, 402); // ch (w, cr)
+// Elapsed time: 16 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 228, 317); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 228, 317, false, false, false, false, true); // ch (w, cr) - Double Click
+// Elapsed time: 24 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 544, 437); // ch (w, cr)
+// Elapsed time: 44 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 346, 474); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 346, 474); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 640 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 346, 474); // ch (w, cr)
+// Elapsed time: 14 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 303, 380); // ch (w, cr)
+// Elapsed time: 31 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 434, 498); // ch (w, cr)
+// Elapsed time: 11 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 294, 495); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 376, 502); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 468, 505); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 561, 492); // ch (w, cr)
+// Elapsed time: 13 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 378, 550); // ch (w, cr)
+// Elapsed time: 49 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 557, 546); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 687, 536); // ch (w, cr)
+// Elapsed time: 113 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 448, 670); // ch (w, cr)
+// Elapsed time: 12 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 780, 589); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 1219, 595); // ch (w, cr)
+// Elapsed time: 21 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 1245, 612); // ch (w, cr)
+// Elapsed time: 22 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 988, 560); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 304, 222); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 346, 444); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 331, 424); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 308, 534); // ch (w, cr)
+// Elapsed time: 264 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 853, 532); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 859, 544); // ch (w, cr)
+// Elapsed time: 38 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 648, 582); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 1155, 475); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 136, 512); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 219, 298); // ch (w, cr)
+// Elapsed time: 56 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 223, 186); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 223, 186, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("bcdto7segment_dataflow.v", 977, 449); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 1141, 546); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 952, 358); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 26 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B (F, cr)
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (O, cr) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// A (cr): Elaborate Design: addNotify
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", false); // g (Q, A): FALSE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bB (cr):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A (cr)
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a100tcsg324-1 Top: bcdto7segment_dataflow 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,034 MB. GUI used memory: 91 MB. Current time: 1/27/20, 8:28:06 AM CST
+// TclEventType: ELABORATE_START
+// TclEventType: ELABORATE_FINISH
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,346 MB. GUI used memory: 92 MB. Current time: 1/27/20, 8:28:18 AM CST
+// [Engine Memory]: 1,347 MB (+566294kb) [00:35:34]
+// [Engine Memory]: 1,475 MB (+63551kb) [00:35:35]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [GUI Memory]: 153 MB (+448kb) [00:35:35]
+// TclEventType: DESIGN_NEW
+// [GUI Memory]: 162 MB (+2058kb) [00:35:36]
+// Schematic: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1873 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a100tcsg324-1 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1315.070 ; gain = 233.238 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'bcdto7segment_dataflow' [C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2/lab1_4_2.srcs/sources_1/new/bcdto7segment_dataflow.v:23] INFO: [Synth 8-6155] done synthesizing module 'bcdto7segment_dataflow' (1#1) [C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2/lab1_4_2.srcs/sources_1/new/bcdto7segment_dataflow.v:23] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1387.398 ; gain = 305.566 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1387.398 ; gain = 305.566 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1387.398 ; gain = 305.566 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1387.398 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-141] Inserted 4 OBUFs to IO ports without IO buffers. 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1466.945 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:12 . Memory (MB): peak = 1516.504 ; gain = 434.672 
+// Tcl Message: 7 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:18 . Memory (MB): peak = 1516.504 ; gain = 705.668 
+// 'dQ' command handler elapsed time: 22 seconds
+// Elapsed time: 19 seconds
+dismissDialog("Open Elaborated Design"); // bB (cr)
+// Elapsed time: 63 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cr)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aL (aI, cr)
+// [GUI Memory]: 175 MB (+4568kb) [00:36:50]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bcdto7segment_dataflow.v", 2); // i (h, cr)
+// Elapsed time: 100 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2, true); // B (F, cr) - Node
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E (f, cr)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cr): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_ADD_EXISTING_OR_CREATE_NEW_CONSTRAINTS, "Add"); // E (f, c)
+selectMenuItem(PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, "Add Files..."); // ai (ao, c)
+// Elapsed time: 18 seconds
+setFileChooser("C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2/constraints.xdc");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 27 seconds
+dismissDialog("Add Sources"); // c (cr)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset constrs_1 -norecurse {{C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2/constraints.xdc}} 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, constraints.xdc]", 4, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, constraints.xdc]", 4, false, false, false, false, false, true); // B (F, cr) - Double Click
+// Elapsed time: 214 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, constraints.xdc]", 4, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, constraints.xdc]", 4, false, false, false, false, false, true); // B (F, cr) - Double Click
+// Elapsed time: 26 seconds
+selectCodeEditor("constraints.xdc", 42, 284); // ch (w, cr)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, constraints.xdc]", 4, false, false, false, false, true, false); // B (F, cr) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ai (ao, cr)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cr): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cr)
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2/constraints.xdc}}] -no_script -reset -force -quiet 
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  -fileset constrs_1 {{C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2/constraints.xdc}} 
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E (f, cr)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cr): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, "Add Files"); // a (E, c)
+setFileChooser("C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2/constraints.xdc");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 7 seconds
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Add Sources"); // c (cr)
+// Tcl Message: add_files -fileset constrs_1 -norecurse {{C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2/constraints.xdc}} 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 3); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, constraints.xdc]", 4, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, constraints.xdc]", 4, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bcdto7segment_dataflow.v", 2); // i (h, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 216, 50); // ch (w, cr)
+// Elapsed time: 21 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 636, 300); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 234, 61); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 324, 170); // ch (w, cr)
+typeControlKey(null, null, 'z');
+selectCodeEditor("bcdto7segment_dataflow.v", 236, 64); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 318, 349); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f (cr): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bB (cr):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cr)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Mon Jan 27 08:37:03 2020] Launched synth_1... Run output will be captured here: C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2/lab1_4_2.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bB (cr)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// aj (cr): Synthesis Completed: addNotify
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (cr): Launch Runs: addNotify
+// Elapsed time: 56 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bB (cr):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cr)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Mon Jan 27 08:38:01 2020] Launched impl_1... Run output will be captured here: C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2/lab1_4_2.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// 'c' command handler elapsed time: 3 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aj)
+// TclEventType: RUN_STATUS_CHANGE
+// [GUI Memory]: 184 MB (+902kb) [00:45:18]
+dismissDialog("Starting Design Runs"); // bB (cr)
+// TclEventType: RUN_STATUS_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cr) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cr) - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // i (h, cr)
+selectButton(PAResourceQtoS.RunGadget_SHOW_ERROR_AND_CRITICAL_WARNING_MESSAGES, "8 critical warnings"); // h (Q, cr)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 18 seconds
+selectButton(PAResourceQtoS.RunGadget_SHOW_WARNING_AND_ERROR_MESSAGES_IN_MESSAGES, "25 warnings"); // h (Q, cr)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bcdto7segment_dataflow.v", 1); // i (h, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 327, 498); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 327, 498, false, false, false, false, true); // ch (w, cr) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,513 MB. GUI used memory: 123 MB. Current time: 1/27/20, 8:38:51 AM CST
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 1,572 MB (+24663kb) [00:46:12]
+// Elapsed time: 13 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, rtl_1]", 0); // ah (O, cr)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, rtl_1, General Messages, [Synth 8-3917] design bcdto7segment_dataflow has port an[3] driven by constant 1. ]", 2); // ah (O, cr)
+// Elapsed time: 10 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 212, 659); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 212, 659, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("bcdto7segment_dataflow.v", 471, 588); // ch (w, cr)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// aj (cr): Implementation Completed: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (aj)
+dismissDialog("Implementation Completed"); // aj (cr)
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 12, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (cr): Run Synthesis: addNotify
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", false); // g (Q, A): FALSE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// al (cr): Save Project: addNotify
+dismissDialog("Run Synthesis"); // A (cr)
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// bB (cr):  Save Constraints : addNotify
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// bB (cr):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // al (cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cr): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bB (cr):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cr)
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: [Mon Jan 27 08:39:43 2020] Launched synth_1... Run output will be captured here: C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2/lab1_4_2.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 6 seconds
+dismissDialog("Starting Design Runs"); // bB (cr)
+// TclEventType: RUN_STATUS_CHANGE
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, rtl_1]", 0); // ah (O, cr)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // i (h, cr)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// aj (cr): Synthesis Completed: addNotify
+// Elapsed time: 51 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (aj)
+dismissDialog("Synthesis Completed"); // aj (cr)
+selectButton(PAResourceQtoS.RunGadget_SHOW_WARNING_AND_ERROR_MESSAGES_IN_MESSAGES, "17 warnings"); // h (Q, cr)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3917] design bcdto7segment_dataflow has port AN[7] driven by constant 1. ]", 2); // ah (O, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,651 MB. GUI used memory: 126 MB. Current time: 1/27/20, 8:41:36 AM CST
+// [Engine Memory]: 1,804 MB (+160882kb) [00:49:04]
+// Elapsed time: 49 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, constraints.xdc]", 4, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, constraints.xdc]", 4, false, false, false, false, false, true); // B (F, cr) - Double Click
+// Elapsed time: 28 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3917] design bcdto7segment_dataflow has port AN[7] driven by constant 1. , [Synth 8-3917] design bcdto7segment_dataflow has port AN[1] driven by constant 1. ]", 16, false); // ah (O, cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 15, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (cr): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bB (cr):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cr)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Mon Jan 27 08:42:22 2020] Launched impl_1... Run output will be captured here: C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2/lab1_4_2.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bB (cr)
+// TclEventType: RUN_STATUS_CHANGE
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, rtl_1]", 0); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, rtl_1, General Messages, [Synth 8-3917] design bcdto7segment_dataflow has port an[3] driven by constant 1. ]", 2, true); // ah (O, cr) - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bcdto7segment_dataflow.v", 1); // i (h, cr)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// aj (cr): Implementation Completed: addNotify
+// Elapsed time: 77 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN, "Open Implemented Design"); // a (Q, aj)
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, aj)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (cr): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cr)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// bB (cr):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Mon Jan 27 08:44:02 2020] Launched impl_1... Run output will be captured here: C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2/lab1_4_2.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bB (cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // i (h, cr)
+selectButton(PAResourceQtoS.RunGadget_SHOW_WARNING_AND_ERROR_MESSAGES_IN_MESSAGES, "3 warnings"); // h (Q, cr)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+// TclEventType: RUN_STATUS_CHANGE
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis]", 1); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Constraints 18-5210] No constraints selected for write.. Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.. ]", 3, false); // ah (O, cr)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "ID;-;[Constraints 18-5210];-;;-;16;-;Resolution;-;This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.;-;;-;16;-;"); // ah (O, cr)
+// Elapsed time: 20 seconds
+selectButton(RDIResource.HPopupTitle_CLOSE, (String) null); // k (n, ResizableWindow)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "constraints.xdc", 2); // i (h, cr)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// aj (cr): Bitstream Generation Completed: addNotify
+// Elapsed time: 24 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aj)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bB (cr):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,875 MB. GUI used memory: 127 MB. Current time: 1/27/20, 8:45:01 AM CST
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 2,178 MB. GUI used memory: 126 MB. Current time: 1/27/20, 8:45:12 AM CST
+// [Engine Memory]: 2,211 MB (+332196kb) [00:52:28]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  1682 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2071.566 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-479] Netlist was created with Vivado 2019.2 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 2332.316 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 2332.316 ; gain = 0.000 Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2332.316 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Device view-level: 0.0
+// Tcl Message: open_run: Time (s): cpu = 00:00:16 ; elapsed = 00:00:14 . Memory (MB): peak = 2402.234 ; gain = 330.672 
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+// [GUI Memory]: 196 MB (+2110kb) [00:52:33]
+// 'dQ' command handler elapsed time: 16 seconds
+// Device view-level: 0.3
+// Device view-level: 0.0
+// Elapsed time: 17 seconds
+dismissDialog("Open Implemented Design"); // bB (cr)
+// [GUI Memory]: 208 MB (+2191kb) [00:52:34]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 7, true); // u (O, cr) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h (ds, cr)
+// bB (cr):  Reloading : addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: current_design rtl_1 
+// TclEventType: ELABORATE_START
+// Tcl Message: refresh_design 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,320 MB. GUI used memory: 146 MB. Current time: 1/27/20, 8:45:31 AM CST
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2487.441 ; gain = 59.852 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// [Engine Memory]: 2,379 MB (+60339kb) [00:52:51]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,380 MB. GUI used memory: 143 MB. Current time: 1/27/20, 8:45:36 AM CST
+// Engine heap size: 2,380 MB. GUI used memory: 143 MB. Current time: 1/27/20, 8:45:36 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1757 ms.
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'bcdto7segment_dataflow' [C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2/lab1_4_2.srcs/sources_1/new/bcdto7segment_dataflow.v:23] INFO: [Synth 8-6155] done synthesizing module 'bcdto7segment_dataflow' (1#1) [C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2/lab1_4_2.srcs/sources_1/new/bcdto7segment_dataflow.v:23] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2523.797 ; gain = 96.207 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2547.637 ; gain = 120.047 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2547.637 ; gain = 120.047 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 2,380 MB. GUI used memory: 142 MB. Current time: 1/27/20, 8:45:37 AM CST
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Schematic: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  2607 ms.
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2552.699 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-141] Inserted 8 OBUFs to IO ports without IO buffers. 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2/constraints.xdc] Finished Parsing XDC File [C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2/constraints.xdc] Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:11 . Memory (MB): peak = 2629.605 ; gain = 202.016 
+// Elapsed time: 12 seconds
+dismissDialog("Reloading"); // bB (cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "constraints.xdc", 3); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 1); // i (h, cr)
+// PAPropertyPanels.initPanels (<const1>) elapsed time: 0.2s
+// Elapsed time: 18 seconds
+expandTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[bcdto7segment_dataflow, Nets (48), x]", 3); // bD (O, cr)
+collapseTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[bcdto7segment_dataflow, Nets (48), x]", 3); // bD (O, cr)
+// Elapsed time: 132 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 1); // i (h, cr)
+// Elapsed time: 32 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // i (h, cr)
+selectTab(PAResourceQtoS.RunGadget_RUN_GADGET_TABBED_PANE, PAResourceQtoS.RunGadget_ROUTE_STATUS, "Route Status", 1); // i (E, cr)
+selectTab(PAResourceQtoS.RunGadget_RUN_GADGET_TABBED_PANE, PAResourceQtoS.RunGadget_SUMMARY, "Summary", 0); // i (E, cr)
+selectTab(PAResourceQtoS.RunGadget_RUN_GADGET_TABBED_PANE, PAResourceQtoS.RunGadget_ROUTE_STATUS, "Route Status", 1); // i (E, cr)
+selectTab(PAResourceQtoS.RunGadget_RUN_GADGET_TABBED_PANE, PAResourceQtoS.RunGadget_SUMMARY, "Summary", 0); // i (E, cr)
+// Elapsed time: 10 seconds
+selectButton(PAResourceOtoP.ProjectSummaryDRCPanel_OPEN_DRC_REPORT, "Implemented DRC Report"); // h (Q, cr)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// TclEventType: CURR_DESIGN_SET
+// PAPropertyPanels.initPanels (<const1>) elapsed time: 0.2s
+// Run Command: PAResourceCommand.PACommandNames_OPEN_REPORT_DRC
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+// Tcl Message: current_design impl_1 
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, constraints.xdc]", 4, false); // B (F, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bcdto7segment_dataflow.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // i (h, cr)
+// Elapsed time: 14 seconds
+selectButton(PAResourceOtoP.ProjectSummaryPowerPanel_CLICK_FOR_MORE_DETAILS, "Low"); // d (Q, cr)
+// Elapsed time: 27 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bcdto7segment_dataflow.v", 2); // i (h, cr)
+// Elapsed time: 92 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 199, 237); // ch (w, cr)
+// Elapsed time: 11 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 226, 218); // ch (w, cr)
+selectCodeEditor("bcdto7segment_dataflow.v", 226, 218, false, false, false, false, true); // ch (w, cr) - Double Click
+// Elapsed time: 38 seconds
+selectCodeEditor("bcdto7segment_dataflow.v", 662, 185, false, false, false, true, false); // ch (w, cr) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_UNDO, "Undo"); // ai (ao, Popup.HeavyWeightWindow)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,404 MB. GUI used memory: 155 MB. Current time: 1/27/20, 8:52:51 AM CST
+selectCodeEditor("bcdto7segment_dataflow.v", 699, 350, false, false, false, true, false); // ch (w, cr) - Popup Trigger
+selectCodeEditor("bcdto7segment_dataflow.v", 446, 340); // ch (w, cr)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("bcdto7segment_dataflow.v", 757, 330); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // i (h, cr)
+selectButton(PAResourceQtoS.RunGadget_SHOW_WARNING_AND_ERROR_MESSAGES_IN_MESSAGES, "17 warnings"); // h (Q, cr)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+// HMemoryUtils.trashcanNow. Engine heap size: 2,511 MB. GUI used memory: 155 MB. Current time: 1/27/20, 8:53:16 AM CST
+// [Engine Memory]: 2,555 MB (+59048kb) [01:00:54]
+// WARNING: HEventQueue.dispatchEvent() is taking  10800504 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,555 MB. GUI used memory: 155 MB. Current time: 1/27/20, 11:53:47 AM CST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2038 ms. Increasing delay to 6114 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 2356 ms. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1471 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,555 MB. GUI used memory: 150 MB. Current time: 1/27/20, 1:53:55 PM CST
+// Elapsed time: 18088 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "constraints.xdc", 3); // i (h, cr)
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, constraints.xdc]", 4, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, constraints.xdc]", 4, false, false, false, false, true, false); // B (F, cr) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ai (ao, cr)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cr): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cr)
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2/constraints.xdc}}] -no_script -reset -force -quiet 
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  -fileset constrs_1 {{C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2/constraints.xdc}} 
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E (f, cr)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cr): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_ADD_EXISTING_OR_CREATE_NEW_CONSTRAINTS, "Add"); // E (f, c)
+selectMenuItem(PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, "Add Files..."); // ai (ao, c)
+setFileChooser("C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2/Nexys4DDR_Master.xdc");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 9 seconds
+dismissDialog("Add Sources"); // c (cr)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset constrs_1 -norecurse {{C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2/Nexys4DDR_Master.xdc}} 
+// WARNING: HEventQueue.dispatchEvent() is taking  9313 ms.
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 13, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (cr): Run Synthesis: addNotify
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", false); // g (Q, A): FALSE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bB (cr):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // A (cr)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cr): Launch Runs: addNotify
+// Elapsed time: 19 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bB (cr):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cr)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Jan 27 13:55:47 2020] Launched synth_1... Run output will be captured here: C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2/lab1_4_2.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 21 seconds
+dismissDialog("Starting Design Runs"); // bB (cr)
+// TclEventType: RUN_STATUS_CHANGE
+selectCodeEditor("bcdto7segment_dataflow.v", 396, 535); // ch (w, cr)
+// Elapsed time: 46 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // i (h, cr)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// aj (cr): Synthesis Completed: addNotify
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (cr): Launch Runs: addNotify
+// Elapsed time: 13 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bB (cr):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cr)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Jan 27 13:56:54 2020] Launched impl_1... Run output will be captured here: C:/Users/lucas/OneDrive - Auburn University/FPGA/lab1_4_2/lab1_4_2.runs/impl_1/runme.log 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aj)
+dismissDialog("Starting Design Runs"); // bB (cr)
+// TclEventType: RUN_STATUS_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cr) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // i (h, cr)
+selectButton(PAResourceQtoS.RunGadget_SHOW_WARNING_AND_ERROR_MESSAGES_IN_MESSAGES, "17 warnings"); // h (Q, cr)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 18 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3917] design bcdto7segment_dataflow has port AN[7] driven by constant 1. ]", 1); // ah (O, cr)
+// Elapsed time: 33 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bcdto7segment_dataflow.v", 1); // i (h, cr)
+// Elapsed time: 11 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 3); // B (F, cr)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0); // u (O, cr)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0); // u (O, cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (O, cr)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// I (cr): Settings: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1917 ms.
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 260 MB (+43594kb) [06:05:40]
+// aj (cr): Implementation Completed: addNotify
+// Elapsed time: 17 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, aj)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// HOptionPane Warning: 'Settings dialog is open. Please close it and try again. (Settings)'
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+// Elapsed time: 12 seconds
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Simulation]", 1, false); // L (E, I)
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Elaboration]", 2, false); // L (E, I)
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Synthesis]", 3, false); // L (E, I)
+// Elapsed time: 54 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (I)
+dismissDialog("Settings"); // I (cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // i (h, cr)
+// [GUI Memory]: 274 MB (+1932kb) [06:07:02]
+// Elapsed time: 46 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys4DDR_Master.xdc]", 4, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys4DDR_Master.xdc]", 4, false, false, false, false, false, true); // B (F, cr) - Double Click
+// Elapsed time: 96 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bcdto7segment_dataflow.v", 1); // i (h, cr)

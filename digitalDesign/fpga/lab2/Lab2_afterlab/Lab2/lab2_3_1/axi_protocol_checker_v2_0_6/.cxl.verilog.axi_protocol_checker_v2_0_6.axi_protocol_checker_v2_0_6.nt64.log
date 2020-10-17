@@ -1,0 +1,25 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2124 "Package sc_util_v1_0_4_pkg found in library smartconnect_v1_0."
+MESSAGE_SP VCP2110 "Module sc_util_v1_0_4_onehot_to_binary found in library smartconnect_v1_0."
+MESSAGE_SP VCP2110 "Module sc_util_v1_0_4_axic_reg_srl_fifo found in library smartconnect_v1_0."
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+WARNING VCP3005 "The implicit event expression list (@*) is empty; the process will never be executed." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_protocol_checker_v2_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv" 3635  12
+WARNING VCP3005 "The implicit event expression list (@*) is empty; the process will never be executed." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_protocol_checker_v2_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv" 3636  12
+WARNING VCP3005 "The implicit event expression list (@*) is empty; the process will never be executed." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_protocol_checker_v2_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv" 3957  12
+WARNING VCP2910 "Conditional expression 1==1 at ?: operator is constant." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_protocol_checker_v2_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv" 5450  1
+WARNING VCP2910 "Conditional expression 1==0 at ?: operator is constant." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_protocol_checker_v2_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv" 5450  1
+WARNING VCP2900 "Conditional expression 1==3 at 'if' statement is constant." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_protocol_checker_v2_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv" 5450  1
+WARNING VCP2900 "Conditional expression 1==4 at 'if' statement is constant." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_protocol_checker_v2_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv" 5450  1
+WARNING VCP2910 "Conditional expression 1==1 at ?: operator is constant." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_protocol_checker_v2_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv" 5452  1
+WARNING VCP2910 "Conditional expression 1==0 at ?: operator is constant." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_protocol_checker_v2_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv" 5452  1
+WARNING VCP2900 "Conditional expression 1==3 at 'if' statement is constant." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_protocol_checker_v2_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv" 5452  1
+WARNING VCP2900 "Conditional expression 1==4 at 'if' statement is constant." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_protocol_checker_v2_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv" 5452  1
+MESSAGE "Running Assertions Compiler."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: axi_protocol_checker_v2_0_6_top."
+MESSAGE "$root top modules: axi_protocol_checker_v2_0_6_top."
+SUCCESS "Compile success 0 Errors 11 Warnings  Analysis time: 1[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

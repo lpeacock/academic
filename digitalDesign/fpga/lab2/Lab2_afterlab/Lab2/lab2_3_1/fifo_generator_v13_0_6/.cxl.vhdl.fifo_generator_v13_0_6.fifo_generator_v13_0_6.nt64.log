@@ -1,0 +1,78 @@
+Aldec, Inc. VHDL Compiler, build 10.5.217.6767
+VLM Initialized with path: "C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\library.cfg".
+DAGGEN WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\ip\xilinx\fifo_generator_v13_0\simulation\fifo_generator_vhdl_beh.vhd
+COMP96 Compile Entity "fifo_generator_v13_0_6_bhv_as"
+COMP96 Compile Architecture "behavioral" of Entity "fifo_generator_v13_0_6_bhv_as"
+COMP96 Compile Entity "fifo_generator_v13_0_6_bhv_ss"
+COMP96 Compile Architecture "behavioral" of Entity "fifo_generator_v13_0_6_bhv_ss"
+COMP96 Compile Entity "fifo_generator_v13_0_6_bhv_preload0"
+COMP96 Compile Architecture "behavioral" of Entity "fifo_generator_v13_0_6_bhv_preload0"
+COMP96 Compile Entity "fifo_generator_v13_0_6_conv"
+COMP96 Compile Architecture "behavioral" of Entity "fifo_generator_v13_0_6_conv"
+COMP96 Compile Entity "fifo_generator_v13_0_6_axic_reg_slice"
+COMP96 Compile Architecture "xilinx" of Entity "fifo_generator_v13_0_6_axic_reg_slice"
+COMP96 Compile Entity "fifo_generator_vhdl_beh"
+COMP96 Compile Architecture "behavioral" of Entity "fifo_generator_vhdl_beh"
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\ip\xilinx\fifo_generator_v13_0\hdl\fifo_generator_v13_0_rfs.vhd
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile encrypted unit
+COMP96 Compile success 0 Errors 0 Warnings  Analysis time :  2.0 [s]

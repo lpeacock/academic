@@ -1,0 +1,2 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/axi_vdma_v6_3_8
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -work axi_vdma_v6_3_8 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/axi_vdma_v6_3_8/.cxl.verilog.axi_vdma_v6_3_8.axi_vdma_v6_3_8.nt64.cmf

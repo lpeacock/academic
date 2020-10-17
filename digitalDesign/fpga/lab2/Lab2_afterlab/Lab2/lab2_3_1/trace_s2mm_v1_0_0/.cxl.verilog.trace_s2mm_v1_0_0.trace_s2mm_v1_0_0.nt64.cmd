@@ -1,0 +1,2 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/trace_s2mm_v1_0_0
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -work trace_s2mm_v1_0_0 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/trace_s2mm_v1_0_0/.cxl.verilog.trace_s2mm_v1_0_0.trace_s2mm_v1_0_0.nt64.cmf

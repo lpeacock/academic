@@ -1,0 +1,84 @@
+timestamp=1580965219709
+
+[~A]
+ModifyID=1
+Version=74
+
+[axi_hwicap]
+A/implementation=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hwicap_v3_0/hdl/axi_hwicap_v3_0_vh_rfs.vhd|4084|1*77936
+BinI32/implementation=3*25304
+I=0*74988
+I/implementation=0*84949
+M=11|0|vde|1580965219569|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hwicap_v3_0/hdl/axi_hwicap_v3_0_vh_rfs.vhd|0*72239*0x667ed7bbdf7f20e96f9938d9ff9aeb4c5c265f0a|0*74839*0x24f53803c3278f1d7f185bd51c58332c
+M/implementation=21|0|vde|1580965219572|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hwicap_v3_0/hdl/axi_hwicap_v3_0_vh_rfs.vhd|0*75359*0x6774c652a02e4152b5efbb2ddb97b09a8e4e962b|0*84782*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hwicap_v3_0/hdl/axi_hwicap_v3_0_vh_rfs.vhd|4014
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|2b10d3fe65e00aeecdb12480c1f998fa425c3e792f74c02615edbe5ae10819b3356594cbd04e09f5a1ba34156fdbc0de
+Version/implementation=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb938c1fc72513513ddac8cec3e816c6958a
+
+[hwicap]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hwicap_v3_0/hdl/axi_hwicap_v3_0_vh_rfs.vhd|2831|1*48244
+BinI32/imp=3*20643
+I=0*52371
+I/imp=0*60332
+M=11|0|vde|1580965219545|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hwicap_v3_0/hdl/axi_hwicap_v3_0_vh_rfs.vhd|0*50220*0x8b46dc158e08c1521b95b4539f2ef752c7c90756|0*52226*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=21|0|vde|1580965219547|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hwicap_v3_0/hdl/axi_hwicap_v3_0_vh_rfs.vhd|0*52817*0x22f313ec578dbe6f5cc7852d155ab8bf13c99ed0|0*60180*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hwicap_v3_0/hdl/axi_hwicap_v3_0_vh_rfs.vhd|2778
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|46f7d3ada24698ce99d53ab2f445b8f4f798a34657d2ddfbb787a8f1fb7afdfa
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f62941b703ad3e699497c8c735955e8098571f
+
+[hwicap_shared]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hwicap_v3_0/hdl/axi_hwicap_v3_0_vh_rfs.vhd|3444|1*65662
+BinI32/imp=3*23260
+I=0*64073
+I/imp=0*70963
+M=11|0|vde|1580965219557|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hwicap_v3_0/hdl/axi_hwicap_v3_0_vh_rfs.vhd|0*61616*0x8bb21c212c2829e8de2515d5d20951f984959af0|0*63921*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=21|0|vde|1580965219559|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hwicap_v3_0/hdl/axi_hwicap_v3_0_vh_rfs.vhd|0*64526*0xbbccba5a8609fbd7e2f389e821ac72d7099df0d0|0*70804*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hwicap_v3_0/hdl/axi_hwicap_v3_0_vh_rfs.vhd|3382
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|8a577f1c7efb515d0eb77b29e28295c8889a3e3b2c984685803a971703f59c8c7c554beee6de9d3e861680478f3f14df
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f6294145b5af3c2c431179be76f13d75468698
+
+[icap_statemachine]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hwicap_v3_0/hdl/axi_hwicap_v3_0_vh_rfs.vhd|1549|1*31017
+BinI32/imp=3*10067
+I=0*26996
+I/imp=0*36267
+M=11|0|vde|1580965219522|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hwicap_v3_0/hdl/axi_hwicap_v3_0_vh_rfs.vhd|0*25264*0x924e462d4a8df7fca6361c5c5f9b9bb5228ee44e|0*26840*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=21|0|vde|1580965219524|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hwicap_v3_0/hdl/axi_hwicap_v3_0_vh_rfs.vhd|0*27407*0xbc092b20d6ff15bc8809d841727dc583748bf9d5|0*36104*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hwicap_v3_0/hdl/axi_hwicap_v3_0_vh_rfs.vhd|1507
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|897827f986f8a66e023e53b048ab60ee271b6df7c1073bd5c2f63b2c4a3479d721a6b3285fb524144e89317c209356c0
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f6294171e9028e5959e70b25c77211bec4dfb1
+
+[icap_statemachine_shared]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hwicap_v3_0/hdl/axi_hwicap_v3_0_vh_rfs.vhd|2160|1*39289
+BinI32/imp=3*15082
+I=0*38995
+I/imp=0*49240
+M=11|0|vde|1580965219534|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hwicap_v3_0/hdl/axi_hwicap_v3_0_vh_rfs.vhd|0*37157*0x573560fb04885b2083f77b53213c1f1c8f83a4ad|0*38832*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=21|0|vde|1580965219536|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hwicap_v3_0/hdl/axi_hwicap_v3_0_vh_rfs.vhd|0*39413*0x1e2bc8ccadfb3970b24de0fa8dc93e984b8f6d16|0*49070*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hwicap_v3_0/hdl/axi_hwicap_v3_0_vh_rfs.vhd|2110
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|897827f986f8a66e023e53b048ab60ee0a9c331be1f65a8593dea8bea0eba09f4447e3607f17fa8636754fb59297d22fd81308c383d9ea082220d4ba33ff8889
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f629413be3a4fa064c8d99801cac0e80edd2b2
+
+[ipic_if]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hwicap_v3_0/hdl/axi_hwicap_v3_0_vh_rfs.vhd|216|1*0
+BinI32/imp=3*0
+I=0*3475
+I/imp=0*24299
+M=11|0|vde|1580965219466|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hwicap_v3_0/hdl/axi_hwicap_v3_0_vh_rfs.vhd|0*689*0x8d5e86ffd4832da5bf0aacb0be2815781029fb38|0*3329*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=21|0|vde|1580965219483|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hwicap_v3_0/hdl/axi_hwicap_v3_0_vh_rfs.vhd|0*3873*0x5a9d189366f20e5aa681a79542fbd9037ff4b499|0*24146*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hwicap_v3_0/hdl/axi_hwicap_v3_0_vh_rfs.vhd|143
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|32406d768ddddcfe827509f8382d0dcc26527262ddaa47cb266f3a3c4d9b973ada5bb6888d8b862fe66e2b79a3c2d41e
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f629412d065d00e15661057a528892955107d0
+
+[~MFT]
+0=42|0axi_hwicap_v3_0_24.mgf|84949|0
+1=6|1axi_hwicap_v3_0_24.mgf|77936|0
+3=6|3axi_hwicap_v3_0_24.mgf|25304|0
+
+[~U]
+axi_hwicap=11|0*71535|
+hwicap=11|0*49662|
+hwicap_shared=11|0*60989|
+icap_statemachine=11|0*24818|
+icap_statemachine_shared=11|0*36682|
+ipic_if=11|0*0|

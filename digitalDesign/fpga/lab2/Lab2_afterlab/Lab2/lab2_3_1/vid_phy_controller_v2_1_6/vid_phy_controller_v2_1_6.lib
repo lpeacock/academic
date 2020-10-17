@@ -1,0 +1,378 @@
+timestamp=1580964960332
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_lib.sv_vid_phy_controller_v2_1_datawidth_conv.sv_vid_phy_controller_v2_1_dru.sv=0*111291*119706
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_sync_block.v_vid_phy_controller_v2_1_sync_pulse.v_vid_phy_controller_v2_1_cpll_railing.v_vid_phy_controller_v2_1_axi4lite.v_vid_phy_controller_v2_1_drp_control.v_vid_phy_controller_v2_1_drp_control_8series.v_vid_phy_controller_v2_1_drp_control_hdmi.v_vid_phy_controller_v2_1_interrupts.v_vid_phy_controller_v2_1_gtp_common.v=0*84443*106080
+LastVerilogToplevel=vid_phy_controller_v2_1_6_dru
+ModifyID=3
+Version=74
+
+[$root]
+A/$root=22|||1*149124
+BinI32/$root=3*118453
+SLP=3*118557
+Version=10.5.217.6767 (Windows)|00000078789c1d8cb10ac23010407f257b6925111c5c7574753b38e235d5e09984bb34d8bf6fe8f2e0bde18d6c5a9cb17c36a49caa64e620d81c5abc9821269aa30cb72b3c358802afe415ee99d65f485561296f0fec5f0e1e1de8971aa4eb6147c7335a98e8cf532ca77e63336a735feb7675772b2b|c73a565f2ade592f8ac1c68f484c9216dfb7ec63763ddf2d48882c256d019a72
+
+[brick_10]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|1579|1*10651
+BinI32/behavioral=3*19092
+I=0*36761
+I/behavioral=I/Behavioral 0*39315
+M=11|0|vde|1580964957100|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|0*36120*0x266aaf316a7c22b433cb66fea0243f390e34d938|0*36608*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964957102|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|0*37042*0xd4c8846ebaa401e2724380d57fe1ad7d1ecb4ccf|0*39148*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|1579
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|973609364c3f0a8f6fb1095ac4d74e6124d0c4b69b7f279fb39249987c1290e195a4d459807112eace0fbd5f55fc1b50
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb80f4979de02c3b1c6d9ebe0a753d030e1b
+
+[brick_10_adv]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|1579|1*12497
+BinI32/behavioral=3*21601
+I=0*44228
+I/behavioral=I/Behavioral 0*46363
+M=11|0|vde|1580964957117|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|0*43571*0x34af713ec325c938035965d746db4dc055b9905b|0*44071*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964957119|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|0*44513*0x3a2f5b5d4016343764403d08915b0f43706bd97c|0*46192*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|1579
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|8bccbd704d9475a974c90f847b5489b22c2e5ac8f111177d8e874d0c8eddadea50f8f2980e725db9ad9256cbccab4dcb
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb807314b04d1e399668dfe015c32fa57315
+
+[brick_5]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|1579|1*11862
+BinI32/behavioral=3*20163
+I=0*40244
+I/behavioral=I/Behavioral 0*43027
+M=11|0|vde|1580964957108|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|0*39663*0xd77a5598fcfc02a01521f71c5fc8df9d88987004|0*40092*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964957110|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|0*40524*0x63249b46e46632cd06ae15d3ca540f3f3b88084e|0*42861*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|1579
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|fc0b841501671e3f6e1f2992290096eb26527262ddaa47cb266f3a3c4d9b973a1242cc556eba3a3bf2e9c3c73f1c6a10
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb806ce88ec1f65e048a948a05db36bbd578
+
+[bs_flex]
+A/behavior=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/bs_flex_v_2.vhd|50|1*17613
+BinI32/behavior=3*33851
+I=0*63713
+I/behavior=0*67189
+M=11|0|vde|1580964957311|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/bs_flex_v_2.vhd|0*62910*0x819570699d2d4fb644a1278332bbf0fd400a07c2|0*63562*0x24f53803c3278f1d7f185bd51c58332c
+M/behavior=21|0|vde|1580964957313|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/bs_flex_v_2.vhd|0*64028*0x1083dafb669c891615ebab1c328bf8116b4ffe56|0*67026*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/bs_flex_v_2.vhd|32
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d92794646b2d59e103d0c6eafc75ed9f26527262ddaa47cb266f3a3c4d9b973a71653b54b83fb311a88e5ca460be50db
+Version/behavior=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f0e00b84d853bb20ba6a8dfc9608ad016
+
+[cg]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|1579|1*9792
+BinI32/behavioral=3*15345
+I=0*32445
+I/behavioral=I/Behavioral 0*35585
+M=11|0|vde|1580964957090|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|0*31872*0x535f64e58c526b99286ee49458b5d6ccdd428618|0*32298*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964957092|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|0*32720*0x13255260dcae284d0aeab43f55ca16f87346b98b|0*35424*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|1579
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|6f446802352699abe82dcf7bd0549074ca8acd0a59aa16a0b778eda415c1f527
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb809ed5667222e7e6406ac900b9310f6646
+
+[control]
+A/behavior=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/bs_flex_v_2.vhd|264|1*25620
+BinI32/behavior=3*36899
+I=0*68428
+I/behavior=0*69956
+M=11|0|vde|1580964957320|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/bs_flex_v_2.vhd|0*67616*0x6353cde78e4372e1e0b9dfbea416281345445107|0*68277*0x24f53803c3278f1d7f185bd51c58332c
+M/behavior=21|0|vde|1580964957322|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/bs_flex_v_2.vhd|0*68743*0xb1c44dbd97d88c9a325a5e4338aab1e6e778e107|0*69793*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/bs_flex_v_2.vhd|246
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|f2cabf5e9d8860133c44841e25d9d38726527262ddaa47cb266f3a3c4d9b973aafbad56ece77d941a521eb365ceeecd3
+Version/behavior=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5fdaa556bd1d50631c731800d571eb0e4f
+
+[dru]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|1579|1*0
+BinI32/behavioral=3*0
+I=0*2113
+I/behavioral=I/Behavioral 0*8222
+M=11|0|vde|1580964957000|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|0*452*0x75cb73c3450873d43ce49aa9ddec0a4ecee04237|0*1965*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964957002|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|0*2389*0x181046dd05f3353dd4bac1438b7f43aaac5be0db|0*8060*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|1579
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|cb09490eb3d175b76588ddd0561dca3d4b3e88fba1e86f62bb2ffb3e88ebf5a9
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb804731902e72018b01aac2ddc9639240bf
+
+[lp_filter]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|1579|1*4495
+BinI32/behavioral=3*2735
+I=0*14023
+I/behavioral=I/Behavioral 0*16895
+M=11|0|vde|1580964957054|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|0*13120*0xb74e96b9007bf93b9d8100fcc4ae38bd8df8a26a|0*13869*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964957056|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|0*14353*0x88b504157ba9164c77ef4c2733e1168345a00982|0*16727*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|1579
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|06b4ed82e02752321323b158b4b5f2702ebceee3d4ef06b5dd57924db35a106ea706110364c3925e72ddc2d38cafc359
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb803fd6c07881ee019a9d453ca7aab0d642
+
+[lp_filter_r]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|1579|1*13356
+BinI32/behavioral=3*22378
+I=0*47918
+I/behavioral=I/Behavioral 0*50533
+M=11|0|vde|1580964957126|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|0*47007*0xcc0e8ab5df4f9684709de28617861dbe46ef4a8f|0*47762*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964957128|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|0*48250*0xd4504a6ceb4b1bfe7d0fd157eb2bf7e363c37c08|0*50363*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|1579
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d4fa458a0f458f70071bf62f8508374ba09ceccdd1b1389f3a6512e10deca67a8bc7e6eec0ed7567e76ecc4f5a4922bd
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb8095a56862b6a6b887c98af07dcc4c1f4d
+
+[nidru_20_wrapper]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_wrapper.vhd|54|1*34416
+BinI32/behavioral=3*42465
+I=0*76459
+I/behavioral=I/Behavioral 0*79426
+M=11|0|vde|1580964957381|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_wrapper.vhd|0*74979*0x3aa19ba3d6dd875fc58e71a5e3978c1432676ee1|0*76294*0x24f53803c3278f1d7f185bd51c58332c
+M/behavioral=M/Behavioral 21|0|vde|1580964957383|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_wrapper.vhd|0*76748*0x7d85f2206242daca8c2dc2fa08307994129af16b|0*79247*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_wrapper.vhd|7
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|c3d120bb2932f0973a675e7288f30e20b447d3d90aa28798870eaf6e24afbe4983d41deb10b396f6a4393019b1eebefd
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff405dca1a9bd0006ebdb74df9ec645b27a
+
+[pd]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|1579|1*5674
+BinI32/behavioral=3*5428
+I=0*18324
+I/behavioral=I/Behavioral 0*26599
+M=11|0|vde|1580964957065|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|0*17559*0x1f6343b424db9a47cd629b1ffb03650d43050a71|0*18177*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964957068|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|0*18631*0x39ab89465ae0afbc59b1f2491077f3ab552e0c4b|0*26438*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|1579
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|70ef874a7c4227dfef9657c66f6c935deb74be860412b5e1ee1742095f6af382
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb8008eef45be4743639200950b84b50d81a
+
+[pd_r]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|1579|1*14455
+BinI32/behavioral=3*24747
+I=0*51916
+I/behavioral=I/Behavioral 0*55666
+M=11|0|vde|1580964957135|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|0*51169*0x634bc039b8f4ba4397330213c8669ec82e3b1e4c|0*51767*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964957137|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|0*52241*0xebc1f4b7436975b29d261eef84065a98e77c4e1d|0*55503*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|1579
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|cbb7f89c15f16a2997f0740d0d115ae6edc89426f5439f17e1abd93e99f231bc
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb80ae118ad92b0c7e0dd87aed16b079950f
+
+[rotwdt]
+A/behavior=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/bs_flex_v_2.vhd|381|1*28442
+BinI32/behavior=3*38549
+I=0*71456
+I/behavior=0*74219
+M=11|0|vde|1580964957328|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/bs_flex_v_2.vhd|0*70603*0xc09ed88f105052593e7620ac240828a6d65745a3|0*71306*0x24f53803c3278f1d7f185bd51c58332c
+M/behavior=21|0|vde|1580964957330|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/bs_flex_v_2.vhd|0*71770*0x6c300a8c6f58facba466e43a779ecf8cb21b39a6|0*74057*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/bs_flex_v_2.vhd|363
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|0badae32f0e1b8ddfd0c87e2d88b67c7967240042d44a1bfc48f34efd8e90e06
+Version/behavior=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f9911cb022112e08f5d355c03b6f47c5e
+
+[ss]
+A/behavioral=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|1579|1*7973
+BinI32/behavioral=3*11932
+I=0*27957
+I/behavioral=0*31503
+M=11|0|vde|1580964957079|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|0*27224*0x28b720eb1d484360ec4be45f9773fae6e2a28cc0|0*27810*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=21|0|vde|1580964957081|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|0*28280*0x2350ce881dcad126143745af74be49d32dd57482|0*31342*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|1579
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|3ad6998772081493a5932a8d82f01434fffc3b189cbb45aa6db50ce389ad098e
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb8059f624aad79d6bd827b7a01c4e0376c7
+
+[ss_r]
+A/behavioral=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|1579|1*15858
+BinI32/behavioral=3*28303
+I=0*56983
+I/behavioral=0*62266
+M=11|0|vde|1580964957146|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|0*56279*0xd7a46c80720938942ded26609c09a4ee666b6361|0*56834*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=21|0|vde|1580964957148|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|0*57308*0x27de294facf51ba0bc23e2c8ba0688a1e2408e03|0*62103*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|1579
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|01503144fba390ea0b60bf54ddf0d470cc7c34946a54402bf046b78d2c9dfca2
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb80d87c8a6c48f807efc891dd54a111c6af
+
+[td]
+A/behavior=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|1579|1*3702
+BinI32/behavior=3*2135
+I=0*11516
+I/behavior=0*12474
+M=11|0|vde|1580964957047|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|0*10901*0xac9445a060928d3a3d25f137476f2c138da3388c|0*11369*0xbba181862c44b92d99e8f49010ab70a1
+M/behavior=21|0|vde|1580964957049|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|0*11839*0xe9c6bad664cc581099d0f497da039ed0b15d4077|0*12315*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|1579
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|bf82517887d1b428d35abe9c4f3a411244fe9116ff1933e8f870257c4206d3c9
+Version/behavior=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|1a15ec0a832cc257c522ba57f65e4af214bdda985a12bf2eace5f014fcf18c5d710d8fc2a6b8ffea2e221be13596d337
+
+[vco]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|1579|1*2875
+BinI32/behavioral=3*817
+I=0*9288
+I/behavioral=I/Behavioral 0*10371
+M=11|0|vde|1580964957038|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|0*8609*0xc42170f78aa293c9877dfc0b0e07d84804eaf032|0*9140*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964957040|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|0*9564*0xeaf161624fda3127b27a0a9ab8dba8731656c3d1|0*10209*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/vhd/nidru_20_v_7.vhd|1579
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|1f8cbcbf0954515d2105e0670723c1cec887286dbd93597384cc5118b5759ff7
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb80f9dfbe9935c226044531027c2b49ba47
+
+[vid_phy_controller_v2_1_6_axi4lite]
+A/vid_phy_controller_v2_1_6_axi4lite=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_axi4lite.v|52|1*51830
+BinI32/vid_phy_controller_v2_1_6_axi4lite=3*48229
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_axi4lite.v|52
+SLP=3*73692
+Version=10.5.217.6767 (Windows)|00000070789c1d8cb10e403010407fc52e08128395d16abbe452a76872dae65ac2df6b2c2f796f780567b759d11f2f92b3511cb316bc1bacb1cb72636935920f3dcc414b00be4805181d5da7b631c0e67705ac9606a604545bd492f4b7bf638b3594f470697c956efc0123e828f5|d85f4fe39a58abb305672a4907538be73347b328018b19bb6a615cc9697966561e13d7a133e4a3589342e911ad6c3aeb06e124931fbae2903a8c71f600fccaff
+
+[vid_phy_controller_v2_1_6_cpll_railing]
+A/vid_phy_controller_v2_1_6_cpll_railing=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_cpll_railing.v|68|1*48758
+BinI32/vid_phy_controller_v2_1_6_cpll_railing=3*46891
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_cpll_railing.v|68
+SLP=3*47726
+Version=10.5.217.6767 (Windows)|00000070789c1d8cb10e403010407fc52e08128395d16abbe452a76872dae65ac2df6b2c2f796f780567b759d11f2f92b3511cb316bc1bacb1cb72636935920f3dcc414b00be4805181d5da7b631c0e67705ac9606a604545bd492f4b7bf638b3594f470697c956efc0123e828f5|d85f4fe39a58abb305672a4907538be7d19d8b19853a273976e9d540785cf46aa8634dc554e19efe8f5e790642ada02b846213894c723148ab7048d5a50bbf51
+
+[vid_phy_controller_v2_1_6_datawidth_conv]
+A/vid_phy_controller_v2_1_6_datawidth_conv=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_datawidth_conv.sv|19|1*185906
+BinI32/vid_phy_controller_v2_1_6_datawidth_conv=3*153050
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_datawidth_conv.sv|19
+SLP=3*154543
+Version=10.5.217.6767 (Windows)|00000078789c1d8cb10ac23010407f257b6925111c5c7574753b38e235d5e09984bb34d8bf6fe8f2e0bde18d6c5a9cb17c36a49caa64e620d81c5abc9821269aa30cb72b3c358802afe415ee99d65f485561296f0fec5f0e1e1de8971aa4eb6147c7335a98e8cf532ca77e63336a735feb7675772b2b|d85f4fe39a58abb305672a4907538be718c73c9459fed3d1cb35d14d40800da16f368df891951ed7a95097c7364363ff3238b420ccb324efc6a6c0530b581909
+
+[vid_phy_controller_v2_1_6_drp_control]
+A/vid_phy_controller_v2_1_6_drp_control=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_drp_control.v|53|1*121885
+BinI32/vid_phy_controller_v2_1_6_drp_control=3*104213
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_drp_control.v|53
+SLP=3*106250
+Version=10.5.217.6767 (Windows)|00000070789c1d8cb10e403010407fc52e08128395d16abbe452a76872dae65ac2df6b2c2f796f780567b759d11f2f92b3511cb316bc1bacb1cb72636935920f3dcc414b00be4805181d5da7b631c0e67705ac9606a604545bd492f4b7bf638b3594f470697c956efc0123e828f5|d85f4fe39a58abb305672a4907538be7ed79dccca32289a89865ffbd87715c17dc4a414725fc7972ffdefe7649cbdc6d480fd67968c36a49cd4fe2627fee5edd
+
+[vid_phy_controller_v2_1_6_drp_control_8series]
+A/vid_phy_controller_v2_1_6_drp_control_8series=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_drp_control_8series.v|53|1*125192
+BinI32/vid_phy_controller_v2_1_6_drp_control_8series=3*107412
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_drp_control_8series.v|53
+SLP=3*110236
+Version=10.5.217.6767 (Windows)|00000070789c1d8cb10e403010407fc52e08128395d16abbe452a76872dae65ac2df6b2c2f796f780567b759d11f2f92b3511cb316bc1bacb1cb72636935920f3dcc414b00be4805181d5da7b631c0e67705ac9606a604545bd492f4b7bf638b3594f470697c956efc0123e828f5|d85f4fe39a58abb305672a4907538be7ed79dccca32289a89865ffbd87715c171f04e1410304ec81a6d9f461059048a026527262ddaa47cb266f3a3c4d9b973aa23c59023947f539b66ac34151a8d068
+
+[vid_phy_controller_v2_1_6_drp_control_hdmi]
+A/vid_phy_controller_v2_1_6_drp_control_hdmi=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_drp_control_hdmi.v|53|1*132723
+BinI32/vid_phy_controller_v2_1_6_drp_control_hdmi=3*112351
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_drp_control_hdmi.v|53
+SLP=3*115172
+Version=10.5.217.6767 (Windows)|00000070789c1d8cb10e403010407fc52e08128395d16abbe452a76872dae65ac2df6b2c2f796f780567b759d11f2f92b3511cb316bc1bacb1cb72636935920f3dcc414b00be4805181d5da7b631c0e67705ac9606a604545bd492f4b7bf638b3594f470697c956efc0123e828f5|d85f4fe39a58abb305672a4907538be7ed79dccca32289a89865ffbd87715c17e9fbb3edf8d6e1eb2b0de544e8e57a2ab99144eca287eed70dc9dc4f2f8ab980
+
+[vid_phy_controller_v2_1_6_dru]
+A/vid_phy_controller_v2_1_6_dru=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_dru.sv|14|1*191628
+BinI32/vid_phy_controller_v2_1_6_dru=3*155419
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_dru.sv|14
+SLP=3*156178
+Version=10.5.217.6767 (Windows)|00000078789c1d8cb10ac23010407f257b6925111c5c7574753b38e235d5e09984bb34d8bf6fe8f2e0bde18d6c5a9cb17c36a49caa64e620d81c5abc9821269aa30cb72b3c358802afe415ee99d65f485561296f0fec5f0e1e1de8971aa4eb6147c7335a98e8cf532ca77e63336a735feb7675772b2b|d85f4fe39a58abb305672a4907538be7ed79dccca32289a89865ffbd87715c17e8c65b2fc7b95c90c21b7c2d07ada842c8c815653863618e6d7ccfa8f5272073
+
+[vid_phy_controller_v2_1_6_gtp_common]
+A/vid_phy_controller_v2_1_6_gtp_common=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_gtp_common.v|69|1*140236
+BinI32/vid_phy_controller_v2_1_6_gtp_common=3*117259
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_gtp_common.v|69
+SLP=3*117913
+Version=10.5.217.6767 (Windows)|00000070789c1d8cb10e403010407fc52e08128395d16abbe452a76872dae65ac2df6b2c2f796f780567b759d11f2f92b3511cb316bc1bacb1cb72636935920f3dcc414b00be4805181d5da7b631c0e67705ac9606a604545bd492f4b7bf638b3594f470697c956efc0123e828f5|d85f4fe39a58abb305672a4907538be781a0b479ab6a4254f69ec0b93516ebe57cd52a899f80c1f681a0069f738b1ad081d3e320bce3fb6354626bcf66e82ffa
+
+[vid_phy_controller_v2_1_6_interrupts]
+A/vid_phy_controller_v2_1_6_interrupts=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_interrupts.v|53|1*113279
+BinI32/vid_phy_controller_v2_1_6_interrupts=3*96642
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_interrupts.v|53
+SLP=3*99237
+Version=10.5.217.6767 (Windows)|00000070789c1d8cb10e403010407fc52e08128395d16abbe452a76872dae65ac2df6b2c2f796f780567b759d11f2f92b3511cb316bc1bacb1cb72636935920f3dcc414b00be4805181d5da7b631c0e67705ac9606a604545bd492f4b7bf638b3594f470697c956efc0123e828f5|d85f4fe39a58abb305672a4907538be7e1b52b2e3058d02d679662c0eded4671ddc5d6ab91ce8d5ed897b016b9db8f47f0f694fce0903d63f5aa79511642eeb9
+
+[vid_phy_controller_v2_1_6_lib_cap_v1_0]
+A/vid_phy_controller_v2_1_6_lib_cap_v1_0=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_lib.sv|76|1*153092
+BinI32/vid_phy_controller_v2_1_6_lib_cap_v1_0=3*120883
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_lib.sv|76
+SLP=3*121652
+Version=10.5.217.6767 (Windows)|00000078789c1d8cb10ac23010407f257b6925111c5c7574753b38e235d5e09984bb34d8bf6fe8f2e0bde18d6c5a9cb17c36a49caa64e620d81c5abc9821269aa30cb72b3c358802afe415ee99d65f485561296f0fec5f0e1e1de8971aa4eb6147c7335a98e8cf532ca77e63336a735feb7675772b2b|d85f4fe39a58abb305672a4907538be78f1691f2b20b7a035801f9f732a89058dd1ec54f4bc93a2ef34fab2f9e717a611c2345b0685fee8d09b7dc97d6a528d8
+
+[vid_phy_controller_v2_1_6_lib_cda_gray_v1_0]
+A/vid_phy_controller_v2_1_6_lib_cda_gray_v1_0=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_lib.sv|156|1*157071
+BinI32/vid_phy_controller_v2_1_6_lib_cda_gray_v1_0=3*123215
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_lib.sv|156
+SLP=3*125707
+Version=10.5.217.6767 (Windows)|00000078789c1d8cb10ac23010407f257b6925111c5c7574753b38e235d5e09984bb34d8bf6fe8f2e0bde18d6c5a9cb17c36a49caa64e620d81c5abc9821269aa30cb72b3c358802afe415ee99d65f485561296f0fec5f0e1e1de8971aa4eb6147c7335a98e8cf532ca77e63336a735feb7675772b2b|d85f4fe39a58abb305672a4907538be78f1691f2b20b7a035801f9f732a8905836feeb786f434664d5ab6b53a5d02a4dbbc0a68c3745a12cc3940e52cf0ac2b8a8b8d31593eabc33c5f8272475fce45e
+
+[vid_phy_controller_v2_1_6_lib_div_v1_0]
+A/vid_phy_controller_v2_1_6_lib_div_v1_0=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_lib.sv|980|1*180156
+BinI32/vid_phy_controller_v2_1_6_lib_div_v1_0=3*145582
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_lib.sv|980
+SLP=3*150107
+Version=10.5.217.6767 (Windows)|00000078789c1d8cb10ac23010407f257b6925111c5c7574753b38e235d5e09984bb34d8bf6fe8f2e0bde18d6c5a9cb17c36a49caa64e620d81c5abc9821269aa30cb72b3c358802afe415ee99d65f485561296f0fec5f0e1e1de8971aa4eb6147c7335a98e8cf532ca77e63336a735feb7675772b2b|d85f4fe39a58abb305672a4907538be78f1691f2b20b7a035801f9f732a8905808472d53d3cfe0ace9e12fa9d0098dc9830d3468c066612f62776c7b2344b9ec
+
+[vid_phy_controller_v2_1_6_lib_edge_v1_0]
+A/vid_phy_controller_v2_1_6_lib_edge_v1_0=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_lib.sv|105|1*155021
+BinI32/vid_phy_controller_v2_1_6_lib_edge_v1_0=3*122021
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_lib.sv|105
+SLP=3*122691
+Version=10.5.217.6767 (Windows)|00000078789c1d8cb10ac23010407f257b6925111c5c7574753b38e235d5e09984bb34d8bf6fe8f2e0bde18d6c5a9cb17c36a49caa64e620d81c5abc9821269aa30cb72b3c358802afe415ee99d65f485561296f0fec5f0e1e1de8971aa4eb6147c7335a98e8cf532ca77e63336a735feb7675772b2b|d85f4fe39a58abb305672a4907538be78f1691f2b20b7a035801f9f732a89058427bab60d15b2f91071c7b438fef58f426527262ddaa47cb266f3a3c4d9b973a6efd260ccb070e107db676b439feae4d
+
+[vid_phy_controller_v2_1_6_lib_fifo_dc_v1_0]
+A/vid_phy_controller_v2_1_6_lib_fifo_dc_v1_0=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_lib.sv|557|1*168444
+BinI32/vid_phy_controller_v2_1_6_lib_fifo_dc_v1_0=3*135505
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_lib.sv|557
+SLP=3*142251
+Version=10.5.217.6767 (Windows)|00000078789c1d8cb10ac23010407f257b6925111c5c7574753b38e235d5e09984bb34d8bf6fe8f2e0bde18d6c5a9cb17c36a49caa64e620d81c5abc9821269aa30cb72b3c358802afe415ee99d65f485561296f0fec5f0e1e1de8971aa4eb6147c7335a98e8cf532ca77e63336a735feb7675772b2b|d85f4fe39a58abb305672a4907538be78f1691f2b20b7a035801f9f732a89058a14e668e24d4aefa336e355a7db539dfcd7ed25ad8c31c8aa76671b0d2931bd90990b4affb84f34208c00f64d4ba4c2e
+
+[vid_phy_controller_v2_1_6_lib_fifo_sc_v1_0]
+A/vid_phy_controller_v2_1_6_lib_fifo_sc_v1_0=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_lib.sv|250|1*160551
+BinI32/vid_phy_controller_v2_1_6_lib_fifo_sc_v1_0=3*127011
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_lib.sv|250
+SLP=3*132887
+Version=10.5.217.6767 (Windows)|00000078789c1d8cb10ac23010407f257b6925111c5c7574753b38e235d5e09984bb34d8bf6fe8f2e0bde18d6c5a9cb17c36a49caa64e620d81c5abc9821269aa30cb72b3c358802afe415ee99d65f485561296f0fec5f0e1e1de8971aa4eb6147c7335a98e8cf532ca77e63336a735feb7675772b2b|d85f4fe39a58abb305672a4907538be78f1691f2b20b7a035801f9f732a89058c0bc52e667f474d8ac354db6db8f46ef7853e4b1918822fee0368418685d279f9e14d1927f562cb84bcb3d70b9b3b2cc
+
+[vid_phy_controller_v2_1_6_lib_rst_v1_0]
+A/vid_phy_controller_v2_1_6_lib_rst_v1_0=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_lib.sv|19|1*149674
+BinI32/vid_phy_controller_v2_1_6_lib_rst_v1_0=3*118625
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_lib.sv|19
+SLP=3*119081
+Version=10.5.217.6767 (Windows)|00000078789c1d8cb10ac23010407f257b6925111c5c7574753b38e235d5e09984bb34d8bf6fe8f2e0bde18d6c5a9cb17c36a49caa64e620d81c5abc9821269aa30cb72b3c358802afe415ee99d65f485561296f0fec5f0e1e1de8971aa4eb6147c7335a98e8cf532ca77e63336a735feb7675772b2b|d85f4fe39a58abb305672a4907538be78f1691f2b20b7a035801f9f732a8905826b6b04487e1895d675ad1efc48efe9538b05f47c64345a38cf22e0b4bf70d63
+
+[vid_phy_controller_v2_1_6_lib_sync_v1_0]
+A/vid_phy_controller_v2_1_6_lib_sync_v1_0=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_lib.sv|48|1*151275
+BinI32/vid_phy_controller_v2_1_6_lib_sync_v1_0=3*119471
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_lib.sv|48
+SLP=3*120455
+Version=10.5.217.6767 (Windows)|00000078789c1d8cb10ac23010407f257b6925111c5c7574753b38e235d5e09984bb34d8bf6fe8f2e0bde18d6c5a9cb17c36a49caa64e620d81c5abc9821269aa30cb72b3c358802afe415ee99d65f485561296f0fec5f0e1e1de8971aa4eb6147c7335a98e8cf532ca77e63336a735feb7675772b2b|d85f4fe39a58abb305672a4907538be78f1691f2b20b7a035801f9f732a890587a68c56acfac17c22bf60e641d06873926527262ddaa47cb266f3a3c4d9b973a528dfd01d2626943f146bc4c77f32595
+
+[vid_phy_controller_v2_1_6_sync_block]
+A/vid_phy_controller_v2_1_6_sync_block=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_sync_block.v|78|1*43459
+BinI32/vid_phy_controller_v2_1_6_sync_block=3*43171
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_sync_block.v|78
+SLP=3*43916
+Version=10.5.217.6767 (Windows)|00000070789c1d8cb10e403010407fc52e08128395d16abbe452a76872dae65ac2df6b2c2f796f780567b759d11f2f92b3511cb316bc1bacb1cb72636935920f3dcc414b00be4805181d5da7b631c0e67705ac9606a604545bd492f4b7bf638b3594f470697c956efc0123e828f5|d85f4fe39a58abb305672a4907538be7d6149d4fbdc31382918fe66a79ebecbc65b42c2ca2a3befc26497f387d0763e5b9900fe578b37bc11d99d701dc8d8ff2
+
+[vid_phy_controller_v2_1_6_sync_pulse]
+A/vid_phy_controller_v2_1_6_sync_pulse=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_sync_pulse.v|75|1*46397
+BinI32/vid_phy_controller_v2_1_6_sync_pulse=3*44125
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_sync_pulse.v|75
+SLP=3*46214
+Version=10.5.217.6767 (Windows)|00000070789c1d8cb10e403010407fc52e08128395d16abbe452a76872dae65ac2df6b2c2f796f780567b759d11f2f92b3511cb316bc1bacb1cb72636935920f3dcc414b00be4805181d5da7b631c0e67705ac9606a604545bd492f4b7bf638b3594f470697c956efc0123e828f5|d85f4fe39a58abb305672a4907538be7d6149d4fbdc31382918fe66a79ebecbcfaa152ddc428864c5ac0e11e70b609907b82b11fcf1e7b6bc36fbc24c025e851
+
+[~MFT]
+0=13|0vid_phy_controller_v2_1_6.mgf|119706|0
+1=12|1vid_phy_controller_v2_1_6.mgf|191628|486
+3=24|3vid_phy_controller_v2_1_6.mgf|156178|172
+
+[~U]
+$root=12|0*107100|
+brick_10=11|0*35871|
+brick_10_adv=11|0*43318|
+brick_5=11|0*39447|
+bs_flex=11|0*62602|
+cg=11|0*31629|
+control=11|0*67313|
+dru=11|0*0|
+lp_filter=11|0*12806|
+lp_filter_r=11|0*46691|
+nidru_20_wrapper=11|0*74542|
+pd=11|0*17236|
+pd_r=11|0*50876|
+rotwdt=11|0*70280|
+ss=11|0*26917|
+ss_r=11|0*56002|
+td=11|0*10658|
+vco=11|0*8349|
+vid_phy_controller_v2_1_6_axi4lite=12|0*81063||0x10
+vid_phy_controller_v2_1_6_cpll_railing=12|0*80769||0x10
+vid_phy_controller_v2_1_6_datawidth_conv=12|0*110418||0x10
+vid_phy_controller_v2_1_6_drp_control=12|0*82218||0x10
+vid_phy_controller_v2_1_6_drp_control_8series=12|0*82681||0x10
+vid_phy_controller_v2_1_6_drp_control_hdmi=12|0*83239||0x10
+vid_phy_controller_v2_1_6_dru=12|0*110858||0x10
+vid_phy_controller_v2_1_6_gtp_common=12|0*83792||0x10
+vid_phy_controller_v2_1_6_interrupts=12|0*81749|
+vid_phy_controller_v2_1_6_lib_cap_v1_0=12|0*108133||0x10
+vid_phy_controller_v2_1_6_lib_cda_gray_v1_0=12|0*108704|
+vid_phy_controller_v2_1_6_lib_div_v1_0=12|0*110086||0x10
+vid_phy_controller_v2_1_6_lib_edge_v1_0=12|0*108426||0x10
+vid_phy_controller_v2_1_6_lib_fifo_dc_v1_0=12|0*109514|
+vid_phy_controller_v2_1_6_lib_fifo_sc_v1_0=12|0*109044||0x10
+vid_phy_controller_v2_1_6_lib_rst_v1_0=12|0*107586|
+vid_phy_controller_v2_1_6_lib_sync_v1_0=12|0*107853||0x10
+vid_phy_controller_v2_1_6_sync_block=12|0*80161||0x10
+vid_phy_controller_v2_1_6_sync_pulse=12|0*80472||0x10

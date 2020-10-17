@@ -1,0 +1,7 @@
+Aldec, Inc. VHDL Compiler, build 10.5.217.6767
+VLM Initialized with path: "C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\library.cfg".
+DAGGEN WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\ip\xilinx\interrupt_control_v3_1\hdl\interrupt_control_v3_1_vh_rfs.vhd
+COMP96 Compile Entity "interrupt_control"
+COMP96 Compile Architecture "implementation" of Entity "interrupt_control"
+COMP96 Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]

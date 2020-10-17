@@ -1,0 +1,29 @@
+timestamp=1580964354934
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axis_cap_ctrl_v1_0/hdl/axis_cap_ctrl_v1_0_rfs.v=0*662*2837
+LastVerilogToplevel=axis_cap_ctrl_v1_0_0_axis_cap_ctrl
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c9216e8e56fe77c6ec050b6b86b5c4fe82d30
+
+[axis_cap_ctrl_v1_0_0_axis_cap_ctrl]
+A/axis_cap_ctrl_v1_0_0_axis_cap_ctrl=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_cap_ctrl_v1_0/hdl/axis_cap_ctrl_v1_0_rfs.v|1|1*390
+BinI32/axis_cap_ctrl_v1_0_0_axis_cap_ctrl=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_cap_ctrl_v1_0/hdl/axis_cap_ctrl_v1_0_rfs.v|1
+SLP=3*3451
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|851de4ae9a598ee0f19e35051dbe367ef330c6ef592bd9ef6c9b4415b42427285aca51cb57247c1ead4c6054f5d7419c
+
+[~MFT]
+0=4|0axis_cap_ctrl_v1_0_0.mgf|2837|0
+1=2|1axis_cap_ctrl_v1_0_0.mgf|390|0
+3=4|3axis_cap_ctrl_v1_0_0.mgf|3451|0
+
+[~U]
+$root=12|0*0|
+axis_cap_ctrl_v1_0_0_axis_cap_ctrl=12|0*182||0x10

@@ -1,0 +1,15 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol mb2tg_rst has not been declared in module qdriv_pl_v1_0_0_reg_set." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/qdriv_pl_v1_0/hdl/cal/qdriv_pl_v1_0_reg_set.sv" 707  21
+WARNING VCP2515 "Undefined module: BRAM_TDP_MACRO was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/qdriv_pl_v1_0/hdl/cal/qdriv_pl_v1_0_xsdb_bram.sv" 361  3
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Case expression too large, will not check for overlapping labels (C:/Xilinx/Vivado/2019.2/data/ip/xilinx/qdriv_pl_v1_0/hdl/cal/qdriv_pl_v1_0_cal_cplx_data.sv, ln 146)."
+MESSAGE "Case expression too large, will not check for overlapping labels (C:/Xilinx/Vivado/2019.2/data/ip/xilinx/qdriv_pl_v1_0/hdl/cal/qdriv_pl_v1_0_cal_cplx_top.sv, ln 237)."
+MESSAGE "Running Assertions Compiler."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: qdriv_pl_v1_0_0_cal_f2r_sync qdriv_pl_v1_0_0_cal_r2f_sync qdriv_pl_v1_0_0_sync qdriv_pl_v1_0_0_config_rom qdriv_pl_v1_0_0_xsdb_bram qdriv_pl_v1_0_0_cal_adr_decode qdriv_pl_v1_0_0_bitslip_path qdriv_pl_v1_0_0_ctrl."
+MESSAGE "$root top modules: qdriv_pl_v1_0_0_cal_f2r_sync qdriv_pl_v1_0_0_cal_r2f_sync qdriv_pl_v1_0_0_sync qdriv_pl_v1_0_0_config_rom qdriv_pl_v1_0_0_xsdb_bram qdriv_pl_v1_0_0_cal_adr_decode qdriv_pl_v1_0_0_bitslip_path qdriv_pl_v1_0_0_ctrl."
+SUCCESS "Compile success 0 Errors 1 Warnings  Analysis time: 1[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

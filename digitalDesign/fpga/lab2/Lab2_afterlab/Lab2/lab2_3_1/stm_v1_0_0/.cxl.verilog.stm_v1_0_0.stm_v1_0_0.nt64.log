@@ -1,0 +1,7 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+ERROR VCP9109 "Verilog nets of a user-defined type are not supported yet. Please contact Aldec Support to receive the latest status." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/stm_v1_0/hdl/stm_v1_0_vl_rfs.sv" 8760  29
+ERROR VCP9109 "Verilog nets of a user-defined type are not supported yet. Please contact Aldec Support to receive the latest status." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/stm_v1_0/hdl/stm_v1_0_vl_rfs.sv" 8764  30
+ERROR VCP9109 "Verilog nets of a user-defined type are not supported yet. Please contact Aldec Support to receive the latest status." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/stm_v1_0/hdl/stm_v1_0_vl_rfs.sv" 8790  28
+ERROR VCP9109 "Verilog nets of a user-defined type are not supported yet. Please contact Aldec Support to receive the latest status." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/stm_v1_0/hdl/stm_v1_0_vl_rfs.sv" 8794  33
+WARNING VCP2515 "Undefined module: stm_v1_0_0_wrra was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/stm_v1_0/hdl/stm_v1_0_vl_rfs.sv" 5963  3
+FAILURE "Compile failure 4 Errors 1 Warnings  Analysis time: 0[s]."

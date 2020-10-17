@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1582814355">
+  <File Type="PA-TCL" Name="T_ff_enable_behavior.tcl"/>
+  <File Type="REPORTS-TCL" Name="T_ff_enable_behavior_reports.tcl"/>
+  <File Type="RDS-RDS" Name="T_ff_enable_behavior.vds"/>
+  <File Type="RDS-UTIL" Name="T_ff_enable_behavior_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="T_ff_enable_behavior_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="T_ff_enable_behavior.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/T_ff_behav.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="T_ff_enable_behavior"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/fpga/nexys_constraint_file.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nexys_constraint_file.xdc"/>
+        <Attr Name="ImportTime" Val="1580771156"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PPRDIR/../lab5_prehook.tcl">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+        <Attr Name="UsedInSteps" Val="impl_1;INIT_DESIGN;TCL.PRE"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

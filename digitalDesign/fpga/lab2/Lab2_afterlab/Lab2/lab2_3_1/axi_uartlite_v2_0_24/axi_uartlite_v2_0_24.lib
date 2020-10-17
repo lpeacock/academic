@@ -1,0 +1,84 @@
+timestamp=1580965278289
+
+[~A]
+ModifyID=1
+Version=74
+
+[axi_uartlite]
+A/rtl=A/RTL 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_uartlite_v2_0/hdl/axi_uartlite_v2_0_vh_rfs.vhd|2190|1*27860
+BinI32/rtl=3*14239
+I=0*30992
+I/rtl=I/RTL 0*34978
+M=11|0|vde|1580965278168|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_uartlite_v2_0/hdl/axi_uartlite_v2_0_vh_rfs.vhd|0*29235*0x08ed72054a347f5faeb590c8b695062662aae990|0*30837*0x24f53803c3278f1d7f185bd51c58332c
+M/rtl=M/RTL 21|0|vde|1580965278170|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_uartlite_v2_0/hdl/axi_uartlite_v2_0_vh_rfs.vhd|0*31327*0x029544d61be2f3b7a33b2981d5c436697ae52764|0*34816*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_uartlite_v2_0/hdl/axi_uartlite_v2_0_vh_rfs.vhd|2128
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|e476fbf3770426314c4b70a73dc5b165131193bb7017990962eea67f46f4305df5f59aded57ca2be92d47f1481232cb3
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|9dbb47eebe7da777b751efca131652c5935cb6483850f2fbbb2d7864a6b4ab63
+
+[baudrate]
+A/rtl=A/RTL 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_uartlite_v2_0/hdl/axi_uartlite_v2_0_vh_rfs.vhd|1453|1*20161
+BinI32/rtl=3*10495
+I=0*20113
+I/rtl=I/RTL 0*21058
+M=11|0|vde|1580965278150|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_uartlite_v2_0/hdl/axi_uartlite_v2_0_vh_rfs.vhd|0*19610*0x678059b94a3e5e81b0a1e0ac11d4751c6382198c|0*19962*0x24f53803c3278f1d7f185bd51c58332c
+M/rtl=M/RTL 21|0|vde|1580965278152|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_uartlite_v2_0/hdl/axi_uartlite_v2_0_vh_rfs.vhd|0*20315*0xeb099360a8b7c8e611139f95dcf3c4076c8e4720|0*20900*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_uartlite_v2_0/hdl/axi_uartlite_v2_0_vh_rfs.vhd|1436
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|58d9bd6098829059ec6a346529cd194bac231554c83af0a541f45e3f1a4a81475b023a11a38589bf4cea82c1033ad67e
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|9dbb47eebe7da777b751efca131652c59a76380ab54f8acee7991b235f07c4a4
+
+[dynshreg_i_f]
+A/behavioral=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_uartlite_v2_0/hdl/axi_uartlite_v2_0_vh_rfs.vhd|168|1*0
+BinI32/behavioral=3*0
+I=0*1205
+I/behavioral=0*3252
+M=11|0|vde|1580965277789|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_uartlite_v2_0/hdl/axi_uartlite_v2_0_vh_rfs.vhd|0*326*0x5c3b5d5c1d590714f5a9cd35843108d21aa682ee|0*1050*0x24f53803c3278f1d7f185bd51c58332c
+M/behavioral=21|0|vde|1580965277791|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_uartlite_v2_0/hdl/axi_uartlite_v2_0_vh_rfs.vhd|0*1567*0x321e61a6ba30acef9f99d65a7d1f62bec4d3909f|0*3083*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_uartlite_v2_0/hdl/axi_uartlite_v2_0_vh_rfs.vhd|151
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|c167cb9af8579c76ab472ec4107c8affa473ab3c01cce6c80d093a914cb674781909b9dcc5d092e3ede97fb749cf6fb9
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4a499588c54f5bfd888f38b9974aac6e6
+
+[uartlite_core]
+A/rtl=A/RTL 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_uartlite_v2_0/hdl/axi_uartlite_v2_0_vh_rfs.vhd|1650|1*21163
+BinI32/rtl=3*11151
+I=0*22841
+I/rtl=I/RTL 0*28468
+M=11|0|vde|1580965278157|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_uartlite_v2_0/hdl/axi_uartlite_v2_0_vh_rfs.vhd|0*21665*0x810da6d1a50b7d1ab90c918269508401d6e16c6a|0*22685*0x24f53803c3278f1d7f185bd51c58332c
+M/rtl=M/RTL 21|0|vde|1580965278159|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_uartlite_v2_0/hdl/axi_uartlite_v2_0_vh_rfs.vhd|0*23048*0x6baf3b4d90e0fe7c35feba3835513cb811987d4e|0*28305*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_uartlite_v2_0/hdl/axi_uartlite_v2_0_vh_rfs.vhd|1617
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|c0d0b08d6ea7105af41dbf87b81a3719e693ed30d668c738977fc24bc179f1a3124f1514740b610731c667f786a5a2f1
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|9dbb47eebe7da777b751efca131652c5ab6348fbf0e75fbfbf8c5248fc4f9b87
+
+[uartlite_rx]
+A/rtl=A/RTL 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_uartlite_v2_0/hdl/axi_uartlite_v2_0_vh_rfs.vhd|927|1*11650
+BinI32/rtl=3*5957
+I=0*12750
+I/rtl=I/RTL 0*19086
+M=11|0|vde|1580965277840|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_uartlite_v2_0/hdl/axi_uartlite_v2_0_vh_rfs.vhd|0*11653*0x7773c4322fc6c42a0b35e5d49ca176a089075766|0*12596*0x24f53803c3278f1d7f185bd51c58332c
+M/rtl=M/RTL 21|0|vde|1580965278142|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_uartlite_v2_0/hdl/axi_uartlite_v2_0_vh_rfs.vhd|0*12955*0x5b78c1a7ec124f54059eeee920a77d1ff7841878|0*18925*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_uartlite_v2_0/hdl/axi_uartlite_v2_0_vh_rfs.vhd|899
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|372fe76cdcce3bb761e2de2d54a809b068fca7771c4b22937a9ae39902d74e3ec68b0b52df154ab7d7915db7691f96ad
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|9dbb47eebe7da777b751efca131652c55eea6e46fdd9c14f6845227805a6179d
+
+[uartlite_tx]
+A/rtl=A/RTL 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_uartlite_v2_0/hdl/axi_uartlite_v2_0_vh_rfs.vhd|408|1*3010
+BinI32/rtl=3*1907
+I=0*5023
+I/rtl=I/RTL 0*10990
+M=11|0|vde|1580965277830|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_uartlite_v2_0/hdl/axi_uartlite_v2_0_vh_rfs.vhd|0*3974*0x6b9202115f7a9feac8865ef5c487c844734663e0|0*4869*0x24f53803c3278f1d7f185bd51c58332c
+M/rtl=M/RTL 21|0|vde|1580965277832|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_uartlite_v2_0/hdl/axi_uartlite_v2_0_vh_rfs.vhd|0*5267*0x3693bac48a9b790d8228be424eb9c7482e0b0fb3|0*10829*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_uartlite_v2_0/hdl/axi_uartlite_v2_0_vh_rfs.vhd|383
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|0779218fd0f0a9a5ac4b2a25f1d914b93c55790643c5eaf858599b089a5401f3229bf76a1388b78aef161b33267f2d4e
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|9dbb47eebe7da777b751efca131652c57b480735c04ce8249eac6a747cabf6d1
+
+[~MFT]
+0=42|0axi_uartlite_v2_0_24.mgf|34978|0
+1=6|1axi_uartlite_v2_0_24.mgf|27860|0
+3=6|3axi_uartlite_v2_0_24.mgf|14239|0
+
+[~U]
+axi_uartlite=11|0*28775|
+baudrate=11|0*19377|
+dynshreg_i_f=11|0*0|
+uartlite_core=11|0*21264|
+uartlite_rx=11|0*11283|
+uartlite_tx=11|0*3625|

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Feb 27 08:40:04 2020
+# Process ID: 12164
+# Current directory: C:/Users/lucas/Documents/fpga/lab5/lab5_2_5/lab5_2_5.runs/impl_1
+# Command line: vivado.exe -log T_ff_enable_behavior.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source T_ff_enable_behavior.tcl -notrace
+# Log file: C:/Users/lucas/Documents/fpga/lab5/lab5_2_5/lab5_2_5.runs/impl_1/T_ff_enable_behavior.vdi
+# Journal file: C:/Users/lucas/Documents/fpga/lab5/lab5_2_5/lab5_2_5.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source T_ff_enable_behavior.tcl -notrace

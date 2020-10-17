@@ -1,0 +1,10 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+WARNING VCP1251 "The warning message cannot be shown because a protected code block was seen in the current compilation session. Any further warnings will be disregarded."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "$root top modules: *none*."
+SUCCESS "Compile success 0 Errors 1 Warnings  Analysis time: 1[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

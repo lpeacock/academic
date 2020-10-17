@@ -1,0 +1,2 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/hdcp22_cipher_dp_v1_0_0
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  -l hdcp22_cipher_dp_v1_0_0 +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -sv2k12 -work hdcp22_cipher_dp_v1_0_0 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/hdcp22_cipher_dp_v1_0_0/.cxl.systemverilog.hdcp22_cipher_dp_v1_0_0.hdcp22_cipher_dp_v1_0_0.nt64.cmf

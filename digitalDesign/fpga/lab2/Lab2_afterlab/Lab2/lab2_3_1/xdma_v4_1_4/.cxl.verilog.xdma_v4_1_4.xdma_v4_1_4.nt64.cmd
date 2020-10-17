@@ -1,0 +1,2 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/xdma_v4_1_4
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  -l xdma_v4_1_4 +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -sv2k12 -work xdma_v4_1_4 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/xdma_v4_1_4/.cxl.systemverilog.xdma_v4_1_4.xdma_v4_1_4.nt64.cmf

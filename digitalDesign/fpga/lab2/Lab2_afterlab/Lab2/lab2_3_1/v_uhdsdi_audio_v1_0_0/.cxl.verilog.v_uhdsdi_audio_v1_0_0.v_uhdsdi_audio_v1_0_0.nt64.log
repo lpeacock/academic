@@ -1,0 +1,36 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol audio24_ok_now has not been declared in module v_uhdsdi_audio_v1_0_0_sd_demux_aes." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_0/hdl/v_uhdsdi_audio_v1_0_rfs.v" 15111  24
+WARNING VCP2515 "Undefined module: xpm_fifo_async was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_0/hdl/v_uhdsdi_audio_v1_0_rfs.v" 117  5
+WARNING VCP2515 "Undefined module: xpm_cdc_array_single was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_0/hdl/v_uhdsdi_audio_v1_0_rfs.v" 1071  5
+WARNING VCP2515 "Undefined module: RAMB16_S36_S36 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_0/hdl/v_uhdsdi_audio_v1_0_rfs.v" 12543  29
+WARNING VCP2515 "Undefined module: RAMB16_S18_S18 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_0/hdl/v_uhdsdi_audio_v1_0_rfs.v" 12568  29
+MESSAGE "Pass 2. Processing instantiations."
+WARNING VCP2597 "Some unconnected ports remain at instance: sd_mux_chan1_fifo. Module v_uhdsdi_audio_v1_0_0_fifo_28x16_fwft has unconnected  port(s) : full." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_0/hdl/v_uhdsdi_audio_v1_0_rfs.v" 5335  1
+WARNING VCP2597 "Some unconnected ports remain at instance: sd_mux_chan2_fifo. Module v_uhdsdi_audio_v1_0_0_fifo_28x16_fwft has unconnected  port(s) : full." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_0/hdl/v_uhdsdi_audio_v1_0_rfs.v" 5352  1
+WARNING VCP2597 "Some unconnected ports remain at instance: sd_mux_chan3_fifo. Module v_uhdsdi_audio_v1_0_0_fifo_28x16_fwft has unconnected  port(s) : full." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_0/hdl/v_uhdsdi_audio_v1_0_rfs.v" 5369  1
+WARNING VCP2597 "Some unconnected ports remain at instance: sd_mux_chan4_fifo. Module v_uhdsdi_audio_v1_0_0_fifo_28x16_fwft has unconnected  port(s) : full." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_0/hdl/v_uhdsdi_audio_v1_0_rfs.v" 5386  1
+WARNING VCP2597 "Some unconnected ports remain at instance: hd_mux_clock_phase. Module v_uhdsdi_audio_v1_0_0_hd_mux_clock_phase has unconnected  port(s) : rst." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_0/hdl/v_uhdsdi_audio_v1_0_rfs.v" 9823  1
+WARNING VCP2597 "Some unconnected ports remain at instance: chan1_fifo. Module v_uhdsdi_audio_v1_0_0_fifo_28x16_nofwft has unconnected  port(s) : overflow." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_0/hdl/v_uhdsdi_audio_v1_0_rfs.v" 12726  1
+WARNING VCP2597 "Some unconnected ports remain at instance: chan2_fifo. Module v_uhdsdi_audio_v1_0_0_fifo_28x16_nofwft has unconnected  port(s) : overflow." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_0/hdl/v_uhdsdi_audio_v1_0_rfs.v" 12741  1
+WARNING VCP2597 "Some unconnected ports remain at instance: chan3_fifo. Module v_uhdsdi_audio_v1_0_0_fifo_28x16_nofwft has unconnected  port(s) : overflow." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_0/hdl/v_uhdsdi_audio_v1_0_rfs.v" 12756  1
+WARNING VCP2597 "Some unconnected ports remain at instance: chan4_fifo. Module v_uhdsdi_audio_v1_0_0_fifo_28x16_nofwft has unconnected  port(s) : overflow." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_0/hdl/v_uhdsdi_audio_v1_0_rfs.v" 12771  1
+WARNING VCP2597 "Some unconnected ports remain at instance: chan5_fifo. Module v_uhdsdi_audio_v1_0_0_fifo_28x16_nofwft has unconnected  port(s) : overflow." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_0/hdl/v_uhdsdi_audio_v1_0_rfs.v" 12799  1
+WARNING VCP2597 "Some unconnected ports remain at instance: chan6_fifo. Module v_uhdsdi_audio_v1_0_0_fifo_28x16_nofwft has unconnected  port(s) : overflow." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_0/hdl/v_uhdsdi_audio_v1_0_rfs.v" 12814  1
+WARNING VCP2597 "Some unconnected ports remain at instance: chan7_fifo. Module v_uhdsdi_audio_v1_0_0_fifo_28x16_nofwft has unconnected  port(s) : overflow." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_0/hdl/v_uhdsdi_audio_v1_0_rfs.v" 12829  1
+WARNING VCP2597 "Some unconnected ports remain at instance: chan8_fifo. Module v_uhdsdi_audio_v1_0_0_fifo_28x16_nofwft has unconnected  port(s) : overflow." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_0/hdl/v_uhdsdi_audio_v1_0_rfs.v" 12844  1
+WARNING VCP2597 "Some unconnected ports remain at instance: chan9_fifo. Module v_uhdsdi_audio_v1_0_0_fifo_28x16_nofwft has unconnected  port(s) : overflow." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_0/hdl/v_uhdsdi_audio_v1_0_rfs.v" 12872  1
+WARNING VCP2597 "Some unconnected ports remain at instance: chan10_fifo. Module v_uhdsdi_audio_v1_0_0_fifo_28x16_nofwft has unconnected  port(s) : overflow." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_0/hdl/v_uhdsdi_audio_v1_0_rfs.v" 12887  1
+WARNING VCP2597 "Some unconnected ports remain at instance: chan11_fifo. Module v_uhdsdi_audio_v1_0_0_fifo_28x16_nofwft has unconnected  port(s) : overflow." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_0/hdl/v_uhdsdi_audio_v1_0_rfs.v" 12902  1
+WARNING VCP2597 "Some unconnected ports remain at instance: chan12_fifo. Module v_uhdsdi_audio_v1_0_0_fifo_28x16_nofwft has unconnected  port(s) : overflow." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_0/hdl/v_uhdsdi_audio_v1_0_rfs.v" 12917  1
+WARNING VCP2597 "Some unconnected ports remain at instance: chan13_fifo. Module v_uhdsdi_audio_v1_0_0_fifo_28x16_nofwft has unconnected  port(s) : overflow." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_0/hdl/v_uhdsdi_audio_v1_0_rfs.v" 12945  1
+WARNING VCP2597 "Some unconnected ports remain at instance: chan14_fifo. Module v_uhdsdi_audio_v1_0_0_fifo_28x16_nofwft has unconnected  port(s) : overflow." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_0/hdl/v_uhdsdi_audio_v1_0_rfs.v" 12960  1
+WARNING VCP2597 "Some unconnected ports remain at instance: chan15_fifo. Module v_uhdsdi_audio_v1_0_0_fifo_28x16_nofwft has unconnected  port(s) : overflow." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_0/hdl/v_uhdsdi_audio_v1_0_rfs.v" 12975  1
+WARNING VCP2597 "Some unconnected ports remain at instance: chan16_fifo. Module v_uhdsdi_audio_v1_0_0_fifo_28x16_nofwft has unconnected  port(s) : overflow." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_0/hdl/v_uhdsdi_audio_v1_0_rfs.v" 12990  1
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: v_uhdsdi_audio_v1_0_0_mux_top v_uhdsdi_audio_v1_0_0_demux_top."
+MESSAGE "$root top modules: v_uhdsdi_audio_v1_0_0_mux_top v_uhdsdi_audio_v1_0_0_demux_top."
+SUCCESS "Compile success 0 Errors 25 Warnings  Analysis time: 1[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

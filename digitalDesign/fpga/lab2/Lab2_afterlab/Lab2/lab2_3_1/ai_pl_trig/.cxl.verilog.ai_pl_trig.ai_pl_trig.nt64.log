@@ -1,0 +1,12 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+WARNING VCP2515 "Undefined module: AIE_PL_M_EVENTS was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/ai_pl_trig_v1_0/hdl/ai_pl_trig_v1_0_vl_rfs.v" 68  7
+WARNING VCP2515 "Undefined module: AIE_PL_S_EVENTS was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/ai_pl_trig_v1_0/hdl/ai_pl_trig_v1_0_vl_rfs.v" 79  7
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: ai_pl_trig_v1_0_0_ai_pl_trig."
+MESSAGE "$root top modules: ai_pl_trig_v1_0_0_ai_pl_trig."
+SUCCESS "Compile success 0 Errors 2 Warnings  Analysis time: 0[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

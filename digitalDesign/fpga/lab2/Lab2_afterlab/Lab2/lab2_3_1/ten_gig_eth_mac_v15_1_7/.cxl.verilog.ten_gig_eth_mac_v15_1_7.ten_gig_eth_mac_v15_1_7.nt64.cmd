@@ -1,0 +1,2 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/ten_gig_eth_mac_v15_1_7
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -work ten_gig_eth_mac_v15_1_7 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/ten_gig_eth_mac_v15_1_7/.cxl.verilog.ten_gig_eth_mac_v15_1_7.ten_gig_eth_mac_v15_1_7.nt64.cmf

@@ -1,0 +1,17 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+WARNING VCP2515 "Undefined module: IBUFDS was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mem_pl_v1_0/hdl/clocking/mem_pl_phy_pll.sv" 185  14
+WARNING VCP2515 "Undefined module: IBUF was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mem_pl_v1_0/hdl/clocking/mem_pl_phy_pll.sv" 201  14
+WARNING VCP2515 "Undefined module: BUFG was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mem_pl_v1_0/hdl/clocking/mem_pl_phy_pll.sv" 216  6
+WARNING VCP2515 "Undefined module: XPLL was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mem_pl_v1_0/hdl/clocking/mem_pl_phy_pll.sv" 267  9
+WARNING VCP2515 "Undefined module: BUFGCE_DIV was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mem_pl_v1_0/hdl/clocking/mem_pl_phy_pll.sv" 315  11
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol pll_fb_out has not been declared in module mem_pl_phy_pll." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mem_pl_v1_0/hdl/clocking/mem_pl_phy_pll.sv" 298  28
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol pll_fb_in has not been declared in module mem_pl_phy_pll." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mem_pl_v1_0/hdl/clocking/mem_pl_phy_pll.sv" 299  27
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: mem_pl_phy_pll mem_pl_v1_0_0_chipscope_xsdb_slave."
+MESSAGE "$root top modules: mem_pl_phy_pll mem_pl_v1_0_0_chipscope_xsdb_slave."
+SUCCESS "Compile success 0 Errors 5 Warnings  Analysis time: 0[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

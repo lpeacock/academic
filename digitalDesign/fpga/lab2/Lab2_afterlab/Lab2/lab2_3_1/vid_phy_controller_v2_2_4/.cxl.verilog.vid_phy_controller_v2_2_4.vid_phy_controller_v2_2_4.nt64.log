@@ -1,0 +1,15 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+WARNING VCP2515 "Undefined module: xpm_cdc_array_single was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_2/hdl/src/verilog/vid_phy_controller_v2_2_lib.sv" 206  3
+WARNING VCP2515 "Undefined module: xpm_cdc_single was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_phy_controller_v2_2/hdl/src/verilog/vid_phy_controller_v2_2_datawidth_conv.sv" 73  7
+MESSAGE_SP VCP2113 "Module nidru_20_wrapper found in current working library."
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+MESSAGE "Unit top modules: vid_phy_controller_v2_2_4_lib_sync_v1_0 vid_phy_controller_v2_2_4_lib_cap_v1_0 vid_phy_controller_v2_2_4_lib_edge_v1_0 vid_phy_controller_v2_2_4_lib_fifo_sc_v1_0 vid_phy_controller_v2_2_4_lib_div_v1_0 vid_phy_controller_v2_2_4_datawidth_conv vid_phy_controller_v2_2_4_gt_tx_tmdsclk_patgen vid_phy_controller_v2_2_4_dru."
+MESSAGE "$root top modules: vid_phy_controller_v2_2_4_sync_block vid_phy_controller_v2_2_4_sync_pulse vid_phy_controller_v2_2_4_cpll_railing vid_phy_controller_v2_2_4_axi4lite vid_phy_controller_v2_2_4_drp_control vid_phy_controller_v2_2_4_drp_control_8series vid_phy_controller_v2_2_4_drp_control_hdmi vid_phy_controller_v2_2_4_gtp_common vid_phy_controller_v2_2_4_lib_sync_v1_0 vid_phy_controller_v2_2_4_lib_cap_v1_0 vid_phy_controller_v2_2_4_lib_edge_v1_0 vid_phy_controller_v2_2_4_lib_fifo_sc_v1_0 vid_phy_controller_v2_2_4_lib_div_v1_0 vid_phy_controller_v2_2_4_datawidth_conv vid_phy_controller_v2_2_4_gt_tx_tmdsclk_patgen vid_phy_controller_v2_2_4_dru."
+SUCCESS "Compile success 0 Errors 2 Warnings  Analysis time: 1[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

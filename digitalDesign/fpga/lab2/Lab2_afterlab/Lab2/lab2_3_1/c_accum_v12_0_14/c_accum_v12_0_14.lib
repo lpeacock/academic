@@ -1,0 +1,88 @@
+timestamp=1580965356272
+
+[~A]
+ModifyID=1
+Version=74
+
+[c_accum_v12_0_14]
+A/xilinx=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_accum_v12_0/hdl/c_accum_v12_0_vh_rfs.vhd|1880|1*14326
+BinI32/xilinx=3*13120
+I=0*60469
+I/xilinx=0*61938
+M=11|0|vde|1580965356166|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_accum_v12_0/hdl/c_accum_v12_0_vh_rfs.vhd|0*59156*0xe294f819c8c8f01504a2bc12e8e02993ab03daa8|0*60318*0xbba181862c44b92d99e8f49010ab70a1
+M/xilinx=21|0|vde|1580965356168|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_accum_v12_0/hdl/c_accum_v12_0_vh_rfs.vhd|0*60726*0x1ad6296da0ca8f615e438d5906de61f6cffdda79|0*61777*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_accum_v12_0/hdl/c_accum_v12_0_vh_rfs.vhd|1880
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|704271a8658723f137e884dee44e62abd5e50fa176d83b925fe6d2875e4ece736725408931955149bae94d3a2a9c7b12
+Version/xilinx=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|2575045bca4fea1fc1b003ee1cd0d9a04cd0787018dd4d906d7e60ea8a96e2d6
+
+[c_accum_v12_0_14_comp]
+E=1*442
+I=0*3478
+M=3|0|vde|1580965356108|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_accum_v12_0/hdl/c_accum_v12_0_vh_rfs.vhd|0*2195*0x61c2b3312ae9db15f6ca422b8f28d72919632468|0*3322*0xbba181862c44b92d99e8f49010ab70a1
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_accum_v12_0/hdl/c_accum_v12_0_vh_rfs.vhd|1880
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|704271a8658723f137e884dee44e62abccbdf8ab789f2613e3841aab03d580baa8606011731340e11fd3d4ea8313777a
+
+[c_accum_v12_0_14_fabric_legacy]
+A/struct=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_accum_v12_0/hdl/c_accum_v12_0_vh_rfs.vhd|1880|1*5621
+BinI32/struct=3*4519
+I=0*31507
+I/struct=0*39368
+M=11|0|vde|1580965356130|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_accum_v12_0/hdl/c_accum_v12_0_vh_rfs.vhd|0*28952*0x272fbb8e4910e75b1d18bd4ef8e212df28bd70e0|0*31342*0xbba181862c44b92d99e8f49010ab70a1
+M/struct=21|0|vde|1580965356134|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_accum_v12_0/hdl/c_accum_v12_0_vh_rfs.vhd|0*32018*0xac03e15192a02a3bcdbd1f98abef6910282eacf3|0*39193*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_accum_v12_0/hdl/c_accum_v12_0_vh_rfs.vhd|1880
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|704271a8658723f137e884dee44e62aba5ee0a9a7547c43c8d4b6d8ca89144377e2b63a0d8699c5beab703abdbf2dbe9bbdc14c4b49ff6b60dcbf5eda1309d63
+Version/struct=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|68817935c6836d9b4f22134aa64f047eeed55563d9b975e3cdf1b80a825b5a2c
+
+[c_accum_v12_0_14_legacy]
+A/rtl=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_accum_v12_0/hdl/c_accum_v12_0_vh_rfs.vhd|1880|1*9484
+BinI32/rtl=3*8832
+I=0*42974
+I/rtl=0*48062
+M=11|0|vde|1580965356144|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_accum_v12_0/hdl/c_accum_v12_0_vh_rfs.vhd|0*40566*0x62ad9dd88ea4a9cf3ddb4a44d983cda278ef919d|0*42816*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=21|0|vde|1580965356146|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_accum_v12_0/hdl/c_accum_v12_0_vh_rfs.vhd|0*43430*0x4fb4fe52e286a4fc9516019307bff08d36de381d|0*47897*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_accum_v12_0/hdl/c_accum_v12_0_vh_rfs.vhd|1880
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|704271a8658723f137e884dee44e62ab398066c80e19175a29e4b2a22c91a88226527262ddaa47cb266f3a3c4d9b973acf8f45e772d8ce3c3fdd90f78f63cbf1
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098ed1b6cc62ddb025f2c38b54cd3a86e28f
+
+[c_accum_v12_0_14_pkg]
+BinI32/c_accum_v12_0_14_pkg=3*0
+E=1*864
+I=0*9491
+I/c_accum_v12_0_14_pkg=0*27835
+M=3|0|vde|1580965356113|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_accum_v12_0/hdl/c_accum_v12_0_vh_rfs.vhd|0*4997*0x0ebe170f9568abc2598230fd458cbd76655c3f90|0*9336*0xbba181862c44b92d99e8f49010ab70a1
+M/c_accum_v12_0_14_pkg=4|0|vde|1580965356118|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_accum_v12_0/hdl/c_accum_v12_0_vh_rfs.vhd|0*9868*0x8989f54b2cfa29649f91de0761d384d6b0d5ae2b|0*27657*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_accum_v12_0/hdl/c_accum_v12_0_vh_rfs.vhd|1880
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|704271a8658723f137e884dee44e62ab5d212841ae40b45c67da058818891ab862c1dabbfc0f9139c3fe7ec33deb7e5c
+Version/c_accum_v12_0_14_pkg=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|704271a8658723f137e884dee44e62ab5d212841ae40b45c67da058818891ab862c1dabbfc0f9139c3fe7ec33deb7e5c
+
+[c_accum_v12_0_14_viv]
+A/synth=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_accum_v12_0/hdl/c_accum_v12_0_vh_rfs.vhd|1880|1*11440
+BinI32/synth=3*10337
+I=0*50926
+I/synth=0*58152
+M=11|0|vde|1580965356153|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_accum_v12_0/hdl/c_accum_v12_0_vh_rfs.vhd|0*49055*0x1b6f85382a5cc91f8cf053494534a6458a272636|0*50771*0xbba181862c44b92d99e8f49010ab70a1
+M/synth=21|0|vde|1580965356156|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_accum_v12_0/hdl/c_accum_v12_0_vh_rfs.vhd|0*51395*0xc4b12672a75dd9bf320fbdbdc2913b4bb0ec80b6|0*57988*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_accum_v12_0/hdl/c_accum_v12_0_vh_rfs.vhd|1880
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|704271a8658723f137e884dee44e62ab76cd9a50b98a53f5b5ece3729c1973781c629f41817a7a97e8c38672ec4c9f27
+Version/synth=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|e480b5c213cbe1f7e091cb6c533882686442bf8109868030af217e341d10f226
+
+[c_accum_v12_0_14_viv_comp]
+E=1*0
+I=0*1662
+M=3|0|vde|1580965356080|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_accum_v12_0/hdl/c_accum_v12_0_vh_rfs.vhd|0*354*0x238e171faa3797e618303ef7927b97754270466d|0*1502*0xbba181862c44b92d99e8f49010ab70a1
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_accum_v12_0/hdl/c_accum_v12_0_vh_rfs.vhd|1880
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|704271a8658723f137e884dee44e62ababe51ed2a7f01d087cde2dc1b3d073c72c3535ccb1d061796abf157086578a60a7c63d7b7471d309c9186677e2390bae
+
+[~MFT]
+0=46|0c_accum_v12_0_14.mgf|61938|0
+1=7|1c_accum_v12_0_14.mgf|14326|0
+3=5|3c_accum_v12_0_14.mgf|13120|0
+
+[~U]
+c_accum_v12_0_14=11|0*58691|
+c_accum_v12_0_14_comp=3|0*1881|0*2030
+c_accum_v12_0_14_fabric_legacy=11|0*28233|
+c_accum_v12_0_14_legacy=11|0*39918|
+c_accum_v12_0_14_pkg=3|0*3693|0*3969
+c_accum_v12_0_14_viv=11|0*48570|
+c_accum_v12_0_14_viv_comp=3|0*0|0*169

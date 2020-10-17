@@ -1,0 +1,12 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+WARNING VCP2515 "Undefined module: xpm_fifo_sync was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_amm_bridge_v1_0/hdl/axi_amm_bridge_v1_0_rfs.v" 853  9
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol rd_fifo_full has not been declared in module axi_amm_bridge_v1_0_10_full." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_amm_bridge_v1_0/hdl/axi_amm_bridge_v1_0_rfs.v" 1439  32
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: axi_amm_bridge_v1_0_10_top."
+MESSAGE "$root top modules: axi_amm_bridge_v1_0_10_top."
+SUCCESS "Compile success 0 Errors 1 Warnings  Analysis time: 0[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

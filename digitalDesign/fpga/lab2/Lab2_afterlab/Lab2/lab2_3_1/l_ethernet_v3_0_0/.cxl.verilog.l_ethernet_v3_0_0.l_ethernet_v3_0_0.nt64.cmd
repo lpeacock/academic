@@ -1,0 +1,2 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/l_ethernet_v3_0_0
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  -l l_ethernet_v3_0_0 +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -sv2k12 -work l_ethernet_v3_0_0 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/l_ethernet_v3_0_0/.cxl.systemverilog.l_ethernet_v3_0_0.l_ethernet_v3_0_0.nt64.cmf

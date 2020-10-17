@@ -1,0 +1,36 @@
+timestamp=1580965114596
+
+[~A]
+ModifyID=1
+Version=74
+
+[async_fifo_fg]
+A/implementation=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_fifo_v1_0/hdl/lib_fifo_v1_0_rfs.vhd|255|1*0
+BinI32/implementation=3*0
+I=0*2572
+I/implementation=0*40226
+M=11|0|vde|1580965114495|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_fifo_v1_0/hdl/lib_fifo_v1_0_rfs.vhd|0*571*0x59a108f5cb06773e8e8146255d8966e5fc43e998|0*2427*0x24f53803c3278f1d7f185bd51c58332c
+M/implementation=21|0|vde|1580965114502|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_fifo_v1_0/hdl/lib_fifo_v1_0_rfs.vhd|0*2964*0xd6b9c692e52c6929f02cd3dcae12a65c453799f2|0*40063*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_fifo_v1_0/hdl/lib_fifo_v1_0_rfs.vhd|203
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|fbccfd7b6ccbd5ad73be2b2656b38ffa3a43c47a6780d0ac7ab41d1d6f8e53228457b75a5ca3ea3cabd45671c4bc3543
+Version/implementation=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93bc41e8b731a824db48162b434db4bdc3
+
+[sync_fifo_fg]
+A/implementation=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_fifo_v1_0/hdl/lib_fifo_v1_0_rfs.vhd|2250|1*58831
+BinI32/implementation=3*7263
+I=0*42876
+I/implementation=0*66151
+M=11|0|vde|1580965114519|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_fifo_v1_0/hdl/lib_fifo_v1_0_rfs.vhd|0*41158*0xf53e7dcccb0ba298fa17ac41241bb9e4484311bf|0*42732*0x24f53803c3278f1d7f185bd51c58332c
+M/implementation=21|0|vde|1580965114523|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_fifo_v1_0/hdl/lib_fifo_v1_0_rfs.vhd|0*43162*0xadbee600b977a15284370b8c400b050b04f551ce|0*65989*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_fifo_v1_0/hdl/lib_fifo_v1_0_rfs.vhd|2203
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|82276fbe559482e8add5247e9ab89d4d69808ba5a0f8d3134752e7b44257ef3635a50c013f4feec7c99b76bd81279128
+Version/implementation=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93e082c9fe58d4accb1314b3fbfb65eff2
+
+[~MFT]
+0=14|0lib_fifo_v1_0_14.mgf|66151|0
+1=2|1lib_fifo_v1_0_14.mgf|58831|0
+3=2|3lib_fifo_v1_0_14.mgf|7263|0
+
+[~U]
+async_fifo_fg=11|0*0|
+sync_fifo_fg=11|0*40633|

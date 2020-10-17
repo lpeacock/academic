@@ -1,0 +1,19 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+WARNING VCP2515 "Undefined module: xpm_cdc_async_rst was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axis_ila_intf_v1_0/hdl/axis_ila_intf_v1_0_rfs.v" 2237  9
+WARNING VCP2515 "Undefined module: xpm_cdc_handshake was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axis_ila_intf_v1_0/hdl/axis_ila_intf_v1_0_rfs.v" 2276  10
+WARNING VCP2515 "Undefined module: xpm_cdc_pulse was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axis_ila_intf_v1_0/hdl/axis_ila_intf_v1_0_rfs.v" 2305  10
+WARNING VCP2515 "Undefined module: xpm_cdc_array_single was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axis_ila_intf_v1_0/hdl/axis_ila_intf_v1_0_rfs.v" 2327  10
+WARNING VCP2515 "Undefined module: xpm_cdc_single was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axis_ila_intf_v1_0/hdl/axis_ila_intf_v1_0_rfs.v" 2344  10
+MESSAGE "Pass 2. Processing instantiations."
+WARNING VCP2597 "Some unconnected ports remain at instance: u_done_sync. Module axis_ila_intf_v1_0_0_axis_dbg_sync has unconnected  port(s) : src_in, dest_rst_in, src_rst_in, dest_arst, dest_out." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axis_ila_intf_v1_0/hdl/axis_ila_intf_v1_0_rfs.v" 1909  1
+MESSAGE "Pass 3. Processing behavioral statements."
+WARNING VCP2910 "Conditional expression 1'b1 at ?: operator is constant." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axis_ila_intf_v1_0/hdl/axis_ila_intf_v1_0_rfs.v" 1121  1
+WARNING VCP2910 "Conditional expression 1'b1 at ?: operator is constant." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axis_ila_intf_v1_0/hdl/axis_ila_intf_v1_0_rfs.v" 1122  1
+WARNING VCP2910 "Conditional expression 1'b1 at ?: operator is constant." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axis_ila_intf_v1_0/hdl/axis_ila_intf_v1_0_rfs.v" 1123  1
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: axis_ila_intf_v1_0_0_axis_ila_intf."
+MESSAGE "$root top modules: axis_ila_intf_v1_0_0_axis_ila_intf."
+SUCCESS "Compile success 0 Errors 9 Warnings  Analysis time: 1[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

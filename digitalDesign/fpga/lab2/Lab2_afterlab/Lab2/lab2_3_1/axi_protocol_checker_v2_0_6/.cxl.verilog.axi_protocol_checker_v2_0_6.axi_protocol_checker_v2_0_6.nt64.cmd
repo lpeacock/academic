@@ -1,0 +1,2 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/axi_protocol_checker_v2_0_6
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  -l smartconnect_v1_0 -l axi_protocol_checker_v2_0_6 +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -sv2k12 -work axi_protocol_checker_v2_0_6 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/axi_protocol_checker_v2_0_6/.cxl.systemverilog.axi_protocol_checker_v2_0_6.axi_protocol_checker_v2_0_6.nt64.cmf

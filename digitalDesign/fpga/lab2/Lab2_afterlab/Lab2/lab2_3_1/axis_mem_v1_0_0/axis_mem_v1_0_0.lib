@@ -1,0 +1,53 @@
+timestamp=1580964465081
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axis_mem_v1_0/hdl/axis_mem_v1_0_rfs.v=0*8105*69151
+LastVerilogToplevel=axis_mem_v1_0_0_axis_mem
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c921606028df73a7f76ca5b2fd18e4f1c32f0
+
+[axis_mem_v1_0_0_axis_mem]
+A/axis_mem_v1_0_0_axis_mem=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_mem_v1_0/hdl/axis_mem_v1_0_rfs.v|540|1*28171
+BinI32/axis_mem_v1_0_0_axis_mem=3*25601
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_mem_v1_0/hdl/axis_mem_v1_0_rfs.v|540
+SLP=3*843850
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|ae4e5d746089449cd453d862335a23bc78067a9e0c10cf8ef1bf77e4d0a5ee13716a0e1d55731f6825774a7a0150ec63
+
+[axis_mem_v1_0_0_generic_memrd]
+A/axis_mem_v1_0_0_generic_memrd=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_mem_v1_0/hdl/axis_mem_v1_0_rfs.v|74|1*6247
+BinI32/axis_mem_v1_0_0_generic_memrd=3*7297
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_mem_v1_0/hdl/axis_mem_v1_0_rfs.v|74
+SLP=3*16116
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|ae4e5d746089449cd453d862335a23bcc4cb028a5d2ad53fc922f399c2f307a8a8066e5683d05cf5fc354a19a0814396f065eb06498a40df25f4747696a19dbb
+
+[axis_mem_v1_0_0_generic_mux]
+A/axis_mem_v1_0_0_generic_mux=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_mem_v1_0/hdl/axis_mem_v1_0_rfs.v|22|1*374
+BinI32/axis_mem_v1_0_0_generic_mux=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_mem_v1_0/hdl/axis_mem_v1_0_rfs.v|22
+SLP=3*4730
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|ae4e5d746089449cd453d862335a23bc86e6510e07de798bf89d27ad439d847bd3c5c1a31ada8946d0dec549ffcfcd99433d520433c007cbfba2e246452bbf8a
+
+[axis_mem_v1_0_0_mem]
+A/axis_mem_v1_0_0_mem=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_mem_v1_0/hdl/axis_mem_v1_0_rfs.v|349|1*18541
+BinI32/axis_mem_v1_0_0_mem=3*21053
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_mem_v1_0/hdl/axis_mem_v1_0_rfs.v|349
+SLP=3*24737
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|ae4e5d746089449cd453d862335a23bc135968681afc54ff0839b119e792ece8aaf78d4545d1230640ed257c2c2bec71
+
+[~MFT]
+0=7|0axis_mem_v1_0_0.mgf|69151|0
+1=5|1axis_mem_v1_0_0.mgf|28171|0
+3=10|3axis_mem_v1_0_0.mgf|843850|0
+
+[~U]
+$root=12|0*0|
+axis_mem_v1_0_0_axis_mem=12|0*2141||0x10
+axis_mem_v1_0_0_generic_memrd=12|0*786|
+axis_mem_v1_0_0_generic_mux=12|0*214|
+axis_mem_v1_0_0_mem=12|0*1613|

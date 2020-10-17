@@ -1,0 +1,21 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+ERROR VCP9204 "Packed arrays in unions are not supported in this release. Please contact Aldec Support to receive the latest status." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unisims/URAM288E5.sv" 4304  24
+ERROR VCP9204 "Packed arrays in unions are not supported in this release. Please contact Aldec Support to receive the latest status." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unisims/URAM288E5.sv" 4305  24
+ERROR VCP9204 "Packed arrays in unions are not supported in this release. Please contact Aldec Support to receive the latest status." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unisims/URAM288E5.sv" 4306  25
+ERROR VCP9204 "Packed arrays in unions are not supported in this release. Please contact Aldec Support to receive the latest status." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unisims/URAM288E5.sv" 4307  24
+ERROR VCP9204 "Packed arrays in unions are not supported in this release. Please contact Aldec Support to receive the latest status." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unisims/URAM288E5.sv" 4312  23
+ERROR VCP9204 "Packed arrays in unions are not supported in this release. Please contact Aldec Support to receive the latest status." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unisims/URAM288E5.sv" 4313  23
+ERROR VCP9204 "Packed arrays in unions are not supported in this release. Please contact Aldec Support to receive the latest status." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unisims/URAM288E5.sv" 4314  24
+ERROR VCP9204 "Packed arrays in unions are not supported in this release. Please contact Aldec Support to receive the latest status." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unisims/URAM288E5.sv" 4315  24
+ERROR VCP9204 "Packed arrays in unions are not supported in this release. Please contact Aldec Support to receive the latest status." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unisims/URAM288E5_BASE.sv" 3023  24
+ERROR VCP9204 "Packed arrays in unions are not supported in this release. Please contact Aldec Support to receive the latest status." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unisims/URAM288E5_BASE.sv" 3024  24
+ERROR VCP9204 "Packed arrays in unions are not supported in this release. Please contact Aldec Support to receive the latest status." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unisims/URAM288E5_BASE.sv" 3025  25
+ERROR VCP9204 "Packed arrays in unions are not supported in this release. Please contact Aldec Support to receive the latest status." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unisims/URAM288E5_BASE.sv" 3026  24
+ERROR VCP9204 "Packed arrays in unions are not supported in this release. Please contact Aldec Support to receive the latest status." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unisims/URAM288E5_BASE.sv" 3031  23
+ERROR VCP9204 "Packed arrays in unions are not supported in this release. Please contact Aldec Support to receive the latest status." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unisims/URAM288E5_BASE.sv" 3032  23
+ERROR VCP9204 "Packed arrays in unions are not supported in this release. Please contact Aldec Support to receive the latest status." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unisims/URAM288E5_BASE.sv" 3033  24
+ERROR VCP9204 "Packed arrays in unions are not supported in this release. Please contact Aldec Support to receive the latest status." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unisims/URAM288E5_BASE.sv" 3034  24
+WARNING VCP2515 "Undefined module: SIP_HSADC was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unisims/HSADC.v" 396  3
+WARNING VCP2515 "Undefined module: SIP_HSDAC was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unisims/HSDAC.v" 374  3
+WARNING VCP2515 "Undefined module: SIP_GTM_DUAL was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unisims/GTM_DUAL.sv" 3927  5
+FAILURE "Compile failure 16 Errors 3 Warnings  Analysis time: 1[s]."

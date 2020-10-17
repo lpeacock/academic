@@ -1,0 +1,6 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+WARNING VCP1251 "The warning message cannot be shown because a protected code block was seen in the current compilation session. Any further warnings will be disregarded."
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+ERROR VCP1230 "Error in encrypted code."
+FAILURE "Compile failure 1 Errors 7 Warnings  Analysis time: 3[s]."

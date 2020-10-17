@@ -1,0 +1,13 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol two_dest has not been declared in module ats_switch_v1_0_3_tdest_rc_straddle." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/ats_switch_v1_0/hdl/ats_switch_v1_0_rfs.v" 6899  18
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol single_dest has not been declared in module ats_switch_v1_0_3_tdest_rc_straddle." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/ats_switch_v1_0/hdl/ats_switch_v1_0_rfs.v" 6901  21
+WARNING VCP2515 "Undefined module: axis_interconnect_v1_1_18_axis_interconnect_16x16_top was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/ats_switch_v1_0/hdl/ats_switch_v1_0_rfs.v" 1363  5
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: ats_switch_v1_0_3_top."
+MESSAGE "$root top modules: ats_switch_v1_0_3_top."
+SUCCESS "Compile success 0 Errors 1 Warnings  Analysis time: 1[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

@@ -1,0 +1,123 @@
+ 
+  ----jGRASP exec: java VehiclesPart3 vehicles2.txt
+ ------------------------------
+ Summary for Tax District 52
+ ------------------------------
+ Number of Vehicles: 9
+ Total Value: $503,000.00
+ Total Use Tax: $15,310.00
+ 
+ 
+ ------------------------------
+ Vehicles by Owner
+ ------------------------------
+ 
+ Brando, Marlon: Motorcycle 1964 Harley-Davidson Sportster
+ Value: $14,000.00 Use Tax: $280.00
+ with Tax Rate: 0.005 Large Bike Tax Rate: 0.015
+ 
+ Jones, Jo: Car 2014 Honda Accord (Alternative Fuel)
+ Value: $22,000.00 Use Tax: $110.00
+ with Tax Rate: 0.005
+ 
+ Jones, Sam: Car 2014 Honda Accord
+ Value: $22,000.00 Use Tax: $220.00
+ with Tax Rate: 0.01
+ 
+ Smith, Jack: Car 2015 Mercedes-Benz Coupe (Alternative Fuel)
+ Value: $110,000.00 Use Tax: $2,750.00
+ with Tax Rate: 0.005 Luxury Tax Rate: 0.02
+ 
+ Smith, Pat: Car 2015 Mercedes-Benz Coupe
+ Value: $110,000.00 Use Tax: $3,300.00
+ with Tax Rate: 0.01 Luxury Tax Rate: 0.02
+ 
+ Smith, Pop: Car 2015 Mercedes-Benz Coupe
+ Value: $110,000.00 Use Tax: $3,300.00
+ with Tax Rate: 0.01 Luxury Tax Rate: 0.02
+ 
+ Williams, Jo: Truck 2012 Chevy Silverado
+ Value: $30,000.00 Use Tax: $600.00
+ with Tax Rate: 0.02
+ 
+ Williams, Pat: SemiTractorTrailer 2010 International Big Boy
+ Value: $45,000.00 Use Tax: $3,150.00
+ with Tax Rate: 0.02 Large Truck Tax Rate: 0.03 Axle Tax Rate: 0.02
+ 
+ Williams, Sam: Truck 2010 Chevy Mack (Alternative Fuel)
+ Value: $40,000.00 Use Tax: $1,600.00
+ with Tax Rate: 0.01 Large Truck Tax Rate: 0.03
+ 
+ 
+ ------------------------------
+ Vehicles by Use Tax
+ ------------------------------
+ 
+ Jones, Jo: Car 2014 Honda Accord (Alternative Fuel)
+ Value: $22,000.00 Use Tax: $110.00
+ with Tax Rate: 0.005
+ 
+ Jones, Sam: Car 2014 Honda Accord
+ Value: $22,000.00 Use Tax: $220.00
+ with Tax Rate: 0.01
+ 
+ Brando, Marlon: Motorcycle 1964 Harley-Davidson Sportster
+ Value: $14,000.00 Use Tax: $280.00
+ with Tax Rate: 0.005 Large Bike Tax Rate: 0.015
+ 
+ Williams, Jo: Truck 2012 Chevy Silverado
+ Value: $30,000.00 Use Tax: $600.00
+ with Tax Rate: 0.02
+ 
+ Williams, Sam: Truck 2010 Chevy Mack (Alternative Fuel)
+ Value: $40,000.00 Use Tax: $1,600.00
+ with Tax Rate: 0.01 Large Truck Tax Rate: 0.03
+ 
+ Smith, Jack: Car 2015 Mercedes-Benz Coupe (Alternative Fuel)
+ Value: $110,000.00 Use Tax: $2,750.00
+ with Tax Rate: 0.005 Luxury Tax Rate: 0.02
+ 
+ Williams, Pat: SemiTractorTrailer 2010 International Big Boy
+ Value: $45,000.00 Use Tax: $3,150.00
+ with Tax Rate: 0.02 Large Truck Tax Rate: 0.03 Axle Tax Rate: 0.02
+ 
+ Smith, Pat: Car 2015 Mercedes-Benz Coupe
+ Value: $110,000.00 Use Tax: $3,300.00
+ with Tax Rate: 0.01 Luxury Tax Rate: 0.02
+ 
+ Smith, Pop: Car 2015 Mercedes-Benz Coupe
+ Value: $110,000.00 Use Tax: $3,300.00
+ with Tax Rate: 0.01 Luxury Tax Rate: 0.02
+ 
+ 
+ ------------------------------
+ Excluded Records
+ ------------------------------
+ 
+ NegativeValueException: Numeric values must be nonnegative in:
+ car; Jones, Pat; 2014 Honda Accord; -22000; true
+ 
+ Invalid Vehicle Category in:
+ race car; Zinc, Zed; 2013 Custom Hot Rod; 61000; false
+ 
+ java.util.NoSuchElementException in:
+ Car; Smith, Pet; 2015 Mercedes-Benz Coupe; 110000
+ 
+ NegativeValueException: Numeric values must be nonnegative in:
+ Truck; Williams, Alex; 2012 Chevy Silverado; 30000; false; -3.0
+ 
+ Invalid Vehicle Category in:
+ Firetruck; Body, Abel; 2015 GMC FE250; 55000; false; 2.5
+ 
+ java.lang.NumberFormatException: For input string: "five" in:
+ truck; Williams, Bam; 2010 Chevy Mack; 40000; true; five
+ 
+ NegativeValueException: Numeric values must be nonnegative in:
+ Semi; Williams, Mat; 2012 Volvo Big Mack; 35000; false; 5.0; -4
+ 
+ NegativeValueException: Numeric values must be nonnegative in:
+ Motorcycle; Rider, Easy; 1967 Harley-Davidson Electra; 10000; false; -1200
+ 
+ 
+  ----jGRASP: operation complete.
+ 

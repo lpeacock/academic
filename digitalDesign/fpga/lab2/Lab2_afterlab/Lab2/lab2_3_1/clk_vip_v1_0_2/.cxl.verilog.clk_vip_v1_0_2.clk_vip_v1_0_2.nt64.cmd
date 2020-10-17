@@ -1,0 +1,2 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/clk_vip_v1_0_2
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  -l clk_vip_v1_0_2 -l xilinx_vip +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -sv2k12 -work clk_vip_v1_0_2 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/clk_vip_v1_0_2/.cxl.systemverilog.clk_vip_v1_0_2.clk_vip_v1_0_2.nt64.cmf

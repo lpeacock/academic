@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Jan 30 10:00:34 2020
+# Process ID: 10996
+# Current directory: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1
+# Command line: wbtcv.exe -mode batch -source C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_2/lab2_2_2.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1/webtalk.log
+# Journal file: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_1\webtalk.jou
+#-----------------------------------------------------------
+source C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_2/lab2_2_2.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_2/lab2_2_2.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Thu Jan 30 10:00:36 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2018.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Jan 30 10:00:36 2020...

@@ -1,0 +1,11 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+WARNING VCP2515 "Undefined module: IDELAYCTRL was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/util_idelay_ctrl_v1_0/hdl/util_idelay_ctrl_v1_0_vl_rfs.v" 48  3
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: util_idelay_ctrl_v1_0_2_util_idelay_ctrl."
+MESSAGE "$root top modules: util_idelay_ctrl_v1_0_2_util_idelay_ctrl."
+SUCCESS "Compile success 0 Errors 1 Warnings  Analysis time: 0[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

@@ -1,0 +1,48 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+WARNING VCP5010 "Redefinition of the macro RT_2_43." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nps_v1_0/hdl/noc_nps_v1_0_vl_rfs.sv" 1439  16
+WARNING VCP5010 "Redefinition of the macro RT_2_43." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nps_v1_0/hdl/noc_nps_v1_0_vl_rfs.sv" 2464  16
+WARNING VCP2515 "Undefined module: npi_slave_nps was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nps_v1_0/hdl/noc_nps_v1_0_vl_rfs.sv" 1127  8
+WARNING VCP2515 "Undefined module: npi_prot_if was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nps_v1_0/hdl/noc_nps_v1_0_vl_rfs.sv" 2092  53
+WARNING VCP2515 "Undefined module: noc_dbg_if was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nps_v1_0/hdl/noc_nps_v1_0_vl_rfs.sv" 2093  52
+WARNING VCP2515 "Undefined module: noc_nps7575_top was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nps_v1_0/hdl/noc_nps_v1_0_vl_rfs.sv" 2113  7
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol if_npi_prot has not been declared in module nps_bfm_new in generate block generate_npi_master." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nps_v1_0/hdl/noc_nps_v1_0_vl_rfs.sv" 1123  32
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol npi_rst_n has not been declared in module nps_bfm_new in generate block generate_npi_master." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nps_v1_0/hdl/noc_nps_v1_0_vl_rfs.sv" 1125  36
+WARNING VCP2597 "Some unconnected ports remain at instance: u0_nps_bfm. Module nps_bfm_new has unconnected  port(s) : npi_clock." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nps_v1_0/hdl/noc_nps_v1_0_vl_rfs.sv" 1864  1
+WARNING VCP2597 "Some unconnected ports remain at instance: u0_nps_bfm. Module nps_bfm_new has unconnected  port(s) : npi_clock." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nps_v1_0/hdl/noc_nps_v1_0_vl_rfs.sv" 2890  1
+MESSAGE "Pass 3. Processing behavioral statements."
+WARNING VCP6120 "System function $sscanf result is ignored." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nps_v1_0/hdl/noc_nps_v1_0_vl_rfs.sv" 625  44
+WARNING VCP6120 "System function $sscanf result is ignored." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nps_v1_0/hdl/noc_nps_v1_0_vl_rfs.sv" 628  71
+WARNING VCP6120 "System function $sscanf result is ignored." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nps_v1_0/hdl/noc_nps_v1_0_vl_rfs.sv" 641  94
+WARNING VCP2814 "Function update_registers should return a value." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_ivca.sv" 31  27
+WARNING VCP2803 "Function this.p_nps_ipa[dest_port].set_req result is ignored." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_ivca.sv" 62  54
+WARNING VCP2803 "Function this.p_nps_ipa[this.input_flit_dest].set_req result is ignored." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_ivca.sv" 66  91
+WARNING VCP2814 "Function send_req_to_ipa should return a value." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_ivca.sv" 56  26
+WARNING VCP2814 "Function grant should return a value." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_ivca.sv" 80  16
+WARNING VCP2803 "Function this.send_req_to_ipa result is ignored." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_ivca.sv" 141  20
+WARNING VCP2814 "Function update should return a value." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_ivca.sv" 140  17
+WARNING VCP2803 "Function this.reset result is ignored." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_ipa.sv" 24  10
+WARNING VCP2814 "Function reset should return a value." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_ipa.sv" 27  16
+WARNING VCP2814 "Function set_requestors should return a value." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_ipa.sv" 95  25
+WARNING VCP2814 "Function clear_requestors should return a value." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_ipa.sv" 100  27
+WARNING VCP2814 "Function update_registers should return a value." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_ipa.sv" 141  27
+WARNING VCP2814 "Function set_req should return a value." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_ipa.sv" 149  18
+WARNING VCP2803 "Function this.u_lru_arb.set_requestors result is ignored." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_ipa.sv" 175  63
+WARNING VCP2803 "Function this.u_lru_arb.set_requestors result is ignored." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_ipa.sv" 175  109
+WARNING VCP2803 "Function this.p_nps_ivca[winner_port].grant result is ignored." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_ipa.sv" 205  45
+WARNING VCP2803 "Function this.u_lru_arb.clear_requestors result is ignored." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_ipa.sv" 206  33
+WARNING VCP2814 "Function arb should return a value." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_ipa.sv" 155  14
+WARNING VCP2803 "Function this.u_lru_arb.reset result is ignored." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_ipa.sv" 237  20
+WARNING VCP2803 "Function this.update_registers result is ignored." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_ipa.sv" 238  21
+WARNING VCP2803 "Function this.arb result is ignored." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_ipa.sv" 244  8
+WARNING VCP2814 "Function update should return a value." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_ipa.sv" 241  17
+ERROR VCP9360 "Access to unpacked subarray is not supported in this release. Please contact Aldec Support to receive the latest status." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_class_new.sv" 19  69
+ERROR VCP2890 "Unspecified argument is used for an argument that does not have a default value: vc_fifo_depth." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_class_new.sv" 19  70
+ERROR VCP9360 "Access to unpacked subarray is not supported in this release. Please contact Aldec Support to receive the latest status." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_class_new.sv" 20  64
+ERROR VCP9360 "Access to unpacked subarray is not supported in this release. Please contact Aldec Support to receive the latest status." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_class_new.sv" 20  79
+ERROR VCP2890 "Unspecified argument is used for an argument that does not have a default value: port_map." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_class_new.sv" 20  80
+WARNING VCP2803 "Function this.u_nps_ivca[p].update result is ignored." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_class_new.sv" 38  27
+WARNING VCP2803 "Function this.u_nps_ipa[p].update result is ignored." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_class_new.sv" 43  26
+WARNING VCP2803 "Function this.u_nps_ivca[i].update_registers result is ignored." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_class_new.sv" 56  37
+WARNING VCP2803 "Function this.u_nps_ipa[i].update_registers result is ignored." "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/lab2_3_1/.cxl.ip/incl/nps_class_new.sv" 57  36
+FAILURE "Compile failure 5 Errors 37 Warnings  Analysis time: 1[s]."

@@ -1,0 +1,51 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol FBC_Rd_En has not been declared in module axi_perf_mon_v5_0_22_metric_calc." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 5882  19
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol FWL_Rd_En has not been declared in module axi_perf_mon_v5_0_22_metric_calc." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 5952  19
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol FSWI_Rd_En has not been declared in module axi_perf_mon_v5_0_22_metric_calc." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 6028  20
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol Overflow has not been declared in module axi_perf_mon_v5_0_22_acc_sample_profile." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 20572  24
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol Metrics_Cnt_En_Out has not been declared in module axi_perf_mon_v5_0_22_metric_calc_profile." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 22041  31
+WARNING VCP2515 "Undefined module: xpm_fifo_sync was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 688  5
+WARNING VCP2515 "Undefined module: xpm_fifo_async was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 743  5
+WARNING VCP2515 "Undefined module: xpm_cdc_single was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 1364  5
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol fifo_full has not been declared in module axi_perf_mon_v5_0_22_async_stream_fifo." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 1398  53
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol wr_rst_busy has not been declared in module axi_perf_mon_v5_0_22_async_stream_fifo." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 1399  53
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol Response_Flag has not been declared in module axi_perf_mon_v5_0_22_flags_gen." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 3544  35
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol Last_Read_Flag has not been declared in module axi_perf_mon_v5_0_22_flags_gen." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 3560  36
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol F1_Empty has not been declared in module axi_perf_mon_v5_0_22_metric_calc." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 4828  30
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol F2_Empty has not been declared in module axi_perf_mon_v5_0_22_metric_calc." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 4853  30
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol F3_Empty has not been declared in module axi_perf_mon_v5_0_22_metric_calc." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 4982  30
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol F4_Empty has not been declared in module axi_perf_mon_v5_0_22_metric_calc." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 5020  30
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol Global_Clk_Cnt_Ovf_En has not been declared in module axi_perf_mon_v5_0_22_advanced." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 14690  54
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol Sample_Metric_Cnt_Ovf_En has not been declared in module axi_perf_mon_v5_0_22_advanced." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 14691  60
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol Lat_Sample_Reg has not been declared in module axi_perf_mon_v5_0_22_advanced." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 14696  47
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol Wr_Lat_Start has not been declared in module axi_perf_mon_v5_0_22_advanced." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 14699  45
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol Wr_Lat_End has not been declared in module axi_perf_mon_v5_0_22_advanced." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 14700  43
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol Rd_Lat_Start has not been declared in module axi_perf_mon_v5_0_22_advanced." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 14701  45
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol Rd_Lat_End has not been declared in module axi_perf_mon_v5_0_22_advanced." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 14702  43
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol stream_fifo_rst_n has not been declared in module axi_perf_mon_v5_0_22_advanced in generate block GEN_POST_TRIGGER." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 15157  45
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol stream_fifo_rst_n has not been declared in module axi_perf_mon_v5_0_22_advanced in generate block GEN_S1_POST_TRIGGER." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 15383  45
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol stream_fifo_rst_n has not been declared in module axi_perf_mon_v5_0_22_advanced in generate block GEN_S2_POST_TRIGGER." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 15610  45
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol stream_fifo_rst_n has not been declared in module axi_perf_mon_v5_0_22_advanced in generate block GEN_S3_POST_TRIGGER." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 15835  45
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol stream_fifo_rst_n has not been declared in module axi_perf_mon_v5_0_22_advanced in generate block GEN_S4_POST_TRIGGER." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 16062  45
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol stream_fifo_rst_n has not been declared in module axi_perf_mon_v5_0_22_advanced in generate block GEN_S5_POST_TRIGGER." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 16288  45
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol Wr_Lat_Start has not been declared in module axi_perf_mon_v5_0_22_profile." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 18386  45
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol Wr_Lat_End has not been declared in module axi_perf_mon_v5_0_22_profile." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 18387  43
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol Rd_Lat_Start has not been declared in module axi_perf_mon_v5_0_22_profile." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 18388  45
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol Rd_Lat_End has not been declared in module axi_perf_mon_v5_0_22_profile." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 18389  43
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol F3_Empty has not been declared in module axi_perf_mon_v5_0_22_metric_calc_profile." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 22518  30
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol F4_Empty has not been declared in module axi_perf_mon_v5_0_22_metric_calc_profile." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 22556  30
+WARNING VCP2597 "Some unconnected ports remain at instance: async_fifo_inst. Module axi_perf_mon_v5_0_22_async_fifo has unconnected  port(s) : wr_data_count." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 1377  1
+WARNING VCP2597 "Some unconnected ports remain at instance: async_stream_fifo_inst. Module axi_perf_mon_v5_0_22_async_stream_fifo has unconnected  port(s) : fifo_rd_en." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 16750  1
+WARNING VCP2597 "Some unconnected ports remain at instance: register_module_inst. Module axi_perf_mon_v5_0_22_register_module_profile has unconnected  port(s) : fifo_rd_en, fifo_wr_en." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 18334  1
+WARNING VCP2597 "Some unconnected ports remain at instance: async_stream_fifo_inst. Module axi_perf_mon_v5_0_22_async_stream_fifo has unconnected  port(s) : fifo_rd_en." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 20375  1
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol External_Event7_Cnt_En has not been declared in module axi_perf_mon_v5_0_22_advanced in generate block GEN_NO_SLOT7." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v" 16631  40
+MESSAGE "Case expression too large, will not check for overlapping labels (C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_perf_mon_v5_0/hdl/axi_perf_mon_v5_0_rfs.v, ln 23646)."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: axi_perf_mon_v5_0_22_top."
+MESSAGE "$root top modules: axi_perf_mon_v5_0_22_top."
+SUCCESS "Compile success 0 Errors 7 Warnings  Analysis time: 1[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

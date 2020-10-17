@@ -1,0 +1,2 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/axis_protocol_checker_v2_0_4
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -work axis_protocol_checker_v2_0_4 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/axis_protocol_checker_v2_0_4/.cxl.verilog.axis_protocol_checker_v2_0_4.axis_protocol_checker_v2_0_4.nt64.cmf

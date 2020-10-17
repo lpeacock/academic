@@ -1,0 +1,2 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/v_vid_in_axi4s_v4_0_9
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -work v_vid_in_axi4s_v4_0_9 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/v_vid_in_axi4s_v4_0_9/.cxl.verilog.v_vid_in_axi4s_v4_0_9.v_vid_in_axi4s_v4_0_9.nt64.cmf

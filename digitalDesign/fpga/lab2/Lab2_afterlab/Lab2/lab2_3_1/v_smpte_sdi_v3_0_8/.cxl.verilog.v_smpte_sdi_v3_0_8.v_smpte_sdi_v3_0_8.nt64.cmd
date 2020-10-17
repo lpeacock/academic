@@ -1,0 +1,2 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/v_smpte_sdi_v3_0_8
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -work v_smpte_sdi_v3_0_8 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/v_smpte_sdi_v3_0_8/.cxl.verilog.v_smpte_sdi_v3_0_8.v_smpte_sdi_v3_0_8.nt64.cmf

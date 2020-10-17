@@ -1,0 +1,13 @@
+Aldec, Inc. VHDL Compiler, build 10.5.217.6767
+VLM Initialized with path: "C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\library.cfg".
+DAGGEN WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\ip\xilinx\tmr_manager_v1_0\hdl\tmr_manager_v1_0_vh_rfs.vhd
+COMP96 Compile Entity "mb_sync_bit"
+COMP96 Compile Architecture "IMP" of Entity "mb_sync_bit"
+COMP96 Compile Entity "mb_sync_vec"
+COMP96 Compile Architecture "IMP" of Entity "mb_sync_vec"
+COMP96 Compile Entity "pselect_mask"
+COMP96 Compile Architecture "imp" of Entity "pselect_mask"
+COMP96 Compile Entity "tmr_manager"
+COMP96 Compile Architecture "imp" of Entity "tmr_manager"
+COMP96 Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Canvas xmlns="http://www.jgrasp.org">
+  <Language>Java</Language>
+  <ShowTypes>false</ShowTypes>
+  <Version>2</Version>
+  <Grid>
+    <Snap>true</Snap>
+    <Show>false</Show>
+  </Grid>
+  <Scope id="0">
+    <Name>&lt;init&gt;</Name>
+    <Signature>(Ljava/lang/String;Ljava/lang/String;DZ)V</Signature>
+    <DeclaringType>Vehicle</DeclaringType>
+    <Depth>34</Depth>
+  </Scope>
+  <Scope id="1">
+    <Name>readVehicleFile</Name>
+    <Signature>(Ljava/lang/String;)V</Signature>
+    <DeclaringType>UseTaxList</DeclaringType>
+    <Depth>32</Depth>
+  </Scope>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>170</X>
+      <Y>450</Y>
+      <W>134</W>
+      <H>75</H>
+    </Bounds>
+    <LabelLoc>
+      <WO>false</WO>
+    </LabelLoc>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>Vehicle.vehicleCount</Expression>
+      <ViewerClass>_X_ElementView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>580</X>
+      <Y>260</Y>
+      <W>820</W>
+      <H>73</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>1</ScopeID>
+      <Expression>`local java.lang.String` test</Expression>
+      <ViewerClass>java__lang__String_FormattedView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Size>
+    <W>1920</W>
+    <H>1080</H>
+  </Size>
+  <ESize>
+    <W>1920</W>
+    <H>1080</H>
+  </ESize>
+</Canvas>

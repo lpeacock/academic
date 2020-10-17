@@ -1,0 +1,29 @@
+timestamp=1580964507011
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/clk_gen_sim_v1_0/hdl/clk_gen_sim_v1_0_vl_rfs.sv=0*904*3367
+LastVerilogToplevel=clk_gen_sim_v1_0_0
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000071789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395a68a9f6f7139b81bae6445bce3e6028a3ff0d1d860a30a1f68f1b1e83b98c44501bec90a0c27dd870b4960bd360b6c67036306da35b998f5b7bf638b1a2a7ab9f2579d6fac4a79ccaecd070ce92808|c73a565f2ade592f8ac1c68f484c9216b5f6c801cfcfae87c360920503b44c49
+
+[clk_gen_sim_v1_0_0]
+A/clk_gen_sim_v1_0_0=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/clk_gen_sim_v1_0/hdl/clk_gen_sim_v1_0_vl_rfs.sv|13|1*374
+BinI32/clk_gen_sim_v1_0_0=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/clk_gen_sim_v1_0/hdl/clk_gen_sim_v1_0_vl_rfs.sv|13
+SLP=3*5865
+Version=10.5.217.6767 (Windows)|00000071789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395a68a9f6f7139b81bae6445bce3e6028a3ff0d1d860a30a1f68f1b1e83b98c44501bec90a0c27dd870b4960bd360b6c67036306da35b998f5b7bf638b1a2a7ab9f2579d6fac4a79ccaecd070ce92808|a9ef2503bc32227f241f01f456f36db862b2c489b0769551caa07052238ffbef93f8393845ade8c2b5f4b58617e865e6
+
+[~MFT]
+0=4|0clk_gen_sim_v1_0_0.mgf|3367|0
+1=2|1clk_gen_sim_v1_0_0.mgf|374|0
+3=4|3clk_gen_sim_v1_0_0.mgf|5865|0
+
+[~U]
+$root=12|0*0|
+clk_gen_sim_v1_0_0=12|0*182||0x10

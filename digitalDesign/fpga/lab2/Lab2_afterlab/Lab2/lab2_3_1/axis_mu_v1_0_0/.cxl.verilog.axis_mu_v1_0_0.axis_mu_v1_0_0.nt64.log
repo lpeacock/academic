@@ -1,0 +1,13 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+WARNING VCP2515 "Undefined module: CARRY4 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axis_mu_v1_0/hdl/axis_mu_v1_0_rfs.v" 35  5
+WARNING VCP2515 "Undefined module: CFGLUT5 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axis_mu_v1_0/hdl/axis_mu_v1_0_rfs.v" 171  13
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol match_allx has not been declared in module axis_mu_v1_0_0_axis_mu in generate block ALLX." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axis_mu_v1_0/hdl/axis_mu_v1_0_rfs.v" 876  32
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: axis_mu_v1_0_0_axis_mu."
+MESSAGE "$root top modules: axis_mu_v1_0_0_axis_mu."
+SUCCESS "Compile success 0 Errors 2 Warnings  Analysis time: 0[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

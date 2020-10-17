@@ -1,0 +1,93 @@
+timestamp=1580965137026
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_axi4s_vid_out_v4_0/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v=0*5061*20076
+LastVerilogToplevel=v_axi4s_vid_out_v4_0_10
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c9216177e859bc101634dc4fedd5b814b0bbb
+
+[v_axi4s_vid_out_v4_0_10]
+A/v_axi4s_vid_out_v4_0_10=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_axi4s_vid_out_v4_0/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v|2107|1*58181
+BinI32/v_axi4s_vid_out_v4_0_10=3*73816
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_axi4s_vid_out_v4_0/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v|2107
+SLP=3*77837
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|22df9e320eefb16d625b6f4ee5108031c9eff656528a91ee041e689f10954f7426527262ddaa47cb266f3a3c4d9b973af3f1e081bcd8c37c8a14517d3592bbe2
+
+[v_axi4s_vid_out_v4_0_10_cdc_single]
+A/v_axi4s_vid_out_v4_0_10_cdc_single=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_axi4s_vid_out_v4_0/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v|207|1*8366
+BinI32/v_axi4s_vid_out_v4_0_10_cdc_single=3*2336
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_axi4s_vid_out_v4_0/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v|207
+SLP=3*2782
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|22df9e320eefb16d625b6f4ee51080315313c2087bbacbe6c1b4a31a9fbf082c93b8bffc1420ea99094cd9df6f24262a4f04e9875ffacf962b2fa25a1e5fbbb8
+
+[v_axi4s_vid_out_v4_0_10_coupler]
+A/v_axi4s_vid_out_v4_0_10_coupler=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_axi4s_vid_out_v4_0/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v|294|1*10089
+BinI32/v_axi4s_vid_out_v4_0_10_coupler=3*2947
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_axi4s_vid_out_v4_0/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v|294
+SLP=3*10333
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|22df9e320eefb16d625b6f4ee5108031e1085801304242b66f8713e08a1df0afbca07a61fe41a01c84393a90e82fb1d5ed0735e6a6450be6d8599e7ddd9cbb7b
+
+[v_axi4s_vid_out_v4_0_10_fifo_async]
+A/v_axi4s_vid_out_v4_0_10_fifo_async=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_axi4s_vid_out_v4_0/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v|59|1*390
+BinI32/v_axi4s_vid_out_v4_0_10_fifo_async=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_axi4s_vid_out_v4_0/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v|59
+SLP=3*1001
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|22df9e320eefb16d625b6f4ee51080317aba107ff37ff95e67ce86a14ee651f887b3a10378639bf72cf663f922654dbbf8a184a303778f36273865cc9711dc33
+
+[v_axi4s_vid_out_v4_0_10_fifo_sync]
+A/v_axi4s_vid_out_v4_0_10_fifo_sync=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_axi4s_vid_out_v4_0/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v|135|1*4455
+BinI32/v_axi4s_vid_out_v4_0_10_fifo_sync=3*1255
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_axi4s_vid_out_v4_0/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v|135
+SLP=3*2083
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|22df9e320eefb16d625b6f4ee51080317aba107ff37ff95e67ce86a14ee651f83034bb4019a4c45ce31188871aa0c442288e2bff73bdd911b62e54b38bf7b079
+
+[v_axi4s_vid_out_v4_0_10_formatter]
+A/v_axi4s_vid_out_v4_0_10_formatter=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_axi4s_vid_out_v4_0/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v|1142|1*33350
+BinI32/v_axi4s_vid_out_v4_0_10_formatter=3*25506
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_axi4s_vid_out_v4_0/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v|1142
+SLP=3*27401
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|22df9e320eefb16d625b6f4ee510803193fb4c99a7c50773ecb6e9227e3ff222d20d6820a18b97f179135deae5bcff5d845be4e3c3a7c2a3821ca445632207f6
+
+[v_axi4s_vid_out_v4_0_10_remap]
+A/v_axi4s_vid_out_v4_0_10_remap=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_axi4s_vid_out_v4_0/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v|1570|1*45683
+BinI32/v_axi4s_vid_out_v4_0_10_remap=3*40191
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_axi4s_vid_out_v4_0/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v|1570
+SLP=3*69362
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|22df9e320eefb16d625b6f4ee510803188b3a67ba3de4fb6a1f062ff88d153fa85212816021e565bc2f0f3704c13e5f4959366883922ead359dc8bcc305d85b8
+
+[v_axi4s_vid_out_v4_0_10_repeat]
+A/v_axi4s_vid_out_v4_0_10_repeat=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_axi4s_vid_out_v4_0/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v|1299|1*38154
+BinI32/v_axi4s_vid_out_v4_0_10_repeat=3*28390
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_axi4s_vid_out_v4_0/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v|1299
+SLP=3*37973
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|22df9e320eefb16d625b6f4ee51080311450c24e72cf558a4da12d16746375af85f9951392f7bf076efb20b137f361a66e86ee566702a31dfe7475db52fab808
+
+[v_axi4s_vid_out_v4_0_10_sync]
+A/v_axi4s_vid_out_v4_0_10_sync=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_axi4s_vid_out_v4_0/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v|506|1*20793
+BinI32/v_axi4s_vid_out_v4_0_10_sync=3*11615
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_axi4s_vid_out_v4_0/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v|506
+SLP=3*19293
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|22df9e320eefb16d625b6f4ee5108031a88277001fa9e667fbe1f87120300f63833b708d77f822b50df0fef22bdb833a76aad13a462f26c636f16a58db4ea7f5
+
+[~MFT]
+0=12|0v_axi4s_vid_out_v4_0_10.mgf|20076|0
+1=10|1v_axi4s_vid_out_v4_0_10.mgf|58181|0
+3=20|3v_axi4s_vid_out_v4_0_10.mgf|77837|0
+
+[~U]
+$root=12|0*0|
+v_axi4s_vid_out_v4_0_10=12|0*4219||0x10
+v_axi4s_vid_out_v4_0_10_cdc_single=12|0*1107|
+v_axi4s_vid_out_v4_0_10_coupler=12|0*1394|
+v_axi4s_vid_out_v4_0_10_fifo_async=12|0*262|
+v_axi4s_vid_out_v4_0_10_fifo_sync=12|0*689|
+v_axi4s_vid_out_v4_0_10_formatter=12|0*2619|
+v_axi4s_vid_out_v4_0_10_remap=12|0*3606|
+v_axi4s_vid_out_v4_0_10_repeat=12|0*3056|
+v_axi4s_vid_out_v4_0_10_sync=12|0*2035|

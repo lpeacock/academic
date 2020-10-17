@@ -1,0 +1,53 @@
+timestamp=1580964472700
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_amm_bridge_v1_0/hdl/axi_amm_bridge_v1_0_rfs.v=0*3647*16225
+LastVerilogToplevel=axi_amm_bridge_v1_0_10_top
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c921654a761628cbb1d717fd0b61eed9af8cb
+
+[axi_amm_bridge_v1_0_10_fifo]
+A/axi_amm_bridge_v1_0_10_fifo=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_amm_bridge_v1_0/hdl/axi_amm_bridge_v1_0_rfs.v|737|1*16872
+BinI32/axi_amm_bridge_v1_0_10_fifo=3*25723
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_amm_bridge_v1_0/hdl/axi_amm_bridge_v1_0_rfs.v|737
+SLP=3*27214
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|b7af9dbec9cdcdd3bba9d6161e6e63b9be4ddb34543295ac4763eefbd2b261fc60d9fd353e38e4b943ed153c2c608d6ab801d91756cc24080a1f8f7bec136b77
+
+[axi_amm_bridge_v1_0_10_full]
+A/axi_amm_bridge_v1_0_10_full=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_amm_bridge_v1_0/hdl/axi_amm_bridge_v1_0_rfs.v|994|1*25587
+BinI32/axi_amm_bridge_v1_0_10_full=3*27961
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_amm_bridge_v1_0/hdl/axi_amm_bridge_v1_0_rfs.v|994
+SLP=3*41117
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|b7af9dbec9cdcdd3bba9d6161e6e63b98c955f58970cd719847900ef842eaf21ebc5cffb5292917fb43b4d9ce63a9835edb51ab374a91ee71117b621380aae64
+
+[axi_amm_bridge_v1_0_10_lite]
+A/axi_amm_bridge_v1_0_10_lite=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_amm_bridge_v1_0/hdl/axi_amm_bridge_v1_0_rfs.v|138|1*390
+BinI32/axi_amm_bridge_v1_0_10_lite=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_amm_bridge_v1_0/hdl/axi_amm_bridge_v1_0_rfs.v|138
+SLP=3*17000
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|b7af9dbec9cdcdd3bba9d6161e6e63b995242ddbb7bf2b495c65155749cc4507e7d19c7e8815770f02959307a0db2067c989080d7952ba194da5d0d6092498d8
+
+[axi_amm_bridge_v1_0_10_top]
+A/axi_amm_bridge_v1_0_10_top=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_amm_bridge_v1_0/hdl/axi_amm_bridge_v1_0_rfs.v|1768|1*48361
+BinI32/axi_amm_bridge_v1_0_10_top=3*47646
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_amm_bridge_v1_0/hdl/axi_amm_bridge_v1_0_rfs.v|1768
+SLP=3*48614
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|b7af9dbec9cdcdd3bba9d6161e6e63b9034f8ebfb3e4651b1931f92dc890f10827fb41e2436cd5fac85d4974c3196cdfe577d1a1fac8daa2fa0cb8e81e912dc7
+
+[~MFT]
+0=7|0axi_amm_bridge_v1_0_10.mgf|16225|0
+1=5|1axi_amm_bridge_v1_0_10.mgf|48361|0
+3=10|3axi_amm_bridge_v1_0_10.mgf|48614|0
+
+[~U]
+$root=12|0*0|
+axi_amm_bridge_v1_0_10_fifo=12|0*1040|
+axi_amm_bridge_v1_0_10_full=12|0*1738|
+axi_amm_bridge_v1_0_10_lite=12|0*230|
+axi_amm_bridge_v1_0_10_top=12|0*2730||0x10

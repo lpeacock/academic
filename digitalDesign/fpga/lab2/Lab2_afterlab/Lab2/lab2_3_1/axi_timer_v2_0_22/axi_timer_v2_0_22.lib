@@ -1,0 +1,92 @@
+timestamp=1580965264847
+
+[~A]
+ModifyID=1
+Version=74
+
+[axi_timer]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_timer_v2_0/hdl/axi_timer_v2_0_vh_rfs.vhd|2139|1*39165
+BinI32/imp=3*11837
+I=0*38669
+I/imp=0*42872
+M=11|0|vde|1580965264721|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_timer_v2_0/hdl/axi_timer_v2_0_vh_rfs.vhd|0*36868*0x0ac47c1f97f2f19332a171f2cc1ceefbdda966a5|0*38523*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=21|0|vde|1580965264723|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_timer_v2_0/hdl/axi_timer_v2_0_vh_rfs.vhd|0*39001*0xddb4f2a436a6145280a6dd32ee9cf0d182708fe8|0*42719*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_timer_v2_0/hdl/axi_timer_v2_0_vh_rfs.vhd|2084
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|64fddaa9f25dbaabbe1817674bff1dad67fd4c78e6b5277c917925d777dc5793dd0dd4c0ac22d6604e9b3612527f7fb1
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f629410b43f753f73ef0b2324b7161b5706fd7
+
+[count_module]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_timer_v2_0/hdl/axi_timer_v2_0_vh_rfs.vhd|1434|1*25049
+BinI32/imp=3*8151
+I=0*25274
+I/imp=0*27194
+M=11|0|vde|1580965264699|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_timer_v2_0/hdl/axi_timer_v2_0_vh_rfs.vhd|0*24264*0xc05dee2b2feef588888507e9dd02c11577269700|0*25125*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=21|0|vde|1580965264701|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_timer_v2_0/hdl/axi_timer_v2_0_vh_rfs.vhd|0*25564*0x853d44969bbd596accfa8740daefe7188d0874bd|0*27038*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_timer_v2_0/hdl/axi_timer_v2_0_vh_rfs.vhd|1409
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|4e5a3f24342c94ad8c812fcf1d2fbb0fa01f8a2a65e96ef0cf239ba851b450ffcf9813dc07208ea942b3fd096eed4c8a
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f6294145d1dff646322b4e70b81a49ba7ac005
+
+[counter_f]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_timer_v2_0/hdl/axi_timer_v2_0_vh_rfs.vhd|148|1*0
+BinI32/imp=3*0
+I=0*1137
+I/imp=0*2427
+M=11|0|vde|1580965264377|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_timer_v2_0/hdl/axi_timer_v2_0_vh_rfs.vhd|0*303*0x1323379dfc524952f996278de8a77bb3295158fa|0*991*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=21|0|vde|1580965264379|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_timer_v2_0/hdl/axi_timer_v2_0_vh_rfs.vhd|0*1379*0xc7fe99185343e682cdd1fd0c3bbddf88ab13a7d2|0*2274*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_timer_v2_0/hdl/axi_timer_v2_0_vh_rfs.vhd|126
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|98397d4930e85113bdecd5a1c0ea76411cf3f6da28b33b2380de57447e8243515c96151d0a1b8208ce48d77c49bf006c
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f6294194a22e3ed624258162eb68e942235cf2
+
+[mux_onehot_f]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_timer_v2_0/hdl/axi_timer_v2_0_vh_rfs.vhd|365|1*2401
+BinI32/imp=3*1212
+I=0*3550
+I/imp=0*5657
+M=11|0|vde|1580965264387|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_timer_v2_0/hdl/axi_timer_v2_0_vh_rfs.vhd|0*2947*0x89ba4ecebf849d1bf214b06ea63761f1ec3d956a|0*3401*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=21|0|vde|1580965264389|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_timer_v2_0/hdl/axi_timer_v2_0_vh_rfs.vhd|0*3756*0xebc5dd1287fe15b7de276e2da52ee2ee76659f7e|0*5501*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_timer_v2_0/hdl/axi_timer_v2_0_vh_rfs.vhd|352
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|9063f64a6ec3c336199b2e93ba8dd186d6ecf356f6dde090b790c38ef7266e85c1827c31a701469c739d5c3027406a4c
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f629416db5be9a78ae74c86f1695d70e52bf69
+
+[tc_core]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_timer_v2_0/hdl/axi_timer_v2_0_vh_rfs.vhd|1700|1*29286
+BinI32/imp=3*9014
+I=0*29877
+I/imp=0*35804
+M=11|0|vde|1580965264709|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_timer_v2_0/hdl/axi_timer_v2_0_vh_rfs.vhd|0*28057*0xf09ef674a5f1b9c8fd983ee81b601edf465f65b9|0*29733*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=21|0|vde|1580965264712|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_timer_v2_0/hdl/axi_timer_v2_0_vh_rfs.vhd|0*30321*0x70dd4102d5baa961eaf873745f54436f9710aa22|0*35653*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_timer_v2_0/hdl/axi_timer_v2_0_vh_rfs.vhd|1660
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|04ad7ce14f75f07cac4bfbcdfc08e6ee26527262ddaa47cb266f3a3c4d9b973a16942b66a89e66dc3b9ae0feb44356ee
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f62941cd0669734bd281c16a59b451cd2b69fb
+
+[tc_types]
+E=1*6741
+I=0*8808
+M=3|0|vde|1580965264396|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_timer_v2_0/hdl/axi_timer_v2_0_vh_rfs.vhd|0*6867*0x3fbb9fbfad8b4a41f4a6d3e254f18dc94b132b03|0*8663*0x24f53803c3278f1d7f185bd51c58332c
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_timer_v2_0/hdl/axi_timer_v2_0_vh_rfs.vhd|577
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|6d8b6cd677373f376955e678e3a442ef532924dc460548c1418b739990344c7e1ba989c767a3c5c263c58a8381d49b68
+
+[timer_control]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_timer_v2_0/hdl/axi_timer_v2_0_vh_rfs.vhd|835|1*9884
+BinI32/imp=3*3325
+I=0*12368
+I/imp=0*23348
+M=11|0|vde|1580965264679|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_timer_v2_0/hdl/axi_timer_v2_0_vh_rfs.vhd|0*9505*0x2287c96e2bb44f1448091f91c43a977236e09c32|0*12218*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=21|0|vde|1580965264689|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_timer_v2_0/hdl/axi_timer_v2_0_vh_rfs.vhd|0*12856*0x64a4b63ff544fbd802c45bc06547d2dfe50335ff|0*23191*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_timer_v2_0/hdl/axi_timer_v2_0_vh_rfs.vhd|799
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|fdd54c5e7c08f6b333827aeaf4ac6640913626ce6774d026b57ec8bf185a839e818161e76b1c92fd2ab987f1ec810d6b
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f62941c9acc5a69550388f7ce6eef4250a0547
+
+[~MFT]
+0=47|0axi_timer_v2_0_22.mgf|42872|0
+1=7|1axi_timer_v2_0_22.mgf|39165|0
+3=6|3axi_timer_v2_0_22.mgf|11837|0
+
+[~U]
+axi_timer=11|0*36397|
+count_module=11|0*23912|
+counter_f=11|0*0|
+mux_onehot_f=11|0*2673|
+tc_core=11|0*27556|
+tc_types=TC_Types 3|0*5904|0*6230
+timer_control=11|0*9010|

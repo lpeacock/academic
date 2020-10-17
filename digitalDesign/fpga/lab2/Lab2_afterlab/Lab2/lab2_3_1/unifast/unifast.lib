@@ -1,0 +1,72 @@
+timestamp=1580964287414
+
+[~A]
+ModifyID=1
+Version=74
+
+[dsp48e1]
+A/dsp48e1_v=A/DSP48E1_V 21|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unifast/primitive/DSP48E1.vhd|150|1*0
+BinI32/dsp48e1_v=3*0
+I=0*3709
+I/dsp48e1_v=I/DSP48E1_V 0*42536
+M=11|0|vde|1580964285627|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unifast/primitive/DSP48E1.vhd|0*680*0x383030ba6e478f15359b87ff11f1d7259c65bb12|0*3581*0xaeff33d0d327e4f66feab22160c8fa0a
+M/dsp48e1_v=M/DSP48E1_V 21|0|vde|1580964285634|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unifast/primitive/DSP48E1.vhd|0*4170*0x8f441c82a624d97cce5ba3414e506051aba257e0|0*42395*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=C:/Xilinx/Vivado/2019.2/data/vhdl/src/unifast/primitive/DSP48E1.vhd|57
+Version=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|9c7d4fcf3016819feb87411513d4e5e826527262ddaa47cb266f3a3c4d9b973a339494f1816fd1c9fe216b89af9c1ec7
+Version/dsp48e1_v=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|f2adf44444420fb8c0cce463552c82f8c0b05b8687e5a5ea0187a102e572a7b930c7327e8675d6b955d4bd408bc59081
+
+[gthe2_channel]
+A/gthe2_channel_fast_v=A/GTHE2_CHANNEL_FAST_V 21|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unifast/secureip/GTHE2_CHANNEL.vhd|596|1*129146
+BinI32/gthe2_channel_fast_v=3*48181
+I=0*164902
+I/gthe2_channel_fast_v=I/GTHE2_CHANNEL_FAST_V 0*308825
+M=11|0|vde|1580964286810|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unifast/secureip/GTHE2_CHANNEL.vhd|0*143323*0x6ee2a585a4c97904dfda92b353e0c3e91914fcb6|0*164763*0xaeff33d0d327e4f66feab22160c8fa0a
+M/gthe2_channel_fast_v=M/GTHE2_CHANNEL_FAST_V 21|0|vde|1580964286830|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unifast/secureip/GTHE2_CHANNEL.vhd|0*165330*0x059ebb6c60901df340d373bf86fa7fd32c128e47|0*308662*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=C:/Xilinx/Vivado/2019.2/data/vhdl/src/unifast/secureip/GTHE2_CHANNEL.vhd|40
+Version=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|1d5932a972c8647cde9805740bf2e3dd7d5692a9eb157bb0c10bb03c8d551c7bfc135c975b118c4e19b0dd1667860503
+Version/gthe2_channel_fast_v=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|1d5932a972c8647cde9805740bf2e3ddfbf393d5a58c6fac5faf7e34d58f8543445a8ab1a1854c8affff85d01fcf9a51
+
+[gtxe2_channel]
+A/gtxe2_channel_fast_v=A/GTXE2_CHANNEL_FAST_V 21|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unifast/secureip/GTXE2_CHANNEL.vhd|490|1*431941
+BinI32/gtxe2_channel_fast_v=3*96099
+I=0*329824
+I/gtxe2_channel_fast_v=I/GTXE2_CHANNEL_FAST_V 0*446661
+M=11|0|vde|1580964287283|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unifast/secureip/GTXE2_CHANNEL.vhd|0*312316*0x5b624185a74bd1bcdefe264bed87525e9773919b|0*329685*0xaeff33d0d327e4f66feab22160c8fa0a
+M/gtxe2_channel_fast_v=M/GTXE2_CHANNEL_FAST_V 21|0|vde|1580964287299|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unifast/secureip/GTXE2_CHANNEL.vhd|0*330252*0x713342f1940e3177390c7544a218b1869539dadd|0*446498*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=C:/Xilinx/Vivado/2019.2/data/vhdl/src/unifast/secureip/GTXE2_CHANNEL.vhd|45
+Version=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|ee93713fd8684f43b264c71bb4d625cc664e1fec68902e4c36e3b45dbf7cb6e4faee15208f0ea7bb756bd7927776647a
+Version/gtxe2_channel_fast_v=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|ee93713fd8684f43b264c71bb4d625cc0bcd2d79a77751e81746476c04ee03994d47d2af3b17ffb74e7fb7be4795992c
+
+[mmcme2_adv]
+A/mmcme2_adv_v=A/MMCME2_ADV_V 21|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unifast/primitive/MMCME2_ADV.vhd|124|1*48471
+BinI32/mmcme2_adv_v=3*14739
+I=0*46863
+I/mmcme2_adv_v=I/MMCME2_ADV_V 0*96316
+M=11|0|vde|1580964286018|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unifast/primitive/MMCME2_ADV.vhd|0*43683*0x777016274de20d3891709636739d6113e991fe0c|0*46729*0xaeff33d0d327e4f66feab22160c8fa0a
+M/mmcme2_adv_v=M/MMCME2_ADV_V 21|0|vde|1580964286027|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unifast/primitive/MMCME2_ADV.vhd|0*47327*0x41e65f88107e0154879ccc293ee30178455c28fe|0*96166*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=C:/Xilinx/Vivado/2019.2/data/vhdl/src/unifast/primitive/MMCME2_ADV.vhd|32
+Version=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|ff9567cb3e5af37392df3d6099c5b3ba5997c8b864add0a76dd4051f58a66182d65acdd5047b46f6dae1380e9d90fbd2
+Version/mmcme2_adv_v=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|eaef63432d1a1f07e1b7333e11f5dbdbf4bb82bcc6a23795a479b520a72807fb8c515f1152e18fa530da9f05991106fb
+
+[plle2_adv]
+A/plle2_adv_v=A/PLLE2_ADV_V 21|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unifast/primitive/PLLE2_ADV.vhd|94|1*93591
+BinI32/plle2_adv_v=3*32546
+I=0*99488
+I/plle2_adv_v=I/PLLE2_ADV_V 0*139146
+M=11|0|vde|1580964286410|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unifast/primitive/PLLE2_ADV.vhd|0*97320*0x44413aab23a07f9c17e0e68eba51e7dffdde06cd|0*99356*0xaeff33d0d327e4f66feab22160c8fa0a
+M/plle2_adv_v=M/PLLE2_ADV_V 21|0|vde|1580964286416|C:/Xilinx/Vivado/2019.2/data/vhdl/src/unifast/primitive/PLLE2_ADV.vhd|0*99951*0x1240cced4b57eac33a87d41c16eb73f54454cc59|0*138999*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=C:/Xilinx/Vivado/2019.2/data/vhdl/src/unifast/primitive/PLLE2_ADV.vhd|32
+Version=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|9dfbc6bb683bcacabb45565b0a9a397aaf9790c2f1eec9e290d09d29b4c74b57e713c43517de1ec181d55130082a08a1
+Version/plle2_adv_v=10.5.217.6767 (Windows)|00000004789c53d0b534060001b000ba|528af325578971981a0098f7f061f8c201a03a9a7a99bc5ff820e86e8d1a97fb17cbc639666ba9d1266fae100706b811
+
+[~MFT]
+0=35|0unifast.mgf|446661|0
+1=5|1unifast.mgf|431941|0
+3=5|3unifast.mgf|96099|0
+
+[~U]
+dsp48e1=DSP48E1 11|0*0|
+gthe2_channel=GTHE2_CHANNEL 11|0*139621|
+gtxe2_channel=GTXE2_CHANNEL 11|0*309274|
+mmcme2_adv=MMCME2_ADV 11|0*43007|
+plle2_adv=PLLE2_ADV 11|0*96793|

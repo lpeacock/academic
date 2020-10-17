@@ -1,0 +1,13 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2113 "Module vid_edid_v1_0_0_edid_rom found in current working library."
+MESSAGE "Pass 2. Processing instantiations."
+WARNING VCP2641 "Redundant digits given in number 20'h00000000000000000000." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_edid_v1_0/hdl/vid_edid_v1_0_rfs.v" 37  23
+WARNING VCP2641 "Redundant digits given in number 20'h00000000000000000000." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vid_edid_v1_0/hdl/vid_edid_v1_0_rfs.v" 48  23
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: vid_edid_v1_0_0."
+MESSAGE "$root top modules: vid_edid_v1_0_0."
+SUCCESS "Compile success 0 Errors 2 Warnings  Analysis time: 0[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

@@ -1,0 +1,32 @@
+Aldec, Inc. VHDL Compiler, build 10.5.217.6767
+VLM Initialized with path: "C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\library.cfg".
+DAGGEN WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\ip\xilinx\axi_iic_v2_0\hdl\axi_iic_v2_0_vh_rfs.vhd
+COMP96 Compile Entity "soft_reset"
+COMP96 Compile Architecture "implementation" of Entity "soft_reset"
+COMP96 Compile Entity "SRL_FIFO"
+COMP96 Compile Architecture "IMP" of Entity "SRL_FIFO"
+COMP96 Compile Entity "upcnt_n"
+COMP96 Compile Architecture "RTL" of Entity "upcnt_n"
+COMP96 Compile Entity "shift8"
+COMP96 Compile Architecture "RTL" of Entity "shift8"
+COMP96 Compile Package "iic_pkg"
+COMP96 Compile Package Body "iic_pkg"
+COMP96 WARNING COMP96_0048: "This function may complete without return statement." "C:\Xilinx\Vivado\2019.2\data\ip\xilinx\axi_iic_v2_0\hdl\axi_iic_v2_0_vh_rfs.vhd" 1139 4
+COMP96 Compile Entity "debounce"
+COMP96 Compile Architecture "RTL" of Entity "debounce"
+COMP96 Compile Entity "reg_interface"
+COMP96 Compile Architecture "RTL" of Entity "reg_interface"
+COMP96 Compile Entity "iic_control"
+COMP96 Compile Architecture "RTL" of Entity "iic_control"
+COMP96 Compile Entity "filter"
+COMP96 Compile Architecture "RTL" of Entity "filter"
+COMP96 Compile Entity "dynamic_master"
+COMP96 Compile Architecture "RTL" of Entity "dynamic_master"
+COMP96 Compile Entity "axi_ipif_ssp1"
+COMP96 Compile Architecture "RTL" of Entity "axi_ipif_ssp1"
+COMP96 Compile Entity "iic"
+COMP96 Compile Architecture "RTL" of Entity "iic"
+COMP96 Compile Entity "axi_iic"
+COMP96 Compile Architecture "RTL" of Entity "axi_iic"
+COMP96 Compile success 0 Errors 1 Warnings  Analysis time :  0.7 [s]

@@ -1,0 +1,117 @@
+timestamp=1580964312160
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/verilog/src/unimacro/ADDMACC_MACRO.v_ADDSUB_MACRO.v_BRAM_SDP_MACRO.v_BRAM_SINGLE_MACRO.v_BRAM_TDP_MACRO.v_COUNTER_LOAD_MACRO.v_COUNTER_TC_MACRO.v_EQ_COMPARE_MACRO.v_FIFO_DUALCLOCK_MACRO.v_FIFO_SYNC_MACRO.v_MACC_MACRO.v_MULT_MACRO.v=0*13349*74899
+LastVerilogToplevel=MULT_MACRO
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000005789cd32d33ca360500045f0176|c73a565f2ade592f8ac1c68f484c92163a5cab1aff2c0dca9ce8b70263c7c567
+
+[ADDMACC_MACRO]
+A/ADDMACC_MACRO=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unimacro/ADDMACC_MACRO.v|23|1*502
+BinI32/ADDMACC_MACRO=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unimacro/ADDMACC_MACRO.v|23
+SLP=3*8158
+Version=10.5.217.6767 (Windows)|00000005789cd32d33ca360500045f0176|7025bb6d5025d1466a371c461baf15947229674689fb108a3e653f3ac9184ec69122e4ed590def653f088e11b84f81b8
+
+[ADDSUB_MACRO]
+A/ADDSUB_MACRO=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unimacro/ADDSUB_MACRO.v|24|1*12341
+BinI32/ADDSUB_MACRO=3*10930
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unimacro/ADDSUB_MACRO.v|24
+SLP=3*16323
+Version=10.5.217.6767 (Windows)|00000005789cd32d33ca360500045f0176|af4b75b30cf02361c8d201eca9087f0fc86d4806fd080e8973afb80d4d183ec239885ce6d374ae0c98f85fd65cf8300a
+
+[BRAM_SDP_MACRO]
+A/BRAM_SDP_MACRO=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unimacro/BRAM_SDP_MACRO.v|34|1*26803
+BinI32/BRAM_SDP_MACRO=3*18281
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unimacro/BRAM_SDP_MACRO.v|34
+SLP=3*100095
+Version=10.5.217.6767 (Windows)|00000005789cd32d33ca360500045f0176|ede9e58d89ae764a4cadff0edcd5d1c55c45ca51b6d751fe9c1d48911e95c1febcbaf17b967a8fba18b418932bc6314b
+
+[BRAM_SINGLE_MACRO]
+A/BRAM_SINGLE_MACRO=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v|30|1*175626
+BinI32/BRAM_SINGLE_MACRO=3*112163
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v|30
+SLP=3*191499
+Version=10.5.217.6767 (Windows)|00000005789cd32d33ca360500045f0176|b5a4f189a5346f81b1ae0b94937d76766eef3b786f739c20a0517ace4f641c107a44f4d1b5877ad2dc84b632dd6657a2
+
+[BRAM_TDP_MACRO]
+A/BRAM_TDP_MACRO=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unimacro/BRAM_TDP_MACRO.v|30|1*319745
+BinI32/BRAM_TDP_MACRO=3*205426
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unimacro/BRAM_TDP_MACRO.v|30
+SLP=3*289479
+Version=10.5.217.6767 (Windows)|00000005789cd32d33ca360500045f0176|f73d8f87eae9e10e9b3e1583f9fcce6a2a953458120bc273b2ebace7a8ad3a413aeb6ee1cd044bce0f66e49ffad40d41
+
+[COUNTER_LOAD_MACRO]
+A/COUNTER_LOAD_MACRO=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unimacro/COUNTER_LOAD_MACRO.v|23|1*457447
+BinI32/COUNTER_LOAD_MACRO=3*307596
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unimacro/COUNTER_LOAD_MACRO.v|23
+SLP=3*311237
+Version=10.5.217.6767 (Windows)|00000005789cd32d33ca360500045f0176|8aa64b82ec6b599e902385086a4c7ac5f4aaf7138fbf8ee005deeffe9870f7e622a7d619c6ebbff62d0f144541903aeb
+
+[COUNTER_TC_MACRO]
+A/COUNTER_TC_MACRO=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unimacro/COUNTER_TC_MACRO.v|24|1*472204
+BinI32/COUNTER_TC_MACRO=3*313001
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unimacro/COUNTER_TC_MACRO.v|24
+SLP=3*317394
+Version=10.5.217.6767 (Windows)|00000005789cd32d33ca360500045f0176|74bc6cfa3c5b020bd7fe110d783fd2d888eaae42b7ada1591fee8347af78004d92dd18f0a246b92c034571f34d29779d
+
+[EQ_COMPARE_MACRO]
+A/EQ_COMPARE_MACRO=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unimacro/EQ_COMPARE_MACRO.v|23|1*482651
+BinI32/EQ_COMPARE_MACRO=3*319295
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unimacro/EQ_COMPARE_MACRO.v|23
+SLP=3*323747
+Version=10.5.217.6767 (Windows)|00000005789cd32d33ca360500045f0176|9a59e4c1d88d9de612ecefdd6be3294e35375093c7094e76413a9c20426961d0cf71898ca94e8afe21b8d465c6b5ce13
+
+[FIFO_DUALCLOCK_MACRO]
+A/FIFO_DUALCLOCK_MACRO=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unimacro/FIFO_DUALCLOCK_MACRO.v|25|1*494812
+BinI32/FIFO_DUALCLOCK_MACRO=3*325478
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unimacro/FIFO_DUALCLOCK_MACRO.v|25
+SLP=3*338136
+Version=10.5.217.6767 (Windows)|00000005789cd32d33ca360500045f0176|9a56364eb574ed9c2c914891bae2d390a1989205ddd965e0f705d580bc8fc7f283f944576a5e190378c9687aca690494
+
+[FIFO_SYNC_MACRO]
+A/FIFO_SYNC_MACRO=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unimacro/FIFO_SYNC_MACRO.v|25|1*517902
+BinI32/FIFO_SYNC_MACRO=3*340274
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unimacro/FIFO_SYNC_MACRO.v|25
+SLP=3*353150
+Version=10.5.217.6767 (Windows)|00000005789cd32d33ca360500045f0176|a95424d5f99d3abff519dc0cddc684fe2916e3a1b45a8a35418a1afd4c198974604cdab375750cb49b05397c596d62f1
+
+[MACC_MACRO]
+A/MACC_MACRO=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unimacro/MACC_MACRO.v|23|1*540437
+BinI32/MACC_MACRO=3*355374
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unimacro/MACC_MACRO.v|23
+SLP=3*363703
+Version=10.5.217.6767 (Windows)|00000005789cd32d33ca360500045f0176|b23e3608090462f988cd795e1e6c1c5bcb1f6deadee95ac34142ba2864c70d79e7bf099e281988f13d737523351444f5
+
+[MULT_MACRO]
+A/MULT_MACRO=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unimacro/MULT_MACRO.v|24|1*560612
+BinI32/MULT_MACRO=3*366666
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unimacro/MULT_MACRO.v|24
+SLP=3*373868
+Version=10.5.217.6767 (Windows)|00000005789cd32d33ca360500045f0176|9228dc3f9fd0c9a75f7c37bd29000b1022abe32e083fa6213f46c4d8e8793bda3144293fd53c4678ff33d0ed2af624f3
+
+[~MFT]
+0=15|0unimacro_ver.mgf|74899|0
+1=13|1unimacro_ver.mgf|560612|0
+3=26|3unimacro_ver.mgf|373868|0
+
+[~U]
+$root=12|0*0|
+ADDMACC_MACRO=12|0*342||0x10
+ADDSUB_MACRO=12|0*799||0x10
+BRAM_SDP_MACRO=12|0*1215||0x10
+BRAM_SINGLE_MACRO=12|0*3958||0x10
+BRAM_TDP_MACRO=12|0*6469||0x10
+COUNTER_LOAD_MACRO=12|0*9405||0x10
+COUNTER_TC_MACRO=12|0*9742||0x10
+EQ_COMPARE_MACRO=12|0*10091||0x10
+FIFO_DUALCLOCK_MACRO=12|0*10556||0x10
+FIFO_SYNC_MACRO=12|0*11537||0x10
+MACC_MACRO=12|0*12481||0x10
+MULT_MACRO=12|0*12929||0x10

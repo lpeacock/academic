@@ -1,0 +1,2 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/cmac_usplus_v3_0_0
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  -l cmac_usplus_v3_0_0 +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -sv2k12 -work cmac_usplus_v3_0_0 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/cmac_usplus_v3_0_0/.cxl.systemverilog.cmac_usplus_v3_0_0.cmac_usplus_v3_0_0.nt64.cmf

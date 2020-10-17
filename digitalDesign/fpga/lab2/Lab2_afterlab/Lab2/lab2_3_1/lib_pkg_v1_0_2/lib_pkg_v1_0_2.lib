@@ -1,0 +1,24 @@
+timestamp=1580964638670
+
+[~A]
+ModifyID=1
+Version=74
+
+[lib_pkg]
+BinI32/lib_pkg=3*0
+E=1*0
+I=0*1813
+I/lib_pkg=0*5863
+M=3|0|vde|1580964638633|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_pkg_v1_0/hdl/lib_pkg_v1_0_rfs.vhd|0*637*0xeffb13366f6e29a6413d9451dd07ffd0631ab0bf|0*1676*0x24f53803c3278f1d7f185bd51c58332c
+M/lib_pkg=4|0|vde|1580964638636|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_pkg_v1_0/hdl/lib_pkg_v1_0_rfs.vhd|0*2093*0xd76ef4cd0fb62a6e5dda5c33261847454be95879|0*5716*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_pkg_v1_0/hdl/lib_pkg_v1_0_rfs.vhd|87
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|ba577b4fbf79ca5ba20a98f6233e63e726527262ddaa47cb266f3a3c4d9b973a3641fdbbae70732bcb4efd17d58c0802
+Version/lib_pkg=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|ba577b4fbf79ca5ba20a98f6233e63e726527262ddaa47cb266f3a3c4d9b973a3641fdbbae70732bcb4efd17d58c0802
+
+[~MFT]
+0=8|0lib_pkg_v1_0_2.mgf|5863|0
+1=1|1lib_pkg_v1_0_2.mgf|0|0
+3=1|3lib_pkg_v1_0_2.mgf|0|0
+
+[~U]
+lib_pkg=3|0*0|0*180

@@ -1,0 +1,60 @@
+timestamp=1580965112579
+
+[~A]
+ModifyID=1
+Version=74
+
+[cntr_incr_decr_addn_f]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_srl_fifo_v1_0/hdl/lib_srl_fifo_v1_0_rfs.vhd|143|1*0
+BinI32/imp=3*0
+I=0*1031
+I/imp=0*2918
+M=11|0|vde|1580965112472|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_srl_fifo_v1_0/hdl/lib_srl_fifo_v1_0_rfs.vhd|0*304*0x34defea865d82668a632c9aff2c6de358fb0cdca|0*870*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=21|0|vde|1580965112483|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_srl_fifo_v1_0/hdl/lib_srl_fifo_v1_0_rfs.vhd|0*1246*0xc8a3186ba831902edfcdb3bb97e274371605b544|0*2750*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_srl_fifo_v1_0/hdl/lib_srl_fifo_v1_0_rfs.vhd|118
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|c461937cbc94a9a973946a3fcd830000419363a1c75699738af9670a5e493d6ee2a6c8c70a8e9c8e2024c765e57a2d78
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f62941676d924b18e2a87042acabe43f874cc2
+
+[dynshreg_f]
+A/behavioral=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_srl_fifo_v1_0/hdl/lib_srl_fifo_v1_0_rfs.vhd|397|1*2577
+BinI32/behavioral=3*1570
+I=0*4290
+I/behavioral=0*6295
+M=11|0|vde|1580965112495|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_srl_fifo_v1_0/hdl/lib_srl_fifo_v1_0_rfs.vhd|0*3479*0x0541b7fd52c80afaa7443c8decca69bca47a3b75|0*4140*0x24f53803c3278f1d7f185bd51c58332c
+M/behavioral=21|0|vde|1580965112497|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_srl_fifo_v1_0/hdl/lib_srl_fifo_v1_0_rfs.vhd|0*4650*0xfd86de79c433edc359fb25c5b2171307d61f2d01|0*6131*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_srl_fifo_v1_0/hdl/lib_srl_fifo_v1_0_rfs.vhd|379
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|b8662765ba4681e3b86719de9d8a3fc80020a77b73114e7fc507ad91f40d69b9223ee7a5ce1f48d36dce2dae0fc34178
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4223ee7a5ce1f48d36dce2dae0fc34178
+
+[srl_fifo_f]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_srl_fifo_v1_0/hdl/lib_srl_fifo_v1_0_rfs.vhd|1000|1*9683
+BinI32/imp=3*4997
+I=0*12493
+I/imp=0*13747
+M=11|0|vde|1580965112512|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_srl_fifo_v1_0/hdl/lib_srl_fifo_v1_0_rfs.vhd|0*11613*0xf88ac94707c63161af4d7af70624a4249e62dd24|0*12343*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=21|0|vde|1580965112514|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_srl_fifo_v1_0/hdl/lib_srl_fifo_v1_0_rfs.vhd|0*12819*0x26ca0032f5addb127cf181c188dbad8ce8800bfd|0*13590*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_srl_fifo_v1_0/hdl/lib_srl_fifo_v1_0_rfs.vhd|978
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|62d16b0d77106270a04496cce0f7a6da5142743d23e2ed11123baf66a8d42c2a675eef066d635d221c0a0b0aadfb2b1d
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f62941b8c91bcf2f3f8d7fd2d7cd5f306ca9c7
+
+[srl_fifo_rbu_f]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_srl_fifo_v1_0/hdl/lib_srl_fifo_v1_0_rfs.vhd|697|1*5339
+BinI32/imp=3*2725
+I=0*8151
+I/imp=0*10831
+M=11|0|vde|1580965112503|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_srl_fifo_v1_0/hdl/lib_srl_fifo_v1_0_rfs.vhd|0*7034*0x56ae666964475cc764aa2dba1f235c63f6ee4a74|0*7997*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=21|0|vde|1580965112505|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_srl_fifo_v1_0/hdl/lib_srl_fifo_v1_0_rfs.vhd|0*8515*0xb1bfb369d90f08dfcdce255119847689247ed8e2|0*10670*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_srl_fifo_v1_0/hdl/lib_srl_fifo_v1_0_rfs.vhd|674
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|12e1f92e5cb1bd205e87b6ac859b032cee7d2ea02958f6fce1a3c2f91f70080ede564f7f83f5b69b60c3000cf9c19d8c
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f6294180ac8e1f291646c2547bb6ad4030a7b0
+
+[~MFT]
+0=28|0lib_srl_fifo_v1_0_2.mgf|13747|0
+1=4|1lib_srl_fifo_v1_0_2.mgf|9683|0
+3=4|3lib_srl_fifo_v1_0_2.mgf|4997|0
+
+[~U]
+cntr_incr_decr_addn_f=11|0*0|
+dynshreg_f=11|0*3176|
+srl_fifo_f=11|0*11275|
+srl_fifo_rbu_f=11|0*6666|

@@ -1,0 +1,3 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/audio_tpg_v1_0_0
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  -l audio_tpg_v1_0_0 +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -work audio_tpg_v1_0_0 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/audio_tpg_v1_0_0/.cxl.verilog.audio_tpg_v1_0_0.audio_tpg_v1_0_0.nt64.cmf
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  -l audio_tpg_v1_0_0 +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -sv2k12 -work audio_tpg_v1_0_0 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/audio_tpg_v1_0_0/.cxl.systemverilog.audio_tpg_v1_0_0.audio_tpg_v1_0_0.nt64.cmf

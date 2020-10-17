@@ -1,0 +1,11 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+WARNING VCP1251 "The warning message cannot be shown because a protected code block was seen in the current compilation session. Any further warnings will be disregarded."
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: xdma_v4_1_4_BufferMem xdma_v4_1_4_GenericFIFO1R2W."
+MESSAGE "$root top modules: xdma_v4_1_4_BufferMem xdma_v4_1_4_GenericFIFO1R2W."
+SUCCESS "Compile success 0 Errors 27 Warnings  Analysis time: 4[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

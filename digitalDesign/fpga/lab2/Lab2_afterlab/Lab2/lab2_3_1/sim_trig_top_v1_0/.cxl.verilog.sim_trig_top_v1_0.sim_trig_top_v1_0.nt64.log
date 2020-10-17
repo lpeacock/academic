@@ -1,0 +1,12 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+WARNING VCP2515 "Undefined module: traffic_shaping was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/sim_trig_v1_0/hdl/sim_trig_v1_0_vl_rfs.sv" 625  3
+WARNING VCP2515 "Undefined module: axi_apb_bridge_0 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/sim_trig_v1_0/hdl/sim_trig_v1_0_vl_rfs.sv" 1137  4
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: sim_trig_top_v1_0 pulse_stretcher pulse_generator bridge_logic sim_trig_synchronizer."
+MESSAGE "$root top modules: sim_trig_top_v1_0 pulse_stretcher pulse_generator bridge_logic sim_trig_synchronizer."
+SUCCESS "Compile success 0 Errors 2 Warnings  Analysis time: 0[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

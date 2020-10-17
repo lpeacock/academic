@@ -1,0 +1,13 @@
+Aldec, Inc. VHDL Compiler, build 10.5.217.6767
+VLM Initialized with path: "C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\library.cfg".
+DAGGEN WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\ip\xilinx\v_smpte_uhdsdi_tx_v1_0\hdl\cross_clk_reg.vhd
+COMP96 Compile Entity "cross_clk_reg"
+COMP96 Compile Architecture "rtl" of Entity "cross_clk_reg"
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\ip\xilinx\v_smpte_uhdsdi_tx_v1_0\hdl\cross_clk_bus.vhd
+COMP96 Compile Entity "cross_clk_bus"
+COMP96 Compile Architecture "rtl" of Entity "cross_clk_bus"
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\ip\xilinx\v_smpte_uhdsdi_tx_v1_0\hdl\map_pulse.vhd
+COMP96 Compile Entity "map_pulse"
+COMP96 Compile Architecture "struct" of Entity "map_pulse"
+COMP96 Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]

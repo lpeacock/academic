@@ -1,0 +1,96 @@
+timestamp=1580965217910
+
+[~A]
+ModifyID=1
+Version=74
+
+[axi_hbicap]
+A/implementation=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hbicap_v1_0/hdl/axi_hbicap_v1_0_vh_rfs.vhd|3295|1*19260
+BinI32/implementation=3*28103
+I=0*76335
+I/implementation=0*94422
+M=11|0|vde|1580965217743|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hbicap_v1_0/hdl/axi_hbicap_v1_0_vh_rfs.vhd|0*71083*0x145b3d79491c98546e6f10c6111b1d593c224397|0*76186*0xbba181862c44b92d99e8f49010ab70a1
+M/implementation=21|0|vde|1580965217749|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hbicap_v1_0/hdl/axi_hbicap_v1_0_vh_rfs.vhd|0*76826*0xbbe147e83dd6aaefc47d357affd1035eb07a4acf|0*94255*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hbicap_v1_0/hdl/axi_hbicap_v1_0_vh_rfs.vhd|3295
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|166fe936af519a85657f1906be52c7495728d13b6296c225bd16a256eb9350e22e6605eb035d160aad295ac557286d30
+Version/implementation=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|8e9aaf9bcdbf454ac343620b4961ed563abd7046f1c609e152ff56da12cd6aef439ce46613bbe604d99ea843280e25fe
+
+[aximm_interface]
+A/arch_imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hbicap_v1_0/hdl/axi_hbicap_v1_0_vh_rfs.vhd|3295|1*16922
+BinI32/arch_imp=3*26613
+I=0*64355
+I/arch_imp=0*67219
+M=11|0|vde|1580965217724|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hbicap_v1_0/hdl/axi_hbicap_v1_0_vh_rfs.vhd|0*61288*0x37e93d8de901ef4f99def34fbcd3e8c2a1141feb|0*64201*0xbba181862c44b92d99e8f49010ab70a1
+M/arch_imp=21|0|vde|1580965217726|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hbicap_v1_0/hdl/axi_hbicap_v1_0_vh_rfs.vhd|0*64659*0xcf73036bee1a456375018cfa49a2aff667dbf95b|0*67053*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hbicap_v1_0/hdl/axi_hbicap_v1_0_vh_rfs.vhd|3295
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|bc78d2c85e3399503265eb30ead8addd927efc55a6ba7bb6c7d4d038b2592aa4f420ae9f4849acdae5f4980327f5e6db
+Version/arch_imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|24984fdaf70a37a6b4aa400c4b9d5bc5729e6221e4efaa6a8714f045f53f5933cbbc60a6a6e6a75de944bb55e3a40885
+
+[aximm_slv_read]
+A/arch_imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hbicap_v1_0/hdl/axi_hbicap_v1_0_vh_rfs.vhd|3295|1*10744
+BinI32/arch_imp=3*16913
+I=0*43543
+I/arch_imp=0*48836
+M=11|0|vde|1580965217700|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hbicap_v1_0/hdl/axi_hbicap_v1_0_vh_rfs.vhd|0*41791*0xb5e629fd4ee741d4a736258d232b55c14d141abe|0*43390*0xbba181862c44b92d99e8f49010ab70a1
+M/arch_imp=21|0|vde|1580965217702|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hbicap_v1_0/hdl/axi_hbicap_v1_0_vh_rfs.vhd|0*43846*0xe48afcde90acb9c7d396849a5dc080429843d8ef|0*48671*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hbicap_v1_0/hdl/axi_hbicap_v1_0_vh_rfs.vhd|3295
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|c3f3ad7f7b6f9ed80fc5cd88e30e0fed81944e7303d782c73887af4fa85aafd07c13d816f665f060e1c7277b90fa58b3
+Version/arch_imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|24984fdaf70a37a6b4aa400c4b9d5bc5729e6221e4efaa6a8714f045f53f59335dacbcc98e18fe6f54327d49d259d179
+
+[aximm_slv_write]
+A/arch_imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hbicap_v1_0/hdl/axi_hbicap_v1_0_vh_rfs.vhd|3295|1*13745
+BinI32/arch_imp=3*20826
+I=0*51597
+I/arch_imp=0*60351
+M=11|0|vde|1580965217711|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hbicap_v1_0/hdl/axi_hbicap_v1_0_vh_rfs.vhd|0*49660*0x79d217a6dce0bfcdc1641b68c76c13811f8caae2|0*51443*0xbba181862c44b92d99e8f49010ab70a1
+M/arch_imp=21|0|vde|1580965217713|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hbicap_v1_0/hdl/axi_hbicap_v1_0_vh_rfs.vhd|0*51901*0x8303831d747cf3e1eb0655e3d22eac2233a242c7|0*60185*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hbicap_v1_0/hdl/axi_hbicap_v1_0_vh_rfs.vhd|3295
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|60519a998f768eb245f80c0e46302cf3b82ebb46a24d5e95db46452f729c0e2344a5a9f891d48b1204a03c54d57e86c6
+Version/arch_imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|24984fdaf70a37a6b4aa400c4b9d5bc5729e6221e4efaa6a8714f045f53f59336fa5985e3b5d517d21796792c4844580
+
+[axis_read_mst]
+A/arch_imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hbicap_v1_0/hdl/axi_hbicap_v1_0_vh_rfs.vhd|3295|1*18483
+BinI32/arch_imp=3*27181
+I=0*68794
+I/arch_imp=0*69721
+M=11|0|vde|1580965217733|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hbicap_v1_0/hdl/axi_hbicap_v1_0_vh_rfs.vhd|0*67930*0x18ebfff4c0e4cfa8a5e90355c06cee31b51958cd|0*68642*0xbba181862c44b92d99e8f49010ab70a1
+M/arch_imp=21|0|vde|1580965217735|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hbicap_v1_0/hdl/axi_hbicap_v1_0_vh_rfs.vhd|0*69096*0x49d135dad45203eae6e39f8d9f9db9a95a4f7aea|0*69557*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hbicap_v1_0/hdl/axi_hbicap_v1_0_vh_rfs.vhd|3295
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|fb2346c29ddf3740cf1297628f8cf0b05a45c8da995dc3c6e4df5d88fb456b642e9170d4faeafd46a4049b294f48016d
+Version/arch_imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|24984fdaf70a37a6b4aa400c4b9d5bc5729e6221e4efaa6a8714f045f53f5933c29acc05914df4a44b7e629e8e069d2a
+
+[icap_statemachine]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hbicap_v1_0/hdl/axi_hbicap_v1_0_vh_rfs.vhd|3295|1*8516
+BinI32/imp=3*11237
+I=0*31534
+I/imp=0*40874
+M=11|0|vde|1580965217689|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hbicap_v1_0/hdl/axi_hbicap_v1_0_vh_rfs.vhd|0*29770*0x6fcde19912db97ea870797f9d497d1fd3b84fe11|0*31378*0xbba181862c44b92d99e8f49010ab70a1
+M/imp=21|0|vde|1580965217691|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hbicap_v1_0/hdl/axi_hbicap_v1_0_vh_rfs.vhd|0*31952*0x62915e7a41311857c620d1c82be6226d5e50ac60|0*40711*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hbicap_v1_0/hdl/axi_hbicap_v1_0_vh_rfs.vhd|3295
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|1a79e48bb1c3e173b2f81bfe2c0d29263a0eafad229cf3f1624fc933ff6af4442cdf33b0454cb14e56f0e07c745b02a2
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|27bda7b3d033dcc2ae038bafff4436ca9d4ba7589317450324b8af329e5a5962
+
+[ipic_if]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hbicap_v1_0/hdl/axi_hbicap_v1_0_vh_rfs.vhd|3295|1*0
+BinI32/imp=3*0
+I=0*3900
+I/imp=0*28764
+M=11|0|vde|1580965217632|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hbicap_v1_0/hdl/axi_hbicap_v1_0_vh_rfs.vhd|0*840*0x44d714d42267e2c77aaa41178a1c241fbb8a1d8a|0*3754*0xbba181862c44b92d99e8f49010ab70a1
+M/imp=21|0|vde|1580965217643|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hbicap_v1_0/hdl/axi_hbicap_v1_0_vh_rfs.vhd|0*4340*0xf8e85060bd221058de9f12b5c17cd62627f31b95|0*28611*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_hbicap_v1_0/hdl/axi_hbicap_v1_0_vh_rfs.vhd|3295
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|dd55c3d79cd4d159089d863501d7a40526527262ddaa47cb266f3a3c4d9b973a7f631213a3e2e8065ac514a8ce655e2a
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|27bda7b3d033dcc2ae038bafff4436cabe35557b747331fd3191449f03f0b0ff
+
+[~MFT]
+0=49|0axi_hbicap_v1_0_0.mgf|94422|0
+1=7|1axi_hbicap_v1_0_0.mgf|19260|0
+3=7|3axi_hbicap_v1_0_0.mgf|28103|0
+
+[~U]
+axi_hbicap=11|0*70032|
+aximm_interface=11|0*60664|
+aximm_slv_read=11|0*41296|
+aximm_slv_write=11|0*49148|
+axis_read_mst=11|0*67596|
+icap_statemachine=11|0*29240|
+ipic_if=11|0*0|

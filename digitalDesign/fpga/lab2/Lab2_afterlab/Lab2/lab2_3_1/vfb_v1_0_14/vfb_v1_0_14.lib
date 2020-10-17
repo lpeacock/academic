@@ -1,0 +1,45 @@
+timestamp=1580964949342
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/vfb_v1_0/hdl/vfb_v1_0_rfs.v=0*1863*18323
+LastVerilogToplevel=vfb_v1_0_14_op_inf
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c92161193a4f438ec6da73955135eca01b2e7
+
+[vfb_v1_0_14_arst_ff]
+A/vfb_v1_0_14_arst_ff=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vfb_v1_0/hdl/vfb_v1_0_rfs.v|55|1*406
+BinI32/vfb_v1_0_14_arst_ff=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vfb_v1_0/hdl/vfb_v1_0_rfs.v|55
+SLP=3*463
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|4eb58b22f1fe3893c9c9df08c7a90c82e2f8d730f636e7edcea9ad6ac08c9f8f48852d6cfbbb90d5347b8660f72c8f30
+
+[vfb_v1_0_14_op_inf]
+A/vfb_v1_0_14_op_inf=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vfb_v1_0/hdl/vfb_v1_0_rfs.v|2946|1*86973
+BinI32/vfb_v1_0_14_op_inf=3*87595
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vfb_v1_0/hdl/vfb_v1_0_rfs.v|2946
+SLP=3*104561
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|645270c918daf49fec8dfb10864361159a454b7887a159a22e23b15a9064e8b29fbb900a0af491489779a6747302b6f4
+
+[vfb_v1_0_14_reorder]
+A/vfb_v1_0_14_reorder=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vfb_v1_0/hdl/vfb_v1_0_rfs.v|126|1*1712
+BinI32/vfb_v1_0_14_reorder=3*736
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/vfb_v1_0/hdl/vfb_v1_0_rfs.v|126
+SLP=3*49579
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|733966ae66284b06c661e964abf0e8a53332aa59916c6ed8260af0189d8938d343fedb16425681cc0a141e17a302deae
+
+[~MFT]
+0=6|0vfb_v1_0_14.mgf|18323|0
+1=4|1vfb_v1_0_14.mgf|86973|0
+3=8|3vfb_v1_0_14.mgf|104561|0
+
+[~U]
+$root=12|0*0|
+vfb_v1_0_14_arst_ff=12|0*198||0x10
+vfb_v1_0_14_op_inf=12|0*1202||0x10
+vfb_v1_0_14_reorder=12|0*433||0x10

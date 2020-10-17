@@ -1,0 +1,29 @@
+timestamp=1580964343600
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/ai_pl_trig_v1_0/hdl/ai_pl_trig_v1_0_vl_rfs.v=0*646*1681
+LastVerilogToplevel=ai_pl_trig_v1_0_0_ai_pl_trig
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c9216fdc4b092e89d67e4251dd828c308d02d
+
+[ai_pl_trig_v1_0_0_ai_pl_trig]
+A/ai_pl_trig_v1_0_0_ai_pl_trig=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ai_pl_trig_v1_0/hdl/ai_pl_trig_v1_0_vl_rfs.v|4|1*374
+BinI32/ai_pl_trig_v1_0_0_ai_pl_trig=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ai_pl_trig_v1_0/hdl/ai_pl_trig_v1_0_vl_rfs.v|4
+SLP=3*1160
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|d98ada98c29e19f08d685aac01cf7f494245b2001e0c839d90c5eb83686741dee7d33335847d60d9b8b8a3cf838e6cf0
+
+[~MFT]
+0=4|0ai_pl_trig.mgf|1681|0
+1=2|1ai_pl_trig.mgf|374|0
+3=4|3ai_pl_trig.mgf|1160|0
+
+[~U]
+$root=12|0*0|
+ai_pl_trig_v1_0_0_ai_pl_trig=12|0*214||0x10

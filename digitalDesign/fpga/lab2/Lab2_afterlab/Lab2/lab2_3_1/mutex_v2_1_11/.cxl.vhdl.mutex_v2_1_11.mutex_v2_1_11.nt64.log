@@ -1,0 +1,19 @@
+Aldec, Inc. VHDL Compiler, build 10.5.217.6767
+VLM Initialized with path: "C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\library.cfg".
+DAGGEN WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\ip\xilinx\mutex_v2_1\hdl\mutex_v2_1_vh_rfs.vhd
+COMP96 Compile Entity "pselect"
+COMP96 Compile Architecture "imp" of Entity "pselect"
+COMP96 Compile Entity "Gen_DRAM"
+COMP96 Compile Architecture "syn" of Entity "Gen_DRAM"
+COMP96 Compile Entity "multi_channel_register"
+COMP96 Compile Architecture "IMP" of Entity "multi_channel_register"
+COMP96 Compile Entity "multi_channel_mutex"
+COMP96 Compile Architecture "IMP" of Entity "multi_channel_mutex"
+COMP96 Compile Entity "mutex_core"
+COMP96 Compile Architecture "IMP" of Entity "mutex_core"
+COMP96 Compile Entity "axi_decode"
+COMP96 Compile Architecture "IMP" of Entity "axi_decode"
+COMP96 Compile Entity "mutex"
+COMP96 Compile Architecture "IMP" of Entity "mutex"
+COMP96 Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]

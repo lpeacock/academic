@@ -1,0 +1,77 @@
+timestamp=1580965252581
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_protocol_checker_v2_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv=0*7291*68957
+LastVerilogToplevel=axi_protocol_checker_v2_0_6_top
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|0000008f789c1d8cb10ac32010407fc53d98460b1dbab663d76e07c7f56a5ac945458de4f323591ebc373c2daaac942bc7101c576c0627a545d1ee31e558234741fe3b5e5cc66671c29b1a7ce0afcfc3e30eefe27201d9980a3c236fab0bb5c09c7e04421f0baf0ea4b9badcf5b4b3e3150d8cbccbe8d3a5df44e9d2ec62ec01b29b335a|c73a565f2ade592f8ac1c68f484c9216cdfaa72e6423602907aa87b7445ff146
+
+[axi_protocol_checker_v2_0_6_axi4litepc_asr_inline]
+A/axi_protocol_checker_v2_0_6_axi4litepc_asr_inline=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_protocol_checker_v2_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv|57|1*390
+BinI32/axi_protocol_checker_v2_0_6_axi4litepc_asr_inline=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_protocol_checker_v2_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv|57
+SLP=3*1049
+Version=10.5.217.6767 (Windows)|0000008f789c1d8cb10ac32010407fc53d98460b1dbab663d76e07c7f56a5ac945458de4f323591ebc373c2daaac942bc7101c576c0627a545d1ee31e558234741fe3b5e5cc66671c29b1a7ce0afcfc3e30eefe27201d9980a3c236fab0bb5c09c7e04421f0baf0ea4b9badcf5b4b3e3150d8cbccbe8d3a5df44e9d2ec62ec01b29b335a|f1d4e0b9f9cab9897679b37123acfbb83cba29170cfc3a2ac8c306d3cebb26b6f19ba8911caf32e66a53bac963e12de3de86c50b05a17d4c553e1ad29619c2d8180cfdd8eeb8f426632150eee8e06406
+
+[axi_protocol_checker_v2_0_6_axi4pc_asr_inline]
+A/axi_protocol_checker_v2_0_6_axi4pc_asr_inline=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_protocol_checker_v2_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv|145|1*2957
+BinI32/axi_protocol_checker_v2_0_6_axi4pc_asr_inline=3*1633
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_protocol_checker_v2_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv|145
+SLP=3*41104
+Version=10.5.217.6767 (Windows)|0000008f789c1d8cb10ac32010407fc53d98460b1dbab663d76e07c7f56a5ac945458de4f323591ebc373c2daaac942bc7101c576c0627a545d1ee31e558234741fe3b5e5cc66671c29b1a7ce0afcfc3e30eefe27201d9980a3c236fab0bb5c09c7e04421f0baf0ea4b9badcf5b4b3e3150d8cbccbe8d3a5df44e9d2ec62ec01b29b335a|034a4d7f8516475383ec0ad4d3f0a4cc42cb53e790231a0636e71ab29eb69a7a4be30b779d40da24e9e7f98465b918598667f08b1722c8f46c9d54723c91a50198e4b1b657279e0220d431c3d8408a57
+
+[axi_protocol_checker_v2_0_6_core]
+A/axi_protocol_checker_v2_0_6_core=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_protocol_checker_v2_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv|2719|1*107912
+BinI32/axi_protocol_checker_v2_0_6_core=3*74022
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_protocol_checker_v2_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv|2719
+SLP=3*106820
+Version=10.5.217.6767 (Windows)|0000008f789c1d8cb10ac32010407fc53d98460b1dbab663d76e07c7f56a5ac945458de4f323591ebc373c2daaac942bc7101c576c0627a545d1ee31e558234741fe3b5e5cc66671c29b1a7ce0afcfc3e30eefe27201d9980a3c236fab0bb5c09c7e04421f0baf0ea4b9badcf5b4b3e3150d8cbccbe8d3a5df44e9d2ec62ec01b29b335a|034a4d7f8516475383ec0ad4d3f0a4ccd9579967e0dc8eae86f4ff8fccab234aed6b94660b9fe57494ce2d76aa64d496caa6efeee0074ec08954e560a9c00ce0
+
+[axi_protocol_checker_v2_0_6_reporter]
+A/axi_protocol_checker_v2_0_6_reporter=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_protocol_checker_v2_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv|4445|1*169021
+BinI32/axi_protocol_checker_v2_0_6_reporter=3*125726
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_protocol_checker_v2_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv|4445
+SLP=3*178200
+Version=10.5.217.6767 (Windows)|0000008f789c1d8cb10ac32010407fc53d98460b1dbab663d76e07c7f56a5ac945458de4f323591ebc373c2daaac942bc7101c576c0627a545d1ee31e558234741fe3b5e5cc66671c29b1a7ce0afcfc3e30eefe27201d9980a3c236fab0bb5c09c7e04421f0baf0ea4b9badcf5b4b3e3150d8cbccbe8d3a5df44e9d2ec62ec01b29b335a|034a4d7f8516475383ec0ad4d3f0a4cc2f688d63abb369067a62b66d6867d6d4f6445835fd5820eda9307715baf78f640c5a9a7dda2e253e21318b71785fd915
+
+[axi_protocol_checker_v2_0_6_syn_fifo]
+A/axi_protocol_checker_v2_0_6_syn_fifo=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_protocol_checker_v2_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv|4112|1*165692
+BinI32/axi_protocol_checker_v2_0_6_syn_fifo=3*122851
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_protocol_checker_v2_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv|4112
+SLP=3*124802
+Version=10.5.217.6767 (Windows)|0000008f789c1d8cb10ac32010407fc53d98460b1dbab663d76e07c7f56a5ac945458de4f323591ebc373c2daaac942bc7101c576c0627a545d1ee31e558234741fe3b5e5cc66671c29b1a7ce0afcfc3e30eefe27201d9980a3c236fab0bb5c09c7e04421f0baf0ea4b9badcf5b4b3e3150d8cbccbe8d3a5df44e9d2ec62ec01b29b335a|034a4d7f8516475383ec0ad4d3f0a4cc2f688d63abb369067a62b66d6867d6d43c83f12301cc20cca7dbb0461d6dd796783c7d763c8a20531b2be04745b4a43a
+
+[axi_protocol_checker_v2_0_6_threadcam]
+A/axi_protocol_checker_v2_0_6_threadcam=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_protocol_checker_v2_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv|5707|1*245451
+BinI32/axi_protocol_checker_v2_0_6_threadcam=3*243105
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_protocol_checker_v2_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv|5707
+SLP=3*256088
+Version=10.5.217.6767 (Windows)|0000008f789c1d8cb10ac32010407fc53d98460b1dbab663d76e07c7f56a5ac945458de4f323591ebc373c2daaac942bc7101c576c0627a545d1ee31e558234741fe3b5e5cc66671c29b1a7ce0afcfc3e30eefe27201d9980a3c236fab0bb5c09c7e04421f0baf0ea4b9badcf5b4b3e3150d8cbccbe8d3a5df44e9d2ec62ec01b29b335a|034a4d7f8516475383ec0ad4d3f0a4cc2f688d63abb369067a62b66d6867d6d4b594c9297275c90456e3750ee85ca70fe38e45ee50d79ecd04e262252db2bbec
+
+[axi_protocol_checker_v2_0_6_top]
+A/axi_protocol_checker_v2_0_6_top=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_protocol_checker_v2_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv|6111|1*260638
+BinI32/axi_protocol_checker_v2_0_6_top=3*261270
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_protocol_checker_v2_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv|6111
+SLP=3*276530
+Version=10.5.217.6767 (Windows)|0000008f789c1d8cb10ac32010407fc53d98460b1dbab663d76e07c7f56a5ac945458de4f323591ebc373c2daaac942bc7101c576c0627a545d1ee31e558234741fe3b5e5cc66671c29b1a7ce0afcfc3e30eefe27201d9980a3c236fab0bb5c09c7e04421f0baf0ea4b9badcf5b4b3e3150d8cbccbe8d3a5df44e9d2ec62ec01b29b335a|034a4d7f8516475383ec0ad4d3f0a4cc2f688d63abb369067a62b66d6867d6d4f896a788d25cc0a9d0d0e595ba4a961cd3cee0ea9af68c26e35afd9679531bc5
+
+[~MFT]
+0=10|0axi_protocol_checker_v2_0_6.mgf|68957|0
+1=8|1axi_protocol_checker_v2_0_6.mgf|260638|0
+3=16|3axi_protocol_checker_v2_0_6.mgf|276530|0
+
+[~U]
+$root=12|0*0|
+axi_protocol_checker_v2_0_6_axi4litepc_asr_inline=12|0*294|
+axi_protocol_checker_v2_0_6_axi4pc_asr_inline=12|0*657|
+axi_protocol_checker_v2_0_6_core=12|0*2110|
+axi_protocol_checker_v2_0_6_reporter=12|0*3998|
+axi_protocol_checker_v2_0_6_syn_fifo=12|0*3626|
+axi_protocol_checker_v2_0_6_threadcam=12|0*5279|
+axi_protocol_checker_v2_0_6_top=12|0*5972||0x10

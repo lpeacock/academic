@@ -1,0 +1,82 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2110 "Module axi_vip_if found in library xilinx_vip."
+MESSAGE_SP VCP2124 "Package axi4stream_vip_pkg found in library xilinx_vip."
+MESSAGE_SP VCP2124 "Package xil_common_vip_pkg found in library xilinx_vip."
+MESSAGE_SP VCP2124 "Package axi_vip_pkg found in library xilinx_vip."
+WARNING VCP2127 "Unable to map port type: xil_axi_uint for port: xil_clog2 in library module: axi_vip_if. Connection rules will not be checked for such port." 849  4
+MESSAGE_SP VCP2110 "Module axi_vip_axi4pc found in library xilinx_vip."
+MESSAGE_SP VCP2110 "Module axi_vip_axi4pc found in library xilinx_vip."
+MESSAGE_SP VCP9201 "All structure members are packed, this structure is being treated as packed."
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: PROTOCOL!=3'b010." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 3  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: PROTOCOL!=3'b010." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 10  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: PROTOCOL!=3'b010." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 17  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: PROTOCOL!=3'b010." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 23  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 29  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 43  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 71  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 88  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 95  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 103  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 111  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 119  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 127  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 135  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 143  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 151  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 159  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 167  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 175  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 182  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 188  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 194  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 200  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 206  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 212  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 218  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 224  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 230  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 236  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 242  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 322  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 329  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 337  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 345  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 358  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 364  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 370  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 418  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 474  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 553  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 632  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 671  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 725  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 741  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 765  21
+WARNING ACOMP2548 "Constant value was specified as disable iff condition expression: (PROTOCOL==3'b011)||(PROTOCOL==3'b100)." "C:\Aldec\Active-HDL-Student-Edition\vlib\xilinx_vivado\xilinx_vip\0xilinx_vip.mgf" 777  21
+MESSAGE_SP VCP2129 "Class axi4stream_vip_pkg::axi4stream_transaction found in library xilinx_vip."
+MESSAGE_SP VCP2129 "Class xil_common_vip_pkg::xil_sequence_item found in library xilinx_vip."
+MESSAGE_SP VCP2129 "Class xil_common_vip_pkg::xil_object found in library xilinx_vip."
+MESSAGE_SP VCP2129 "Class xil_common_vip_pkg::xil_void found in library xilinx_vip."
+MESSAGE_SP VCP2129 "Class axi4stream_vip_pkg::axi4stream_monitor_transaction found in library xilinx_vip."
+MESSAGE_SP VCP2129 "Class axi4stream_vip_pkg::axi4stream_ready_gen found in library xilinx_vip."
+MESSAGE_SP VCP2129 "Class axi_vip_pkg::axi_transaction found in library xilinx_vip."
+MESSAGE_SP VCP2129 "Class axi_vip_pkg::axi_monitor_transaction found in library xilinx_vip."
+MESSAGE_SP VCP2129 "Class axi_vip_pkg::axi_scoreboard_transaction found in library xilinx_vip."
+MESSAGE_SP VCP2129 "Class axi_vip_pkg::axi_ready_gen found in library xilinx_vip."
+MESSAGE_SP VCP2129 "Class axi_vip_pkg::xil_axi_rnd_uint found in library xilinx_vip."
+MESSAGE_SP VCP2129 "Class axi_vip_pkg::xil_axi_write_beat found in library xilinx_vip."
+MESSAGE_SP VCP2129 "Class axi_vip_pkg::xil_axi_data_channel_beat_base found in library xilinx_vip."
+MESSAGE_SP VCP2129 "Class axi_vip_pkg::xil_axi_channel_beat_base found in library xilinx_vip."
+MESSAGE_SP VCP2129 "Class axi_vip_pkg::xil_axi_cmd_beat found in library xilinx_vip."
+MESSAGE_SP VCP2129 "Class axi_vip_pkg::xil_axi_read_beat found in library xilinx_vip."
+MESSAGE_SP VCP2129 "Class axi_vip_pkg::xil_axi_resp_beat found in library xilinx_vip."
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Assertions Compiler."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: axi_vip_v1_1_6_top."
+MESSAGE "$root top modules: axi_vip_v1_1_6_top."
+SUCCESS "Compile success 0 Errors 47 Warnings  Analysis time: 1[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

@@ -1,0 +1,29 @@
+timestamp=1580964337551
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_v1_0/hdl/advanced_io_wizard_v1_0_rfs.v=0*874*3715
+LastVerilogToplevel=advanced_io_wizard_v1_0_1_clk_scheme
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c921673b5cfac6d5daff4535f87e2c6e1822a
+
+[advanced_io_wizard_v1_0_1_clk_scheme]
+A/advanced_io_wizard_v1_0_1_clk_scheme=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_v1_0/hdl/advanced_io_wizard_v1_0_rfs.v|49|1*390
+BinI32/advanced_io_wizard_v1_0_1_clk_scheme=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/advanced_io_wizard_v1_0/hdl/advanced_io_wizard_v1_0_rfs.v|49
+SLP=3*1273
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|a42949a17736ca829e5f27171cebfd55d442779fccaeaa79b14e520c2a43dee8a1cbc164c20e250a19edf148cda63635c08fdcfda1ea5d77b214be1bf9f5be3d
+
+[~MFT]
+0=4|0advanced_io_wizard_v1_0_1.mgf|3715|0
+1=2|1advanced_io_wizard_v1_0_1.mgf|390|0
+3=4|3advanced_io_wizard_v1_0_1.mgf|1273|0
+
+[~U]
+$root=12|0*0|
+advanced_io_wizard_v1_0_1_clk_scheme=12|0*214||0x10

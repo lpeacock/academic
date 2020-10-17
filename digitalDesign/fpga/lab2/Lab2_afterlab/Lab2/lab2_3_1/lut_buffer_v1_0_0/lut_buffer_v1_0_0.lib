@@ -1,0 +1,28 @@
+timestamp=1580964647162
+
+[~A]
+LastVerilogToplevel=protected_8b1b5d4880c8162c2dc35a0b77eec5b5d0287f2f37812956f09dcf71569558ae
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c92167b067fc8afbea1f506dc1233f7a6a3bc
+
+[protected_8b1b5d4880c8162c2dc35a0b77eec5b5d0287f2f37812956f09dcf71569558ae]
+A/protected_8b1b5d4880c8162c2dc35a0b77eec5b5d0287f2f37812956f09dcf71569558ae=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/lut_buffer_v1_0/hdl/lut_buffer_v1_0_vl_rfs.v|25|1*422
+BinI32/protected_8b1b5d4880c8162c2dc35a0b77eec5b5d0287f2f37812956f09dcf71569558ae=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/lut_buffer_v1_0/hdl/lut_buffer_v1_0_vl_rfs.v|25
+SLP=3*623
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|86ea275b52d2faf4104a5f4ab19e0a1e4d39cd5864a8acdea8c9051014e6182f58fcfb1c30a37de2b0644e25bf5f64d0147593c283fa3ce4d4f6fd8cb779854b10982be2e9cf3efb9787ed42d618ae350b434f017e18d52cb9ec244dd35acdbe
+
+[~MFT]
+0=2|0lut_buffer_v1_0_0.mgf|246|0
+1=2|1lut_buffer_v1_0_0.mgf|422|0
+3=4|3lut_buffer_v1_0_0.mgf|623|0
+
+[~U]
+$root=12|0*0|
+protected_8b1b5d4880c8162c2dc35a0b77eec5b5d0287f2f37812956f09dcf71569558ae=12|0*246||0x10

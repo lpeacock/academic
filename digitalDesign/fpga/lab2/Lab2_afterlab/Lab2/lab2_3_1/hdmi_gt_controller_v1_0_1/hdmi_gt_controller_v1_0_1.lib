@@ -1,0 +1,306 @@
+timestamp=1580964597619
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/verilog/hdmi_gt_controller_v1_0_axi4lite.v_hdmi_gt_controller_v1_0_drp_control.v_hdmi_gt_controller_v1_0_interrupts.v_hdmi_gt_controller_v1_0_lock_debounce.v_hdmi_gt_controller_v1_0_userdata_rx.v_hdmi_gt_controller_v1_0_userdata_tx.v=0*82810*98772
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/verilog/hdmi_gt_controller_v1_0_dru.sv_hdmi_gt_controller_v1_0_lib.sv_hdmi_gt_controller_v1_0_tx_tmdsclk_patgen.sv=0*101633*106307
+LastVerilogToplevel=hdmi_gt_controller_v1_0_1_tx_tmdsclk_patgen
+ModifyID=3
+Version=74
+
+[$root]
+A/$root=22|||1*111722
+BinI32/$root=3*98228
+SLP=3*98332
+Version=10.5.217.6767 (Windows)|00000078789c1d8c310e83300c00bf921d014dd8bab663d76e96ac60028d6a126407c4f389584eba1bae65f39bd6884b41caa948660e8287c5075ad3c4445394e6f584af0651e09dbcc23bd3be865414e66df1c07e74f0a9403f9720556fbb3b0e68a1a393bbb8f5f5c6a6d5c3fdadbb00689f2b0d|c73a565f2ade592f8ac1c68f484c9216495f6bebe0e32b3aab3580ffbcbe745f
+
+[brick_10]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1620|1*10619
+BinI32/behavioral=3*19079
+I=0*36761
+I/behavioral=I/Behavioral 0*39315
+M=11|0|vde|1580964594589|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*36120*0x266aaf316a7c22b433cb66fea0243f390e34d938|0*36608*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964594591|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*37042*0xfd0dfea2af42a9e89f0541b123dc7802170733c6|0*39148*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1620
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|973609364c3f0a8f6fb1095ac4d74e6124d0c4b69b7f279fb39249987c1290e1297f4f6b2a76acb95a9ee56f5826be06
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb80e24a71b75c08bba6dd316bc95cdfbae2
+
+[brick_10_adv]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1620|1*12481
+BinI32/behavioral=3*21588
+I=0*44228
+I/behavioral=I/Behavioral 0*46363
+M=11|0|vde|1580964594606|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*43571*0x34af713ec325c938035965d746db4dc055b9905b|0*44071*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964594608|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*44513*0x7d3378a8f0ca43588ba380f1dcf788034a51e953|0*46192*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1620
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|8bccbd704d9475a974c90f847b5489b22c2e5ac8f111177d8e874d0c8eddadea1ae72a3de18922327ad4aed1abf34fc4
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb8081245f8dbaffd83003aac5b070c4db7a
+
+[brick_5]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1620|1*11830
+BinI32/behavioral=3*20150
+I=0*40244
+I/behavioral=I/Behavioral 0*43027
+M=11|0|vde|1580964594598|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*39663*0xd77a5598fcfc02a01521f71c5fc8df9d88987004|0*40092*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964594600|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*40524*0x3611e8948c8cd0de85521e63104649ee1d092482|0*42861*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1620
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|fc0b841501671e3f6e1f2992290096eb26527262ddaa47cb266f3a3c4d9b973af3f48a31bad9826cec1a442bb2b082fc
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb802d0846b79bd61d867aa82722ec2bbc8b
+
+[bs_flex]
+A/behavior=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/bs_flex_v_2.vhd|50|1*17597
+BinI32/behavior=3*33839
+I=0*63713
+I/behavior=0*67189
+M=11|0|vde|1580964594836|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/bs_flex_v_2.vhd|0*62910*0x819570699d2d4fb644a1278332bbf0fd400a07c2|0*63562*0x24f53803c3278f1d7f185bd51c58332c
+M/behavior=21|0|vde|1580964594838|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/bs_flex_v_2.vhd|0*64028*0x1083dafb669c891615ebab1c328bf8116b4ffe56|0*67026*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/bs_flex_v_2.vhd|32
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d92794646b2d59e103d0c6eafc75ed9f26527262ddaa47cb266f3a3c4d9b973ab56d42485121e5db6d067357a3c48255
+Version/behavior=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f554fd3ba56e5e43baae67ffc42a0c8ab
+
+[cg]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1620|1*9760
+BinI32/behavioral=3*15332
+I=0*32445
+I/behavioral=I/Behavioral 0*35585
+M=11|0|vde|1580964594580|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*31872*0x535f64e58c526b99286ee49458b5d6ccdd428618|0*32298*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964594582|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*32720*0xe2158923d5526bf38c2b6986db1f2d25e38ab3c2|0*35424*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1620
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|6f446802352699abe82dcf7bd05490742bbff3b10d079e7b802f24cc3fa14248
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb801fd783b8255caa2181055867b2b2b1b7
+
+[control]
+A/behavior=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/bs_flex_v_2.vhd|264|1*25604
+BinI32/behavior=3*36886
+I=0*68428
+I/behavior=0*69956
+M=11|0|vde|1580964594846|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/bs_flex_v_2.vhd|0*67616*0x6353cde78e4372e1e0b9dfbea416281345445107|0*68277*0x24f53803c3278f1d7f185bd51c58332c
+M/behavior=21|0|vde|1580964594848|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/bs_flex_v_2.vhd|0*68743*0xb1c44dbd97d88c9a325a5e4338aab1e6e778e107|0*69793*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/bs_flex_v_2.vhd|246
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|f2cabf5e9d8860133c44841e25d9d38726527262ddaa47cb266f3a3c4d9b973ad4f1270e5e757e84661c6d099731a54a
+Version/behavior=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5fae3b56d0aa585be31ad5b69791d153dd
+
+[dru]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1620|1*0
+BinI32/behavioral=3*0
+I=0*2113
+I/behavioral=I/Behavioral 0*8222
+M=11|0|vde|1580964594496|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*452*0x75cb73c3450873d43ce49aa9ddec0a4ecee04237|0*1965*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964594498|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*2389*0x8b673149b0efb9e134167aa3cb16272a4d1f9839|0*8060*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1620
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|cb09490eb3d175b76588ddd0561dca3d909554dda0661ac69121c0b0b5b80f44
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb809c6da6f054d917e479d7ae0cd5de844f
+
+[hdmi_gt_controller_v1_0_1_axi4lite]
+A/hdmi_gt_controller_v1_0_1_axi4lite=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/verilog/hdmi_gt_controller_v1_0_axi4lite.v|52|1*43395
+BinI32/hdmi_gt_controller_v1_0_1_axi4lite=3*43173
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/verilog/hdmi_gt_controller_v1_0_axi4lite.v|52
+SLP=3*62066
+Version=10.5.217.6767 (Windows)|00000070789c1d8cbb0a80300c007fc55d7c5437571d5ddd02a1c6aa85d84ada8a9f6f7139b81baee2e2dc2e8b4744f22e8a6736828fc21655515a479b95721c6009460270221d60f2942ee36280fd3e34b05e3b983350efd148d6dffe8e3d2aa8e9e5dade4dbef107180028d7|650c0b7439c4503f7f056c8e203cd7dd98cb7e34e417cf1dd6f536763fc639f4aa4e45e7edaae64cf501a41ac13e4c8ad2ad57e738ebb162479e53ba3dfed039
+
+[hdmi_gt_controller_v1_0_1_drp_control]
+A/hdmi_gt_controller_v1_0_1_drp_control=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/verilog/hdmi_gt_controller_v1_0_drp_control.v|53|1*95880
+BinI32/hdmi_gt_controller_v1_0_1_drp_control=3*87194
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/verilog/hdmi_gt_controller_v1_0_drp_control.v|53
+SLP=3*90273
+Version=10.5.217.6767 (Windows)|00000070789c1d8cbb0a80300c007fc55d7c5437571d5ddd02a1c6aa85d84ada8a9f6f7139b81baee2e2dc2e8b4744f22e8a6736828fc21655515a479b95721c6009460270221d60f2942ee36280fd3e34b05e3b983350efd148d6dffe8e3d2aa8e9e5dade4dbef107180028d7|650c0b7439c4503f7f056c8e203cd7ddb6b93634906ec672a95d45efa8b08e03e35c7223d1c9f256ffc7f4de285ce4db0bd309445c048bd573ad9e62e5802250
+
+[hdmi_gt_controller_v1_0_1_dru]
+A/hdmi_gt_controller_v1_0_1_dru=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/verilog/hdmi_gt_controller_v1_0_dru.sv|16|1*112208
+BinI32/hdmi_gt_controller_v1_0_1_dru=3*98400
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/verilog/hdmi_gt_controller_v1_0_dru.sv|16
+SLP=3*100645
+Version=10.5.217.6767 (Windows)|00000078789c1d8c310e83300c00bf921d014dd8bab663d76e96ac60028d6a126407c4f389584eba1bae65f39bd6884b41caa948660e8287c5075ad3c4445394e6f584af0651e09dbcc23bd3be865414e66df1c07e74f0a9403f9720556fbb3b0e68a1a393bbb8f5f5c6a6d5c3fdadbb00689f2b0d|650c0b7439c4503f7f056c8e203cd7ddb6b93634906ec672a95d45efa8b08e03c5fc4999fd52942df31d01a0e5a16ccfdc72dc7f50350dae21abc05d80959c49
+
+[hdmi_gt_controller_v1_0_1_interrupts]
+A/hdmi_gt_controller_v1_0_1_interrupts=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/verilog/hdmi_gt_controller_v1_0_interrupts.v|53|1*86233
+BinI32/hdmi_gt_controller_v1_0_1_interrupts=3*78681
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/verilog/hdmi_gt_controller_v1_0_interrupts.v|53
+SLP=3*81500
+Version=10.5.217.6767 (Windows)|00000070789c1d8cbb0a80300c007fc55d7c5437571d5ddd02a1c6aa85d84ada8a9f6f7139b81baee2e2dc2e8b4744f22e8a6736828fc21655515a479b95721c6009460270221d60f2942ee36280fd3e34b05e3b983350efd148d6dffe8e3d2aa8e9e5dade4dbef107180028d7|650c0b7439c4503f7f056c8e203cd7dd465d6beb92dc7c2227e2b6edd29345ddb9f2c14ec36166b89db05e43b13b4cf59ab76a9a17a933007d55c3bf37d05643
+
+[hdmi_gt_controller_v1_0_1_lib_edge_v1_0]
+A/hdmi_gt_controller_v1_0_1_lib_edge_v1_0=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/verilog/hdmi_gt_controller_v1_0_lib.sv|107|1*123743
+BinI32/hdmi_gt_controller_v1_0_1_lib_edge_v1_0=3*102555
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/verilog/hdmi_gt_controller_v1_0_lib.sv|107
+SLP=3*103225
+Version=10.5.217.6767 (Windows)|00000078789c1d8c310e83300c00bf921d014dd8bab663d76e96ac60028d6a126407c4f389584eba1bae65f39bd6884b41caa948660e8287c5075ad3c4445394e6f584af0651e09dbcc23bd3be865414e66df1c07e74f0a9403f9720556fbb3b0e68a1a393bbb8f5f5c6a6d5c3fdadbb00689f2b0d|650c0b7439c4503f7f056c8e203cd7ddae65f558657e3598d7988507e378293a5a3695aee01299ed051291a9b92c241a3279493e19e147ff795f12ca93cf7887
+
+[hdmi_gt_controller_v1_0_1_lib_rst_v1_0]
+A/hdmi_gt_controller_v1_0_1_lib_rst_v1_0=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/verilog/hdmi_gt_controller_v1_0_lib.sv|19|1*122142
+BinI32/hdmi_gt_controller_v1_0_1_lib_rst_v1_0=3*101712
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/verilog/hdmi_gt_controller_v1_0_lib.sv|19
+SLP=3*102168
+Version=10.5.217.6767 (Windows)|00000078789c1d8c310e83300c00bf921d014dd8bab663d76e96ac60028d6a126407c4f389584eba1bae65f39bd6884b41caa948660e8287c5075ad3c4445394e6f584af0651e09dbcc23bd3be865414e66df1c07e74f0a9403f9720556fbb3b0e68a1a393bbb8f5f5c6a6d5c3fdadbb00689f2b0d|650c0b7439c4503f7f056c8e203cd7ddae65f558657e3598d7988507e378293ac88ece9d2df06ae666eaca9b1d019c3366cb13d06a169eedd0af6917afcbdae8
+
+[hdmi_gt_controller_v1_0_1_lock_debounce]
+A/hdmi_gt_controller_v1_0_1_lock_debounce=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/verilog/hdmi_gt_controller_v1_0_lock_debounce.v|55|1*103544
+BinI32/hdmi_gt_controller_v1_0_1_lock_debounce=3*92601
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/verilog/hdmi_gt_controller_v1_0_lock_debounce.v|55
+SLP=3*93273
+Version=10.5.217.6767 (Windows)|00000070789c1d8cbb0a80300c007fc55d7c5437571d5ddd02a1c6aa85d84ada8a9f6f7139b81baee2e2dc2e8b4744f22e8a6736828fc21655515a479b95721c6009460270221d60f2942ee36280fd3e34b05e3b983350efd148d6dffe8e3d2aa8e9e5dade4dbef107180028d7|650c0b7439c4503f7f056c8e203cd7dd0810e419c84811de541d5dc3984c1a0bdf31013713b0c21c37a7c7a61efb699c26527262ddaa47cb266f3a3c4d9b973ab8e318d452d0e713e686a9a61abfd9c9
+
+[hdmi_gt_controller_v1_0_1_tx_tmdsclk_patgen]
+A/hdmi_gt_controller_v1_0_1_tx_tmdsclk_patgen=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/verilog/hdmi_gt_controller_v1_0_tx_tmdsclk_patgen.sv|18|1*125793
+BinI32/hdmi_gt_controller_v1_0_1_tx_tmdsclk_patgen=3*103745
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/verilog/hdmi_gt_controller_v1_0_tx_tmdsclk_patgen.sv|18
+SLP=3*107560
+Version=10.5.217.6767 (Windows)|00000078789c1d8c310e83300c00bf921d014dd8bab663d76e96ac60028d6a126407c4f389584eba1bae65f39bd6884b41caa948660e8287c5075ad3c4445394e6f584af0651e09dbcc23bd3be865414e66df1c07e74f0a9403f9720556fbb3b0e68a1a393bbb8f5f5c6a6d5c3fdadbb00689f2b0d|9b64f021992dfd4324ef5733f85f9566f1e80eac5c75b3b54889d7635daa45aef8c157064cbb0e2685f2d9b7e01d32238aff6c345304a2b72dcd224a8bcd9b0e56718544105546382430077853273181
+
+[hdmi_gt_controller_v1_0_1_userdata_rx]
+A/hdmi_gt_controller_v1_0_1_userdata_rx=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/verilog/hdmi_gt_controller_v1_0_userdata_rx.v|55|1*105644
+BinI32/hdmi_gt_controller_v1_0_1_userdata_rx=3*93883
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/verilog/hdmi_gt_controller_v1_0_userdata_rx.v|55
+SLP=3*95270
+Version=10.5.217.6767 (Windows)|00000070789c1d8cbb0a80300c007fc55d7c5437571d5ddd02a1c6aa85d84ada8a9f6f7139b81baee2e2dc2e8b4744f22e8a6736828fc21655515a479b95721c6009460270221d60f2942ee36280fd3e34b05e3b983350efd148d6dffe8e3d2aa8e9e5dade4dbef107180028d7|650c0b7439c4503f7f056c8e203cd7dd1cd3b173dbf26973aca7085aceb0dcd10d928f971901108500833719d82881238a9e9973a84c0474fa207853c50abf4b
+
+[hdmi_gt_controller_v1_0_1_userdata_tx]
+A/hdmi_gt_controller_v1_0_1_userdata_tx=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/verilog/hdmi_gt_controller_v1_0_userdata_tx.v|55|1*108588
+BinI32/hdmi_gt_controller_v1_0_1_userdata_tx=3*95706
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/verilog/hdmi_gt_controller_v1_0_userdata_tx.v|55
+SLP=3*97581
+Version=10.5.217.6767 (Windows)|00000070789c1d8cbb0a80300c007fc55d7c5437571d5ddd02a1c6aa85d84ada8a9f6f7139b81baee2e2dc2e8b4744f22e8a6736828fc21655515a479b95721c6009460270221d60f2942ee36280fd3e34b05e3b983350efd148d6dffe8e3d2aa8e9e5dade4dbef107180028d7|650c0b7439c4503f7f056c8e203cd7dd1cd3b173dbf26973aca7085aceb0dcd1d0d515817c00488f7b7083393192ea9c8b025b88c79c8449216aecbc06858a64
+
+[lp_filter]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1620|1*4495
+BinI32/behavioral=3*2719
+I=0*14023
+I/behavioral=I/Behavioral 0*16895
+M=11|0|vde|1580964594548|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*13120*0xb74e96b9007bf93b9d8100fcc4ae38bd8df8a26a|0*13869*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964594550|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*14353*0x5e00931d2493987e7b7de58ead53f08699fd4f98|0*16727*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1620
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|06b4ed82e02752321323b158b4b5f2702ebceee3d4ef06b5dd57924db35a106e2b10dcb210e77dc887b673001ef7dc1e
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb804460969faccdea3ffb73274dcdcbf7b9
+
+[lp_filter_r]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1620|1*13340
+BinI32/behavioral=3*22365
+I=0*47918
+I/behavioral=I/Behavioral 0*50533
+M=11|0|vde|1580964594614|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*47007*0xcc0e8ab5df4f9684709de28617861dbe46ef4a8f|0*47762*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964594616|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*48250*0x2bd24cd56bb49a9a6dd30a14c7b2123c1145d625|0*50363*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1620
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d4fa458a0f458f70071bf62f8508374ba09ceccdd1b1389f3a6512e10deca67a142194bfe1b70b07ab89b04a4727056f
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb800a0f97080210b4a300ec8347a60cfaeb
+
+[nidru_20_wrapper]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_wrapper.vhd|54|1*34400
+BinI32/behavioral=3*42467
+I=0*76459
+I/behavioral=I/Behavioral 0*79426
+M=11|0|vde|1580964594905|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_wrapper.vhd|0*74979*0x3aa19ba3d6dd875fc58e71a5e3978c1432676ee1|0*76294*0x24f53803c3278f1d7f185bd51c58332c
+M/behavioral=M/Behavioral 21|0|vde|1580964594907|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_wrapper.vhd|0*76748*0x7d85f2206242daca8c2dc2fa08307994129af16b|0*79247*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_wrapper.vhd|7
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|c3d120bb2932f0973a675e7288f30e20b447d3d90aa28798870eaf6e24afbe49875d3474e88300d99e8e692c5bf8555e
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff428eaba6a3c5f0d991b9ee391a170ab11
+
+[pd]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1620|1*5658
+BinI32/behavioral=3*5411
+I=0*18324
+I/behavioral=I/Behavioral 0*26599
+M=11|0|vde|1580964594557|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*17559*0x1f6343b424db9a47cd629b1ffb03650d43050a71|0*18177*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964594560|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*18631*0x0d6a43bcdff71e0c9ec4726c385b24828fcfedd2|0*26438*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1620
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|70ef874a7c4227dfef9657c66f6c935d87ea7e1f08c1aa8a2c621c7cd049e45e
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb802edc0199d4aea391ae1a2a4069a8e012
+
+[pd_r]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1620|1*14439
+BinI32/behavioral=3*24735
+I=0*51916
+I/behavioral=I/Behavioral 0*55666
+M=11|0|vde|1580964594622|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*51169*0x634bc039b8f4ba4397330213c8669ec82e3b1e4c|0*51767*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964594624|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*52241*0xd561ce263e22a44a53aa3f52b213b39c4f9d99f9|0*55503*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1620
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|cbb7f89c15f16a2997f0740d0d115ae6fd247681c038f838ec46efe6c5d4b0dd
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb80dc8b547e00f6dd4e3bcf3fa63a751352
+
+[rotwdt]
+A/behavior=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/bs_flex_v_2.vhd|381|1*28426
+BinI32/behavior=3*38538
+I=0*71456
+I/behavior=0*74219
+M=11|0|vde|1580964594854|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/bs_flex_v_2.vhd|0*70603*0xc09ed88f105052593e7620ac240828a6d65745a3|0*71306*0x24f53803c3278f1d7f185bd51c58332c
+M/behavior=21|0|vde|1580964594856|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/bs_flex_v_2.vhd|0*71770*0x6c300a8c6f58facba466e43a779ecf8cb21b39a6|0*74057*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/bs_flex_v_2.vhd|363
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|0badae32f0e1b8ddfd0c87e2d88b67c79e48cfb6fefaeba1f9c77dbb30de1e81
+Version/behavior=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5fd78830b6a4c9ea9509612cecb1f6acdc
+
+[ss]
+A/behavioral=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1620|1*7941
+BinI32/behavioral=3*11918
+I=0*27957
+I/behavioral=0*31503
+M=11|0|vde|1580964594570|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*27224*0x28b720eb1d484360ec4be45f9773fae6e2a28cc0|0*27810*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=21|0|vde|1580964594572|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*28280*0x1cf6cf064538ddbb3e9e56fa6012f657068fcbd3|0*31342*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1620
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|3ad6998772081493a5932a8d82f01434d90c899ec599443ac163baf0497405d5
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb80cb6cc4ebaba43828082a926fb2157e49
+
+[ss_r]
+A/behavioral=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1620|1*15842
+BinI32/behavioral=3*28291
+I=0*56983
+I/behavioral=0*62266
+M=11|0|vde|1580964594632|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*56279*0xd7a46c80720938942ded26609c09a4ee666b6361|0*56834*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=21|0|vde|1580964594634|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*57308*0x566aec336dbad363b28c158985220defb62ade0c|0*62103*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1620
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|01503144fba390ea0b60bf54ddf0d4708d9db119b18e6eccbbe73f4e2a0ff634
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb80eb7dc13d23e426cd09fd9d96de954c90
+
+[td]
+A/behavior=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1620|1*3702
+BinI32/behavior=3*2119
+I=0*11516
+I/behavior=0*12474
+M=11|0|vde|1580964594541|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*10901*0xac9445a060928d3a3d25f137476f2c138da3388c|0*11369*0xbba181862c44b92d99e8f49010ab70a1
+M/behavior=21|0|vde|1580964594543|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*11839*0xd8b0b3f1509efcb2673e28ec7c8262dfc3884150|0*12315*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1620
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|bf82517887d1b428d35abe9c4f3a4112130d55a289d6ac187b5cf3cb3fedd749
+Version/behavior=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|1a15ec0a832cc257c522ba57f65e4af214bdda985a12bf2eace5f014fcf18c5db3b522ee0eb31746f7133cba8c6ae622
+
+[vco]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1620|1*2875
+BinI32/behavioral=3*817
+I=0*9288
+I/behavioral=I/Behavioral 0*10371
+M=11|0|vde|1580964594532|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*8609*0xc42170f78aa293c9877dfc0b0e07d84804eaf032|0*9140*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964594534|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*9564*0xaa21ac03a5fc08fe189461b0fc023575b7f43c36|0*10209*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hdmi_gt_controller_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1620
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|1f8cbcbf0954515d2105e0670723c1ce51a25bf7005b301889f0b7672242dcd0
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb808f3c14d7e47aa02d6df84dad43974808
+
+[~MFT]
+0=7|0hdmi_gt_controller_v1_0_1.mgf|106307|0
+1=6|1hdmi_gt_controller_v1_0_1.mgf|125793|438
+3=12|3hdmi_gt_controller_v1_0_1.mgf|107560|172
+
+[~U]
+$root=12|0*99637|
+brick_10=11|0*35871|
+brick_10_adv=11|0*43318|
+brick_5=11|0*39447|
+bs_flex=11|0*62602|
+cg=11|0*31629|
+control=11|0*67313|
+dru=11|0*0|
+hdmi_gt_controller_v1_0_1_axi4lite=12|0*80081||0x10
+hdmi_gt_controller_v1_0_1_drp_control=12|0*81200||0x10
+hdmi_gt_controller_v1_0_1_dru=12|0*99995||0x10
+hdmi_gt_controller_v1_0_1_interrupts=12|0*80717|
+hdmi_gt_controller_v1_0_1_lib_edge_v1_0=12|0*100761||0x10
+hdmi_gt_controller_v1_0_1_lib_rst_v1_0=12|0*100497|
+hdmi_gt_controller_v1_0_1_lock_debounce=12|0*81757||0x10
+hdmi_gt_controller_v1_0_1_tx_tmdsclk_patgen=12|0*101036||0x10
+hdmi_gt_controller_v1_0_1_userdata_rx=12|0*82076||0x10
+hdmi_gt_controller_v1_0_1_userdata_tx=12|0*82444||0x10
+lp_filter=11|0*12806|
+lp_filter_r=11|0*46691|
+nidru_20_wrapper=11|0*74542|
+pd=11|0*17236|
+pd_r=11|0*50876|
+rotwdt=11|0*70280|
+ss=11|0*26917|
+ss_r=11|0*56002|
+td=11|0*10658|
+vco=11|0*8349|

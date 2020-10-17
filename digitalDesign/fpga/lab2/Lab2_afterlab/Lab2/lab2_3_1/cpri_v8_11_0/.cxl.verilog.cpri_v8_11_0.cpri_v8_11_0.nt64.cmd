@@ -1,0 +1,2 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/cpri_v8_11_0
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  -l cpri_v8_11_0 +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -sv2k12 -work cpri_v8_11_0 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/cpri_v8_11_0/.cxl.systemverilog.cpri_v8_11_0.cpri_v8_11_0.nt64.cmf

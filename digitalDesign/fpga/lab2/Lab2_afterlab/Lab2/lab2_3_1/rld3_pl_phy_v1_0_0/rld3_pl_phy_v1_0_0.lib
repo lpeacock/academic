@@ -1,0 +1,45 @@
+timestamp=1580964810015
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_phy_v1_0/hdl/xphy_bank/rld3_pl_phy_v1_0_xphy_bank.sv_rld3_pl_phy_v1_0_xphy_bank_wrapper.sv_rld3_pl_phy_v1_0_pll.sv=0*3474*20061
+LastVerilogToplevel=rld3_pl_phy_v1_0_0_pll
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000071789c1d8c3d0f40301400ff4a77f1d1daac8c56db4b5eaa8ac643d357c2bfd7582eb91b2e271168aad113faf5c55b628595c8dc612617b2b681816d60a0cb6886ee34d76e8fc830fb4503e951419f807a8e3624fdedef58a384c23c54385fa61b899c6fb549f501017f27ed|c73a565f2ade592f8ac1c68f484c921656d46c04c451f9dfdc1af673ef041f90
+
+[rld3_pl_phy_v1_0_0_pll]
+A/rld3_pl_phy_v1_0_0_pll=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_phy_v1_0/hdl/clocking/rld3_pl_phy_v1_0_pll.sv|68|1*112121
+BinI32/rld3_pl_phy_v1_0_0_pll=3*58405
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_phy_v1_0/hdl/clocking/rld3_pl_phy_v1_0_pll.sv|68
+SLP=3*65259
+Version=10.5.217.6767 (Windows)|00000071789c1d8c3d0f40301400ff4a77f1d1daac8c56db4b5eaa8ac643d357c2bfd7582eb91b2e271168aad113faf5c55b628595c8dc612617b2b681816d60a0cb6886ee34d76e8fc830fb4503e951419f807a8e3624fdedef58a384c23c54385fa61b899c6fb549f501017f27ed|07b698eedbdc5c09cc2d315611203ea72bf6b9f313a091348a56e8251a884c7693e755948c46126e4319da2f0ef5f3e6
+
+[rld3_pl_phy_v1_0_0_xphy_bank]
+A/rld3_pl_phy_v1_0_0_xphy_bank=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_phy_v1_0/hdl/xphy_bank/rld3_pl_phy_v1_0_xphy_bank.sv|49|1*406
+BinI32/rld3_pl_phy_v1_0_0_xphy_bank=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_phy_v1_0/hdl/xphy_bank/rld3_pl_phy_v1_0_xphy_bank.sv|49
+SLP=3*22874
+Version=10.5.217.6767 (Windows)|00000071789c1d8c3d0f40301400ff4a77f1d1daac8c56db4b5eaa8ac643d357c2bfd7582eb91b2e271168aad113faf5c55b628595c8dc612617b2b681816d60a0cb6886ee34d76e8fc830fb4503e951419f807a8e3624fdedef58a384c23c54385fa61b899c6fb549f501017f27ed|07b698eedbdc5c09cc2d315611203ea7e80837ad4c1d609be02f85ca146c8577a7f2f92c7beb49dc9ac556b0eaf339cd94d2128a76908a62e7f351469983b23d
+
+[rld3_pl_phy_v1_0_0_xphy_bank_wrapper]
+A/rld3_pl_phy_v1_0_0_xphy_bank_wrapper=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_phy_v1_0/hdl/xphy_bank/rld3_pl_phy_v1_0_xphy_bank_wrapper.sv|72|1*82974
+BinI32/rld3_pl_phy_v1_0_0_xphy_bank_wrapper=3*37935
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_phy_v1_0/hdl/xphy_bank/rld3_pl_phy_v1_0_xphy_bank_wrapper.sv|72
+SLP=3*51934
+Version=10.5.217.6767 (Windows)|00000071789c1d8c3d0f40301400ff4a77f1d1daac8c56db4b5eaa8ac643d357c2bfd7582eb91b2e271168aad113faf5c55b628595c8dc612617b2b681816d60a0cb6886ee34d76e8fc830fb4503e951419f807a8e3624fdedef58a384c23c54385fa61b899c6fb549f501017f27ed|07b698eedbdc5c09cc2d315611203ea751b931652c8e6142702c5344d4f36cf55c3b745b70134044bee539e05e0a176ce96b956cebdde053762a72abe4df92bc
+
+[~MFT]
+0=6|0rld3_pl_phy_v1_0_0.mgf|20061|0
+1=4|1rld3_pl_phy_v1_0_0.mgf|112121|0
+3=8|3rld3_pl_phy_v1_0_0.mgf|65259|0
+
+[~U]
+$root=12|0*0|
+rld3_pl_phy_v1_0_0_pll=12|0*2800||0x10
+rld3_pl_phy_v1_0_0_xphy_bank=12|0*230|
+rld3_pl_phy_v1_0_0_xphy_bank_wrapper=12|0*1650||0x10

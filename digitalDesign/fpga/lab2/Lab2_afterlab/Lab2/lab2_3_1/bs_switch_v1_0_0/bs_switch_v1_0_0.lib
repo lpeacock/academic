@@ -1,0 +1,36 @@
+timestamp=1580965307472
+
+[~A]
+LastVerilogToplevel=protected_5c709a50154ca0c9c1e1dc11b0c2490ffe6fb52f3a2879bdf81d74e81391fefe
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c921627a8c2567e40da924a98a13ff134c760
+
+[protected_5c709a50154ca0c9c1e1dc11b0c2490f7e04e3cbfa271c6e6d87d802c090cbe1]
+A/protected_5c709a50154ca0c9c1e1dc11b0c2490f7e04e3cbfa271c6e6d87d802c090cbe1=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/bs_switch_v1_0/hdl/bs_switch_v1_0_vl_rfs.v|55|1*454
+BinI32/protected_5c709a50154ca0c9c1e1dc11b0c2490f7e04e3cbfa271c6e6d87d802c090cbe1=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/bs_switch_v1_0/hdl/bs_switch_v1_0_vl_rfs.v|55
+SLP=3*7886
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|e9ed7e9cc9b0d177f085cac1d8c5cb953f6e42ef6717dc8b6add314d7f716f15965d49372e86a35841f80f6e469389c8939e19d8e1c68d1741f197367d2433ae0986020cf6b7abdb9e4c2ee1b1e46c6e8223d06d3222acfed7ef1614315acc0c
+
+[protected_5c709a50154ca0c9c1e1dc11b0c2490ffe6fb52f3a2879bdf81d74e81391fefe]
+A/protected_5c709a50154ca0c9c1e1dc11b0c2490ffe6fb52f3a2879bdf81d74e81391fefe=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/bs_switch_v1_0/hdl/bs_switch_v1_0_vl_rfs.v|581|1*13841
+BinI32/protected_5c709a50154ca0c9c1e1dc11b0c2490ffe6fb52f3a2879bdf81d74e81391fefe=3*12441
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/bs_switch_v1_0/hdl/bs_switch_v1_0_vl_rfs.v|581
+SLP=3*19349
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|80a15db606e68df975319c66d76ab51f4811337d04477fb644b544e1b10b5c4df9cb965cfc775e888bdb30c2e1b054189d0c1f39ee54951ecfdd1a955145031115e93fdf972edff22f61fce14a7e2c1aeccdd72f146e037ccde69378c1c642ca
+
+[~MFT]
+0=3|0bs_switch_v1_0_0.mgf|1969|0
+1=3|1bs_switch_v1_0_0.mgf|13841|0
+3=6|3bs_switch_v1_0_0.mgf|19349|0
+
+[~U]
+$root=12|0*0|
+protected_5c709a50154ca0c9c1e1dc11b0c2490f7e04e3cbfa271c6e6d87d802c090cbe1=12|0*278||0x10
+protected_5c709a50154ca0c9c1e1dc11b0c2490ffe6fb52f3a2879bdf81d74e81391fefe=12|0*1969||0x10

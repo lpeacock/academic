@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Canvas xmlns="http://www.jgrasp.org">
+  <Language>Java</Language>
+  <ShowTypes>false</ShowTypes>
+  <Version>2</Version>
+  <Grid>
+    <Snap>true</Snap>
+    <Show>false</Show>
+  </Grid>
+  <Scope id="0">
+    <Name>main</Name>
+    <Signature>([Ljava/lang/String;)V</Signature>
+    <DeclaringType>SpherocylinderListApp</DeclaringType>
+    <Depth>0</Depth>
+  </Scope>
+  <Scope id="1">
+    <Name>toString</Name>
+    <Signature>()Ljava/lang/String;</Signature>
+    <DeclaringType>SpherocylinderList</DeclaringType>
+    <Depth>3</Depth>
+  </Scope>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>20</X>
+      <Y>400</Y>
+      <W>1554</W>
+      <H>216</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local java.util.Scanner` fileInput</Expression>
+      <ViewerClass>java__util__Scanner_PresentationView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>false</AutoSize>
+      <X>40</X>
+      <Y>70</Y>
+      <W>1438</W>
+      <H>249</H>
+    </Bounds>
+    <PanelSize>
+      <Key>java__lang__Object_LinkedView0</Key>
+      <Order>4</Order>
+      <W>1444</W>
+      <H>296</H>
+    </PanelSize>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local java.util.ArrayList` myList</Expression>
+      <ViewerClass>java__lang__Object_LinkedView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>40</X>
+      <Y>650</Y>
+      <W>1103</W>
+      <H>658</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>1</ScopeID>
+      <Expression>`local java.lang.String` output</Expression>
+      <ViewerClass>java__lang__String_FormattedView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Size>
+    <W>1920</W>
+    <H>1080</H>
+  </Size>
+  <ESize>
+    <W>1920</W>
+    <H>1080</H>
+  </ESize>
+</Canvas>

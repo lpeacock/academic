@@ -1,0 +1,77 @@
+timestamp=1580964774366
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_axi4lite_tap_v1_0/hdl/pcie_axi4lite_tap_v1_0_vl_rfs.v=0*5334*23169
+LastVerilogToplevel=pcie_axi4lite_tap_v1_0_0_top
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c9216fa379f8b9d0acdef9b18e99d03d7eaac
+
+[pcie_axi4lite_tap_v1_0_0_axi_read_controller]
+A/pcie_axi4lite_tap_v1_0_0_axi_read_controller=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_axi4lite_tap_v1_0/hdl/pcie_axi4lite_tap_v1_0_vl_rfs.v|52|1*390
+BinI32/pcie_axi4lite_tap_v1_0_0_axi_read_controller=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_axi4lite_tap_v1_0/hdl/pcie_axi4lite_tap_v1_0_vl_rfs.v|52
+SLP=3*4977
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|8f033834f16b3e4bab854aae1ebebd90a01ca5a259f1227eeaa379a8b58e714d7714aecfa3450ca696816cfa24c6fb06136c3f81a7a8c61243aa3384bf2f4f45c6987f00a0eeb5774dc5aa1356cc0e53
+
+[pcie_axi4lite_tap_v1_0_0_axi_write_controller]
+A/pcie_axi4lite_tap_v1_0_0_axi_write_controller=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_axi4lite_tap_v1_0/hdl/pcie_axi4lite_tap_v1_0_vl_rfs.v|1609|1*35952
+BinI32/pcie_axi4lite_tap_v1_0_0_axi_write_controller=3*61614
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_axi4lite_tap_v1_0/hdl/pcie_axi4lite_tap_v1_0_vl_rfs.v|1609
+SLP=3*67109
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|8f033834f16b3e4bab854aae1ebebd90e605cbda7da54ef663f43c19ff1ad07fe1c589e9752a3e851b726831cbdfe2c7fc548473b2cf96d7bd7b7b2a0321b808d279d17b63357dec163ee6a4c855754c
+
+[pcie_axi4lite_tap_v1_0_0_axis_cc_controller]
+A/pcie_axi4lite_tap_v1_0_0_axis_cc_controller=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_axi4lite_tap_v1_0/hdl/pcie_axi4lite_tap_v1_0_vl_rfs.v|272|1*6839
+BinI32/pcie_axi4lite_tap_v1_0_0_axis_cc_controller=3*7114
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_axi4lite_tap_v1_0/hdl/pcie_axi4lite_tap_v1_0_vl_rfs.v|272
+SLP=3*25567
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|8f033834f16b3e4bab854aae1ebebd9012303b123409594ee301fde1adfafc2802ecd25b4b4605d6d749edc8c6fcd9d74447e3607f17fa8636754fb59297d22f4441acd2044ead2bd6cc9566770ef494
+
+[pcie_axi4lite_tap_v1_0_0_axis_cq_controller]
+A/pcie_axi4lite_tap_v1_0_0_axis_cq_controller=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_axi4lite_tap_v1_0/hdl/pcie_axi4lite_tap_v1_0_vl_rfs.v|886|1*19815
+BinI32/pcie_axi4lite_tap_v1_0_0_axis_cq_controller=3*34428
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_axi4lite_tap_v1_0/hdl/pcie_axi4lite_tap_v1_0_vl_rfs.v|886
+SLP=3*50828
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|8f033834f16b3e4bab854aae1ebebd9012303b123409594ee301fde1adfafc285e9bcfd1b06bfe6d4e59c1214222f73a5df0c91d9fd255c758cec4d3f5cc5215dd3d4c7f8eab49eb356f0e3b649dadf5
+
+[pcie_axi4lite_tap_v1_0_0_maxi_controller]
+A/pcie_axi4lite_tap_v1_0_0_maxi_controller=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_axi4lite_tap_v1_0/hdl/pcie_axi4lite_tap_v1_0_vl_rfs.v|1880|1*43669
+BinI32/pcie_axi4lite_tap_v1_0_0_maxi_controller=3*69788
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_axi4lite_tap_v1_0/hdl/pcie_axi4lite_tap_v1_0_vl_rfs.v|1880
+SLP=3*70629
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|8f033834f16b3e4bab854aae1ebebd90a4dad7e11951038dc40d19226c924ec5211d741650407feebcc8456aa17e1034563ee315eca4742edac3bda3d2fcfbea
+
+[pcie_axi4lite_tap_v1_0_0_tag_manager]
+A/pcie_axi4lite_tap_v1_0_0_tag_manager=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_axi4lite_tap_v1_0/hdl/pcie_axi4lite_tap_v1_0_vl_rfs.v|2111|1*51895
+BinI32/pcie_axi4lite_tap_v1_0_0_tag_manager=3*71233
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_axi4lite_tap_v1_0/hdl/pcie_axi4lite_tap_v1_0_vl_rfs.v|2111
+SLP=3*73871
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|8f033834f16b3e4bab854aae1ebebd900df6c6d675f892aaf24590cd30f1152a78a8254f2f8f2736a337b5ac3cc0edc83a84ddc9f68ac808b07ae057f40a5d0c
+
+[pcie_axi4lite_tap_v1_0_0_top]
+A/pcie_axi4lite_tap_v1_0_0_top=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_axi4lite_tap_v1_0/hdl/pcie_axi4lite_tap_v1_0_vl_rfs.v|2242|1*58542
+BinI32/pcie_axi4lite_tap_v1_0_0_top=3*74925
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_axi4lite_tap_v1_0/hdl/pcie_axi4lite_tap_v1_0_vl_rfs.v|2242
+SLP=3*76205
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|8f033834f16b3e4bab854aae1ebebd90f439bb6f86b7256447198250dad102039c2d22100d7821525d0c12f3c0d2f48da512a5e1f34dc5eb30243ab8d43b83d9
+
+[~MFT]
+0=10|0pcie_axi4lite_tap_v1_0_0.mgf|23169|0
+1=8|1pcie_axi4lite_tap_v1_0_0.mgf|58542|0
+3=16|3pcie_axi4lite_tap_v1_0_0.mgf|76205|0
+
+[~U]
+$root=12|0*0|
+pcie_axi4lite_tap_v1_0_0_axi_read_controller=12|0*246|
+pcie_axi4lite_tap_v1_0_0_axi_write_controller=12|0*2594|
+pcie_axi4lite_tap_v1_0_0_axis_cc_controller=12|0*816|
+pcie_axi4lite_tap_v1_0_0_axis_cq_controller=12|0*1669|
+pcie_axi4lite_tap_v1_0_0_maxi_controller=12|0*3200|
+pcie_axi4lite_tap_v1_0_0_tag_manager=12|0*3887|
+pcie_axi4lite_tap_v1_0_0_top=12|0*4417||0x10

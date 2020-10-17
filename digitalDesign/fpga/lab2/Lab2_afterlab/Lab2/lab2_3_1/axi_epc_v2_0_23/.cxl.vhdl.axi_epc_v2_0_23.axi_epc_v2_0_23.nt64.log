@@ -1,0 +1,27 @@
+Aldec, Inc. VHDL Compiler, build 10.5.217.6767
+VLM Initialized with path: "C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\library.cfg".
+DAGGEN WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\ip\xilinx\axi_epc_v2_0\hdl\axi_epc_v2_0_vh_rfs.vhd
+COMP96 Compile Entity "ld_arith_reg"
+COMP96 Compile Architecture "imp" of Entity "ld_arith_reg"
+COMP96 Compile Entity "async_statemachine"
+COMP96 Compile Architecture "imp" of Entity "async_statemachine"
+COMP96 Compile Entity "async_counters"
+COMP96 Compile Architecture "imp" of Entity "async_counters"
+COMP96 Compile Entity "sync_cntl"
+COMP96 Compile Architecture "imp" of Entity "sync_cntl"
+COMP96 Compile Entity "ipic_if_decode"
+COMP96 Compile Architecture "imp" of Entity "ipic_if_decode"
+COMP96 Compile Entity "data_steer"
+COMP96 Compile Architecture "imp" of Entity "data_steer"
+COMP96 Compile Entity "async_cntl"
+COMP96 Compile Architecture "imp" of Entity "async_cntl"
+COMP96 Compile Entity "address_gen"
+COMP96 Compile Architecture "imp" of Entity "address_gen"
+COMP96 Compile Entity "access_mux"
+COMP96 Compile Architecture "imp" of Entity "access_mux"
+COMP96 Compile Entity "epc_core"
+COMP96 Compile Architecture "imp" of Entity "epc_core"
+COMP96 Compile Entity "axi_epc"
+COMP96 Compile Architecture "imp" of Entity "axi_epc"
+COMP96 Compile success 0 Errors 0 Warnings  Analysis time :  0.7 [s]

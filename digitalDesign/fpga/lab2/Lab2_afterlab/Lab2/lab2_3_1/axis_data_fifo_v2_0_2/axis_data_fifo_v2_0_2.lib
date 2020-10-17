@@ -1,0 +1,29 @@
+timestamp=1580965151450
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axis_data_fifo_v2_0/hdl/axis_data_fifo_v2_0_vl_rfs.v=0*1956*7848
+LastVerilogToplevel=axis_data_fifo_v2_0_2_top
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c9216c02658f390854b4f3ca0956f98d5540b
+
+[axis_data_fifo_v2_0_2_top]
+A/axis_data_fifo_v2_0_2_top=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_data_fifo_v2_0/hdl/axis_data_fifo_v2_0_vl_rfs.v|54|1*390
+BinI32/axis_data_fifo_v2_0_2_top=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_data_fifo_v2_0/hdl/axis_data_fifo_v2_0_vl_rfs.v|54
+SLP=3*15280
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|bde42cb82410e26c1a54f2b49fde2915fa315aad58d1d3ead4834af1967495898d85ce4bf4c723631bce53471d4b06195d66c3a0e3ed80e0260e16f3f11822ea
+
+[~MFT]
+0=4|0axis_data_fifo_v2_0_2.mgf|7848|0
+1=2|1axis_data_fifo_v2_0_2.mgf|390|0
+3=4|3axis_data_fifo_v2_0_2.mgf|15280|0
+
+[~U]
+$root=12|0*0|
+axis_data_fifo_v2_0_2_top=12|0*262||0x10

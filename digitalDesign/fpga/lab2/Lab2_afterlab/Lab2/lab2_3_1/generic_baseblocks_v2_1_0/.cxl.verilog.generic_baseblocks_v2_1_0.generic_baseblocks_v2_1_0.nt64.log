@@ -1,0 +1,22 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+WARNING VCP2515 "Undefined module: MUXCY was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v" 109  9
+WARNING VCP2515 "Undefined module: AND2B1L was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v" 229  11
+WARNING VCP2515 "Undefined module: OR2L was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v" 345  11
+WARNING VCP2515 "Undefined module: FDRE was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v" 849  10
+WARNING VCP2515 "Undefined module: XORCY was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v" 905  12
+WARNING VCP2515 "Undefined module: SRLC32E was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v" 954  15
+WARNING VCP2515 "Undefined module: SRLC16E was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v" 968  15
+WARNING VCP2515 "Undefined module: MUXF7 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v" 2568  15
+WARNING VCP2515 "Undefined module: MUXF8 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v" 2589  15
+MESSAGE "Pass 2. Processing instantiations."
+WARNING VCP2507 "Potentially recursive instantiation of module generic_baseblocks_v2_1_0_mux detected." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v" 2721  37
+WARNING VCP2507 "Potentially recursive instantiation of module generic_baseblocks_v2_1_0_mux detected." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v" 2721  37
+WARNING VCP2507 "Potentially recursive instantiation of module generic_baseblocks_v2_1_0_mux detected." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v" 2721  37
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: generic_baseblocks_v2_1_0_carry_latch_and generic_baseblocks_v2_1_0_carry_or generic_baseblocks_v2_1_0_carry generic_baseblocks_v2_1_0_command_fifo generic_baseblocks_v2_1_0_comparator_mask_static generic_baseblocks_v2_1_0_comparator_mask generic_baseblocks_v2_1_0_comparator_sel_mask_static generic_baseblocks_v2_1_0_comparator_sel_mask generic_baseblocks_v2_1_0_comparator_sel_static generic_baseblocks_v2_1_0_comparator_sel generic_baseblocks_v2_1_0_comparator_static generic_baseblocks_v2_1_0_comparator generic_baseblocks_v2_1_0_mux_enc generic_baseblocks_v2_1_0_nto1_mux."
+MESSAGE "$root top modules: generic_baseblocks_v2_1_0_carry_latch_and generic_baseblocks_v2_1_0_carry_or generic_baseblocks_v2_1_0_carry generic_baseblocks_v2_1_0_command_fifo generic_baseblocks_v2_1_0_comparator_mask_static generic_baseblocks_v2_1_0_comparator_mask generic_baseblocks_v2_1_0_comparator_sel_mask_static generic_baseblocks_v2_1_0_comparator_sel_mask generic_baseblocks_v2_1_0_comparator_sel_static generic_baseblocks_v2_1_0_comparator_sel generic_baseblocks_v2_1_0_comparator_static generic_baseblocks_v2_1_0_comparator generic_baseblocks_v2_1_0_mux_enc generic_baseblocks_v2_1_0_nto1_mux."
+SUCCESS "Compile success 0 Errors 12 Warnings  Analysis time: 0[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

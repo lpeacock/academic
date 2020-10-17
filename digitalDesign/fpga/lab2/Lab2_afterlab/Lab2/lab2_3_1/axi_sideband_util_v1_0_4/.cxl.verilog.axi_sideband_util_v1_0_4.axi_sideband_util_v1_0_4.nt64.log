@@ -1,0 +1,17 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2124 "Package sc_util_v1_0_4_pkg found in library smartconnect_v1_0."
+MESSAGE_SP VCP2110 "Module sc_util_v1_0_4_axic_reg_srl_fifo found in library smartconnect_v1_0."
+MESSAGE_SP VCP2110 "Module sc_util_v1_0_4_axi2vector found in library smartconnect_v1_0."
+MESSAGE_SP VCP2110 "Module sc_util_v1_0_4_vector2axi found in library smartconnect_v1_0."
+MESSAGE_SP VCP2110 "Module sc_util_v1_0_4_axi_reg_stall found in library smartconnect_v1_0."
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+WARNING VCP3005 "The implicit event expression list (@*) is empty; the process will never be executed." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_sideband_util_v1_0/hdl/axi_sideband_util_v1_0_vl_rfs.sv" 729  14
+WARNING VCP3005 "The implicit event expression list (@*) is empty; the process will never be executed." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_sideband_util_v1_0/hdl/axi_sideband_util_v1_0_vl_rfs.sv" 730  14
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: axi_sideband_util_v1_0_4_top."
+MESSAGE "$root top modules: axi_sideband_util_v1_0_4_top."
+SUCCESS "Compile success 0 Errors 2 Warnings  Analysis time: 0[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

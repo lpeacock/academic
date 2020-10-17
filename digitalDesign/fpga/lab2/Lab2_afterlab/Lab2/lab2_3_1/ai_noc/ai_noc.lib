@@ -1,0 +1,29 @@
+timestamp=1580964341589
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/ai_noc_v1_0/hdl/ai_noc_v1_0_rfs.v=0*1544*4841
+LastVerilogToplevel=ai_noc_v1_0_0_ai_noc
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c9216d82761e9b356da6a98f77b39526af21f
+
+[ai_noc_v1_0_0_ai_noc]
+A/ai_noc_v1_0_0_ai_noc=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ai_noc_v1_0/hdl/ai_noc_v1_0_rfs.v|4|1*374
+BinI32/ai_noc_v1_0_0_ai_noc=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/ai_noc_v1_0/hdl/ai_noc_v1_0_rfs.v|4
+SLP=3*1581
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|1fb8e8f15fa1eb7ddb4f992abf78afca658b1e3e308f8c7ce00b5a107a7cc276910cfb38fd997de3c67737180d49fd15
+
+[~MFT]
+0=4|0ai_noc.mgf|4841|0
+1=2|1ai_noc.mgf|374|0
+3=4|3ai_noc.mgf|1581|0
+
+[~U]
+$root=12|0*0|
+ai_noc_v1_0_0_ai_noc=12|0*198||0x10

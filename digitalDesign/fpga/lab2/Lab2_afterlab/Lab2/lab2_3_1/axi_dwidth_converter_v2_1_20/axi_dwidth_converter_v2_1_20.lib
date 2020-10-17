@@ -1,0 +1,133 @@
+timestamp=1580965194644
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v=0*14397*117183
+LastVerilogToplevel=axi_dwidth_converter_v2_1_20_top
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c921691829487574bd6406c27ad5e6b9da372
+
+[axi_dwidth_converter_v2_1_20_a_downsizer]
+A/axi_dwidth_converter_v2_1_20_a_downsizer=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v|64|1*390
+BinI32/axi_dwidth_converter_v2_1_20_a_downsizer=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v|64
+SLP=3*20903
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|27ec3cc2e2c6f81ba57c64ce939842fe73570ae65ea089cabacaefefd844d725d93aaccecc1a85c0f3188f421dedb1239ed115a994258b9890deca85a964a0209fc8060664d2a5125b6bf160941125f0
+
+[axi_dwidth_converter_v2_1_20_a_upsizer]
+A/axi_dwidth_converter_v2_1_20_a_upsizer=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v|3603|1*108010
+BinI32/axi_dwidth_converter_v2_1_20_a_upsizer=3*78796
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v|3603
+SLP=3*103558
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|27ec3cc2e2c6f81ba57c64ce939842fe73570ae65ea089cabacaefefd844d72554b38e8e6171b782ee024a48115a863008a0135385d6ed0c83c4bb4128b1ec34
+
+[axi_dwidth_converter_v2_1_20_axi4lite_downsizer]
+A/axi_dwidth_converter_v2_1_20_axi4lite_downsizer=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v|3003|1*85991
+BinI32/axi_dwidth_converter_v2_1_20_axi4lite_downsizer=3*61227
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v|3003
+SLP=3*68629
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|27ec3cc2e2c6f81ba57c64ce939842fe73570ae65ea089cabacaefefd844d72576c16c063440d40d0d6459e585b728763c78a372c0a57bd3d328b228144fabfca05fecdde4f5ee5f3299a3388e691bfc
+
+[axi_dwidth_converter_v2_1_20_axi4lite_upsizer]
+A/axi_dwidth_converter_v2_1_20_axi4lite_upsizer=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v|3334|1*98187
+BinI32/axi_dwidth_converter_v2_1_20_axi4lite_upsizer=3*72760
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v|3334
+SLP=3*76250
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|27ec3cc2e2c6f81ba57c64ce939842fe73570ae65ea089cabacaefefd844d7251d6bc8b80a807549203b098244e1e62f54af04f9cf89d1fd41fb4e2b6e9e3ac0347590f7d9bcfcf66d82b21b90847ab5
+
+[axi_dwidth_converter_v2_1_20_axi_downsizer]
+A/axi_dwidth_converter_v2_1_20_axi_downsizer=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v|2380|1*58184
+BinI32/axi_dwidth_converter_v2_1_20_axi_downsizer=3*53280
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v|2380
+SLP=3*58652
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|27ec3cc2e2c6f81ba57c64ce939842fe73570ae65ea089cabacaefefd844d7251ed16f903393a4e48a2322706f67e13b26527262ddaa47cb266f3a3c4d9b973a41383063ba17a2e677e95a567b9555de
+
+[axi_dwidth_converter_v2_1_20_axi_upsizer]
+A/axi_dwidth_converter_v2_1_20_axi_upsizer=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v|12808|1*479007
+BinI32/axi_dwidth_converter_v2_1_20_axi_upsizer=3*324304
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v|12808
+SLP=3*336131
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|27ec3cc2e2c6f81ba57c64ce939842fe73570ae65ea089cabacaefefd844d725e037058c19340568041fa8c448ae2c99de4605b42eb9fe4cb463092b6d37a98c
+
+[axi_dwidth_converter_v2_1_20_b_downsizer]
+A/axi_dwidth_converter_v2_1_20_b_downsizer=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v|1251|1*29564
+BinI32/axi_dwidth_converter_v2_1_20_b_downsizer=3*32697
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v|1251
+SLP=3*34918
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|27ec3cc2e2c6f81ba57c64ce939842fe73570ae65ea089cabacaefefd844d725b4ffda93f22ac0af674bc19efddb7e0e1d2f8499740bb9fadf088513bfdb092859d46712966f47df87a01a4b169ee442
+
+[axi_dwidth_converter_v2_1_20_r_downsizer]
+A/axi_dwidth_converter_v2_1_20_r_downsizer=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v|1533|1*36188
+BinI32/axi_dwidth_converter_v2_1_20_r_downsizer=3*36280
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v|1533
+SLP=3*43080
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|27ec3cc2e2c6f81ba57c64ce939842fe73570ae65ea089cabacaefefd844d7253c6310373ec8a59f3d5681db17ff8e3a523e941364707a2071b8bc568a45dd3059d46712966f47df87a01a4b169ee442
+
+[axi_dwidth_converter_v2_1_20_r_upsizer]
+A/axi_dwidth_converter_v2_1_20_r_upsizer=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v|4653|1*143458
+BinI32/axi_dwidth_converter_v2_1_20_r_upsizer=3*112971
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v|4653
+SLP=3*124605
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|27ec3cc2e2c6f81ba57c64ce939842fe73570ae65ea089cabacaefefd844d7255a588e4a537666779648c338f7b0e7903fec88638c80ba7df8a3c8ceb520dafc
+
+[axi_dwidth_converter_v2_1_20_r_upsizer_pktfifo]
+A/axi_dwidth_converter_v2_1_20_r_upsizer_pktfifo=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v|9601|1*338770
+BinI32/axi_dwidth_converter_v2_1_20_r_upsizer_pktfifo=3*251645
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v|9601
+SLP=3*290296
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|27ec3cc2e2c6f81ba57c64ce939842fe73570ae65ea089cabacaefefd844d725bf7d4be50c63eab992b95ed4ebf969146e8438e48c11f5ea7e8884cf241fec7295a1919744e0878d85ca66e6db3ea469
+
+[axi_dwidth_converter_v2_1_20_top]
+A/axi_dwidth_converter_v2_1_20_top=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v|14462|1*569958
+BinI32/axi_dwidth_converter_v2_1_20_top=3*340644
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v|14462
+SLP=3*347886
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|27ec3cc2e2c6f81ba57c64ce939842fe73570ae65ea089cabacaefefd844d725da88bcc24f5d88821aa073632c94edb78dde85b904b3cd0db1b10d1be4aa8bbd
+
+[axi_dwidth_converter_v2_1_20_w_downsizer]
+A/axi_dwidth_converter_v2_1_20_w_downsizer=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v|2016|1*48775
+BinI32/axi_dwidth_converter_v2_1_20_w_downsizer=3*46345
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v|2016
+SLP=3*51025
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|27ec3cc2e2c6f81ba57c64ce939842fe73570ae65ea089cabacaefefd844d725c2e256c46edab8d13b5dd80b9034a35824d0c4b69b7f279fb39249987c1290e10a2ba590116783fcc7aa1b9fa77a293c
+
+[axi_dwidth_converter_v2_1_20_w_upsizer]
+A/axi_dwidth_converter_v2_1_20_w_upsizer=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v|5563|1*175036
+BinI32/axi_dwidth_converter_v2_1_20_w_upsizer=3*129462
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v|5563
+SLP=3*149837
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|27ec3cc2e2c6f81ba57c64ce939842fe73570ae65ea089cabacaefefd844d725ae762a92c4e71021096dce53ff78dc89789f03757b5a5d7a0b513599bda8f1fb
+
+[axi_dwidth_converter_v2_1_20_w_upsizer_pktfifo]
+A/axi_dwidth_converter_v2_1_20_w_upsizer_pktfifo=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v|7020|1*231490
+BinI32/axi_dwidth_converter_v2_1_20_w_upsizer_pktfifo=3*161631
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v|7020
+SLP=3*206034
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|27ec3cc2e2c6f81ba57c64ce939842fe73570ae65ea089cabacaefefd844d725bbfb0763711ee0960f5bb69c2b80cc1dcdc89a10f735fe7a2b00026e6074f5f9fa91773c5e6ecb2c008e9ee416125e60
+
+[~MFT]
+0=17|0axi_dwidth_converter_v2_1_20.mgf|117183|0
+1=15|1axi_dwidth_converter_v2_1_20.mgf|569958|0
+3=30|3axi_dwidth_converter_v2_1_20.mgf|347886|0
+
+[~U]
+$root=12|0*0|
+axi_dwidth_converter_v2_1_20_a_downsizer=12|0*198|
+axi_dwidth_converter_v2_1_20_a_upsizer=12|0*5442|
+axi_dwidth_converter_v2_1_20_axi4lite_downsizer=12|0*4141|
+axi_dwidth_converter_v2_1_20_axi4lite_upsizer=12|0*4794|
+axi_dwidth_converter_v2_1_20_axi_downsizer=12|0*2926|
+axi_dwidth_converter_v2_1_20_axi_upsizer=12|0*11676|
+axi_dwidth_converter_v2_1_20_b_downsizer=12|0*1201|
+axi_dwidth_converter_v2_1_20_r_downsizer=12|0*1678|
+axi_dwidth_converter_v2_1_20_r_upsizer=12|0*6524|
+axi_dwidth_converter_v2_1_20_r_upsizer_pktfifo=12|0*9820|
+axi_dwidth_converter_v2_1_20_top=12|0*13116||0x10
+axi_dwidth_converter_v2_1_20_w_downsizer=12|0*2333|
+axi_dwidth_converter_v2_1_20_w_upsizer=12|0*7192|
+axi_dwidth_converter_v2_1_20_w_upsizer_pktfifo=12|0*7843|

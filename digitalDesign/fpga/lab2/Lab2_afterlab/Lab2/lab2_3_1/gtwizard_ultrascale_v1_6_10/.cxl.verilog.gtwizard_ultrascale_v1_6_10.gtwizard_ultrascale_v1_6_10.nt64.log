@@ -1,0 +1,13 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+WARNING VCP2857 "Implicit conversion will be used: .2*P_FREERUN_FREQUENCY+2<real> <- 7<unsized decimal>." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gtwizard_ultrascale_v1_6/hdl/gtwizard_ultrascale_v1_6_gtwiz_reset.v" 326  83
+WARNING VCP2857 "Implicit conversion will be used: .2*P_FREERUN_FREQUENCY+2<real> <- 7<unsized decimal>." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gtwizard_ultrascale_v1_6/hdl/gtwizard_ultrascale_v1_6_gtwiz_reset.v" 578  83
+WARNING VCP2515 "Undefined module: BUFG_GT was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/gtwizard_ultrascale_v1_6/hdl/gtwizard_ultrascale_v1_6_gthe3_cpll_cal.v" 189  5
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: gtwizard_ultrascale_v1_6_10_gthe4_delay_powergood gtwizard_ultrascale_v1_6_10_gtye4_delay_powergood gtwizard_ultrascale_v1_6_10_gthe3_cpll_cal gtwizard_ultrascale_v1_6_10_gthe4_cpll_cal gtwizard_ultrascale_v1_6_10_gtye4_cpll_cal gtwizard_ultrascale_v1_6_10_gtwiz_buffbypass_rx gtwizard_ultrascale_v1_6_10_gtwiz_buffbypass_tx gtwizard_ultrascale_v1_6_10_gtwiz_reset gtwizard_ultrascale_v1_6_10_gtwiz_userclk_rx gtwizard_ultrascale_v1_6_10_gtwiz_userclk_tx gtwizard_ultrascale_v1_6_10_gtwiz_userdata_rx gtwizard_ultrascale_v1_6_10_gtwiz_userdata_tx."
+MESSAGE "$root top modules: gtwizard_ultrascale_v1_6_10_gthe4_delay_powergood gtwizard_ultrascale_v1_6_10_gtye4_delay_powergood gtwizard_ultrascale_v1_6_10_gthe3_cpll_cal gtwizard_ultrascale_v1_6_10_gthe4_cpll_cal gtwizard_ultrascale_v1_6_10_gtye4_cpll_cal gtwizard_ultrascale_v1_6_10_gtwiz_buffbypass_rx gtwizard_ultrascale_v1_6_10_gtwiz_buffbypass_tx gtwizard_ultrascale_v1_6_10_gtwiz_reset gtwizard_ultrascale_v1_6_10_gtwiz_userclk_rx gtwizard_ultrascale_v1_6_10_gtwiz_userclk_tx gtwizard_ultrascale_v1_6_10_gtwiz_userdata_rx gtwizard_ultrascale_v1_6_10_gtwiz_userdata_tx."
+SUCCESS "Compile success 0 Errors 3 Warnings  Analysis time: 1[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

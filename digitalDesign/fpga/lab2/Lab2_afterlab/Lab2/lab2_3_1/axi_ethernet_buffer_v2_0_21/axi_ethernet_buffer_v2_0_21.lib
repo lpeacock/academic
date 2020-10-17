@@ -1,0 +1,496 @@
+timestamp=1580965205742
+
+[~A]
+ModifyID=1
+Version=74
+
+[actv_hi_pulse_clk_cross]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*4940
+BinI32/imp=3*3869
+I=0*18441
+I/imp=0*19995
+M=11|0|vde|1580965204649|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*17771*0xcbbeb0b2e840c47c2ede1567e6e09d217d4bec2e|0*18264*0xbba181862c44b92d99e8f49010ab70a1
+M/imp=21|0|vde|1580965204651|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*18785*0xabe96a3a887ecece0e7f26657774550836d23aa2|0*19811*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|bb3f838b4287468fee5da68d4c4959bd2445ad66e5ce13019d20aecc6727f05926527262ddaa47cb266f3a3c4d9b973aaa0f5483f6faeb18eaf48ddc22e66f39
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|27bda7b3d033dcc2ae038bafff4436caddcc5697f7046f6f8dcadad4b52acd67
+
+[actv_hi_reset_clk_cross]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*2224
+BinI32/imp=3*1475
+I=0*10192
+I/imp=0*11357
+M=11|0|vde|1580965204627|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*9439*0x61de36c7fc2fecdab27ed47579cf7ebeb3d00c2b|0*10015*0xbba181862c44b92d99e8f49010ab70a1
+M/imp=21|0|vde|1580965204629|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*10456*0x204ab37d0e23e6b422a4a8ce89ddada9727a7e6b|0*11173*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|bf281ab0903904e999629b2eea2115b02114c2b02a41f74f46877fdc20fccb6726527262ddaa47cb266f3a3c4d9b973a338e17555c7e89864df779423d0255a9
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|27bda7b3d033dcc2ae038bafff4436ca9958c84690ecb8220a164aca4fd9fb87
+
+[addr_response_shim]
+A/rtl=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*82288
+BinI32/rtl=3*203498
+I=0*531961
+I/rtl=0*542627
+M=11|0|vde|1580965205071|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*530418*0xae2952e3f433f08a3aa1e6ee8a18c91f014896c3|0*531789*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=21|0|vde|1580965205073|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*532188*0x92c66315b082b7812912c9fe1c3972e0f3fdeae9|0*542448*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|5edb083bf67b4636ff05f491cdbd0181ec22a962126d36d63039f6aa17efc56268eb531454f38940c1b4ae929f2f9576
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098ec57cb46eca51add472cef05410ffb83c
+
+[axi_ethernet_buffer_v2_0_21]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*108697
+BinI32/imp=3*228789
+I=0*626246
+I/imp=0*655307
+M=11|0|vde|1580965205466|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*620979*0x3ad114c557bcc4a1e139ef717fa07acaa041e606|0*626065*0xbba181862c44b92d99e8f49010ab70a1
+M/imp=21|0|vde|1580965205473|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*626866*0x3ef7cd1c09b158d2a4e80b062ef65d0e1c91efff|0*655119*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|e40df333c4fde57a472ec8b16bcf26afced71a457367478851ead9f53ce74366983cf076fe51a5c6482e7fc039758847713110a87aedce8ae3e3d0fc1fc8ea59
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|27bda7b3d033dcc2ae038bafff4436caeaea64243ecde136f49d43b875245dba
+
+[axi_ethernet_buffer_v2_0_21_pack]
+E=1*107976
+I=0*619685
+M=3|0|vde|1580965205162|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*612666*0xc1383f617a4d5581616e80f53991b46b571f8144|0*619499*0xbba181862c44b92d99e8f49010ab70a1
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|e40df333c4fde57a472ec8b16bcf26afd3569549189671aa03bf9ad548db9cc88b41320e02d3b99f8f764ebab69972dfeaf52286393980178f57a5ca5ee4f140
+
+[basic_sfifo_fg]
+A/implementation=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*5792
+BinI32/implementation=3*4744
+I=0*21944
+I/implementation=0*29559
+M=11|0|vde|1580965204661|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*20822*0x9c95601d1712bc98fd82d14802b44a9fa497be1a|0*21776*0xbba181862c44b92d99e8f49010ab70a1
+M/implementation=21|0|vde|1580965204663|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*22247*0x3583596f199ded91b7ecee42200a5515a2e39518|0*29373*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|81dcbe505e73d9c771cd62324d3df045d55ef2332e4a7194256db305da8fb5c404f564ff0d7a18a18a7159255b45a3dc
+Version/implementation=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|8e9aaf9bcdbf454ac343620b4961ed563abd7046f1c609e152ff56da12cd6aef04f564ff0d7a18a18a7159255b45a3dc
+
+[bus_and_enable_clk_cross]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*3848
+BinI32/imp=3*2321
+I=0*15081
+I/imp=0*17142
+M=11|0|vde|1580965204641|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*14218*0xe17b369623c452a4a432b6be0f1f18dec38120cf|0*14903*0xbba181862c44b92d99e8f49010ab70a1
+M/imp=21|0|vde|1580965204643|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*15426*0xc1f226e8fad7d0384d20741b3d1b3be0754c8393|0*16957*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|0cc774a44b0e0a932b738d0c6d6a6d0e9dda7c00e2a9bc90074a8c057487a8e72e44290a8794afea0706605a3a8edac9fb08cd50562d5a2abd376c959da17f7d
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|27bda7b3d033dcc2ae038bafff4436cad4a0379303c19557e43cb50ce071234b
+
+[bus_clk_cross]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*3092
+BinI32/imp=3*1718
+I=0*12635
+I/imp=0*13647
+M=11|0|vde|1580965204634|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*11959*0x9a9bdc482b69d73458e620a53793999896c3f2ab|0*12468*0xbba181862c44b92d99e8f49010ab70a1
+M/imp=21|0|vde|1580965204636|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*12889*0x081db2731caa222bf7424ee542e46e51ce038337|0*13473*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|5833fc42bbcc6a825d2f5e2f47d70899f3f5cbe562ec7b5967a5311909972237dbea6b2261a62b89185f5a09301ee66c
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|27bda7b3d033dcc2ae038bafff4436caebc12ac9fb303eb0b207ee74cd40dbac
+
+[clock_cross_pack]
+E=1*0
+I=0*2184
+M=3|0|vde|1580965204302|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*368*0xd4e3fc446a3cd34b82e38e04e73518be1c0ef979|0*2014*0xbba181862c44b92d99e8f49010ab70a1
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|00abc2edcdda4dff6c270e08321ae505cff09400d4221294c86b3c6773982b0ae896ebe4bd6107bf2ef7fbfb82aad179
+
+[reg_16bl]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*36901
+BinI32/imp=3*80602
+I=0*231718
+I/imp=0*232732
+M=11|0|vde|1580965204826|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*231080*0x9d582899294fd8615ba37843a14d57ce7594f7a1|0*231556*0xbba181862c44b92d99e8f49010ab70a1
+M/imp=21|0|vde|1580965204828|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*231967*0xbac369c1779347a5d762c6077de1972b638e9b02|0*232563*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|7a57b06370aabbec2aa166df8e0f7525840ea9c98447629c4da86c1be4dc143552c45e5441f7f60c35c5b6b8ee5ce681
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|27bda7b3d033dcc2ae038bafff4436cac6655090f8fecdcf2d0bd5fb9d60f27f
+
+[reg_32b]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*36097
+BinI32/imp=3*79476
+I=0*229569
+I/imp=0*230579
+M=11|0|vde|1580965204819|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*228935*0x9d072f8f623fc0b71a1181c76750e50db7bb7f25|0*229408*0xbba181862c44b92d99e8f49010ab70a1
+M/imp=21|0|vde|1580965204821|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*229817*0x41a68e75dc4f96972a59c3791b748586256436e9|0*230411*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|26f0aed970109278abf3f58dd93e75c126527262ddaa47cb266f3a3c4d9b973a538de42dc7f21d0c2e018707016dedc4
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|27bda7b3d033dcc2ae038bafff4436ca82dd16a6dc75a3efd5757949d92e7b48
+
+[reg_cr]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*35309
+BinI32/imp=3*78388
+I=0*227404
+I/imp=0*228436
+M=11|0|vde|1580965204812|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*226795*0x31fe52c8d5cced332be26f699edb67a32ec9f1b5|0*227244*0xbba181862c44b92d99e8f49010ab70a1
+M/imp=21|0|vde|1580965204814|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*227651*0xe34833e37aeadc73b4efdbc6589bdb905088413e|0*228269*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|a80e84198e8f425234c4877f830b80ac51c11da45420ab629c157c3e876df222
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|27bda7b3d033dcc2ae038bafff4436ca189fc30eec3c37de75b8f292c15b1688
+
+[reg_ie]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*34585
+BinI32/imp=3*77689
+I=0*225419
+I/imp=0*226313
+M=11|0|vde|1580965204805|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*224810*0x9771c24366230b0658ea86df25284e905db3c38f|0*225259*0xbba181862c44b92d99e8f49010ab70a1
+M/imp=21|0|vde|1580965204807|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*225666*0x061d9fb0e03e0d051d2c87fc25e0ca25bd8e2faf|0*226146*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|b29260480ecb7dee1f95dbd72f24a8bdeb595edd6765e89e297aeae12830ed37
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|27bda7b3d033dcc2ae038bafff4436ca498f13438a7390592f13b46fce2831b6
+
+[reg_ifgp]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*33861
+BinI32/imp=3*77011
+I=0*223424
+I/imp=0*224326
+M=11|0|vde|1580965204797|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*222807*0x9756d9f5fc515973b6a72489fc2369de7cfe0b6c|0*223262*0xbba181862c44b92d99e8f49010ab70a1
+M/imp=21|0|vde|1580965204799|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*223673*0xb4a4abd5dedd45d257879a907816bf364e0daaf8|0*224157*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|e96f9c178ff29a8dc669f93e934a4e0d729e6221e4efaa6a8714f045f53f59338f1ef0b4b248c0ff53192999dab1bc49
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|27bda7b3d033dcc2ae038bafff4436ca169e96de4b86bdc828722c354981d6b0
+
+[reg_ip]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*33121
+BinI32/imp=3*76109
+I=0*221354
+I/imp=0*222323
+M=11|0|vde|1580965204791|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*220711*0x4f2834e903b304de032acf33f8d407b421bc7aad|0*221194*0xbba181862c44b92d99e8f49010ab70a1
+M/imp=21|0|vde|1580965204793|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*221601*0xd1de9d5dd73a73305a2fbf61b8f93717cac66bcb|0*222156*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|3c1cffdc1dbaaddc749a2101f6d9209103f8055448ded807686b002a1fa0be3c
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|27bda7b3d033dcc2ae038bafff4436ca700ca918378327a733b133a5269c6178
+
+[reg_is]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*32397
+BinI32/imp=3*75360
+I=0*219245
+I/imp=0*220213
+M=11|0|vde|1580965204783|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*218599*0x55b39be1ee1c0fba1ffc765f5a171c366789b061|0*219085*0xbba181862c44b92d99e8f49010ab70a1
+M/imp=21|0|vde|1580965204785|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*219492*0x44e5f731b05f525da71b707904116bb26263687e|0*220046*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|cd410237d2818b773737b675399e8aac7848e72f3871443dcab03938445ac248
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|27bda7b3d033dcc2ae038bafff4436cafb78fef1d50e00ba51b1e47040bbd1a1
+
+[reg_tp]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*31641
+BinI32/imp=3*74502
+I=0*217095
+I/imp=0*218101
+M=11|0|vde|1580965204777|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*216465*0x0051a78dec4c6ac8fdece4b81bb15363b5508635|0*216935*0xbba181862c44b92d99e8f49010ab70a1
+M/imp=21|0|vde|1580965204779|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*217342*0x3f8d6d2a0f91c0c725fa3f0fe0fc6361c8d42674|0*217934*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|b29a367f1ed8f1870341b3a71f6984c4b6917c8d8eeff929201d25e43fe4a22a
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|27bda7b3d033dcc2ae038bafff4436caf9e7e94166f9225aa25fc1ec4226d1a5
+
+[registers]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*101988
+BinI32/imp=3*221130
+I=0*595114
+I/imp=0*611724
+M=11|0|vde|1580965205143|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*592905*0xe72454212d53188a7dd240d487fb515ccd8fe8a3|0*594951*0xbba181862c44b92d99e8f49010ab70a1
+M/imp=21|0|vde|1580965205148|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*595412*0x0de61112178602a02f1fe193c1ca881c96410658|0*611554*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|c2469d4a43e1c3fdbf30ad8fb9d403ea50c4b6dd3333f88a08b01e61079c21fa7ed124caf6a73b795e11dfec47942f78
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|27bda7b3d033dcc2ae038bafff4436caca8a8b5cca34125b33c3be45897eb7c9
+
+[registers_pack]
+E=1*31050
+I=0*216010
+M=3|0|vde|1580965204774|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*212068*0xbaac016790900ef3f8638ac0f36d8673e1ee0a6e|0*215842*0xbba181862c44b92d99e8f49010ab70a1
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|60cab574e316abc349069b534962731969237deaa838bac73a903e5cb21b6e45f795ed9388ee530878f45da1bad4c37d
+
+[reset_combiner]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*37673
+BinI32/imp=3*81460
+I=0*234800
+I/imp=0*245344
+M=11|0|vde|1580965204834|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*233400*0x551c030747a5e8920bd4a74339211bb2b9e98027|0*234632*0xbba181862c44b92d99e8f49010ab70a1
+M/imp=21|0|vde|1580965204836|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*235135*0x5a3f8fafb72341d9539117fc4df3e4b87d5badc8|0*245169*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|32e0645829baad52a8babad16947f3ec19941d2a45e4e82f0496c658bf4c4cfc20ed7dab2bf02a49d0f2afa178580039
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|27bda7b3d033dcc2ae038bafff4436ca156cd9b9733ccf5023789ab285d49710
+
+[rx_axistream_if]
+A/rtl=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*27286
+BinI32/rtl=3*64604
+I=0*183530
+I/rtl=0*211364
+M=11|0|vde|1580965204756|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*181593*0x3bc2952015262e9c7beec95149f7144f4e11ee95|0*183361*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=21|0|vde|1580965204760|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*183818*0x6e427d96c31caacd54ac31ba597a7d8b6e0f0b60|0*211188*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|ba0ab6f74ba25fa6a3400bd1453e8cdd7ca724995816f4b846ae3e31eee7793d2257a230f1ae26c8486d3319da886640
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098e8a5b0903e4a82a9aa6495eb5d44f03a8
+
+[rx_csum_if]
+A/beh=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*9818
+BinI32/beh=3*6313
+I=0*41698
+I/beh=0*43826
+M=11|0|vde|1580965204674|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*41019*0x81da90ad8ed578a296a2a8ad75014f6a35599beb|0*41534*0xbba181862c44b92d99e8f49010ab70a1
+M/beh=21|0|vde|1580965204676|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*41981*0x09b2fdcc0febad363d7d5aab8eeceea74f844b3a|0*43655*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|6baf5c5ba5d0f8bb214d0af646e918ff5dcc3923e9e445c60d12f7cd4ace2dc7eb4614c4f137913846fa05b7fa9d0b72
+Version/beh=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|abab756c682e324deed5ea143543cc712491df46828f1040f283fd63d0749c2d
+
+[rx_emac_if]
+A/rtl=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*17986
+BinI32/rtl=3*29768
+I=0*99025
+I/rtl=0*180698
+M=11|0|vde|1580965204712|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*96188*0x160cf6ee8640974cd234fd7afca9b18943a93bd4|0*98861*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=21|0|vde|1580965204730|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*99356*0x6ac81ad98c3da3f3655a2f353cc47ab8a062cc25|0*180527*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|daefe3d99c51bca146c48fc2a0160e1bec7ff0e0533284ef0e7ac1dba7abf245d3ac3d8e791c968003308cf661f6ff72
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098ea9159674d16b059a47180817e355db90
+
+[rx_emac_if_vlan]
+A/rtl=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*10750
+BinI32/rtl=3*8261
+I=0*47706
+I/rtl=0*95053
+M=11|0|vde|1580965204683|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*44849*0x45031602261e22e444078b27f3fe686b00a2913e|0*47537*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=21|0|vde|1580965204693|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*48042*0x368eccbcccbee4072b8c4f4143b197a4a8f53973|0*94877*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|76690c152fb337e8e7f970193f9b35c99196fc20f45b76b58a17836f684e0b0209213a384a5cfb8ee9e60b814257e6b3
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098eb45ef363562853ad68f2031ed2136cb2
+
+[rx_if]
+A/rtl=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*90348
+BinI32/rtl=3*213962
+I=0*561025
+I/rtl=0*578697
+M=11|0|vde|1580965205113|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*558499*0x06a9726dc30f7d9c12e8d3c9ffa705e60a98dc29|0*560866*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=21|0|vde|1580965205117|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*561271*0xaae7bee74650ee818ebb0c5b92fe497bb2c94dcd|0*578531*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|b22bf4ade65ffde995d69cd75df2ec539e84d03e39ec07d209dc3b5cc6aa34da
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098e20ee88573fe6c1169c40d7846abf66ce
+
+[rx_if_pack]
+E=1*8975
+I=0*40548
+M=3|0|vde|1580965204671|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*30217*0x906ab9f3327c63138354106623d778f874619702|0*40384*0xbba181862c44b92d99e8f49010ab70a1
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|fc1b9e0b773bc01c9c1c3a674c99ec95f72f1985abcf99a7d059354fcb2f4aabb02cb24a2f00e581f065d478b3047923
+
+[rx_mem_if]
+A/rtl=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*87400
+BinI32/rtl=3*212235
+I=0*552616
+I/rtl=0*557535
+M=11|0|vde|1580965205101|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*550803*0xad68736a885909b574e4b2d078f1615526d6dec4|0*552453*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=21|0|vde|1580965205103|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*552898*0x643a4950e47b4e4bc99ec3b0f1805f31c6a85c34|0*557365*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|a1c8711fe75ed2c25cdd350951af0bab5fb4070a7fdfd8da59b6a7357a41e9dcca873dac822fbf3280bb36d8ab675689
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098e226cce7d3893a248486b00cbad5fb3d4
+
+[sync_block]
+A/structural=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*465
+BinI32/structural=3*0
+I=0*3216
+I/structural=0*5735
+M=11|0|vde|1580965204604|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*2645*0x6f5593e744a8026086aa4d1c6310153dc2da9741|0*3052*0xbba181862c44b92d99e8f49010ab70a1
+M/structural=21|0|vde|1580965204609|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*3515*0x061c215532744dd536e039c4818cc1a5b174fb07|0*5557*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|e14c2c68ca48b9693bb50e4057911131d4bc45290eadd02580072790401abe194ebebf3abec6ff770c9b050cd8563d6c
+Version/structural=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|017cf3c45c1b74f7d70505b5559ba0fe08525e0f0edfc8fb950e07e43888f5934ebebf3abec6ff770c9b050cd8563d6c
+
+[sync_reset]
+A/rtl=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*1500
+BinI32/rtl=3*317
+I=0*6866
+I/rtl=0*8952
+M=11|0|vde|1580965204619|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*6328*0x5f96d0a845343ecc8658988bc458dd0c1c600c79|0*6702*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=21|0|vde|1580965204621|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*7085*0x92a95469df5a8888b75884ee435c8e1dd8ceca8d|0*8781*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|ef5e02c1423df13f208a85dc167874e590b3900b1105397d3cdc9f8cdc69cab9b88754018fd899a6cf0d34eda181b119
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098e68fa02b00da398de96ba9e0b4032325f
+
+[tx_axistream_if]
+A/rtl=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*77628
+BinI32/rtl=3*201777
+I=0*522300
+I/rtl=0*529595
+M=11|0|vde|1580965205057|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*519329*0x8c7835a7497fa77feebe1b86d1b17bf385931a00|0*522131*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=21|0|vde|1580965205060|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*522556*0x707cc1cbe86bc160f8e75aca8c90ce830f474a0f|0*529419*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|2fefcab2faafa055e00343789c8fdfa2aaa0ddcb7143df327370acb4002bd29356e6f2e4337b11c5a495d6d832840c63
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098e95cda92da820957ead0dab92cdd8c9b6
+
+[tx_basic_if]
+A/rtl=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*69716
+BinI32/rtl=3*173097
+I=0*463923
+I/rtl=0*496017
+M=11|0|vde|1580965205008|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*461427*0xfc170c279f807d2cc52dbd4eb24f9e509f51b8ac|0*463758*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=21|0|vde|1580965205017|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*464207*0xd206726755f7c35f486e5f48950a6284592c8a9d|0*495845*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|02a843f191c914196eed5af87454eead46caa9239f21192447ff6e463c1ce41a70027952801f586f998df7d376c8025d
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098e6f0491edec613944bf0213964ff93a24
+
+[tx_csum_full_calc_if]
+A/rtl=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*46464
+BinI32/rtl=3*99827
+I=0*302214
+I/rtl=0*305926
+M=11|0|vde|1580965204893|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*301048*0xd5658a8cf5d650872bd5a8a8f477452d7c626540|0*302040*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=21|0|vde|1580965204895|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*302507*0x9c8ffd07c42c0b1b4c4a1016b6f6f558b9e65352|0*305745*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|9a821ec227089c0563517601386048b122b7fc659f66477f567da2ccaf245b6d8a9fa3d168bef0e17f75ae635b258392
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098e4dadc379382a5475a965fdfe7cea995a
+
+[tx_csum_full_fsm]
+A/rtl=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*43628
+BinI32/rtl=3*88673
+I=0*279070
+I/rtl=0*300350
+M=11|0|vde|1580965204878|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*277354*0x3a0e325852c175d40f4874603871250cd4df0f69|0*278900*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=21|0|vde|1580965204882|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*279359*0x5c53e75796f7c478bdc27dfe862b369a47131b96|0*300173*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|9a821ec227089c0563517601386048b16d44251f28fc0d29a5dc0e06ed36cf459b737b3b55f719185e3ee2ebb5b44b16
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098e12cd326a4639546d50375c547b18a852
+
+[tx_csum_full_if]
+A/rtl=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*53576
+BinI32/rtl=3*123514
+I=0*351161
+I/rtl=0*391242
+M=11|0|vde|1580965204929|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*348649*0xb4a7be937fa0f7616a289be376ac7140f01b59ee|0*350992*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=21|0|vde|1580965204935|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*351449*0xeacf3915bebc180adb31156faf1051e4c60e1db1|0*391066*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|9a821ec227089c0563517601386048b183402d0e5e3ebc0ca784df2a8ef69b284fc4aa06d091877a122129a4519dd66f
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098ef6c98155f979c1efe939c66e65b9df66
+
+[tx_csum_if]
+A/rtl=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*66560
+BinI32/rtl=3*171794
+I=0*455844
+I/rtl=0*460488
+M=11|0|vde|1580965204994|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*453376*0xb7a17dfc6067a8777403af459be93a977fdd8bd5|0*455680*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=21|0|vde|1580965204996|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*456095*0x06a16e866b284c13a5a0940140d3ca44f0cb2b08|0*460317*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|17df8adfe52240118014fd4ed88dd08226ff8fda53c5392d0d111bc042b2080021fe4351ac507f22852a6d4d9002997c
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098e64316ed0e4b09e86409d15f8eda42d06
+
+[tx_csum_partial_calc_if]
+A/rtl=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*41848
+BinI32/rtl=3*84302
+I=0*271563
+I/rtl=0*276525
+M=11|0|vde|1580965204853|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*269920*0xc269ca23cd8fd0542415339f865e55726ec2eb0c|0*271386*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=21|0|vde|1580965204868|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*271859*0xb4bbab2d42198165ab5296e67212f16c758ca887|0*276341*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|3831366fd9699f42af66ec02dedadb6a3d63611ecc11f12152385de6ab323a8026527262ddaa47cb266f3a3c4d9b973a90d0f1ff700a34e7ef265395936eb16c
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098e473b62f7c6424144f9aea01e0a1c17bb
+
+[tx_csum_partial_if]
+A/rtl=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*47812
+BinI32/rtl=3*103465
+I=0*309374
+I/rtl=0*347682
+M=11|0|vde|1580965204903|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*306850*0x5e826b00487a72d075e4a957b5a3fa3425cc5253|0*309202*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=21|0|vde|1580965204911|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*309665*0xe9567a4488f863d8d0818de66a78825697cd0d73|0*347503*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|3831366fd9699f42af66ec02dedadb6a5a937def5098a22cfa67f5b08d834d1c488cb1c4ad92e7bee433838a4e521288
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098e7ec1cd79196119b35caba6849c1cd747
+
+[tx_emac_if]
+A/rtl=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*74120
+BinI32/rtl=3*189990
+I=0*499239
+I/rtl=0*518322
+M=11|0|vde|1580965205036|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*496940*0x9531457dd746d81f3fb1655d0aad862178f75a2e|0*499075*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=21|0|vde|1580965205041|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*499522*0xd7215412850b85b61f186b6354f1e3e65e955d6f|0*518151*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|eb40e55baf08b675e9c2b66ffc70fbdb30b46fa2af8776f23a718b5ff15cd40c7d016c38f88faca4ef31463c3491f340
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098e2a2fc109fae654cb50343a87a15fe835
+
+[tx_if]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*96208
+BinI32/imp=3*219065
+I=0*581853
+I/imp=0*591989
+M=11|0|vde|1580965205129|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*579689*0xbbe5abad3e6512dc37b45bad87e2da226b535db7|0*581694*0xbba181862c44b92d99e8f49010ab70a1
+M/imp=21|0|vde|1580965205132|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*582099*0x555ae2a6ff73dfc042efd3e1acfb355965f2f645|0*591823*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|c0fa305b28527fb3722a4df7afe93c7c61531751c49432824bbaa5b87b6e1939
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|27bda7b3d033dcc2ae038bafff4436caab6ecb8f52eaec6ea7bdab6b1f6f607a
+
+[tx_if_pack]
+E=1*40237
+I=0*269180
+M=3|0|vde|1580965204848|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*246135*0x613d38f627e3fe03d96de86ad944a9d633d9798d|0*269016*0xbba181862c44b92d99e8f49010ab70a1
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|bdaf107058b9f064c3d4ee067073e4405d7b6eaa7994fafe900a068868ae4ec577aee1d6439d449349225f6c5f9f25f5
+
+[tx_mem_if]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*84308
+BinI32/imp=3*211016
+I=0*546453
+I/imp=0*550091
+M=11|0|vde|1580965205090|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*543476*0x83e7eec9ee267f9343aeeb63697c9ec83aea9a1a|0*546290*0xbba181862c44b92d99e8f49010ab70a1
+M/imp=21|0|vde|1580965205092|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*546735*0x98b573001d938d250372027b72997fa29baedc15|0*549921*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|59582446e671a1e99f18d2d12ca72f22420c16976db74be355c9c116369787f6d2c4d464dd4801f105a9c3bbaa4b7b8c
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|27bda7b3d033dcc2ae038bafff4436ca99f0846c8a498bff89c447e27ade71af
+
+[tx_vlan_if]
+A/rtl=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920|1*59948
+BinI32/rtl=3*142681
+I=0*395380
+I/rtl=0*452470
+M=11|0|vde|1580965204953|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*392345*0x5021a196e4cdf930e511a7c93025e82850022398|0*395216*0xbba181862c44b92d99e8f49010ab70a1
+M/rtl=21|0|vde|1580965204963|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|0*395663*0x0cbea8e7a1b680de2a01ce539a43e8fa1f8ac2bb|0*452299*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd|27920
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d269ac90197e4dbb00cf72da3752ec3e56bd41db58eda04736accb71b37ec21cde1a946b371717f32fbd81a5f4736c19
+Version/rtl=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d68f3470ae48e0f834e0b3f99521098ee7d3c33d2655cd175ca8e29430d665fe
+
+[~MFT]
+0=284|0axi_ethernet_buffer_v2_0_21.mgf|655307|0
+1=42|1axi_ethernet_buffer_v2_0_21.mgf|108697|0
+3=37|3axi_ethernet_buffer_v2_0_21.mgf|228789|0
+
+[~U]
+actv_hi_pulse_clk_cross=11|0*17523|
+actv_hi_reset_clk_cross=11|0*9175|
+addr_response_shim=11|0*529951|
+axi_ethernet_buffer_v2_0_21=11|0*619911|
+axi_ethernet_buffer_v2_0_21_pack=3|0*612250|0*612426
+basic_sfifo_fg=11|0*20375|
+bus_and_enable_clk_cross=11|0*13905|
+bus_clk_cross=11|0*11657|
+clock_cross_pack=3|0*0|0*144
+reg_16bl=11|0*230831|
+reg_32b=11|0*228687|
+reg_cr=11|0*226564|
+reg_ie=11|0*224579|
+reg_ifgp=11|0*222574|
+reg_ip=11|0*220464|
+reg_is=11|0*218352|
+reg_tp=11|0*216218|
+registers=11|0*592335|
+registers_pack=3|0*211704|0*211846
+reset_combiner=11|0*232985|
+rx_axistream_if=11|0*181097|
+rx_csum_if=11|0*40752|
+rx_emac_if=11|0*95457|
+rx_emac_if_vlan=11|0*44113|
+rx_if=11|0*557821|
+rx_if_pack=3|0*29877|0*30015
+rx_mem_if=11|0*550377|
+sync_block=11|0*2394|
+sync_reset=11|0*6077|
+tx_axistream_if=11|0*518609|
+tx_basic_if=11|0*460807|
+tx_csum_full_calc_if=11|0*300643|
+tx_csum_full_fsm=11|0*276825|
+tx_csum_full_if=11|0*348025|
+tx_csum_if=11|0*452757|
+tx_csum_partial_calc_if=11|0*269384|
+tx_csum_partial_if=11|0*306223|
+tx_emac_if=11|0*496305|
+tx_if=11|0*579075|
+tx_if_pack=3|0*245731|0*245869
+tx_mem_if=11|0*542858|
+tx_vlan_if=11|0*391614|

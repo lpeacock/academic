@@ -1,0 +1,13 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+WARNING VCP2515 "Undefined module: xpm_cdc_array_single was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/av_pat_gen_v1_0/hdl/av_pat_gen_v1_0_vl_rfs.sv" 3449  11
+WARNING VCP2515 "Undefined module: xpm_cdc_single was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/av_pat_gen_v1_0/hdl/av_pat_gen_v1_0_vl_rfs.sv" 3513  11
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Case expression too large, will not check for overlapping labels (C:/Xilinx/Vivado/2019.2/data/ip/xilinx/av_pat_gen_v1_0/hdl/av_pat_gen_v1_0_vl_rfs.sv, ln 1685)."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: av_pat_gen_v1_0_1."
+MESSAGE "$root top modules: av_pat_gen_v1_0_1."
+SUCCESS "Compile success 0 Errors 2 Warnings  Analysis time: 1[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

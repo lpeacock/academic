@@ -1,0 +1,14 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+WARNING VCP2515 "Undefined module: AIE_NOC_S_AXI was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/ai_noc_v1_0/hdl/ai_noc_v1_0_rfs.v" 234  9
+WARNING VCP2515 "Undefined module: AIE_NOC_M_AXI was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/ai_noc_v1_0/hdl/ai_noc_v1_0_rfs.v" 296  7
+WARNING VCP2515 "Undefined module: AIE_NOC_S_AXIS was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/ai_noc_v1_0/hdl/ai_noc_v1_0_rfs.v" 316  9
+WARNING VCP2515 "Undefined module: AIE_NOC_M_AXIS was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/ai_noc_v1_0/hdl/ai_noc_v1_0_rfs.v" 335  9
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: ai_noc_v1_0_0_ai_noc."
+MESSAGE "$root top modules: ai_noc_v1_0_0_ai_noc."
+SUCCESS "Compile success 0 Errors 4 Warnings  Analysis time: 0[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

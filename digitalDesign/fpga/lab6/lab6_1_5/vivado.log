@@ -1,0 +1,151 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Mar 18 19:09:42 2020
+# Process ID: 23988
+# Current directory: C:/Users/lucas/Documents/fpga/lab6/lab6_1_5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9568 C:\Users\lucas\Documents\fpga\lab6\lab6_1_5\lab6_1_5.xpr
+# Log file: C:/Users/lucas/Documents/fpga/lab6/lab6_1_5/vivado.log
+# Journal file: C:/Users/lucas/Documents/fpga/lab6/lab6_1_5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lucas/Documents/fpga/lab6/lab6_1_5/lab6_1_5.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 826.855 ; gain = 140.922
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lucas/Documents/fpga/lab6/lab6_1_5/lab6_1_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'parallel_load_testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/lucas/Documents/fpga/lab6/lab6_1_5/lab6_1_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj parallel_load_testbench_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lucas/Documents/fpga/lab6/lab6_1_5/lab6_1_5.sim/sim_1/behav/xsim'
+"xelab -wto fe435aa840034f3ab31f98af21bbce82 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot parallel_load_testbench_behav xil_defaultlib.parallel_load_testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto fe435aa840034f3ab31f98af21bbce82 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot parallel_load_testbench_behav xil_defaultlib.parallel_load_testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/lucas/Documents/fpga/lab6/lab6_1_5/lab6_1_5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "parallel_load_testbench_behav -key {Behavioral:sim_1:Functional:parallel_load_testbench} -tclbatch {parallel_load_testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source parallel_load_testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'parallel_load_testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 889.215 ; gain = 11.867
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 400 ns
+set_property used_in_implementation false [get_files  C:/Users/lucas/Documents/fpga/lab6/lab6_1_5/lab6_1_5.srcs/sources_1/new/parallel_load_testbench.v]
+set_property used_in_synthesis false [get_files  C:/Users/lucas/Documents/fpga/lab6/lab6_1_5/lab6_1_5.srcs/sources_1/new/parallel_load_testbench.v]
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/lucas/Documents/fpga/lab6/lab6_1_5/lab6_1_5.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Wed Mar 18 20:04:44 2020] Launched synth_1...
+Run output will be captured here: C:/Users/lucas/Documents/fpga/lab6/lab6_1_5/lab6_1_5.runs/synth_1/runme.log
+open_project C:/Users/lucas/Documents/fpga/lab6/lab6_1_1/lab6_1_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+update_compile_order -fileset sources_1
+current_project lab6_1_5
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 928.996 ; gain = 0.000
+close_project
+close_project
+open_project C:/Users/lucas/Documents/fpga/lab6/lab6_1_2/lab6_1_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/lucas/Documents/fpga/lab6/lab6_1_3/lab6_1_3.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/lucas/Documents/fpga/lab6/lab6_4_1/lab6_4_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+update_compile_order -fileset sources_1
+set_property used_in_implementation false [get_files  C:/Users/lucas/Documents/fpga/lab6/lab6_4_1/lab6_4_1.srcs/sources_1/new/Parallel_in_serial_out_load_enable_behavior_tb.v]
+set_property used_in_synthesis false [get_files  C:/Users/lucas/Documents/fpga/lab6/lab6_4_1/lab6_4_1.srcs/sources_1/new/Parallel_in_serial_out_load_enable_behavior_tb.v]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Wed Mar 18 20:10:11 2020] Launched synth_1...
+Run output will be captured here: C:/Users/lucas/Documents/fpga/lab6/lab6_4_1/lab6_4_1.runs/synth_1/runme.log
+open_project C:/Users/lucas/Documents/fpga/lab6/lab6_2_1/lab6_2_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+update_compile_order -fileset sources_1
+close_project
+close_project
+open_project C:/Users/lucas/Documents/fpga/lab6/lab6_2_2/lab6_2_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/lucas/Documents/fpga/lab6/lab6_2_3/lab6_2_3.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+update_compile_order -fileset sources_1
+set_property used_in_implementation false [get_files  C:/Users/lucas/Documents/fpga/lab6/lab6_2_3/lab6_2_3.srcs/sources_1/new/count_down_counter_tb.v]
+set_property used_in_synthesis false [get_files  C:/Users/lucas/Documents/fpga/lab6/lab6_2_3/lab6_2_3.srcs/sources_1/new/count_down_counter_tb.v]
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Wed Mar 18 20:16:57 2020] Launched synth_1...
+Run output will be captured here: C:/Users/lucas/Documents/fpga/lab6/lab6_2_3/lab6_2_3.runs/synth_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 18 20:34:10 2020...

@@ -1,0 +1,36 @@
+timestamp=1580965215461
+
+[~A]
+ModifyID=1
+Version=74
+
+[axi_gpio]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_gpio_v2_0/hdl/axi_gpio_v2_0_vh_rfs.vhd|1351|1*22777
+BinI32/imp=3*11224
+I=0*23779
+I/imp=0*36068
+M=11|0|vde|1580965215379|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_gpio_v2_0/hdl/axi_gpio_v2_0_vh_rfs.vhd|0*20875*0xf9e18f8f7d3c5ab7c0173d4b8202fac77f5aa378|0*23636*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=21|0|vde|1580965215383|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_gpio_v2_0/hdl/axi_gpio_v2_0_vh_rfs.vhd|0*24173*0xa9d4eef95afa51eea930098383a7284a646ee4ed|0*35918*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_gpio_v2_0/hdl/axi_gpio_v2_0_vh_rfs.vhd|1265
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|8f25d2563d87c0efcd585dcb28f5dfc8e08d679eaf1bc9de9439630905b37e5f0fc111397ffaedf22b0797b75ef08a95
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f6294139c8f41aec505af80d5e79fc14f9fe3a
+
+[gpio_core]
+A/imp=A/IMP 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_gpio_v2_0/hdl/axi_gpio_v2_0_vh_rfs.vhd|178|1*0
+BinI32/imp=3*0
+I=0*2436
+I/imp=I/IMP 0*20070
+M=11|0|vde|1580965215029|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_gpio_v2_0/hdl/axi_gpio_v2_0_vh_rfs.vhd|0*485*0xac7825862747315749743bed91fec3f8111b75bd|0*2292*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=M/IMP 21|0|vde|1580965215335|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_gpio_v2_0/hdl/axi_gpio_v2_0_vh_rfs.vhd|0*2639*0x9f3a150fe7541ecd934cfb4d44b002fc042a41dd|0*19919*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_gpio_v2_0/hdl/axi_gpio_v2_0_vh_rfs.vhd|130
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|666c84ebc6d0390edc39a1f59ebab810471558cb7edec52181b26edfc24e44abfbee9f9b54a22165436bcd7b6572fcfb
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f62941180df15619b3b56ce5c149a9497459c9
+
+[~MFT]
+0=14|0axi_gpio_v2_0_22.mgf|36068|0
+1=2|1axi_gpio_v2_0_22.mgf|22777|0
+3=2|3axi_gpio_v2_0_22.mgf|11224|0
+
+[~U]
+axi_gpio=11|0*20320|
+gpio_core=GPIO_Core 11|0*0|

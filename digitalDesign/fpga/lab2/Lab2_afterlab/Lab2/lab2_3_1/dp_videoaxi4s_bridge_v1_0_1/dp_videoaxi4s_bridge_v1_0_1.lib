@@ -1,0 +1,53 @@
+timestamp=1580965412769
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/dp_videoaxi4s_bridge_v1_0/hdl/dp_videoaxi4s_bridge_v1_0_rfs.v=0*2681*25383
+LastVerilogToplevel=dp_videoaxi4s_bridge_v1_0_1
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c9216f2591d3dc83c4c953e73c32f00e585db
+
+[dp_videoaxi4s_bridge_v1_0_1]
+A/dp_videoaxi4s_bridge_v1_0_1=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/dp_videoaxi4s_bridge_v1_0/hdl/dp_videoaxi4s_bridge_v1_0_rfs.v|3|1*390
+BinI32/dp_videoaxi4s_bridge_v1_0_1=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/dp_videoaxi4s_bridge_v1_0/hdl/dp_videoaxi4s_bridge_v1_0_rfs.v|3
+SLP=3*1320
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|3a9c2ed725ea29fdd496b424eaa79a1a01235ced0c6a713fa6158e5500f180b3722d683346e4c19da3974b92c9587ac7d425d405a4c531e6216168f16781926c
+
+[dp_videoaxi4s_bridge_v1_0_1_axis]
+A/dp_videoaxi4s_bridge_v1_0_1_axis=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/dp_videoaxi4s_bridge_v1_0/hdl/dp_videoaxi4s_bridge_v1_0_rfs.v|191|1*40419
+BinI32/dp_videoaxi4s_bridge_v1_0_1_axis=3*48942
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/dp_videoaxi4s_bridge_v1_0/hdl/dp_videoaxi4s_bridge_v1_0_rfs.v|191
+SLP=3*49438
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|3a9c2ed725ea29fdd496b424eaa79a1a02787a963f3c1501fa0b8d374aa5e91238d9f935c91af99dba6d51224615da5773323e91548ef94d34428d01314d78f7
+
+[dp_videoaxi4s_bridge_v1_0_1_dsc_fifo]
+A/dp_videoaxi4s_bridge_v1_0_1_dsc_fifo=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/dp_videoaxi4s_bridge_v1_0/hdl/dp_videoaxi4s_bridge_v1_0_rfs.v|1523|1*57359
+BinI32/dp_videoaxi4s_bridge_v1_0_1_dsc_fifo=3*49712
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/dp_videoaxi4s_bridge_v1_0/hdl/dp_videoaxi4s_bridge_v1_0_rfs.v|1523
+SLP=3*72167
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|3a9c2ed725ea29fdd496b424eaa79a1a2806a813eac92dac2ced11172e97ffb6392e9fe6140a7dcf0794da0853d6156a88fc810b6798ec6c3e8efa9f6df7f07a
+
+[dp_videoaxi4s_bridge_v1_0_1_sub]
+A/dp_videoaxi4s_bridge_v1_0_1_sub=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/dp_videoaxi4s_bridge_v1_0/hdl/dp_videoaxi4s_bridge_v1_0_rfs.v|633|1*10129
+BinI32/dp_videoaxi4s_bridge_v1_0_1_sub=3*1953
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/dp_videoaxi4s_bridge_v1_0/hdl/dp_videoaxi4s_bridge_v1_0_rfs.v|633
+SLP=3*27821
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|3a9c2ed725ea29fdd496b424eaa79a1a107c4cb6589197e57ad3c27e44278468db8af4e7b5b0a64f9a58dbba1da7a3112b49ee120b578faabc5702b754979a8a
+
+[~MFT]
+0=7|0dp_videoaxi4s_bridge_v1_0_1.mgf|25383|0
+1=5|1dp_videoaxi4s_bridge_v1_0_1.mgf|57359|0
+3=10|3dp_videoaxi4s_bridge_v1_0_1.mgf|72167|0
+
+[~U]
+$root=12|0*0|
+dp_videoaxi4s_bridge_v1_0_1=12|0*230||0x10
+dp_videoaxi4s_bridge_v1_0_1_axis=12|0*1715|
+dp_videoaxi4s_bridge_v1_0_1_dsc_fifo=12|0*2204|
+dp_videoaxi4s_bridge_v1_0_1_sub=12|0*923|

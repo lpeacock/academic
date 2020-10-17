@@ -1,0 +1,133 @@
+timestamp=1580964499297
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v=0*8812*40411
+LastVerilogToplevel=blk_mem_gen_v8_4_4
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c92166de6157a19447870ce6bb32d8febc183
+
+[STATE_LOGIC_v8_4]
+A/STATE_LOGIC_v8_4=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v|73|1*374
+BinI32/STATE_LOGIC_v8_4=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v|73
+SLP=3*1038
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|9e7694316f50bbb1d835677aa0904689bc12b032bf05a20870d8729f66906ab60a61d81ea9ef6e2482fa0761c8f58c60
+
+[beh_vlog_ff_ce_clr_v8_4]
+A/beh_vlog_ff_ce_clr_v8_4=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v|148|1*6443
+BinI32/beh_vlog_ff_ce_clr_v8_4=3*3883
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v|148
+SLP=3*4560
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|b279dc021556a2bd20cff8bebc1eefb682cc303bc087fd4719a04ed60675593226527262ddaa47cb266f3a3c4d9b973a153d99aaf4609272a6728df9869b38f2
+
+[beh_vlog_ff_clr_v8_4]
+A/beh_vlog_ff_clr_v8_4=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v|109|1*3207
+BinI32/beh_vlog_ff_clr_v8_4=3*2003
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v|109
+SLP=3*2662
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|b279dc021556a2bd20cff8bebc1eefb67eb5e1d474a1fd87fe3fa2f2f37494c923367905c237c18e13a85f764239fcd8
+
+[beh_vlog_ff_pre_v8_4]
+A/beh_vlog_ff_pre_v8_4=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v|129|1*4825
+BinI32/beh_vlog_ff_pre_v8_4=3*2941
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v|129
+SLP=3*3601
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|06ca7d99e0a7b025c0208da40365f5a80f8c7e7f70e812383af54aa9c9c4bb5023367905c237c18e13a85f764239fcd8
+
+[beh_vlog_muxf7_v8_4]
+A/beh_vlog_muxf7_v8_4=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v|95|1*2027
+BinI32/beh_vlog_muxf7_v8_4=3*1386
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v|95
+SLP=3*1788
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|5ab3c2249f2ceaac92bf7bf8498d29c8465f9d2df579b8074dcf0145d5108d000df5e3d5f45d96c25590922294bfc38c
+
+[blk_mem_axi_read_wrapper_beh_v8_4]
+A/blk_mem_axi_read_wrapper_beh_v8_4=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v|1270|1*56079
+BinI32/blk_mem_axi_read_wrapper_beh_v8_4=3*17341
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v|1270
+SLP=3*24941
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|02d6441b5ce323cc16cb026b7171c4bbb71e9f3d7dae532c34e63f20c584807789ca6ef79109ebc0b2a4771f87e56b81cb9a0955e2695e12265f06e4c1c90533
+
+[blk_mem_axi_regs_fwd_v8_4]
+A/blk_mem_axi_regs_fwd_v8_4=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v|1493|1*65392
+BinI32/blk_mem_axi_regs_fwd_v8_4=3*27665
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v|1493
+SLP=3*29047
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|02d6441b5ce323cc16cb026b7171c4bbd9510fbc32eb9f677cf29182f4498b176a02442ab504285e54d19b0a84099fc6cc0ac090adaee15b50b7c79c7c7a0672
+
+[blk_mem_axi_write_wrapper_beh_v8_4]
+A/blk_mem_axi_write_wrapper_beh_v8_4=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v|994|1*45897
+BinI32/blk_mem_axi_write_wrapper_beh_v8_4=3*6721
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v|994
+SLP=3*14009
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|02d6441b5ce323cc16cb026b7171c4bbeaa18b06d8d9e13c4766b124a1a1d17eb03f1e7978f8b3b861b7f612697106ffae466b83f3d5b0d23f78d580cbd457d6
+
+[blk_mem_gen_v8_4_4]
+A/blk_mem_gen_v8_4_4=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v|3412|1*136015
+BinI32/blk_mem_gen_v8_4_4=3*110867
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v|3412
+SLP=3*127503
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|beb304c69ef670875dbd762e9252a98927beb8159c7dd38946418815322139913e87d0e8091e2c0b2ebbd95722472e36
+
+[blk_mem_gen_v8_4_4_mem_module]
+A/blk_mem_gen_v8_4_4_mem_module=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v|1951|1*81107
+BinI32/blk_mem_gen_v8_4_4_mem_module=3*44587
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v|1951
+SLP=3*89531
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|beb304c69ef670875dbd762e9252a9892b75a8c9bca04facef5def0f763a6a3ca0eccd393868632f5eb5a1597d5803b5a52e11934c39541bfc6a921cd423d8c4
+
+[blk_mem_gen_v8_4_4_output_stage]
+A/blk_mem_gen_v8_4_4_output_stage=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v|1563|1*68448
+BinI32/blk_mem_gen_v8_4_4_output_stage=3*29915
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v|1563
+SLP=3*39418
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|beb304c69ef670875dbd762e9252a989c58d864048042e8f91cfef92c3a1834e36c6a71f8d4853f1f9795ef7667f7d990b12540563e5a620b091ad7a46aeb35d
+
+[blk_mem_gen_v8_4_4_softecc_output_reg_stage]
+A/blk_mem_gen_v8_4_4_softecc_output_reg_stage=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v|1859|1*77229
+BinI32/blk_mem_gen_v8_4_4_softecc_output_reg_stage=3*42280
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v|1859
+SLP=3*43936
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|beb304c69ef670875dbd762e9252a9893e2bc21c20dfa9750ac6c75d334edbffdca9571d294b1f1b875c28e33a40731520b30ca193edf54092384775b7862bec3280cd574af440ea6e22871296997ef6
+
+[read_netlist_v8_4]
+A/read_netlist_v8_4=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v|635|1*29335
+BinI32/read_netlist_v8_4=3*5982
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v|635
+SLP=3*6325
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|08c7b787563f1ed2f3b21b38359f66db5f038e3bb66d862c895285077bd2b3847395c4a12ecbf267f8745bd0406bde4d
+
+[write_netlist_v8_4]
+A/write_netlist_v8_4=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v|166|1*8146
+BinI32/write_netlist_v8_4=3*4871
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v|166
+SLP=3*5487
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|1a451bb2d4f434f81970e769962dc5301a5b22a34a24c4c185b805127ec88012d825e6dd5f36cf62383e72bd86f505ad
+
+[~MFT]
+0=17|0blk_mem_gen_v8_4_4.mgf|40411|0
+1=15|1blk_mem_gen_v8_4_4.mgf|136015|0
+3=30|3blk_mem_gen_v8_4_4.mgf|127503|0
+
+[~U]
+$root=12|0*0|
+STATE_LOGIC_v8_4=12|0*294|
+beh_vlog_ff_ce_clr_v8_4=12|0*1317|
+beh_vlog_ff_clr_v8_4=12|0*779|
+beh_vlog_ff_pre_v8_4=12|0*1047|
+beh_vlog_muxf7_v8_4=12|0*552|
+blk_mem_axi_read_wrapper_beh_v8_4=12|0*3194|
+blk_mem_axi_regs_fwd_v8_4=12|0*3824|
+blk_mem_axi_write_wrapper_beh_v8_4=12|0*2595|
+blk_mem_gen_v8_4_4=12|0*7101||0x10
+blk_mem_gen_v8_4_4_mem_module=12|0*5124|
+blk_mem_gen_v8_4_4_output_stage=12|0*4153|
+blk_mem_gen_v8_4_4_softecc_output_reg_stage=12|0*4712|
+read_netlist_v8_4=12|0*1960|
+write_netlist_v8_4=12|0*1595|

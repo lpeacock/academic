@@ -1,0 +1,31 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol locked has not been declared in module high_speed_selectio_wiz_v3_2_3_rst_scheme." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/hdl/high_speed_selectio_wiz_v3_2_rfs.v" 313  19
+WARNING VCP2515 "Undefined module: PLLE3_ADV was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/hdl/high_speed_selectio_wiz_v3_2_rfs.v" 910  3
+WARNING VCP2515 "Undefined module: BUFGCE was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/hdl/high_speed_selectio_wiz_v3_2_rfs.v" 919  6
+WARNING VCP2515 "Undefined module: PLLE4_ADV was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/hdl/high_speed_selectio_wiz_v3_2_rfs.v" 990  3
+WARNING VCP2515 "Undefined module: BITSLICE_CONTROL was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/hdl/high_speed_selectio_wiz_v3_2_rfs.v" 2393  10
+WARNING VCP2515 "Undefined module: RIU_OR was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/hdl/high_speed_selectio_wiz_v3_2_rfs.v" 2415  3
+WARNING VCP2515 "Undefined module: IBUFDS was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/hdl/high_speed_selectio_wiz_v3_2_rfs.v" 2601  39
+WARNING VCP2515 "Undefined module: IBUF was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/hdl/high_speed_selectio_wiz_v3_2_rfs.v" 2606  37
+WARNING VCP2515 "Undefined module: OBUFDS was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/hdl/high_speed_selectio_wiz_v3_2_rfs.v" 2626  39
+WARNING VCP2515 "Undefined module: OBUF was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/hdl/high_speed_selectio_wiz_v3_2_rfs.v" 2633  37
+WARNING VCP2515 "Undefined module: IBUFDS_DIFF_OUT was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/hdl/high_speed_selectio_wiz_v3_2_rfs.v" 2646  41
+WARNING VCP2515 "Undefined module: IOBUFDS_DIFF_OUT was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/hdl/high_speed_selectio_wiz_v3_2_rfs.v" 2670  41
+WARNING VCP2515 "Undefined module: IOBUF was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/hdl/high_speed_selectio_wiz_v3_2_rfs.v" 2681  39
+WARNING VCP2515 "Undefined module: FDCE was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/hdl/high_speed_selectio_wiz_v3_2_rfs.v" 2779  86
+WARNING VCP2515 "Undefined module: FD was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/hdl/high_speed_selectio_wiz_v3_2_rfs.v" 3597  44
+WARNING VCP2515 "Undefined module: FDRE was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/hdl/high_speed_selectio_wiz_v3_2_rfs.v" 4546  92
+WARNING VCP2515 "Undefined module: RXTX_BITSLICE was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/hdl/high_speed_selectio_wiz_v3_2_rfs.v" 9510  11
+WARNING VCP2515 "Undefined module: TX_BITSLICE_TRI was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/hdl/high_speed_selectio_wiz_v3_2_rfs.v" 9995  11
+WARNING VCP2515 "Undefined module: RX_BITSLICE was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/hdl/high_speed_selectio_wiz_v3_2_rfs.v" 13921  12
+WARNING VCP2515 "Undefined module: TX_BITSLICE was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/hdl/high_speed_selectio_wiz_v3_2_rfs.v" 16603  11
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol multi_intf_lock_sync has not been declared in module high_speed_selectio_wiz_v3_2_3_rst_scheme." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/hdl/high_speed_selectio_wiz_v3_2_rfs.v" 273  124
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: high_speed_selectio_wiz_v3_2_3_clk_rst_top high_speed_selectio_wiz_v3_2_3_bs_ctrl_top high_speed_selectio_wiz_v3_2_3_iobuf_top high_speed_selectio_wiz_v3_2_3_bs_top."
+MESSAGE "$root top modules: high_speed_selectio_wiz_v3_2_3_clk_rst_top high_speed_selectio_wiz_v3_2_3_bs_ctrl_top high_speed_selectio_wiz_v3_2_3_iobuf_top high_speed_selectio_wiz_v3_2_3_bs_top."
+SUCCESS "Compile success 0 Errors 19 Warnings  Analysis time: 1[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

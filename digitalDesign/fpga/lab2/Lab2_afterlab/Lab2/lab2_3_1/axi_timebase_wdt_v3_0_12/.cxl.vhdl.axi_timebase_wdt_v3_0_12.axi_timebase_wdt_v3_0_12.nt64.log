@@ -1,0 +1,17 @@
+Aldec, Inc. VHDL Compiler, build 10.5.217.6767
+VLM Initialized with path: "C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\library.cfg".
+DAGGEN WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\ip\xilinx\axi_timebase_wdt_v3_0\hdl\axi_timebase_wdt_v3_0_vh_rfs.vhd
+COMP96 Compile Entity "window_wdt_counter"
+COMP96 Compile Architecture "wc_imp" of Entity "window_wdt_counter"
+COMP96 Compile Entity "window_wdt_fail_cnt"
+COMP96 Compile Architecture "fc_imp" of Entity "window_wdt_fail_cnt"
+COMP96 Compile Entity "timebase_wdt_core"
+COMP96 Compile Architecture "imp" of Entity "timebase_wdt_core"
+COMP96 Compile Entity "axi_timebase_wdt"
+COMP96 Compile Architecture "imp" of Entity "axi_timebase_wdt"
+COMP96 Compile Entity "axi_window_wdt"
+COMP96 Compile Architecture "imp" of Entity "axi_window_wdt"
+COMP96 Compile Entity "axi_timebase_wdt_top"
+COMP96 Compile Architecture "top_arch" of Entity "axi_timebase_wdt_top"
+COMP96 Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]

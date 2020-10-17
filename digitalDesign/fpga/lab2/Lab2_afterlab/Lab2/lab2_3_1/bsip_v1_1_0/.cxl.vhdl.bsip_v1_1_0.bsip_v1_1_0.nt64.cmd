@@ -1,0 +1,2 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/bsip_v1_1_0
+C:/Aldec/Active-HDL-Student-Edition/bin/vcom  -relax -work bsip_v1_1_0 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/bsip_v1_1_0/.cxl.vhdl.bsip_v1_1_0.bsip_v1_1_0.nt64.cmf

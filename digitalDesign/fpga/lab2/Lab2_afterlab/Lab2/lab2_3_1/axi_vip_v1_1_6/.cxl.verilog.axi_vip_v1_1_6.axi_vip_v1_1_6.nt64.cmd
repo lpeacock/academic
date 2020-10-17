@@ -1,0 +1,2 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/axi_vip_v1_1_6
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  -l axi_vip_v1_1_6 -l xilinx_vip +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -sv2k12 -work axi_vip_v1_1_6 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/axi_vip_v1_1_6/.cxl.systemverilog.axi_vip_v1_1_6.axi_vip_v1_1_6.nt64.cmf

@@ -1,0 +1,28 @@
+timestamp=1580964833798
+
+[~A]
+LastVerilogToplevel=protected_3b2066048850eeeede9e9410fef654ebb383ba5738b55e225525550577d8f98302a52ccbdbf6b7de7a1213ed5f7db942
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c9216a12ac45aab3d9157e6e435ce33f29e39
+
+[protected_3b2066048850eeeede9e9410fef654ebb383ba5738b55e225525550577d8f98302a52ccbdbf6b7de7a1213ed5f7db942]
+A/protected_3b2066048850eeeede9e9410fef654ebb383ba5738b55e225525550577d8f98302a52ccbdbf6b7de7a1213ed5f7db942=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/shell_utils_msp432_bsl_crc_gen_v1_0/hdl/shell_utils_msp432_bsl_crc_gen_v1_0_rfs.v|80|1*438
+BinI32/protected_3b2066048850eeeede9e9410fef654ebb383ba5738b55e225525550577d8f98302a52ccbdbf6b7de7a1213ed5f7db942=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/shell_utils_msp432_bsl_crc_gen_v1_0/hdl/shell_utils_msp432_bsl_crc_gen_v1_0_rfs.v|80
+SLP=3*2013
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|96a67f4263f9132c8af11eb0fffff6c391e8e81102716ea25ede90f36a0f940b5a4479974747b6ea5dab88ada270d49d0de61e121774ba26a2384b35a0d2b33eb28b5462536d8158bcd2943f8e0bb9bd33b03d794b039804c6ba957e33d987fc4942000e09364cc31c35dda8fc546f7d
+
+[~MFT]
+0=2|0shell_utils_msp432_bsl_crc_gen_v1_0_0.mgf|246|0
+1=2|1shell_utils_msp432_bsl_crc_gen_v1_0_0.mgf|438|0
+3=4|3shell_utils_msp432_bsl_crc_gen_v1_0_0.mgf|2013|0
+
+[~U]
+$root=12|0*0|
+protected_3b2066048850eeeede9e9410fef654ebb383ba5738b55e225525550577d8f98302a52ccbdbf6b7de7a1213ed5f7db942=12|0*246||0x10

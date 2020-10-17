@@ -1,0 +1,38 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol the_auto_reset_patdet has not been declared in module DSP48E1." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unifast/DSP48E1.v" 1205  35
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol clkin1_in has not been declared in module MMCME2_ADV." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unifast/MMCME2_ADV.v" 337  21
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol clkin2_in has not been declared in module MMCME2_ADV." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unifast/MMCME2_ADV.v" 338  21
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol clkfb_in has not been declared in module MMCME2_ADV." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unifast/MMCME2_ADV.v" 339  20
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol clkinsel_in has not been declared in module MMCME2_ADV." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unifast/MMCME2_ADV.v" 340  23
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol rst_input_r has not been declared in module MMCME2_ADV." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unifast/MMCME2_ADV.v" 341  23
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol pwrdwn_in has not been declared in module MMCME2_ADV." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unifast/MMCME2_ADV.v" 342  21
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol clkinsel_tmp has not been declared in module MMCME2_ADV." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unifast/MMCME2_ADV.v" 696  27
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol init_trig has not been declared in module MMCME2_ADV." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unifast/MMCME2_ADV.v" 747  22
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol clkpll_r has not been declared in module MMCME2_ADV." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unifast/MMCME2_ADV.v" 748  20
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol pwrdwn_in1 has not been declared in module MMCME2_ADV." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unifast/MMCME2_ADV.v" 749  22
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol rst_input has not been declared in module MMCME2_ADV." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unifast/MMCME2_ADV.v" 750  22
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol clkin1_in has not been declared in module PLLE2_ADV." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unifast/PLLE2_ADV.v" 263  21
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol clkin2_in has not been declared in module PLLE2_ADV." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unifast/PLLE2_ADV.v" 264  21
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol clkfb_in has not been declared in module PLLE2_ADV." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unifast/PLLE2_ADV.v" 265  20
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol clkinsel_in has not been declared in module PLLE2_ADV." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unifast/PLLE2_ADV.v" 266  23
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol rst_input_r has not been declared in module PLLE2_ADV." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unifast/PLLE2_ADV.v" 267  23
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol pwrdwn_in has not been declared in module PLLE2_ADV." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unifast/PLLE2_ADV.v" 268  21
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol clkinsel_tmp has not been declared in module PLLE2_ADV." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unifast/PLLE2_ADV.v" 420  27
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol init_trig has not been declared in module PLLE2_ADV." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unifast/PLLE2_ADV.v" 471  22
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol clkpll_r has not been declared in module PLLE2_ADV." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unifast/PLLE2_ADV.v" 472  20
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol pwrdwn_in1 has not been declared in module PLLE2_ADV." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unifast/PLLE2_ADV.v" 473  22
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol rst_input has not been declared in module PLLE2_ADV." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unifast/PLLE2_ADV.v" 474  22
+WARNING VCP2515 "Undefined module: B_GTHE2_CHANNEL_FAST was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unifast/GTHE2_CHANNEL.v" 4282  5
+WARNING VCP2515 "Undefined module: B_GTXE2_CHANNEL_FAST was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unifast/GTXE2_CHANNEL.v" 3425  5
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+WARNING VCP7116 "REAL value expected for format specifier %f as parameter $time<time>." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unifast/DSP48E1.v" 1015  256
+WARNING VCP7116 "REAL value expected for format specifier %f as parameter fb_delay_max<integer>." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unifast/MMCME2_ADV.v" 1457  169
+WARNING VCP7116 "REAL value expected for format specifier %f as parameter fb_delay_max<integer>." "C:/Xilinx/Vivado/2019.2/data/verilog/src/unifast/PLLE2_ADV.v" 1092  168
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: DSP48E1 GTHE2_CHANNEL GTXE2_CHANNEL MMCME2_ADV PLLE2_ADV."
+MESSAGE "$root top modules: DSP48E1 GTHE2_CHANNEL GTXE2_CHANNEL MMCME2_ADV PLLE2_ADV."
+SUCCESS "Compile success 0 Errors 5 Warnings  Analysis time: 0[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

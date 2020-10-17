@@ -1,0 +1,2 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/ta_dma_v1_0_4
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  -l ta_dma_v1_0_4 +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -sv2k12 -work ta_dma_v1_0_4 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/ta_dma_v1_0_4/.cxl.systemverilog.ta_dma_v1_0_4.ta_dma_v1_0_4.nt64.cmf

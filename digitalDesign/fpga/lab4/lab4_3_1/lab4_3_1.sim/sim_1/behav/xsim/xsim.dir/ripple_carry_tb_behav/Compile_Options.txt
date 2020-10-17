@@ -1,0 +1,1 @@
+-wto "7418d8142e894376b18871a7613b37f6" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "ripple_carry_tb_behav" "xil_defaultlib.ripple_carry_tb" "xil_defaultlib.glbl" -log "elaborate.log" 

@@ -1,0 +1,18 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+WARNING VCP2515 "Undefined module: xpm_memory_spram was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hbm_v1_0/hdl/hbm_v1_0_vl_rfs.sv" 2212  3
+WARNING VCP2515 "Undefined module: HBM_ONE_STACK_INTF was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hbm_v1_0/hdl/hbm_v1_0_vl_rfs.sv" 3468  5
+WARNING VCP2515 "Undefined module: HBM_TWO_STACK_INTF was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hbm_v1_0/hdl/hbm_v1_0_vl_rfs.sv" 6280  3
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol xsdb_apb_grant_0_s has not been declared in module hbm_top in generate block ONE_STACK_HBM." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hbm_v1_0/hdl/hbm_v1_0_vl_rfs.sv" 2378  50
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol gen_apb_wr_rd_0 has not been declared in module hbm_top in generate block TWO_STACK_HBM." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hbm_v1_0/hdl/hbm_v1_0_vl_rfs.sv" 3765  38
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol xsdb_apb_grant_0_s has not been declared in module hbm_top in generate block TWO_STACK_HBM." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hbm_v1_0/hdl/hbm_v1_0_vl_rfs.sv" 3908  50
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol gen_apb_wr_rd_1 has not been declared in module hbm_top in generate block TWO_STACK_HBM." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hbm_v1_0/hdl/hbm_v1_0_vl_rfs.sv" 4014  38
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol xsdb_apb_grant_1_s has not been declared in module hbm_top in generate block TWO_STACK_HBM." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/hbm_v1_0/hdl/hbm_v1_0_vl_rfs.sv" 4156  50
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: hbm_top."
+MESSAGE "$root top modules: hbm_top."
+SUCCESS "Compile success 0 Errors 3 Warnings  Analysis time: 1[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

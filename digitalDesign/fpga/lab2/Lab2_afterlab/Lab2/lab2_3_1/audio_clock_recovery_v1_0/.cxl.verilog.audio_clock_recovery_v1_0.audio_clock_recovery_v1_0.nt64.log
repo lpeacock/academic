@@ -1,0 +1,13 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+WARNING VCP2515 "Undefined module: xpm_cdc_pulse was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/audio_clock_recovery_unit_v1_0/hdl/audio_clock_recovery_unit_v1_0_rfs.sv" 828  3
+WARNING VCP2515 "Undefined module: xpm_cdc_array_single was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/audio_clock_recovery_unit_v1_0/hdl/audio_clock_recovery_unit_v1_0_rfs.sv" 842  3
+WARNING VCP2515 "Undefined module: xpm_cdc_single was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/audio_clock_recovery_unit_v1_0/hdl/audio_clock_recovery_unit_v1_0_rfs.sv" 1061  3
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: audio_clock_recovery_v1_0."
+MESSAGE "$root top modules: audio_clock_recovery_v1_0."
+SUCCESS "Compile success 0 Errors 3 Warnings  Analysis time: 0[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

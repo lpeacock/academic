@@ -1,0 +1,29 @@
+timestamp=1580965064532
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/xlslice_v1_0/hdl/xlslice_v1_0_vl_rfs.v=0*455*988
+LastVerilogToplevel=xlslice_v1_0_2_xlslice
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c92164bbbf3e0df3efa511f3dca533e1f58d4
+
+[xlslice_v1_0_2_xlslice]
+A/xlslice_v1_0_2_xlslice=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/xlslice_v1_0/hdl/xlslice_v1_0_vl_rfs.v|13|1*374
+BinI32/xlslice_v1_0_2_xlslice=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/xlslice_v1_0/hdl/xlslice_v1_0_vl_rfs.v|13
+SLP=3*1092
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|0bd8330173550f006472dc8866677d765ff4509e4d842c08ee241f8292e082f63fc6da8ef429488e9b48a4dd54fe9d2e
+
+[~MFT]
+0=4|0xlslice_v1_0_2.mgf|988|0
+1=2|1xlslice_v1_0_2.mgf|374|0
+3=4|3xlslice_v1_0_2.mgf|1092|0
+
+[~U]
+$root=12|0*0|
+xlslice_v1_0_2_xlslice=12|0*182||0x10

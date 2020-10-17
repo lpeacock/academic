@@ -1,0 +1,10 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: axis_ila_pp_v1_0_0_axis_ila_pp."
+MESSAGE "$root top modules: axis_ila_pp_v1_0_0_axis_ila_pp."
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 2[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

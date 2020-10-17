@@ -1,0 +1,37 @@
+timestamp=1580965138866
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi4svideo_bridge_v1_0/hdl/axi4svideo_bridge_v1_0_rfs.v=0*1340*4995
+LastVerilogToplevel=axi4svideo_bridge_v1_0_10
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c9216474e620486e501f513cdbc9a65886923
+
+[axi4svideo_bridge_v1_0_10]
+A/axi4svideo_bridge_v1_0_10=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi4svideo_bridge_v1_0/hdl/axi4svideo_bridge_v1_0_rfs.v|124|1*4494
+BinI32/axi4svideo_bridge_v1_0_10=3*2763
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi4svideo_bridge_v1_0/hdl/axi4svideo_bridge_v1_0_rfs.v|124
+SLP=3*32029
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|26a9ae63cac983cf331fc832a23d5c193b752e127e45bffbc3c6b62e27e3082a75b43e74db70ea1b01b81bf52ea7f8e3e70fed59d391ae0601c3ce7bbdd8b5e8
+
+[axi4svideo_bridge_v1_0_10_sync_cell]
+A/axi4svideo_bridge_v1_0_10_sync_cell=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi4svideo_bridge_v1_0/hdl/axi4svideo_bridge_v1_0_rfs.v|56|1*390
+BinI32/axi4svideo_bridge_v1_0_10_sync_cell=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi4svideo_bridge_v1_0/hdl/axi4svideo_bridge_v1_0_rfs.v|56
+SLP=3*2175
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|26a9ae63cac983cf331fc832a23d5c199c0cefa0680436d868f74b316ab970ce28e77b848dc0c727696ca9f377de97fe500e049af72fe2766ea3083025ef4c47
+
+[~MFT]
+0=5|0axi4svideo_bridge_v1_0_10.mgf|4995|0
+1=3|1axi4svideo_bridge_v1_0_10.mgf|4494|0
+3=6|3axi4svideo_bridge_v1_0_10.mgf|32029|0
+
+[~U]
+$root=12|0*0|
+axi4svideo_bridge_v1_0_10=12|0*540||0x10
+axi4svideo_bridge_v1_0_10_sync_cell=12|0*230|

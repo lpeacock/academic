@@ -1,0 +1,106 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Jan 28 19:28:16 2020
+# Process ID: 3652
+# Current directory: C:/Users/lucas/Documents/fpga/lab1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7716 C:\Users\lucas\Documents\fpga\lab1\lab1.xpr
+# Log file: C:/Users/lucas/Documents/fpga/lab1/vivado.log
+# Journal file: C:/Users/lucas/Documents/fpga/lab1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lucas/Documents/fpga/lab1/lab1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:05 . Memory (MB): peak = 770.469 ; gain = 89.109
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: mux2
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1317.082 ; gain = 229.121
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'mux2' [C:/Users/lucas/Documents/fpga/lab1/lab1.srcs/sources_1/new/mux2.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mux2' (1#1) [C:/Users/lucas/Documents/fpga/lab1/lab1.srcs/sources_1/new/mux2.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1390.273 ; gain = 302.313
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1390.273 ; gain = 302.313
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1390.273 ; gain = 302.313
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1390.273 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1405.891 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:25 ; elapsed = 00:00:15 . Memory (MB): peak = 1511.215 ; gain = 423.254
+6 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:21 . Memory (MB): peak = 1511.215 ; gain = 668.352
+set_property is_enabled false [get_files  C:/Users/lucas/Documents/fpga/lab1/lab1.srcs/sources_1/new/mux2.v]
+refresh_design
+ERROR: [Common 17-53] User Exception: Unable to open design. No Verilog or VHDL sources found in project
+update_compile_order -fileset sources_1
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1532.262 ; gain = 21.047
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'mux2_2wide' [C:/Users/lucas/Documents/fpga/lab1/lab1.srcs/sources_1/new/mux2_2wide.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mux2_2wide' (1#1) [C:/Users/lucas/Documents/fpga/lab1/lab1.srcs/sources_1/new/mux2_2wide.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1571.098 ; gain = 59.883
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1571.098 ; gain = 59.883
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1571.098 ; gain = 59.883
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1571.098 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 1571.098 ; gain = 59.883
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 28 19:32:29 2020...

@@ -1,0 +1,89 @@
+timestamp=1580965260702
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_tft_v2_0/hdl/axi_tft_v2_0_rfs.v=0*21978*40078
+LastVerilogToplevel=axi_tft_v2_0_23_tft_controller
+ModifyID=2
+Version=74
+
+[$root]
+A/$root=22|||1*25670
+BinI32/$root=3*3752
+SLP=3*3856
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c92167765b18ab8d3e840154515cec030c285
+
+[axi_tft]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_tft_v2_0/hdl/axi_tft_v2_0_rfs.vhd|412|1*0
+BinI32/imp=3*0
+I=0*4868
+I/imp=0*17678
+M=11|0|vde|1580965258262|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_tft_v2_0/hdl/axi_tft_v2_0_rfs.vhd|0*753*0xb973e1118fbb129c3c8841bd818e82a8bff735e8|0*4731*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=21|0|vde|1580965258267|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_tft_v2_0/hdl/axi_tft_v2_0_rfs.vhd|0*5194*0xfe959be8d09cfad0376517081f92650bbc6039e0|0*17534*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_tft_v2_0/hdl/axi_tft_v2_0_rfs.vhd|256
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|9036065178f60f5d995dab927efc0c4e26527262ddaa47cb266f3a3c4d9b973a3ac35b6c23cbef13734d49aca5ab7312
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f62941cfce04b9a0e1f2904c479b09e4f10e8b
+
+[axi_tft_v2_0_23_h_sync]
+A/axi_tft_v2_0_23_h_sync=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_tft_v2_0/hdl/axi_tft_v2_0_rfs.v|2427|1*81488
+BinI32/axi_tft_v2_0_23_h_sync=3*41016
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_tft_v2_0/hdl/axi_tft_v2_0_rfs.v|2427
+SLP=3*43235
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|6c5f364e44ccae421fd874b2c0e14e364597720483e87935456c8c71a439fa0f887cc05749be4950299342cf4360efa9
+
+[axi_tft_v2_0_23_iic_init]
+A/axi_tft_v2_0_23_iic_init=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_tft_v2_0/hdl/axi_tft_v2_0_rfs.v|94|1*26060
+BinI32/axi_tft_v2_0_23_iic_init=3*3924
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_tft_v2_0/hdl/axi_tft_v2_0_rfs.v|94
+SLP=3*12716
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|6c5f364e44ccae421fd874b2c0e14e362b9fc68e8fd838230d269cb0755fc8a68c61099b69bfa858fc7536a701d86f21abfb884b265f35a8b49638019d44b85c
+
+[axi_tft_v2_0_23_line_buffer]
+A/axi_tft_v2_0_23_line_buffer=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_tft_v2_0/hdl/axi_tft_v2_0_rfs.v|2114|1*76520
+BinI32/axi_tft_v2_0_23_line_buffer=3*38083
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_tft_v2_0/hdl/axi_tft_v2_0_rfs.v|2114
+SLP=3*39434
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|6c5f364e44ccae421fd874b2c0e14e36a649efa5eb07a2855da841b629870bea7125669b9597bcd90bc29bad07bb1a4208639ddea9146a1be67e123ad3f71974
+
+[axi_tft_v2_0_23_slave_register]
+A/axi_tft_v2_0_23_slave_register=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_tft_v2_0/hdl/axi_tft_v2_0_rfs.v|1519|1*66336
+BinI32/axi_tft_v2_0_23_slave_register=3*26183
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_tft_v2_0/hdl/axi_tft_v2_0_rfs.v|1519
+SLP=3*33309
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|6c5f364e44ccae421fd874b2c0e14e36069f551d6a356934b88fd5bb6d853eea5294141c0c7419b0a0b70567bcd321b0131f860153fefd320dd67c6d64138642
+
+[axi_tft_v2_0_23_tft_controller]
+A/axi_tft_v2_0_23_tft_controller=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_tft_v2_0/hdl/axi_tft_v2_0_rfs.v|2837|1*85910
+BinI32/axi_tft_v2_0_23_tft_controller=3*45773
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_tft_v2_0/hdl/axi_tft_v2_0_rfs.v|2837
+SLP=3*51116
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|6c5f364e44ccae421fd874b2c0e14e36adf63b5032e49d2ec0a394c4a3d5f72a848ee2039f1e50519741293693dede9b20c155d528568b202566a40326dd8b21
+
+[axi_tft_v2_0_23_tft_interface]
+A/axi_tft_v2_0_23_tft_interface=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_tft_v2_0/hdl/axi_tft_v2_0_rfs.v|918|1*39040
+BinI32/axi_tft_v2_0_23_tft_interface=3*20440
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_tft_v2_0/hdl/axi_tft_v2_0_rfs.v|918
+SLP=3*23373
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|6c5f364e44ccae421fd874b2c0e14e360396e7de8222e092b9ed84a712b847e1345a65899dff62ac12fe3cc86f4e721e2e81233d56160004fc2b89b9d33f96b9
+
+[axi_tft_v2_0_23_v_sync]
+A/axi_tft_v2_0_23_v_sync=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_tft_v2_0/hdl/axi_tft_v2_0_rfs.v|515|1*34907
+BinI32/axi_tft_v2_0_23_v_sync=3*15837
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_tft_v2_0/hdl/axi_tft_v2_0_rfs.v|515
+SLP=3*17995
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|6c5f364e44ccae421fd874b2c0e14e362f063bba80fae4fd57722dbe54e7678bddcef81a010bc6c3c261237898b15c7e
+
+[~MFT]
+0=10|0axi_tft_v2_0_23.mgf|40078|0
+1=8|1axi_tft_v2_0_23.mgf|85910|0
+3=16|3axi_tft_v2_0_23.mgf|51116|0
+
+[~U]
+$root=12|0*17797|
+axi_tft=11|0*0|
+axi_tft_v2_0_23_h_sync=12|0*20595|
+axi_tft_v2_0_23_iic_init=12|0*18059|
+axi_tft_v2_0_23_line_buffer=12|0*20223|
+axi_tft_v2_0_23_slave_register=12|0*19622|
+axi_tft_v2_0_23_tft_controller=12|0*20954||0x10
+axi_tft_v2_0_23_tft_interface=12|0*19025|
+axi_tft_v2_0_23_v_sync=12|0*18678|

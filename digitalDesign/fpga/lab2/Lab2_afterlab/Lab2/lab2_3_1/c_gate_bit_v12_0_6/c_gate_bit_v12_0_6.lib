@@ -1,0 +1,88 @@
+timestamp=1580965332096
+
+[~A]
+ModifyID=1
+Version=74
+
+[c_gate_bit_tier]
+A/synth=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_gate_bit_v12_0/hdl/c_gate_bit_v12_0_vh_rfs.vhd|2212|1*4573
+BinI32/synth=3*6166
+I=0*48123
+I/synth=0*49542
+M=11|0|vde|1580965331924|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_gate_bit_v12_0/hdl/c_gate_bit_v12_0_vh_rfs.vhd|0*47307*0x8d8b90cfe759fce9ba125cc083835db04dd999a9|0*47967*0xbba181862c44b92d99e8f49010ab70a1
+M/synth=21|0|vde|1580965331926|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_gate_bit_v12_0/hdl/c_gate_bit_v12_0_vh_rfs.vhd|0*48587*0x0c6038a478bd9654e7d8c0e869bce8cef916b2ad|0*49377*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_gate_bit_v12_0/hdl/c_gate_bit_v12_0_vh_rfs.vhd|2212
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|a0e2b6b901ae267bc6ca7d03779c1672178b9959c4157caf6ebe1a894121d7899092fa8b5b6434dbee7b406004c31d53
+Version/synth=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|e480b5c213cbe1f7e091cb6c53388268e4796b7b963ace8bd26d112a41e27bb8
+
+[c_gate_bit_tile]
+A/synth=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_gate_bit_v12_0/hdl/c_gate_bit_v12_0_vh_rfs.vhd|2212|1*2743
+BinI32/synth=3*4137
+I=0*42083
+I/synth=0*46389
+M=11|0|vde|1580965331906|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_gate_bit_v12_0/hdl/c_gate_bit_v12_0_vh_rfs.vhd|0*41319*0x6c96f705c3801856ced998eb7205990257b463f1|0*41927*0xbba181862c44b92d99e8f49010ab70a1
+M/synth=21|0|vde|1580965331914|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_gate_bit_v12_0/hdl/c_gate_bit_v12_0_vh_rfs.vhd|0*42547*0xdc31fc73045334afeffd75e5b93f36b4d6122e0d|0*46224*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_gate_bit_v12_0/hdl/c_gate_bit_v12_0_vh_rfs.vhd|2212
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|a0e2b6b901ae267bc6ca7d03779c1672f861474168fd9167fecce847c432cde64b1c356906a1569f8c55c68e765e0046
+Version/synth=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|e480b5c213cbe1f7e091cb6c533882683ce7400bf1ee086533c1e0676e105074
+
+[c_gate_bit_v12_0_6]
+A/xilinx=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_gate_bit_v12_0/hdl/c_gate_bit_v12_0_vh_rfs.vhd|2212|1*10361
+BinI32/xilinx=3*11550
+I=0*65552
+I/xilinx=0*67080
+M=11|0|vde|1580965331972|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_gate_bit_v12_0/hdl/c_gate_bit_v12_0_vh_rfs.vhd|0*64155*0xadf7ba72442bdc0dcd076b39553883c1c1d84f34|0*65393*0xbba181862c44b92d99e8f49010ab70a1
+M/xilinx=21|0|vde|1580965331974|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_gate_bit_v12_0/hdl/c_gate_bit_v12_0_vh_rfs.vhd|0*65875*0x0fedf4b41eb9090a07703c6ba08431336f78093e|0*66911*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_gate_bit_v12_0/hdl/c_gate_bit_v12_0_vh_rfs.vhd|2212
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|2f284374a95b1a181590bdc4ab6618e2504a95db084cef0fab08adf6fbf61f574d8948f9e65b96d6b093d60ed1bf7e3b
+Version/xilinx=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|2575045bca4fea1fc1b003ee1cd0d9a0cca8f56b47365dffb40c3a9205b16d07
+
+[c_gate_bit_v12_0_6_comp]
+E=1*0
+I=0*1646
+M=3|0|vde|1580965331512|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_gate_bit_v12_0/hdl/c_gate_bit_v12_0_vh_rfs.vhd|0*350*0xec54e70a9ec838db3dce1ec7230a41d07e49a5e4|0*1482*0xbba181862c44b92d99e8f49010ab70a1
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_gate_bit_v12_0/hdl/c_gate_bit_v12_0_vh_rfs.vhd|2212
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|2f284374a95b1a181590bdc4ab6618e23675ea458e0e5137c73d49aa431074d126527262ddaa47cb266f3a3c4d9b973aa042655f726fa290e813a90fd697eb90
+
+[c_gate_bit_v12_0_6_viv]
+A/synth=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_gate_bit_v12_0/hdl/c_gate_bit_v12_0_vh_rfs.vhd|2212|1*5603
+BinI32/synth=3*6858
+I=0*52038
+I/synth=0*63115
+M=11|0|vde|1580965331939|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_gate_bit_v12_0/hdl/c_gate_bit_v12_0_vh_rfs.vhd|0*50499*0xcac4ad419b5a41baae079ca6da2799d2c81ab92e|0*51875*0xbba181862c44b92d99e8f49010ab70a1
+M/synth=21|0|vde|1580965331945|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_gate_bit_v12_0/hdl/c_gate_bit_v12_0_vh_rfs.vhd|0*52557*0x1ccb55a66324c53217722d9ea9244853644644af|0*62943*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_gate_bit_v12_0/hdl/c_gate_bit_v12_0_vh_rfs.vhd|2212
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|2f284374a95b1a181590bdc4ab6618e2a3be223b2fcb78a3969fbf76711a5bb6f1bf9fed154952f22d89ea7d586d6ab5
+Version/synth=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|e480b5c213cbe1f7e091cb6c53388268c8976ba01be0f692159aeeffa358c5bc
+
+[c_gate_bit_v12_0_6_viv_comp]
+E=1*440
+I=0*3533
+M=3|0|vde|1580965331540|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_gate_bit_v12_0/hdl/c_gate_bit_v12_0_vh_rfs.vhd|0*2221*0xd828284bbbaa979bbc5d4ea3686f2678e4ff9c7a|0*3365*0xbba181862c44b92d99e8f49010ab70a1
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_gate_bit_v12_0/hdl/c_gate_bit_v12_0_vh_rfs.vhd|2212
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|2f284374a95b1a181590bdc4ab6618e2b6e9da24e06318ade3e8c6fa5f17e40189bac296eb54be09bbd7295b33b4a4b9dcb0901cf60edfe7193a9009d5135de1
+
+[pkg_gate_bit_v12_0]
+BinI32/pkg_gate_bit_v12_0=3*0
+E=1*884
+I=0*9119
+I/pkg_gate_bit_v12_0=0*40705
+M=3|0|vde|1580965331543|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_gate_bit_v12_0/hdl/c_gate_bit_v12_0_vh_rfs.vhd|0*5646*0x4eb3bf07cc60813e12a40f43f64a3f0dcdab8048|0*8960*0xbba181862c44b92d99e8f49010ab70a1
+M/pkg_gate_bit_v12_0=4|0|vde|1580965331548|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_gate_bit_v12_0/hdl/c_gate_bit_v12_0_vh_rfs.vhd|0*9378*0x0b3755649cd0483e1c2dc0f9e10e58732abe5133|0*40525*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_gate_bit_v12_0/hdl/c_gate_bit_v12_0_vh_rfs.vhd|2212
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|3b1837db1f5e4adb60efb634da3593eec485c331165e214f7ac206bf24a873eb5b0a5f77759d1fa95027232c86ca5ea1
+Version/pkg_gate_bit_v12_0=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|3b1837db1f5e4adb60efb634da3593eec485c331165e214f7ac206bf24a873eb5b0a5f77759d1fa95027232c86ca5ea1
+
+[~MFT]
+0=46|0c_gate_bit_v12_0_6.mgf|67080|0
+1=7|1c_gate_bit_v12_0_6.mgf|10361|0
+3=5|3c_gate_bit_v12_0_6.mgf|11550|0
+
+[~U]
+c_gate_bit_tier=11|0*46955|
+c_gate_bit_tile=11|0*40983|
+c_gate_bit_v12_0_6=11|0*63704|
+c_gate_bit_v12_0_6_comp=3|0*0|0*167
+c_gate_bit_v12_0_6_viv=11|0*50044|
+c_gate_bit_v12_0_6_viv_comp=3|0*1863|0*2034
+pkg_gate_bit_v12_0=3|0*3754|0*4300

@@ -1,0 +1,12 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+WARNING VCP2515 "Undefined module: ODDRE1 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/oddr_v1_0/hdl/oddr_v1_0_vl_rfs.v" 60  18
+WARNING VCP2515 "Undefined module: ODDR was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/oddr_v1_0/hdl/oddr_v1_0_vl_rfs.v" 91  13
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: oddr_v1_0_1_oddr."
+MESSAGE "$root top modules: oddr_v1_0_1_oddr."
+SUCCESS "Compile success 0 Errors 2 Warnings  Analysis time: 0[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

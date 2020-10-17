@@ -1,0 +1,33 @@
+# Warning: ULM_0039: Cannot load library configuration file "./../" linked in "C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\test\test.sim\sim_1\behav\activehdl\test\library.cfg".
+vmap xil_defaultlib C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/test/test.sim/sim_1/behav/activehdl/activehdl/xil_defaultlib
+# AMAP: Error: Library: "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/test/test.sim/sim_1/behav/activehdl/activehdl/xil_defaultlib\xil_defaultlib.lib" does not exist.
+quiet off
+asim -asdb +access +r +m+fulladder_dataflow_tb -L unisims_ver -L unimacro_ver -L secureip -L xil_defaultlib -O5 xil_defaultlib.fulladder_dataflow_tb xil_defaultlib.glbl
+# Error: VSIM: cannot select specified top-level
+wave *
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Simulation not initialized.
+#     while executing
+# "error "Simulation not initialized.""
+#     (procedure "run" line 6)
+#     invoked from within
+# "run 1000ns"
+#     (file "C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/test/test.sim/sim_1/behav/activehdl/fulladder_dataflow_tb_simulate.do" line 26)
+#     invoked from within
+# "source {C:/Users/lucas/Documents/fpga/lab2/Lab2_afterlab/Lab2/test/test.sim/sim_1/behav/activehdl/fulladder_dataflow_tb_simulate.do}"
+#     invoked from within
+# "interp eval $slave "source $source_file""
+vmap -help
+# Usage:
+# vmap -help
+# vmap [-global] [-re] <logical_name> [<path>]
+# vmap -del {[-global] <logical_name> | global | local}
+vmap -help
+# Usage:
+# vmap -help
+# vmap [-global] [-re] <logical_name> [<path>]
+# vmap -del {[-global] <logical_name> | global | local}
+# Design: Design test already active.
+# 
+# Design: Design "test" has been set as active.
+# Warning: ULM_0039: Cannot load library configuration file "./../" linked in "C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\test\test.sim\sim_1\behav\activehdl\test\library.cfg".

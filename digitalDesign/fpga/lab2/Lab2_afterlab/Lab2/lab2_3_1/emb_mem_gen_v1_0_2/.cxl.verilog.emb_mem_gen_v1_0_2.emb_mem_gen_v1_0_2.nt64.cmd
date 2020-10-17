@@ -1,0 +1,2 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/emb_mem_gen_v1_0_2
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  -l emb_mem_gen_v1_0_2 +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -sv2k12 -work emb_mem_gen_v1_0_2 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/emb_mem_gen_v1_0_2/.cxl.systemverilog.emb_mem_gen_v1_0_2.emb_mem_gen_v1_0_2.nt64.cmf

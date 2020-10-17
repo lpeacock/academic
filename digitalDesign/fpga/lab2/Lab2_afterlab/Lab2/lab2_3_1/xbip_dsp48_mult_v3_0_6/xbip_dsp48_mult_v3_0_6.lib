@@ -1,0 +1,88 @@
+timestamp=1580965395316
+
+[~A]
+ModifyID=1
+Version=74
+
+[xbip_dsp48_mult_rtl]
+A/synth=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/xbip_dsp48_mult_v3_0/hdl/xbip_dsp48_mult_v3_0_vh_rfs.vhd|1199|1*2103
+BinI32/synth=3*808
+I=0*15522
+I/synth=0*21350
+M=11|0|vde|1580965394888|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/xbip_dsp48_mult_v3_0/hdl/xbip_dsp48_mult_v3_0_vh_rfs.vhd|0*13614*0x2a9b132ba8a8ceef62422a1d8aa54baf4a42839b|0*15354*0xbba181862c44b92d99e8f49010ab70a1
+M/synth=21|0|vde|1580965394892|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/xbip_dsp48_mult_v3_0/hdl/xbip_dsp48_mult_v3_0_vh_rfs.vhd|0*15942*0x9391cc54603bd8939c9b8dbb0139a4e0e5bae9be|0*21173*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/xbip_dsp48_mult_v3_0/hdl/xbip_dsp48_mult_v3_0_vh_rfs.vhd|1199
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|1d335851a9c5f15fee2bd4dce59d864c3b20f9164d733455d5a366da9caa461ff7f9257d3918535fd882607ca0958a49
+Version/synth=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|e480b5c213cbe1f7e091cb6c53388268372cccb2293598396d3391fd3a5b07d5
+
+[xbip_dsp48_mult_synth]
+A/synth=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/xbip_dsp48_mult_v3_0/hdl/xbip_dsp48_mult_v3_0_vh_rfs.vhd|1199|1*4621
+BinI32/synth=3*6500
+I=0*24097
+I/synth=0*28133
+M=11|0|vde|1580965394905|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/xbip_dsp48_mult_v3_0/hdl/xbip_dsp48_mult_v3_0_vh_rfs.vhd|0*22230*0x0ec7b4068082bbce7f71cf75b50905b19dc69f68|0*23927*0xbba181862c44b92d99e8f49010ab70a1
+M/synth=21|0|vde|1580965395196|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/xbip_dsp48_mult_v3_0/hdl/xbip_dsp48_mult_v3_0_vh_rfs.vhd|0*24487*0x664834fcdd8955028787ca041c937b8f16637947|0*27954*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/xbip_dsp48_mult_v3_0/hdl/xbip_dsp48_mult_v3_0_vh_rfs.vhd|1199
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|1d335851a9c5f15fee2bd4dce59d864c1ca773bc24377ea69ec536a8db283896e3b7058e599a0ed00fea09ef16ab0f46
+Version/synth=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|e480b5c213cbe1f7e091cb6c53388268d2c92ebc9cec1ca4b193c12a6822e14e
+
+[xbip_dsp48_mult_v3_0_6]
+A/xilinx=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/xbip_dsp48_mult_v3_0/hdl/xbip_dsp48_mult_v3_0_vh_rfs.vhd|1199|1*8441
+BinI32/xilinx=3*9311
+I=0*35679
+I/xilinx=0*37077
+M=11|0|vde|1580965395213|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/xbip_dsp48_mult_v3_0/hdl/xbip_dsp48_mult_v3_0_vh_rfs.vhd|0*34236*0xf2235d59407d54b85d83409ae4c90d0a6c156787|0*35508*0xbba181862c44b92d99e8f49010ab70a1
+M/xilinx=21|0|vde|1580965395215|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/xbip_dsp48_mult_v3_0/hdl/xbip_dsp48_mult_v3_0_vh_rfs.vhd|0*36006*0x53581a6c9c95ed03d5275d568478976a9ef4baa6|0*36896*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/xbip_dsp48_mult_v3_0/hdl/xbip_dsp48_mult_v3_0_vh_rfs.vhd|1199
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|1d335851a9c5f15fee2bd4dce59d864cf49720b7fc9c4532cc442290f5f0eb82d032ef3a9b74436c2a75e3ce853704cb
+Version/xilinx=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|2575045bca4fea1fc1b003ee1cd0d9a0c65b8e8c66566f53a1ab49307f073fbb
+
+[xbip_dsp48_mult_v3_0_6_comp]
+E=1*464
+I=0*4615
+M=3|0|vde|1580965394872|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/xbip_dsp48_mult_v3_0/hdl/xbip_dsp48_mult_v3_0_vh_rfs.vhd|0*2831*0xf636b2b6859e6dcc74c011846b352393ad8c7191|0*4439*0xbba181862c44b92d99e8f49010ab70a1
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/xbip_dsp48_mult_v3_0/hdl/xbip_dsp48_mult_v3_0_vh_rfs.vhd|1199
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|1d335851a9c5f15fee2bd4dce59d864cc66d6f9458138ecd10fe6842282582110e0fc14b8946aa241a344216a90dadfa303b8f731ed59547bda1d1ccc1a88362
+
+[xbip_dsp48_mult_v3_0_6_pkg]
+BinI32/xbip_dsp48_mult_v3_0_6_pkg=3*0
+E=1*924
+I=0*9417
+I/xbip_dsp48_mult_v3_0_6_pkg=0*12835
+M=3|0|vde|1580965394875|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/xbip_dsp48_mult_v3_0/hdl/xbip_dsp48_mult_v3_0_vh_rfs.vhd|0*5639*0x08067d788352cf45c8eecdbfb8c5ecd47126aed8|0*9242*0xbba181862c44b92d99e8f49010ab70a1
+M/xbip_dsp48_mult_v3_0_6_pkg=4|0|vde|1580965394878|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/xbip_dsp48_mult_v3_0/hdl/xbip_dsp48_mult_v3_0_vh_rfs.vhd|0*9717*0xc8f5535619e9d2673daf924f17eeca11304fd84d|0*12631*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/xbip_dsp48_mult_v3_0/hdl/xbip_dsp48_mult_v3_0_vh_rfs.vhd|1199
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|1d335851a9c5f15fee2bd4dce59d864c398f424e214a2d9cdcc407820df4bde50d6fa2157d5596a48ef381fdab04aaea1f3e457c936284a64fea1af2a2b039f3
+Version/xbip_dsp48_mult_v3_0_6_pkg=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|1d335851a9c5f15fee2bd4dce59d864c398f424e214a2d9cdcc407820df4bde50d6fa2157d5596a48ef381fdab04aaea1f3e457c936284a64fea1af2a2b039f3
+
+[xbip_dsp48_mult_v3_0_6_viv]
+A/synth=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/xbip_dsp48_mult_v3_0/hdl/xbip_dsp48_mult_v3_0_vh_rfs.vhd|1199|1*6595
+BinI32/synth=3*8410
+I=0*30934
+I/synth=0*33380
+M=11|0|vde|1580965395204|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/xbip_dsp48_mult_v3_0/hdl/xbip_dsp48_mult_v3_0_vh_rfs.vhd|0*29052*0x9fc38c49c53a7acba204380157eb9efea57581f4|0*30759*0xbba181862c44b92d99e8f49010ab70a1
+M/synth=21|0|vde|1580965395206|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/xbip_dsp48_mult_v3_0/hdl/xbip_dsp48_mult_v3_0_vh_rfs.vhd|0*31281*0xf817bddff6fc7ec31791e52ae58fd7ba320d1233|0*33196*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/xbip_dsp48_mult_v3_0/hdl/xbip_dsp48_mult_v3_0_vh_rfs.vhd|1199
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|1d335851a9c5f15fee2bd4dce59d864cfadb5f4d57322241631b10e6c37f9ee53dbd4100b7aac8f264886165816ce94f45d86229828703cf69a4e56c9b1d2c62
+Version/synth=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|e480b5c213cbe1f7e091cb6c53388268208ff7bf4b2751567bc6f09fb0151e03
+
+[xbip_dsp48_mult_v3_0_6_viv_comp]
+E=1*0
+I=0*2201
+M=3|0|vde|1580965394844|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/xbip_dsp48_mult_v3_0/hdl/xbip_dsp48_mult_v3_0_vh_rfs.vhd|0*366*0x763e6ee8028aecd5bddad23d0a1e0dee4365a227|0*2021*0xbba181862c44b92d99e8f49010ab70a1
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/xbip_dsp48_mult_v3_0/hdl/xbip_dsp48_mult_v3_0_vh_rfs.vhd|1199
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|1d335851a9c5f15fee2bd4dce59d864cabb1e90e5ec696bef4457a9f8ebfe2dfe481f9ca10c46d8b5024305afb6e4aeb3562651833579ea7d28794fac3f862d5
+
+[~MFT]
+0=46|0xbip_dsp48_mult_v3_0_6.mgf|37077|0
+1=7|1xbip_dsp48_mult_v3_0_6.mgf|8441|0
+3=5|3xbip_dsp48_mult_v3_0_6.mgf|9311|0
+
+[~U]
+xbip_dsp48_mult_rtl=11|0*13162|
+xbip_dsp48_mult_synth=11|0*21776|
+xbip_dsp48_mult_v3_0_6=11|0*33797|
+xbip_dsp48_mult_v3_0_6_comp=3|0*2473|0*2644
+xbip_dsp48_mult_v3_0_6_pkg=3|0*4883|0*5133
+xbip_dsp48_mult_v3_0_6_viv=11|0*28593|
+xbip_dsp48_mult_v3_0_6_viv_comp=3|0*0|0*175

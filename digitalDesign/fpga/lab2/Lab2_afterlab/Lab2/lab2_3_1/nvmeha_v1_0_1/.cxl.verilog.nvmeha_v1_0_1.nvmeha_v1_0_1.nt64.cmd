@@ -1,0 +1,2 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/nvmeha_v1_0_1
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  -l nvmeha_v1_0_1 +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -sv2k12 -work nvmeha_v1_0_1 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/nvmeha_v1_0_1/.cxl.systemverilog.nvmeha_v1_0_1.nvmeha_v1_0_1.nt64.cmf

@@ -1,0 +1,3 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/rld3_pl_v1_0_1
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  -l rld3_pl_v1_0_1 +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -work rld3_pl_v1_0_1 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/rld3_pl_v1_0_1/.cxl.verilog.rld3_pl_v1_0_1.rld3_pl_v1_0_1.nt64.cmf
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  -l rld3_pl_v1_0_1 +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -sv2k12 -work rld3_pl_v1_0_1 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/rld3_pl_v1_0_1/.cxl.systemverilog.rld3_pl_v1_0_1.rld3_pl_v1_0_1.nt64.cmf

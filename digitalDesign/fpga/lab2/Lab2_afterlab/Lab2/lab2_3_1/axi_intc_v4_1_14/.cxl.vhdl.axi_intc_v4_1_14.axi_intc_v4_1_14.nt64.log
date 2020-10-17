@@ -1,0 +1,15 @@
+Aldec, Inc. VHDL Compiler, build 10.5.217.6767
+VLM Initialized with path: "C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\library.cfg".
+DAGGEN WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\ip\xilinx\axi_intc_v4_1\hdl\axi_intc_v4_1_vh_rfs.vhd
+COMP96 Compile Entity "double_synchronizer"
+COMP96 Compile Architecture "RTL" of Entity "double_synchronizer"
+COMP96 Compile Entity "shared_ram_ivar"
+COMP96 Compile Architecture "byte_data_ram_a" of Entity "shared_ram_ivar"
+COMP96 Compile Entity "pulse_synchronizer"
+COMP96 Compile Architecture "RTL" of Entity "pulse_synchronizer"
+COMP96 Compile Entity "intc_core"
+COMP96 Compile Architecture "imp" of Entity "intc_core"
+COMP96 Compile Entity "axi_intc"
+COMP96 Compile Architecture "imp" of Entity "axi_intc"
+COMP96 Compile success 0 Errors 0 Warnings  Analysis time :  0.6 [s]

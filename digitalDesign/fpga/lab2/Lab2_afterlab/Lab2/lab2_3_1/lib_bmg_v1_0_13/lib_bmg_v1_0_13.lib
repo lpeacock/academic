@@ -1,0 +1,24 @@
+timestamp=1580965199945
+
+[~A]
+ModifyID=1
+Version=74
+
+[blk_mem_gen_wrapper]
+A/implementation=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_bmg_v1_0/hdl/lib_bmg_v1_0_rfs.vhd|196|1*0
+BinI32/implementation=3*0
+I=0*3573
+I/implementation=0*14828
+M=11|0|vde|1580965199865|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_bmg_v1_0/hdl/lib_bmg_v1_0_rfs.vhd|0*758*0x505356f7f096bdb1a5c7fd339bf16315b2d77ecb|0*3424*0x24f53803c3278f1d7f185bd51c58332c
+M/implementation=21|0|vde|1580965199868|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_bmg_v1_0/hdl/lib_bmg_v1_0_rfs.vhd|0*3825*0x288c05d29885b8391f23fa972d54f439d202bcdd|0*14661*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lib_bmg_v1_0/hdl/lib_bmg_v1_0_rfs.vhd|73
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|beb304c69ef670875dbd762e9252a989947c6c24d2a350b78f61cf108109f95435e4cb3d4de2d16ec7ecddbade9d924c
+Version/implementation=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93413fb8d803479f07c517e8a36b726476
+
+[~MFT]
+0=7|0lib_bmg_v1_0_13.mgf|14828|0
+1=1|1lib_bmg_v1_0_13.mgf|0|0
+3=1|3lib_bmg_v1_0_13.mgf|0|0
+
+[~U]
+blk_mem_gen_wrapper=11|0*0|

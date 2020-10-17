@@ -1,0 +1,421 @@
+timestamp=1580965033134
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v=0*28193*139252
+LastVerilogToplevel=v_uhdsdi_audio_v1_1_0_demux_top
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c9216f00489320f0f31118a15c66b9696d70d
+
+[v_uhdsdi_audio_v1_1_0_demux_axilite_slave]
+A/v_uhdsdi_audio_v1_1_0_demux_axilite_slave=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|15616|1*454483
+BinI32/v_uhdsdi_audio_v1_1_0_demux_axilite_slave=3*267861
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|15616
+SLP=3*284401
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|8a470129af33bcb462b8c15f385ec390cebfaa837a2a6c184c5fefc8995199e1319d93bc416dd617368c2b227d006ac056eb0ceb8be75f0fa1debaacb9c1553df0a1f8001eec055f27f390add746b0aa
+
+[v_uhdsdi_audio_v1_1_0_demux_axis_master]
+A/v_uhdsdi_audio_v1_1_0_demux_axis_master=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|16910|1*475515
+BinI32/v_uhdsdi_audio_v1_1_0_demux_axis_master=3*302491
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|16910
+SLP=3*311634
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9affaa6c8911282937b58c983d82909338ca3a04fb1f05ae1ad57984d4070ff71926527262ddaa47cb266f3a3c4d9b973a455478df9c0c239df6e25eb29ee9d254
+
+[v_uhdsdi_audio_v1_1_0_demux_chan_status]
+A/v_uhdsdi_audio_v1_1_0_demux_chan_status=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|17612|1*493203
+BinI32/v_uhdsdi_audio_v1_1_0_demux_chan_status=3*325459
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|17612
+SLP=3*326394
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9affaa6c8911282937b58c983d829093386eaa2b1ce9aef19c6ac703469a4e28c826527262ddaa47cb266f3a3c4d9b973ad8e084fe0ac7dfc76188900d9f1cc480
+
+[v_uhdsdi_audio_v1_1_0_demux_rx_smpl_fifo]
+A/v_uhdsdi_audio_v1_1_0_demux_rx_smpl_fifo=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|17734|1*488094
+BinI32/v_uhdsdi_audio_v1_1_0_demux_rx_smpl_fifo=3*322925
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|17734
+SLP=3*324427
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|4d1f301d265370cc05b40eb4a1e5bb812022ea3d0380e823f1f73a1cb7c6d423305542f416fa23ba56aec410a4054b3026527262ddaa47cb266f3a3c4d9b973a1f40f811d33a66567882b03f7cfe06bc
+
+[v_uhdsdi_audio_v1_1_0_demux_top]
+A/v_uhdsdi_audio_v1_1_0_demux_top=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|17891|1*495479
+BinI32/v_uhdsdi_audio_v1_1_0_demux_top=3*327229
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|17891
+SLP=3*337481
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9ac93117c75d7fe75dd30254c9f31f9c2f07966eeee663ee3713aeb86f5a81a17983cf77a031350818cb73da646c81bb37
+
+[v_uhdsdi_audio_v1_1_0_fifo_28x16_fwft]
+A/v_uhdsdi_audio_v1_1_0_fifo_28x16_fwft=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|173|1*4538
+BinI32/v_uhdsdi_audio_v1_1_0_fifo_28x16_fwft=3*1245
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|173
+SLP=3*2026
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9ae98d415c6f7e4bd78c885aa326fbe08ef7588a9777200042b26db073bfe00dec6194b3d0ebc1bd03c0c32c33e361ccb8
+
+[v_uhdsdi_audio_v1_1_0_fifo_28x16_nofwft]
+A/v_uhdsdi_audio_v1_1_0_fifo_28x16_nofwft=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|299|1*8997
+BinI32/v_uhdsdi_audio_v1_1_0_fifo_28x16_nofwft=3*2366
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|299
+SLP=3*3149
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9ae98d415c6f7e4bd78c885aa326fbe08e51aafe227b8f935693732706fab8479626527262ddaa47cb266f3a3c4d9b973ac9b97c795a592a868b896c7115e84a37
+
+[v_uhdsdi_audio_v1_1_0_fifo_28x32_fwft]
+A/v_uhdsdi_audio_v1_1_0_fifo_28x32_fwft=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|51|1*390
+BinI32/v_uhdsdi_audio_v1_1_0_fifo_28x32_fwft=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|51
+SLP=3*921
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9ae98d415c6f7e4bd78c885aa326fbe08e4a7be7829f90b57b8e949bc86e837a07bb929b033e96e07819ad07a3132725a5
+
+[v_uhdsdi_audio_v1_1_0_hd_demux_audio_det]
+A/v_uhdsdi_audio_v1_1_0_hd_demux_audio_det=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|10931|1*316336
+BinI32/v_uhdsdi_audio_v1_1_0_hd_demux_audio_det=3*201276
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|10931
+SLP=3*205621
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9aeaf0d9b87d25e08f537d503251c4515912bdbbef5844acf556bda61d54a3d9e90f945e4c7a63fc4335de36ffa8ac2cc5
+
+[v_uhdsdi_audio_v1_1_0_hd_demux_ctrl]
+A/v_uhdsdi_audio_v1_1_0_hd_demux_ctrl=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|11303|1*323415
+BinI32/v_uhdsdi_audio_v1_1_0_hd_demux_ctrl=3*209583
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|11303
+SLP=3*210153
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9aeaf0d9b87d25e08f537d503251c45159395195ef4491989f28a1f1f7671d2a1a5934904cd336b0ca21d565f9ff9de309
+
+[v_uhdsdi_audio_v1_1_0_hd_demux_data]
+A/v_uhdsdi_audio_v1_1_0_hd_demux_data=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|11644|1*332250
+BinI32/v_uhdsdi_audio_v1_1_0_hd_demux_data=3*214980
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|11644
+SLP=3*216268
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9aeaf0d9b87d25e08f537d503251c45159b920052571e1c310328b769a977d3ecc4175f15addfa6be80d0149923ff8091f
+
+[v_uhdsdi_audio_v1_1_0_hd_demux_data_extr]
+A/v_uhdsdi_audio_v1_1_0_hd_demux_data_extr=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|11466|1*327966
+BinI32/v_uhdsdi_audio_v1_1_0_hd_demux_data_extr=3*210815
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|11466
+SLP=3*212441
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|44935baed86a24aa12d83ef9cae43236c5a4ccb78581393ab7e28d3e31169e8580905353ead1066b9e89ce376e68c3a526527262ddaa47cb266f3a3c4d9b973aa71418cb83c7fb3eda000bf1565b41b1
+
+[v_uhdsdi_audio_v1_1_0_hd_demux_fifos]
+A/v_uhdsdi_audio_v1_1_0_hd_demux_fifos=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|11973|1*343989
+BinI32/v_uhdsdi_audio_v1_1_0_hd_demux_fifos=3*217729
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|11973
+SLP=3*218122
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9aeaf0d9b87d25e08f537d503251c45159f6bcf3523646af74f31d7718556bbbf0ba5a9755ba915fc7cf2528a26dca50c3
+
+[v_uhdsdi_audio_v1_1_0_hd_demux_tim]
+A/v_uhdsdi_audio_v1_1_0_hd_demux_tim=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|12171|1*349388
+BinI32/v_uhdsdi_audio_v1_1_0_hd_demux_tim=3*218472
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|12171
+SLP=3*219957
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9aeaf0d9b87d25e08f537d503251c45159b105eb9bb711f26169af2f82679151359dde9d20d2c5899cd2bcb263c999b40b
+
+[v_uhdsdi_audio_v1_1_0_hd_demux_top]
+A/v_uhdsdi_audio_v1_1_0_hd_demux_top=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|12400|1*354978
+BinI32/v_uhdsdi_audio_v1_1_0_hd_demux_top=3*221273
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|12400
+SLP=3*221406
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9aeaf0d9b87d25e08f537d503251c451598268bd0ae22b4bb89d132ed690da60ad9c7fa33a07a469648749af8008654e53
+
+[v_uhdsdi_audio_v1_1_0_hd_mux_anc_det]
+A/v_uhdsdi_audio_v1_1_0_hd_mux_anc_det=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|1246|1*30082
+BinI32/v_uhdsdi_audio_v1_1_0_hd_mux_anc_det=3*21972
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|1246
+SLP=3*27238
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a74c50c22dff2016423b686143f3d2a524385b97364ce3b92ef5b7bd6aa37e80639e8d4f25ebeaa3cdec98d110f96316c
+
+[v_uhdsdi_audio_v1_1_0_hd_mux_clock_phase]
+A/v_uhdsdi_audio_v1_1_0_hd_mux_clock_phase=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|1732|1*44693
+BinI32/v_uhdsdi_audio_v1_1_0_hd_mux_clock_phase=3*31916
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|1732
+SLP=3*32604
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|43dc3dad9216b66dfe184e41e579cb900a48d7447d60b45a9005fe844e5301d27d451e57fd320916a6d30f68018cc05126527262ddaa47cb266f3a3c4d9b973aba677486668b30d9fb986ecd246a3f10
+
+[v_uhdsdi_audio_v1_1_0_hd_mux_ctrl]
+A/v_uhdsdi_audio_v1_1_0_hd_mux_ctrl=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|2131|1*54345
+BinI32/v_uhdsdi_audio_v1_1_0_hd_mux_ctrl=3*40257
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|2131
+SLP=3*40389
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a74c50c22dff2016423b686143f3d2a52e15251fcc1019521eaeaedefab54d263abe97a17f73e9974cf0d2a89d80e543e
+
+[v_uhdsdi_audio_v1_1_0_hd_mux_ctrl_constr]
+A/v_uhdsdi_audio_v1_1_0_hd_mux_ctrl_constr=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|1851|1*47430
+BinI32/v_uhdsdi_audio_v1_1_0_hd_mux_ctrl_constr=3*33162
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|1851
+SLP=3*37219
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a74c50c22dff2016423b686143f3d2a521c4b1a4f5cfb596808e17385f70274be198ec6b6a0ba330f494377b51402ce3a5cd6bb02bbc6efcb0e3bb5fe21d011b2
+
+[v_uhdsdi_audio_v1_1_0_hd_mux_data]
+A/v_uhdsdi_audio_v1_1_0_hd_mux_data=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|3092|1*91697
+BinI32/v_uhdsdi_audio_v1_1_0_hd_mux_data=3*61880
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|3092
+SLP=3*62990
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a74c50c22dff2016423b686143f3d2a52a38cc09ec0d1bdd181d266021a69429e97ed2e9311ba1ce2d8451b9c7641fa73
+
+[v_uhdsdi_audio_v1_1_0_hd_mux_data_constr]
+A/v_uhdsdi_audio_v1_1_0_hd_mux_data_constr=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|2310|1*65576
+BinI32/v_uhdsdi_audio_v1_1_0_hd_mux_data_constr=3*43576
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|2310
+SLP=3*52443
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a74c50c22dff2016423b686143f3d2a523a597d0ffc0204ebe7537c590d7fef4eba1cc44f38f53d1548bcac14205c0db440ef5a628d0dd37c7039902c0c9c1a02
+
+[v_uhdsdi_audio_v1_1_0_hd_mux_ecc_encode]
+A/v_uhdsdi_audio_v1_1_0_hd_mux_ecc_encode=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|3381|1*89010
+BinI32/v_uhdsdi_audio_v1_1_0_hd_mux_ecc_encode=3*59819
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|3381
+SLP=3*60821
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a74c50c22dff2016423b686143f3d2a520dd20fd62f6b6252479d4616879fc34626527262ddaa47cb266f3a3c4d9b973a6040dfb846e96f0f7118c7cbfd127074
+
+[v_uhdsdi_audio_v1_1_0_hd_mux_fifos]
+A/v_uhdsdi_audio_v1_1_0_hd_mux_fifos=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|3525|1*102854
+BinI32/v_uhdsdi_audio_v1_1_0_hd_mux_fifos=3*63679
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|3525
+SLP=3*64679
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a74c50c22dff2016423b686143f3d2a52546b4bd36b6c6d2252f4ab7301286a33a2d12863067b8ebf8ecc1f01776718cc
+
+[v_uhdsdi_audio_v1_1_0_hd_mux_pkt_mux]
+A/v_uhdsdi_audio_v1_1_0_hd_mux_pkt_mux=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|3803|1*60199
+BinI32/v_uhdsdi_audio_v1_1_0_hd_mux_pkt_mux=3*40712
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|3803
+SLP=3*42338
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a74c50c22dff2016423b686143f3d2a52193001ebaf008069dd06e338b51d084e8b6dcf779ae9a355eadf9d4c905da446
+
+[v_uhdsdi_audio_v1_1_0_hd_mux_top]
+A/v_uhdsdi_audio_v1_1_0_hd_mux_top=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|3986|1*111723
+BinI32/v_uhdsdi_audio_v1_1_0_hd_mux_top=3*65442
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|3986
+SLP=3*65573
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a74c50c22dff2016423b686143f3d2a524ea680fdb23eeaae20e9e52516f8e922e5485021d0d920352a778b0b3299f67d
+
+[v_uhdsdi_audio_v1_1_0_input_audio_status]
+A/v_uhdsdi_audio_v1_1_0_input_audio_status=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|427|1*13389
+BinI32/v_uhdsdi_audio_v1_1_0_input_audio_status=3*3487
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|427
+SLP=3*12107
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a046af6625c9bb12f071a5a83c57e23f4de6b0cc7d54019a9d9f817714af9ff2358c9ae81e164105a87b697c5e56148ab
+
+[v_uhdsdi_audio_v1_1_0_mux_axilite_slave]
+A/v_uhdsdi_audio_v1_1_0_mux_axilite_slave=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|7583|1*201826
+BinI32/v_uhdsdi_audio_v1_1_0_mux_axilite_slave=3*125795
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|7583
+SLP=3*141421
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a7bb8c7c4283bafe1e4e15b2c18a65303ea80ea47bd60250ab7e024d09ca58b5726527262ddaa47cb266f3a3c4d9b973a0e09afc078e870a6253d524da02b8dfa
+
+[v_uhdsdi_audio_v1_1_0_mux_axis_slave]
+A/v_uhdsdi_audio_v1_1_0_mux_axis_slave=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|8775|1*219213
+BinI32/v_uhdsdi_audio_v1_1_0_mux_axis_slave=3*158217
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|8775
+SLP=3*164106
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a7bb8c7c4283bafe1e4e15b2c18a65303ab0f443530fdc0389f346babbe35b0b7264e66df82391be1fc6cac814cd48b4e
+
+[v_uhdsdi_audio_v1_1_0_mux_delay_dwx32]
+A/v_uhdsdi_audio_v1_1_0_mux_delay_dwx32=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|9130|1*231370
+BinI32/v_uhdsdi_audio_v1_1_0_mux_delay_dwx32=3*169291
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|9130
+SLP=3*171663
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a1803c2a17f40aaed5b8b4da8649123a493bfa2f97dff3a81d2fae4927980f795a858c441502a9eb9d06a01d188d8236c
+
+[v_uhdsdi_audio_v1_1_0_mux_top]
+A/v_uhdsdi_audio_v1_1_0_mux_top=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|9229|1*234299
+BinI32/v_uhdsdi_audio_v1_1_0_mux_top=3*172138
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|9229
+SLP=3*185626
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a10d25e4c35f74e9843fd8babfa926ae118d4c6757dbc3eca2ed303f67b12dfb29db89d7eb4ac50c45820fc8afc14e717
+
+[v_uhdsdi_audio_v1_1_0_sd_demux_aes]
+A/v_uhdsdi_audio_v1_1_0_sd_demux_aes=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|14761|1*421136
+BinI32/v_uhdsdi_audio_v1_1_0_sd_demux_aes=3*255605
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|14761
+SLP=3*262697
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a15b8c76d7403ef24b04ca6d61e798aa63e9f3dfebe3b6927b6b80e2dc705de941283a978fb5580906ee928bba4ee5be4
+
+[v_uhdsdi_audio_v1_1_0_sd_demux_aes_top]
+A/v_uhdsdi_audio_v1_1_0_sd_demux_aes_top=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|15366|1*447448
+BinI32/v_uhdsdi_audio_v1_1_0_sd_demux_aes_top=3*267144
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|15366
+SLP=3*267351
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a15b8c76d7403ef24b04ca6d61e798aa62c56469f6e0ef02849db20aaebd89407bd6fbe7e8944ca603a097b1511951149
+
+[v_uhdsdi_audio_v1_1_0_sd_demux_buffer_512]
+A/v_uhdsdi_audio_v1_1_0_sd_demux_buffer_512=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|12569|1*361386
+BinI32/v_uhdsdi_audio_v1_1_0_sd_demux_buffer_512=3*221824
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|12569
+SLP=3*222765
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a15b8c76d7403ef24b04ca6d61e798aa6306004586d5d5f7518cc26740afe467f5a92f1befe3576224833f3660a5720fe4435696456f6752f0ec5436364d17aa1
+
+[v_uhdsdi_audio_v1_1_0_sd_demux_fifo]
+A/v_uhdsdi_audio_v1_1_0_sd_demux_fifo=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|12693|1*367036
+BinI32/v_uhdsdi_audio_v1_1_0_sd_demux_fifo=3*223329
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|12693
+SLP=3*227268
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a15b8c76d7403ef24b04ca6d61e798aa62316d47777835d8798e10c65723d7a9c32d15d2e5e48b91fad01817a25cb25d6
+
+[v_uhdsdi_audio_v1_1_0_sd_demux_infsm]
+A/v_uhdsdi_audio_v1_1_0_sd_demux_infsm=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|13277|1*391687
+BinI32/v_uhdsdi_audio_v1_1_0_sd_demux_infsm=3*230944
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|13277
+SLP=3*239650
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a15b8c76d7403ef24b04ca6d61e798aa6fcbcb2ded5fd909d24fe14151e4540fce25a186a4b88945fb790cc0e11d96332
+
+[v_uhdsdi_audio_v1_1_0_sd_demux_outfsm]
+A/v_uhdsdi_audio_v1_1_0_sd_demux_outfsm=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|14214|1*408711
+BinI32/v_uhdsdi_audio_v1_1_0_sd_demux_outfsm=3*247066
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|14214
+SLP=3*248837
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a15b8c76d7403ef24b04ca6d61e798aa645ac1dacbc2f8ce4b9e65b260c0e3fe41869e36a13b70aad68cbdff76f0d5410
+
+[v_uhdsdi_audio_v1_1_0_sd_demux_pkt_del]
+A/v_uhdsdi_audio_v1_1_0_sd_demux_pkt_del=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|14421|1*413069
+BinI32/v_uhdsdi_audio_v1_1_0_sd_demux_pkt_del=3*250097
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|14421
+SLP=3*251128
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a15b8c76d7403ef24b04ca6d61e798aa63235fd75b611b94c51fe6d5e0d431df8aeb1198af9f0f9e70aaa89b5b551c75e
+
+[v_uhdsdi_audio_v1_1_0_sd_demux_present_flags]
+A/v_uhdsdi_audio_v1_1_0_sd_demux_present_flags=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|14541|1*415863
+BinI32/v_uhdsdi_audio_v1_1_0_sd_demux_present_flags=3*252003
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|14541
+SLP=3*252586
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a15b8c76d7403ef24b04ca6d61e798aa6c0610bcfb9979bd5d6e02796fbd817ae28c5b06890cac5d9239a1a4b1e7b85d351bf448d741380dc988e3652cd099386
+
+[v_uhdsdi_audio_v1_1_0_sd_demux_trs_adf_xyz_detect]
+A/v_uhdsdi_audio_v1_1_0_sd_demux_trs_adf_xyz_detect=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|14630|1*417804
+BinI32/v_uhdsdi_audio_v1_1_0_sd_demux_trs_adf_xyz_detect=3*253005
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|14630
+SLP=3*254490
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a15b8c76d7403ef24b04ca6d61e798aa6e18932a57c4e27a19cafa3b7ec186d2a08d8fd4f350271cd1fc5ab4c01243a90866db2faab8e5550a33a70772b9f5cc4
+
+[v_uhdsdi_audio_v1_1_0_sd_mux_anc_det]
+A/v_uhdsdi_audio_v1_1_0_sd_mux_anc_det=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|4191|1*119366
+BinI32/v_uhdsdi_audio_v1_1_0_sd_mux_anc_det=3*66042
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|4191
+SLP=3*76887
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a3e534db8ef01094ae48bc8b71c13e466e6deb0e98a11802ca0777e8a7c8310be48b5c321d0e6586727365a356c849ec6
+
+[v_uhdsdi_audio_v1_1_0_sd_mux_anc_store]
+A/v_uhdsdi_audio_v1_1_0_sd_mux_anc_store=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|5246|1*139688
+BinI32/v_uhdsdi_audio_v1_1_0_sd_mux_anc_store=3*91425
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|5246
+SLP=3*91823
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a3e534db8ef01094ae48bc8b71c13e4666878dc80f755ee3aacb5cf486cc83fd7e26694f4d7f060eefd99dc1096ee8149
+
+[v_uhdsdi_audio_v1_1_0_sd_mux_fifos]
+A/v_uhdsdi_audio_v1_1_0_sd_mux_fifos=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|5345|1*144462
+BinI32/v_uhdsdi_audio_v1_1_0_sd_mux_fifos=3*93536
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|5345
+SLP=3*94303
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a3e534db8ef01094ae48bc8b71c13e46691cee77378ca231a335548b18619a26ceca38fdc7d70706aee96f8b9dc97dde7
+
+[v_uhdsdi_audio_v1_1_0_sd_mux_pkt_gen]
+A/v_uhdsdi_audio_v1_1_0_sd_mux_pkt_gen=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|5543|1*151190
+BinI32/v_uhdsdi_audio_v1_1_0_sd_mux_pkt_gen=3*94995
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|5543
+SLP=3*104867
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a3e534db8ef01094ae48bc8b71c13e466fa8c61239ddb9c574f5c749b9f218f3551725b686acfd1ee79d279d7eed064f5
+
+[v_uhdsdi_audio_v1_1_0_sd_mux_pkt_mux]
+A/v_uhdsdi_audio_v1_1_0_sd_mux_pkt_mux=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|6525|1*173463
+BinI32/v_uhdsdi_audio_v1_1_0_sd_mux_pkt_mux=3*118329
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|6525
+SLP=3*119458
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a3e534db8ef01094ae48bc8b71c13e4663cf5b4043ff7f3348881050feffadcadd7c390760a6ee1ecb2819d0b1d486764
+
+[v_uhdsdi_audio_v1_1_0_sd_mux_ram_300x10]
+A/v_uhdsdi_audio_v1_1_0_sd_mux_ram_300x10=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|6655|1*142148
+BinI32/v_uhdsdi_audio_v1_1_0_sd_mux_ram_300x10=3*92172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|6655
+SLP=3*93018
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a3e534db8ef01094ae48bc8b71c13e466412a3146cc1a41ed697328ad470f5be126527262ddaa47cb266f3a3c4d9b973a503b82f2f379c0e598d04daa4ffffb44
+
+[v_uhdsdi_audio_v1_1_0_sd_mux_ram_64x9]
+A/v_uhdsdi_audio_v1_1_0_sd_mux_ram_64x9=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|6747|1*171341
+BinI32/v_uhdsdi_audio_v1_1_0_sd_mux_ram_64x9=3*117405
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|6747
+SLP=3*117958
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a3e534db8ef01094ae48bc8b71c13e466cc4060452a3c31d3afbb99432442c19b9b53777508993552344f8ca761f0d378
+
+[v_uhdsdi_audio_v1_1_0_sd_mux_samp_calc_alu]
+A/v_uhdsdi_audio_v1_1_0_sd_mux_samp_calc_alu=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|6825|1*136257
+BinI32/v_uhdsdi_audio_v1_1_0_sd_mux_samp_calc_alu=3*89182
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|6825
+SLP=3*90520
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|753bcd571125be1f9ba1e4409e438253e5126d386ae85045bf0b871e9ffa07f2aa291e705ef1ee13c6707c0ec20cd3e9583793d6074a425d8a95219833e172b5fe5eba88ac699b4912af0fdbb6670565
+
+[v_uhdsdi_audio_v1_1_0_sd_mux_top]
+A/v_uhdsdi_audio_v1_1_0_sd_mux_top=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|7069|1*179395
+BinI32/v_uhdsdi_audio_v1_1_0_sd_mux_top=3*121657
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|7069
+SLP=3*123679
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a3e534db8ef01094ae48bc8b71c13e46619768f178e962fcba5475b0d5f16f62b6a76a355fa3293d238a1ec55972e8166
+
+[v_uhdsdi_audio_v1_1_0_sd_mux_vid_delay]
+A/v_uhdsdi_audio_v1_1_0_sd_mux_vid_delay=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|6945|1*176474
+BinI32/v_uhdsdi_audio_v1_1_0_sd_mux_vid_delay=3*120288
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|6945
+SLP=3*121083
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a3e534db8ef01094ae48bc8b71c13e466e8a73f0c04d4c834fde3ac93a8d6ce721c520389eca2292e675d390df68daf62
+
+[v_uhdsdi_audio_v1_1_0_sync_one_shot]
+A/v_uhdsdi_audio_v1_1_0_sync_one_shot=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|1122|1*27137
+BinI32/v_uhdsdi_audio_v1_1_0_sync_one_shot=3*20178
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|1122
+SLP=3*21556
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|19b6846729e64934fde0314f88ce1a9a0d49b28d62c98533d569e0c1ab136133a9b23c317ac9eadda3e430b8aea6950a445ad132fa18767a93f0f5bad02bf6cc
+
+[~MFT]
+0=53|0v_uhdsdi_audio_v1_1_0.mgf|139252|0
+1=51|1v_uhdsdi_audio_v1_1_0.mgf|495479|0
+3=102|3v_uhdsdi_audio_v1_1_0.mgf|337481|0
+
+[~U]
+$root=12|0*0|
+v_uhdsdi_audio_v1_1_0_demux_axilite_slave=12|0*25015|
+v_uhdsdi_audio_v1_1_0_demux_axis_master=12|0*25853|
+v_uhdsdi_audio_v1_1_0_demux_chan_status=12|0*26911|
+v_uhdsdi_audio_v1_1_0_demux_rx_smpl_fifo=12|0*26536|
+v_uhdsdi_audio_v1_1_0_demux_top=12|0*27221||0x10
+v_uhdsdi_audio_v1_1_0_fifo_28x16_fwft=12|0*971|
+v_uhdsdi_audio_v1_1_0_fifo_28x16_nofwft=12|0*1379|
+v_uhdsdi_audio_v1_1_0_fifo_28x32_fwft=12|0*598|
+v_uhdsdi_audio_v1_1_0_hd_demux_audio_det=12|0*16500|
+v_uhdsdi_audio_v1_1_0_hd_demux_ctrl=12|0*17071|
+v_uhdsdi_audio_v1_1_0_hd_demux_data=12|0*17952|
+v_uhdsdi_audio_v1_1_0_hd_demux_data_extr=12|0*17488|
+v_uhdsdi_audio_v1_1_0_hd_demux_fifos=12|0*18565|
+v_uhdsdi_audio_v1_1_0_hd_demux_tim=12|0*19040|
+v_uhdsdi_audio_v1_1_0_hd_demux_top=12|0*19439|
+v_uhdsdi_audio_v1_1_0_hd_mux_anc_det=12|0*2846|
+v_uhdsdi_audio_v1_1_0_hd_mux_clock_phase=12|0*3652|
+v_uhdsdi_audio_v1_1_0_hd_mux_ctrl=12|0*4607|
+v_uhdsdi_audio_v1_1_0_hd_mux_ctrl_constr=12|0*4021|
+v_uhdsdi_audio_v1_1_0_hd_mux_data=12|0*6754|
+v_uhdsdi_audio_v1_1_0_hd_mux_data_constr=12|0*5427|
+v_uhdsdi_audio_v1_1_0_hd_mux_ecc_encode=12|0*6441|
+v_uhdsdi_audio_v1_1_0_hd_mux_fifos=12|0*7421|
+v_uhdsdi_audio_v1_1_0_hd_mux_pkt_mux=12|0*5068|
+v_uhdsdi_audio_v1_1_0_hd_mux_top=12|0*7903|
+v_uhdsdi_audio_v1_1_0_input_audio_status=12|0*1787|
+v_uhdsdi_audio_v1_1_0_mux_axilite_slave=12|0*13727|
+v_uhdsdi_audio_v1_1_0_mux_axis_slave=12|0*14483|
+v_uhdsdi_audio_v1_1_0_mux_delay_dwx32=12|0*15025|
+v_uhdsdi_audio_v1_1_0_mux_top=12|0*15380||0x10
+v_uhdsdi_audio_v1_1_0_sd_demux_aes=12|0*23335|
+v_uhdsdi_audio_v1_1_0_sd_demux_aes_top=12|0*24344|
+v_uhdsdi_audio_v1_1_0_sd_demux_buffer_512=12|0*20135|
+v_uhdsdi_audio_v1_1_0_sd_demux_fifo=12|0*20549|
+v_uhdsdi_audio_v1_1_0_sd_demux_infsm=12|0*21079|
+v_uhdsdi_audio_v1_1_0_sd_demux_outfsm=12|0*21907|
+v_uhdsdi_audio_v1_1_0_sd_demux_pkt_del=12|0*22361|
+v_uhdsdi_audio_v1_1_0_sd_demux_present_flags=12|0*22683|
+v_uhdsdi_audio_v1_1_0_sd_demux_trs_adf_xyz_detect=12|0*22995|
+v_uhdsdi_audio_v1_1_0_sd_mux_anc_det=12|0*8659|
+v_uhdsdi_audio_v1_1_0_sd_mux_anc_store=12|0*9897|
+v_uhdsdi_audio_v1_1_0_sd_mux_fifos=12|0*10537|
+v_uhdsdi_audio_v1_1_0_sd_mux_pkt_gen=12|0*11013|
+v_uhdsdi_audio_v1_1_0_sd_mux_pkt_mux=12|0*12278|
+v_uhdsdi_audio_v1_1_0_sd_mux_ram_300x10=12|0*10226|
+v_uhdsdi_audio_v1_1_0_sd_mux_ram_64x9=12|0*11969|
+v_uhdsdi_audio_v1_1_0_sd_mux_samp_calc_alu=12|0*9538|
+v_uhdsdi_audio_v1_1_0_sd_mux_top=12|0*12943|
+v_uhdsdi_audio_v1_1_0_sd_mux_vid_delay=12|0*12632|
+v_uhdsdi_audio_v1_1_0_sync_one_shot=12|0*2527|

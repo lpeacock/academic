@@ -1,0 +1,14 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2113 "Module cross_clk_reg found in current working library."
+MESSAGE_SP VCP2113 "Module cross_clk_bus found in current working library."
+MESSAGE_SP VCP2113 "Module map_pulse found in current working library."
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol vid_in_axi4s_ctrl has not been declared in module v_smpte_uhdsdi_rx_v1_0_0 in generate block AXI4LITE_DISABLED." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_smpte_uhdsdi_rx_v1_0/hdl/v_smpte_uhdsdi_rx_v1_0_top.v" 733  34
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: v_smpte_uhdsdi_rx_v1_0_0."
+MESSAGE "$root top modules: v_smpte_uhdsdi_rx_v1_0_0."
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 0[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

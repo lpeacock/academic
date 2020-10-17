@@ -1,0 +1,197 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Apr  6 16:04:30 2020
+# Process ID: 24356
+# Current directory: C:/Users/lucas/Documents/fpga/lab8/lab8_2_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent33244 C:\Users\lucas\Documents\fpga\lab8\lab8_2_1\lab8_2_1.xpr
+# Log file: C:/Users/lucas/Documents/fpga/lab8/lab8_2_1/vivado.log
+# Journal file: C:/Users/lucas/Documents/fpga/lab8/lab8_2_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lucas/Documents/fpga/lab8/lab8_2_1/lab8_2_1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source testbench8_2_1.tcl
+export_ip_user_files -of_objects  [get_files C:/Users/lucas/Documents/fpga/lab8/lab8_2_1/lab8_2_1.srcs/sources_1/new/testbench8_2_1.v] -no_script -reset -force -quiet
+remove_files  C:/Users/lucas/Documents/fpga/lab8/lab8_2_1/lab8_2_1.srcs/sources_1/new/testbench8_2_1.v
+file delete -force C:/Users/lucas/Documents/fpga/lab8/lab8_2_1/lab8_2_1.srcs/sources_1/new/testbench8_2_1.v
+launch_simulation
+close_sim
+launch_simulation
+source testbench_8_2_1.tcl
+close_sim
+launch_simulation
+source testbench_8_2_1.tcl
+close_sim
+launch_simulation
+source testbench_8_2_1.tcl
+close_sim
+launch_simulation
+source testbench_8_2_1.tcl
+add_bp {C:/Users/lucas/Documents/fpga/lab8/lab8_2_1/lab8_2_1.srcs/sources_1/new/testbench_8_2_1.v} 40
+run 100 ns
+close_sim
+launch_simulation
+source testbench_8_2_1.tcl
+step
+step
+step
+step
+step
+step
+step
+run 100 ns
+step
+step
+step
+step
+step
+run 100 ns
+close_sim
+launch_simulation
+source testbench_8_2_1.tcl
+remove_bps -file {C:/Users/lucas/Documents/fpga/lab8/lab8_2_1/lab8_2_1.srcs/sources_1/new/testbench_8_2_1.v} -line 40
+add_bp {C:/Users/lucas/Documents/fpga/lab8/lab8_2_1/lab8_2_1.srcs/sources_1/new/testbench_8_2_1.v} 40
+remove_bps -file {C:/Users/lucas/Documents/fpga/lab8/lab8_2_1/lab8_2_1.srcs/sources_1/new/testbench_8_2_1.v} -line 40
+run 100 ns
+close_sim
+launch_simulation
+source testbench_8_2_1.tcl
+close_sim
+launch_simulation
+source testbench_8_2_1.tcl
+close_sim
+launch_simulation
+source testbench_8_2_1.tcl
+close_sim
+close_project
+open_project C:/Users/lucas/Documents/fpga/lab8/lab8_2_2/lab8_2_2.xpr
+update_compile_order -fileset sources_1
+set_property used_in_simulation false [get_files  C:/Users/lucas/Documents/fpga/lab8/lab8_2_2/lab8_2_2.srcs/sources_1/imports/new/testbench8_2_1.v]
+set_property used_in_simulation true [get_files  C:/Users/lucas/Documents/fpga/lab8/lab8_2_2/lab8_2_2.srcs/sources_1/imports/new/testbench8_2_1.v]
+set_property used_in_implementation false [get_files  C:/Users/lucas/Documents/fpga/lab8/lab8_2_2/lab8_2_2.srcs/sources_1/imports/new/testbench8_2_1.v]
+set_property used_in_synthesis false [get_files  C:/Users/lucas/Documents/fpga/lab8/lab8_2_2/lab8_2_2.srcs/sources_1/imports/new/testbench8_2_1.v]
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+open_project C:/Users/lucas/Documents/fpga/lab8/lab8_2_3/lab8_2_3.xpr
+update_compile_order -fileset sources_1
+set_property used_in_synthesis false [get_files  C:/Users/lucas/Documents/fpga/lab8/lab8_2_3/lab8_2_3.srcs/sources_1/imports/new/testbench8_2_1.v]
+set_property used_in_implementation false [get_files  C:/Users/lucas/Documents/fpga/lab8/lab8_2_3/lab8_2_3.srcs/sources_1/imports/new/testbench8_2_1.v]
+update_compile_order -fileset sources_1
+file mkdir C:/Users/lucas/Documents/fpga/lab8/lab8_2_3/lab8_2_3.srcs/sources_1/new
+close [ open C:/Users/lucas/Documents/fpga/lab8/lab8_2_3/lab8_2_3.srcs/sources_1/new/counter.v w ]
+add_files C:/Users/lucas/Documents/fpga/lab8/lab8_2_3/lab8_2_3.srcs/sources_1/new/counter.v
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/lucas/Documents/fpga/lab8/lab8_2_3/lab8_2_3.srcs/sources_1/new/counter.v] -no_script -reset -force -quiet
+remove_files  C:/Users/lucas/Documents/fpga/lab8/lab8_2_3/lab8_2_3.srcs/sources_1/new/counter.v
+file delete -force C:/Users/lucas/Documents/fpga/lab8/lab8_2_3/lab8_2_3.srcs/sources_1/new/counter.v
+add_files -norecurse -scan_for_includes C:/Users/lucas/Documents/fpga/lab8/lab8_2_2/lab8_2_2.srcs/sources_1/imports/new/counter.v
+import_files -norecurse C:/Users/lucas/Documents/fpga/lab8/lab8_2_2/lab8_2_2.srcs/sources_1/imports/new/counter.v
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+open_project C:/Users/lucas/Documents/fpga/lab8/lab8_2_1/lab8_2_1.xpr
+update_compile_order -fileset sources_1
+current_project lab8_2_3
+current_project lab8_2_1
+create_dashboard_gadget -name {gadget_2} -type utilization
+set_property reports {impl_1#impl_1_place_report_utilization_0} [get_dashboard_gadgets [list {gadget_2}]]
+set_property incl_new_reports false [get_dashboard_gadgets [list {gadget_2}]]
+set_property run.step all_stages [get_dashboard_gadgets [list {gadget_2}]]
+launch_runs synth_1 impl_1 -jobs 8
+current_project lab8_2_3
+open_run synth_1 -name synth_1
+create_report_config -report_name c_counter_binary_0_synth_1_synth_report_utilization_1 -step synth_design -report_type report_utilization -run c_counter_binary_0_synth_1
+current_project lab8_2_2
+current_project lab8_2_3
+report_utilization -name utilization_1
+current_project lab8_2_2
+close_project
+open_project C:/Users/lucas/Documents/fpga/lab8/lab8_2_4/lab8_2_4.xpr
+update_compile_order -fileset sources_1
+add_files -norecurse -scan_for_includes C:/Users/lucas/Documents/fpga/lab8/lab8_2_3/lab8_2_3.srcs/sources_1/imports/new/counter.v
+import_files -norecurse C:/Users/lucas/Documents/fpga/lab8/lab8_2_3/lab8_2_3.srcs/sources_1/imports/new/counter.v
+update_compile_order -fileset sources_1
+open_project C:/Users/lucas/Documents/fpga/lab8/lab8_3_2/lab8_3_2.xpr
+update_compile_order -fileset sources_1
+current_project lab8_2_4
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+set_property used_in_implementation false [get_files  C:/Users/lucas/Documents/fpga/lab8/lab8_2_4/lab8_2_4.srcs/sources_1/imports/new/testbench8_2_1.v]
+set_property used_in_synthesis false [get_files  C:/Users/lucas/Documents/fpga/lab8/lab8_2_4/lab8_2_4.srcs/sources_1/imports/new/testbench8_2_1.v]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+current_project lab8_2_3
+current_project lab8_2_4
+report_utilization -name utilization_1
+current_project lab8_2_1
+close_project
+open_project C:/Users/lucas/Documents/fpga/lab8/lab8_2_2/lab8_2_2.xpr
+update_compile_order -fileset sources_1
+current_project lab8_2_4
+current_project lab8_3_2
+file mkdir C:/Users/lucas/Documents/fpga/lab8/lab8_3_2/lab8_3_2.srcs/sources_1/new
+close [ open C:/Users/lucas/Documents/fpga/lab8/lab8_3_2/lab8_3_2.srcs/sources_1/new/counter.v w ]
+add_files C:/Users/lucas/Documents/fpga/lab8/lab8_3_2/lab8_3_2.srcs/sources_1/new/counter.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source testbench7_2_1.tcl
+close_sim
+launch_simulation
+source testbench7_2_1.tcl
+run 1 ms
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source testbench7_2_1.tcl
+close_sim
+launch_simulation
+source testbench7_2_1.tcl
+run 1 ms
+close_sim
+launch_simulation
+source testbench7_2_1.tcl
+close_sim
+launch_simulation
+source testbench7_2_1.tcl
+run 1 ms
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source testbench7_2_1.tcl
+close_sim
+launch_simulation
+source testbench7_2_1.tcl
+run 1 ms
+set_property used_in_implementation false [get_files  C:/Users/lucas/Documents/fpga/lab8/lab8_3_2/lab8_3_2.srcs/sources_1/imports/sources_1/imports/new/testbench7_2_1.v]
+set_property used_in_synthesis false [get_files  C:/Users/lucas/Documents/fpga/lab8/lab8_3_2/lab8_3_2.srcs/sources_1/imports/sources_1/imports/new/testbench7_2_1.v]
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+current_project lab8_2_3
+close_project
+current_project lab8_2_4
+close_project
+open_project C:/Users/lucas/Documents/fpga/lab8/lab8_3_3/lab8_3_3.xpr
+update_compile_order -fileset sources_1
+set_property -dict [list CONFIG.Output_Width {12} CONFIG.Restrict_Count {false} CONFIG.CE {false}] [get_ips c_counter_binary_0]
+generate_target all [get_files  C:/Users/lucas/Documents/fpga/lab8/lab8_3_3/lab8_3_3.srcs/sources_1/ip/c_counter_binary_0/c_counter_binary_0.xci]
+catch { config_ip_cache -export [get_ips -all c_counter_binary_0] }
+export_ip_user_files -of_objects [get_files C:/Users/lucas/Documents/fpga/lab8/lab8_3_3/lab8_3_3.srcs/sources_1/ip/c_counter_binary_0/c_counter_binary_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/lucas/Documents/fpga/lab8/lab8_3_3/lab8_3_3.srcs/sources_1/ip/c_counter_binary_0/c_counter_binary_0.xci]
+launch_runs -jobs 8 c_counter_binary_0_synth_1
+export_simulation -of_objects [get_files C:/Users/lucas/Documents/fpga/lab8/lab8_3_3/lab8_3_3.srcs/sources_1/ip/c_counter_binary_0/c_counter_binary_0.xci] -directory C:/Users/lucas/Documents/fpga/lab8/lab8_3_3/lab8_3_3.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/lucas/Documents/fpga/lab8/lab8_3_3/lab8_3_3.ip_user_files -ipstatic_source_dir C:/Users/lucas/Documents/fpga/lab8/lab8_3_3/lab8_3_3.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/lucas/Documents/fpga/lab8/lab8_3_3/lab8_3_3.cache/compile_simlib/modelsim} {questa=C:/Users/lucas/Documents/fpga/lab8/lab8_3_3/lab8_3_3.cache/compile_simlib/questa} {riviera=C:/Users/lucas/Documents/fpga/lab8/lab8_3_3/lab8_3_3.cache/compile_simlib/riviera} {activehdl=C:/Users/lucas/Documents/fpga/lab8/lab8_3_3/lab8_3_3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+close_project
+current_project lab8_3_2
+close_sim
+close_project

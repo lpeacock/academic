@@ -1,0 +1,120 @@
+timestamp=1580964541087
+
+[~A]
+ModifyID=1
+Version=74
+
+[addr_counter_mux]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|4461|1*65000
+BinI32/imp=3*23198
+I=0*68001
+I/imp=0*79143
+M=11|0|vde|1580964540807|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|0*66206*0x72b5745144740fbd920f10d5f74f9dbde36458dd|0*67846*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=21|0|vde|1580964540810|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|0*68395*0x636a4a32537855401d4d54303dcd886f99b4c031|0*78981*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|4411
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|890cf4de7f0e09a43aa4ffe58f0ca4ab82efadbbc12fd39a004b63cc754e8291f1b1bdecfcd32fb90c40ea05231c6387
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f62941564be7967dacb1ba8ea9ee25ff90cd05
+
+[counters]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|1669|1*25704
+BinI32/imp=3*9466
+I=0*24609
+I/imp=0*28866
+M=11|0|vde|1580964540775|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|0*23262*0x26016ac2f33b5c63e2db31053ea99a9782bed8b4|0*24462*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=21|0|vde|1580964540777|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|0*24890*0x5dc8733b6d35acde06093fc59317bbcde836ad78|0*28712*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|1619
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|5ec8153c14c0ca70990dd41b899294e6acebdb766a1c91718f363c360955a2130b2b4d32deda67191e18eedf95b7679e
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f62941e8225a615a4944486903e5f4c557a517
+
+[emc]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|8233|1*110740
+BinI32/imp=3*53524
+I=0*131897
+I/imp=0*159197
+M=11|0|vde|1580964540849|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|0*125598*0x517e5eff44370b27feebe62a531c0d4a26c34348|0*131755*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=21|0|vde|1580964540857|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|0*132260*0x6f935d292a850db3906afcb6499bae72182ca6c8|0*159048*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|8053
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|167cb521562150f7eed71f311f63f2d4b837d9d9662f0a20a2ac1deddcf497ac
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f62941b837d9d9662f0a20a2ac1deddcf497ac
+
+[io_registers]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|1226|1*16197
+BinI32/imp=3*5593
+I=0*17472
+I/imp=0*22729
+M=11|0|vde|1580964540764|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|0*14935*0xaa17d54dbb360c9574012e7fc4e3e9a8f9fd7e96|0*17321*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=21|0|vde|1580964540766|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|0*17678*0x7ff04b93cbec7d252606c4ad117500fb494ceaa0|0*22571*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|1158
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|59a7c5e8c2f7debbd4fdb7e23febd15dda1fc0edab24c8c71a7536ad08e7b73353133f5662babca28de8f2278ea5c18b
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f6294134a184dfa5a7354aebf4b2013abcf336
+
+[ipic_if]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|580|1*6862
+BinI32/imp=3*1439
+I=0*7173
+I/imp=0*13997
+M=11|0|vde|1580964540753|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|0*5268*0x0a116085f8f5b69468cc7d1e88b011033fd90784|0*7027*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=21|0|vde|1580964540755|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|0*7558*0xf225f74535d175dd1eb0d4d17d28ecb4640dd119|0*13844*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|522
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|32406d768ddddcfe827509f8382d0dcc26527262ddaa47cb266f3a3c4d9b973ad84043c264e14317a66a13bde6eaaba1
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f629410666e956568881e139da6fbb7abd63fa
+
+[ld_arith_reg]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|161|1*0
+BinI32/imp=3*0
+I=0*1169
+I/imp=0*4316
+M=11|0|vde|1580964540408|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|0*325*0x3ef486c0c6a53cfb92911ba3ae4ca0ab3f3f6f37|0*1018*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=21|0|vde|1580964540717|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|0*1375*0x43f2cbf07df46c619e011ad034868ec70d7fcae6|0*4158*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|113
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|db3090c6605f5733ae72d6a447681a6daac4f8b8313dd13901ca1dd76b2ec0a27be769862477afdc9e774ab9c9816662
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f629416c56092c6d7f786e68990407f660ed79
+
+[mem_state_machine]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|2190|1*33307
+BinI32/imp=3*10689
+I=0*32546
+I/imp=0*51410
+M=11|0|vde|1580964540783|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|0*29852*0x8c3de86161ecbf114d6b9e8b4615a0e441791d40|0*32390*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=21|0|vde|1580964540785|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|0*32913*0xc5fdff1e94d0fb8c46c49bc527bbdb2c95b8eb67|0*51247*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|2096
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|f5fe591c2abc1f8e18cee45f30c33778f817f9244fe55851c3e8df12b4338bdf4c67207b0ff65c7c37d52040b7ab08cf
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f62941e80d418235ed9a7a8495b65490a07f49
+
+[mem_steer]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|5345|1*76026
+BinI32/imp=3*30535
+I=0*83683
+I/imp=0*123981
+M=11|0|vde|1580964540820|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|0*80369*0xee416ca09b04fb1eef648896ecca07efa3f5b07c|0*83535*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=21|0|vde|1580964540829|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|0*84070*0x1d65ef36766cf1704cfe383292b9db55678c5719|0*123826*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|5234
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|3a7392c043dd06a2c809b742b6dc3e6eb47390a3fca90f02da94c6585948d10931ecbb1c5b5e321d9773775a55ecdd62
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f629411e42d68c9efdfa6e9de8d0348cc143eb
+
+[select_param]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|3633|1*49594
+BinI32/imp=3*18101
+I=0*56154
+I/imp=0*65359
+M=11|0|vde|1580964540796|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|0*52541*0xda06c18f5be14322ecb1bbda6825699fb810e4b4|0*56003*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=21|0|vde|1580964540798|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|0*56465*0x60785a94d677e8c266d2783b745558faa325cc3a|0*65201*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emc_common_v3_0/hdl/emc_common_v3_0_vh_rfs.vhd|3522
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|a38048ae10dd120e2b9503823ca937c351a5855ea41fb5fb046ea5341a2c3cdf68e0dc6f243b1ccd9fa44d6df3eb204e
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f629418e8b50e94761774ab49375c8999f3e72
+
+[~MFT]
+0=63|0emc_common_v3_0_5.mgf|159197|0
+1=9|1emc_common_v3_0_5.mgf|110740|0
+3=9|3emc_common_v3_0_5.mgf|53524|0
+
+[~U]
+addr_counter_mux=11|0*65674|
+counters=11|0*22939|
+emc=EMC 11|0*124459|
+io_registers=11|0*14425|
+ipic_if=11|0*4724|
+ld_arith_reg=11|0*0|
+mem_state_machine=11|0*29186|
+mem_steer=11|0*79611|
+select_param=11|0*51811|

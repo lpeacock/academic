@@ -1,0 +1,410 @@
+V 000038 56 950 1580964314356 DSP48E1
+(_unit DSP48E1
+	(_specify
+		(_specparam PATHPULSE$ integer 0)
+		(_modpath full unknown 0 1346
+			(_port CLK in )
+			(_port ACOUT out )
+		)
+		(_modpath full unknown 0 1347
+			(_port CLK in )
+			(_port BCOUT out )
+		)
+		(_modpath full unknown 0 1348
+			(_port CLK in )
+			(_port CARRYCASCOUT out )
+		)
+		(_modpath full unknown 0 1349
+			(_port CLK in )
+			(_port CARRYOUT out )
+		)
+		(_modpath full unknown 0 1350
+			(_port CLK in )
+			(_port MULTSIGNOUT out )
+		)
+		(_modpath full unknown 0 1351
+			(_port CLK in )
+			(_port OVERFLOW out )
+		)
+		(_modpath full unknown 0 1352
+			(_port CLK in )
+			(_port P out )
+		)
+		(_modpath full unknown 0 1353
+			(_port CLK in )
+			(_port PATTERNBDETECT out )
+		)
+		(_modpath full unknown 0 1354
+			(_port CLK in )
+			(_port PATTERNDETECT out )
+		)
+		(_modpath full unknown 0 1355
+			(_port CLK in )
+			(_port PCOUT out )
+		)
+		(_modpath full unknown 0 1356
+			(_port CLK in )
+			(_port UNDERFLOW out )
+		)
+	)
+)
+V 000045 56 3925 1580964314384 GTHE2_CHANNEL
+(_unit GTHE2_CHANNEL
+	(_specify
+		(_specparam PATHPULSE$ integer 0)
+		(_modpath full unknown 0 4285
+			(_port DMONITORCLK in )
+			(_port DMONITOROUT out )
+		)
+		(_modpath full unknown 0 4286
+			(_port DRPCLK in )
+			(_port DRPDO out )
+		)
+		(_modpath full unknown 0 4287
+			(_port DRPCLK in )
+			(_port DRPRDY out )
+		)
+		(_modpath full unknown 0 4288
+			(_port GTNORTHREFCLK0 in )
+			(_port GTREFCLKMONITOR out )
+		)
+		(_modpath full unknown 0 4289
+			(_port GTNORTHREFCLK1 in )
+			(_port GTREFCLKMONITOR out )
+		)
+		(_modpath full unknown 0 4290
+			(_port GTREFCLK0 in )
+			(_port GTREFCLKMONITOR out )
+		)
+		(_modpath full unknown 0 4291
+			(_port GTREFCLK1 in )
+			(_port GTREFCLKMONITOR out )
+		)
+		(_modpath full unknown 0 4292
+			(_port GTSOUTHREFCLK0 in )
+			(_port GTREFCLKMONITOR out )
+		)
+		(_modpath full unknown 0 4293
+			(_port GTSOUTHREFCLK1 in )
+			(_port GTREFCLKMONITOR out )
+		)
+		(_modpath full unknown 0 4294
+			(_port QPLLCLK in )
+			(_port GTREFCLKMONITOR out )
+		)
+		(_modpath full unknown 0 4295
+			(_port RXUSRCLK in )
+			(_port RXCHBONDO out )
+		)
+		(_modpath full unknown 0 4296
+			(_port RXUSRCLK2 in )
+			(_port RXCHBONDO out )
+		)
+		(_modpath full unknown 0 4297
+			(_port RXUSRCLK2 in )
+			(_port PHYSTATUS out )
+		)
+		(_modpath full unknown 0 4298
+			(_port RXUSRCLK2 in )
+			(_port RXBUFSTATUS out )
+		)
+		(_modpath full unknown 0 4299
+			(_port RXUSRCLK2 in )
+			(_port RXBYTEISALIGNED out )
+		)
+		(_modpath full unknown 0 4300
+			(_port RXUSRCLK2 in )
+			(_port RXBYTEREALIGN out )
+		)
+		(_modpath full unknown 0 4301
+			(_port RXUSRCLK2 in )
+			(_port RXCHANBONDSEQ out )
+		)
+		(_modpath full unknown 0 4302
+			(_port RXUSRCLK2 in )
+			(_port RXCHANISALIGNED out )
+		)
+		(_modpath full unknown 0 4303
+			(_port RXUSRCLK2 in )
+			(_port RXCHANREALIGN out )
+		)
+		(_modpath full unknown 0 4304
+			(_port RXUSRCLK2 in )
+			(_port RXCHARISCOMMA out )
+		)
+		(_modpath full unknown 0 4305
+			(_port RXUSRCLK2 in )
+			(_port RXCHARISK out )
+		)
+		(_modpath full unknown 0 4306
+			(_port RXUSRCLK2 in )
+			(_port RXCLKCORCNT out )
+		)
+		(_modpath full unknown 0 4307
+			(_port RXUSRCLK2 in )
+			(_port RXCOMINITDET out )
+		)
+		(_modpath full unknown 0 4308
+			(_port RXUSRCLK2 in )
+			(_port RXCOMMADET out )
+		)
+		(_modpath full unknown 0 4309
+			(_port RXUSRCLK2 in )
+			(_port RXCOMSASDET out )
+		)
+		(_modpath full unknown 0 4310
+			(_port RXUSRCLK2 in )
+			(_port RXCOMWAKEDET out )
+		)
+		(_modpath full unknown 0 4311
+			(_port RXUSRCLK2 in )
+			(_port RXDATA out )
+		)
+		(_modpath full unknown 0 4312
+			(_port RXUSRCLK2 in )
+			(_port RXDATAVALID out )
+		)
+		(_modpath full unknown 0 4313
+			(_port RXUSRCLK2 in )
+			(_port RXDISPERR out )
+		)
+		(_modpath full unknown 0 4314
+			(_port RXUSRCLK2 in )
+			(_port RXHEADER out )
+		)
+		(_modpath full unknown 0 4315
+			(_port RXUSRCLK2 in )
+			(_port RXHEADERVALID out )
+		)
+		(_modpath full unknown 0 4316
+			(_port RXUSRCLK2 in )
+			(_port RXNOTINTABLE out )
+		)
+		(_modpath full unknown 0 4317
+			(_port RXUSRCLK2 in )
+			(_port RXPRBSERR out )
+		)
+		(_modpath full unknown 0 4318
+			(_port RXUSRCLK2 in )
+			(_port RXRATEDONE out )
+		)
+		(_modpath full unknown 0 4319
+			(_port RXUSRCLK2 in )
+			(_port RXRESETDONE out )
+		)
+		(_modpath full unknown 0 4320
+			(_port RXUSRCLK2 in )
+			(_port RXSTARTOFSEQ out )
+		)
+		(_modpath full unknown 0 4321
+			(_port RXUSRCLK2 in )
+			(_port RXSTATUS out )
+		)
+		(_modpath full unknown 0 4322
+			(_port RXUSRCLK2 in )
+			(_port RXVALID out )
+		)
+		(_modpath full unknown 0 4323
+			(_port TXUSRCLK2 in )
+			(_port TXBUFSTATUS out )
+		)
+		(_modpath full unknown 0 4324
+			(_port TXUSRCLK2 in )
+			(_port TXCOMFINISH out )
+		)
+		(_modpath full unknown 0 4325
+			(_port TXUSRCLK2 in )
+			(_port TXGEARBOXREADY out )
+		)
+		(_modpath full unknown 0 4326
+			(_port TXUSRCLK2 in )
+			(_port TXRATEDONE out )
+		)
+		(_modpath full unknown 0 4327
+			(_port TXUSRCLK2 in )
+			(_port TXRESETDONE out )
+		)
+	)
+)
+V 000045 56 4103 1580964314387 GTXE2_CHANNEL
+(_unit GTXE2_CHANNEL
+	(_specify
+		(_specparam PATHPULSE$ integer 0)
+		(_modpath full unknown 0 3428
+			(_port CLKRSVD (_cnst \1\) (_cnst \1\) in )
+			(_port DMONITOROUT (_cnst \7\) (_cnst \0\) out )
+		)
+		(_modpath full unknown 0 3429
+			(_port CLKRSVD (_cnst \1\) (_cnst \1\) in )
+			(_port PCSRSVDOUT (_cnst \8\) (_cnst \2\) out )
+		)
+		(_modpath full unknown 0 3430
+			(_port DRPCLK in )
+			(_port DRPDO out )
+		)
+		(_modpath full unknown 0 3431
+			(_port DRPCLK in )
+			(_port DRPRDY out )
+		)
+		(_modpath full unknown 0 3432
+			(_port GTNORTHREFCLK0 in )
+			(_port GTREFCLKMONITOR out )
+		)
+		(_modpath full unknown 0 3433
+			(_port GTNORTHREFCLK1 in )
+			(_port GTREFCLKMONITOR out )
+		)
+		(_modpath full unknown 0 3434
+			(_port GTREFCLK0 in )
+			(_port GTREFCLKMONITOR out )
+		)
+		(_modpath full unknown 0 3435
+			(_port GTREFCLK1 in )
+			(_port GTREFCLKMONITOR out )
+		)
+		(_modpath full unknown 0 3436
+			(_port GTSOUTHREFCLK0 in )
+			(_port GTREFCLKMONITOR out )
+		)
+		(_modpath full unknown 0 3437
+			(_port GTSOUTHREFCLK1 in )
+			(_port GTREFCLKMONITOR out )
+		)
+		(_modpath full unknown 0 3438
+			(_port QPLLCLK in )
+			(_port GTREFCLKMONITOR out )
+		)
+		(_modpath full unknown 0 3439
+			(_port RXUSRCLK in )
+			(_port RXCHBONDO out )
+		)
+		(_modpath full unknown 0 3440
+			(_port RXUSRCLK2 in )
+			(_port PHYSTATUS out )
+		)
+		(_modpath full unknown 0 3441
+			(_port RXUSRCLK2 in )
+			(_port RXBUFSTATUS out )
+		)
+		(_modpath full unknown 0 3442
+			(_port RXUSRCLK2 in )
+			(_port RXBYTEISALIGNED out )
+		)
+		(_modpath full unknown 0 3443
+			(_port RXUSRCLK2 in )
+			(_port RXBYTEREALIGN out )
+		)
+		(_modpath full unknown 0 3444
+			(_port RXUSRCLK2 in )
+			(_port RXCHANBONDSEQ out )
+		)
+		(_modpath full unknown 0 3445
+			(_port RXUSRCLK2 in )
+			(_port RXCHANISALIGNED out )
+		)
+		(_modpath full unknown 0 3446
+			(_port RXUSRCLK2 in )
+			(_port RXCHANREALIGN out )
+		)
+		(_modpath full unknown 0 3447
+			(_port RXUSRCLK2 in )
+			(_port RXCHARISCOMMA out )
+		)
+		(_modpath full unknown 0 3448
+			(_port RXUSRCLK2 in )
+			(_port RXCHARISK out )
+		)
+		(_modpath full unknown 0 3449
+			(_port RXUSRCLK2 in )
+			(_port RXCHBONDO out )
+		)
+		(_modpath full unknown 0 3450
+			(_port RXUSRCLK2 in )
+			(_port RXCLKCORCNT out )
+		)
+		(_modpath full unknown 0 3451
+			(_port RXUSRCLK2 in )
+			(_port RXCOMINITDET out )
+		)
+		(_modpath full unknown 0 3452
+			(_port RXUSRCLK2 in )
+			(_port RXCOMMADET out )
+		)
+		(_modpath full unknown 0 3453
+			(_port RXUSRCLK2 in )
+			(_port RXCOMSASDET out )
+		)
+		(_modpath full unknown 0 3454
+			(_port RXUSRCLK2 in )
+			(_port RXCOMWAKEDET out )
+		)
+		(_modpath full unknown 0 3455
+			(_port RXUSRCLK2 in )
+			(_port RXDATA out )
+		)
+		(_modpath full unknown 0 3456
+			(_port RXUSRCLK2 in )
+			(_port RXDATAVALID out )
+		)
+		(_modpath full unknown 0 3457
+			(_port RXUSRCLK2 in )
+			(_port RXDISPERR out )
+		)
+		(_modpath full unknown 0 3458
+			(_port RXUSRCLK2 in )
+			(_port RXHEADER out )
+		)
+		(_modpath full unknown 0 3459
+			(_port RXUSRCLK2 in )
+			(_port RXHEADERVALID out )
+		)
+		(_modpath full unknown 0 3460
+			(_port RXUSRCLK2 in )
+			(_port RXNOTINTABLE out )
+		)
+		(_modpath full unknown 0 3461
+			(_port RXUSRCLK2 in )
+			(_port RXPRBSERR out )
+		)
+		(_modpath full unknown 0 3462
+			(_port RXUSRCLK2 in )
+			(_port RXRATEDONE out )
+		)
+		(_modpath full unknown 0 3463
+			(_port RXUSRCLK2 in )
+			(_port RXRESETDONE out )
+		)
+		(_modpath full unknown 0 3464
+			(_port RXUSRCLK2 in )
+			(_port RXSTARTOFSEQ out )
+		)
+		(_modpath full unknown 0 3465
+			(_port RXUSRCLK2 in )
+			(_port RXSTATUS out )
+		)
+		(_modpath full unknown 0 3466
+			(_port RXUSRCLK2 in )
+			(_port RXVALID out )
+		)
+		(_modpath full unknown 0 3467
+			(_port TXUSRCLK2 in )
+			(_port TXBUFSTATUS out )
+		)
+		(_modpath full unknown 0 3468
+			(_port TXUSRCLK2 in )
+			(_port TXCOMFINISH out )
+		)
+		(_modpath full unknown 0 3469
+			(_port TXUSRCLK2 in )
+			(_port TXGEARBOXREADY out )
+		)
+		(_modpath full unknown 0 3470
+			(_port TXUSRCLK2 in )
+			(_port TXRATEDONE out )
+		)
+		(_modpath full unknown 0 3471
+			(_port TXUSRCLK2 in )
+			(_port TXRESETDONE out )
+		)
+	)
+)

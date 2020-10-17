@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Jan 30 10:25:45 2020
+# Process ID: 1964
+# Current directory: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_4_1/lab2_4_1.runs/impl_1
+# Command line: vivado.exe -log rca_dataflow.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source rca_dataflow.tcl -notrace
+# Log file: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_4_1/lab2_4_1.runs/impl_1/rca_dataflow.vdi
+# Journal file: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_4_1/lab2_4_1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source rca_dataflow.tcl -notrace

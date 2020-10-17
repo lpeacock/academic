@@ -1,0 +1,29 @@
+timestamp=1580964356892
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axis_dbg_stub_v1_0/hdl/axis_dbg_stub_v1_0_rfs.v=0*609*1535
+LastVerilogToplevel=axis_dbg_stub_v1_0_0_axis_dbg_stub
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c9216431a7be145324f77be37dd71b36a7213
+
+[axis_dbg_stub_v1_0_0_axis_dbg_stub]
+A/axis_dbg_stub_v1_0_0_axis_dbg_stub=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_dbg_stub_v1_0/hdl/axis_dbg_stub_v1_0_rfs.v|4|1*390
+BinI32/axis_dbg_stub_v1_0_0_axis_dbg_stub=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_dbg_stub_v1_0/hdl/axis_dbg_stub_v1_0_rfs.v|4
+SLP=3*1077
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|403616ef843a852f84fe72d5216c3a07b8c9801672cca752cbc9dfbb8f89ae53116b38d5fb274d98b2eddd064019355f
+
+[~MFT]
+0=4|0axis_dbg_stub_v1_0_0.mgf|1535|0
+1=2|1axis_dbg_stub_v1_0_0.mgf|390|0
+3=4|3axis_dbg_stub_v1_0_0.mgf|1077|0
+
+[~U]
+$root=12|0*0|
+axis_dbg_stub_v1_0_0_axis_dbg_stub=12|0*182||0x10

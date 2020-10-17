@@ -1,0 +1,760 @@
+timestamp=1580964757725
+
+[~A]
+CUSP_Counter=1
+LastVerilogToplevel=protected_1a426e52cbde2d6dec4c9c0d61d43239
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|c73a565f2ade592f8ac1c68f484c921685ae5c31d2619121dba168a8393089a9
+
+[UnitScopePackage_1]
+A/UnitScopePackage_1=22|./../.cxl.ip/incl/nmu_macros.svh|0|1*195530
+BinI32/UnitScopePackage_1=3*1016607
+CUSP=19
+R=./../.cxl.ip/incl/nmu_macros.svh|0
+SLP=3*1017163
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|fab98aed36991913255ea6c02c9bb53e4dc7b1d77717ad53c996fab9a47702ebdd17568b7a37493418e0d8fd374db65b
+
+[\*assocarray#([]bit,[]bit) \]
+A/\*assocarray#([]bit,[]bit) \=22|||1*111730
+AICT=404726977450240
+BinI32/\*assocarray#([]bit,[]bit) \=3*651736
+CLI=0*61824
+SLP=3*653628
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|28d50cbe667753a254d0ce15b290b8431a3efff0d31fe158fd4476ffd9ab94e14447e3607f17fa8636754fb59297d22fbd8ab9fe79032b8970952952903ff9af
+
+[\*assocarray#([]bitS,[]bitS) \]
+A/\*assocarray#([]bitS,[]bitS) \=22|||1*15382
+AICT=404726977349633
+BinI32/\*assocarray#([]bitS,[]bitS) \=3*117036
+CLI=0*7763
+SLP=3*118982
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|28d50cbe667753a254d0ce15b290b8437deb5f90bd6efde6aba92d61ea1a86654d2cab018223f4d50e0ddb44d0704537ddfa2efbaf6b85095b6c4a5db3f47a98
+
+[\*assocarray#([]bitS[$],[]bitS) \]
+A/\*assocarray#([]bitS[$],[]bitS) \=22|||1*18870
+AICT=404726977350912
+BinI32/\*assocarray#([]bitS[$],[]bitS) \=3*125773
+CLI=0*9199
+SLP=3*128001
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|28d50cbe667753a254d0ce15b290b84354a8a2c126d57b4d6ab78e29950f4b07ea0a146c7565c81d584ff7efb0b3b1e9c6c218da55ae4180786b7865314d58f7
+
+[\*assocarray#([]bitS[$][[]bitS],string) \]
+A/\*assocarray#([]bitS[$][[]bitS],string) \=22|||1*33086
+AICT=404726977360384
+BinI32/\*assocarray#([]bitS[$][[]bitS],string) \=3*182269
+CLI=0*14717
+SLP=3*184432
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|28d50cbe667753a254d0ce15b290b84396d68a79f7df019d7e4fa896c61ded4b7afee73c21fb622e40a8a85fce447bbc8215611a97e4f410415fcb50d77012f2
+
+[\*assocarray#([]bitS[],[]bitS) \]
+A/\*assocarray#([]bitS[],[]bitS) \=22|||1*168648
+AICT=404726977489408
+BinI32/\*assocarray#([]bitS[],[]bitS) \=3*985148
+CLI=0*81317
+SLP=3*987318
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|28d50cbe667753a254d0ce15b290b843adb589d932fef9aa7b915eb1ad2fcd8704b79af3038df4f47d736cfac8a5893239afa5cbedd120569040492b82bcb83b
+
+[\*assocarray#([]logic,[]bitS) \]
+A/\*assocarray#([]logic,[]bitS) \=22|||1*34456
+AICT=404726977361152
+BinI32/\*assocarray#([]logic,[]bitS) \=3*185868
+CLI=0*15259
+SLP=3*187824
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|28d50cbe667753a254d0ce15b290b843d4bfd2d27543b587017ccf420e716ad52c66ac8dc118ce1cd89585f5c193db17f2742ed6924cb1b1b8a7059a9f519fc8
+
+[\*assocarray#(axi_vip_v1_0_axi4pc::t_Wxfer[$],[]bitS) \]
+A/\*assocarray#(axi_vip_v1_0_axi4pc::t_Wxfer[$],[]bitS) \=22|||1*142913
+AICT=404726977462272
+BinI32/\*assocarray#(axi_vip_v1_0_axi4pc::t_Wxfer[$],[]bitS) \=3*891133
+CLI=0*74096
+SLP=3*893386
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|28d50cbe667753a254d0ce15b290b843610e5aabb0d9fdc235665dfe659f0232b0f9db3874490dcdd209ed4e0da48aa5a27764d3983fcbf0bfafd7630207ec0f5f88662216981381d87fd71faa272958
+
+[\*assocarray#(axi_vip_v1_0_axi4pc::t_exclsive_xfer,[]bitS) \]
+A/\*assocarray#(axi_vip_v1_0_axi4pc::t_exclsive_xfer,[]bitS) \=22|||1*151019
+AICT=404726977464064
+BinI32/\*assocarray#(axi_vip_v1_0_axi4pc::t_exclsive_xfer,[]bitS) \=3*909925
+CLI=0*77298
+SLP=3*911970
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|28d50cbe667753a254d0ce15b290b843610e5aabb0d9fdc235665dfe659f0232c60b06c8a13bbbf33656e087a735601a5b64ab19478523820a661060c81c8bee9a775fffc261bd73beb51489fab0103f9f3cc0ed00d387a9b980ed5de0b4d6ee
+
+[\*assocarray#(axi_vip_v1_0_axi4pc::t_rburst_xfer[$],[]bitS) \]
+A/\*assocarray#(axi_vip_v1_0_axi4pc::t_rburst_xfer[$],[]bitS) \=22|||1*149613
+AICT=404726977463552
+BinI32/\*assocarray#(axi_vip_v1_0_axi4pc::t_rburst_xfer[$],[]bitS) \=3*906212
+CLI=0*76720
+SLP=3*908449
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|28d50cbe667753a254d0ce15b290b843610e5aabb0d9fdc235665dfe659f02327f0a4c4223131a8caa94e89c971db3a34ba0cff86c9454af64909e5f920acd921483d60dd53aa97d8cfa08434a3bcea7ca0c159ae6f312f3099500784f23a7b3
+
+[\*assocarray#(bit,[]bitS) \]
+A/\*assocarray#(bit,[]bitS) \=22|||1*25498
+AICT=404726977353472
+BinI32/\*assocarray#(bit,[]bitS) \=3*142577
+CLI=0*11863
+SLP=3*144494
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|28d50cbe667753a254d0ce15b290b843aa1b66a4ba7f30b4bf25703cd804de620eb1d6bf7d9b95cbc02815d71c061cb7d5be6c07f5afffb36fb7fa87c80dc5a4
+
+[\*assocarray#(flit_transaction_object_nmu,[]bitS) \]
+A/\*assocarray#(flit_transaction_object_nmu,[]bitS) \=22|||1*20232
+AICT=404726977351168
+BinI32/\*assocarray#(flit_transaction_object_nmu,[]bitS) \=3*129426
+CLI=0*9717
+SLP=3*131342
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|28d50cbe667753a254d0ce15b290b843cc18b7d319c84623fa2897544fd3a6ddad8b2fc9e0b4f93f371d31594d3930af708fe0a591665ded4cc886ff59d16debe75e4bfb9b4428c9ef70f374428674e2
+
+[\*assocarray#(flit_transaction_object_nmu[$],[]bitS) \]
+A/\*assocarray#(flit_transaction_object_nmu[$],[]bitS) \=22|||1*22724
+AICT=404726977352448
+BinI32/\*assocarray#(flit_transaction_object_nmu[$],[]bitS) \=3*135179
+CLI=0*10745
+SLP=3*137374
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|28d50cbe667753a254d0ce15b290b843cc18b7d319c84623fa2897544fd3a6dd2ad2c9974ea2d906812ae9a754db878d5d7ee08b65dede97a646895f1c0a248015a619c59d2d167a7d964f17e017cb88
+
+[\*assocarray#(flit_transaction_object_nmu[$][[]bitS],[]bitS) \]
+A/\*assocarray#(flit_transaction_object_nmu[$][[]bitS],[]bitS) \=22|||1*24091
+AICT=404726977352960
+BinI32/\*assocarray#(flit_transaction_object_nmu[$][[]bitS],[]bitS) \=3*138833
+CLI=0*11300
+SLP=3*141099
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|28d50cbe667753a254d0ce15b290b843cc18b7d319c84623fa2897544fd3a6dd24bf9644e80856fc5a4283dad3a2759249688035ab05a5323982524955d47ab0fda768eb2b5c628eee8aaa7d9e759dd588bb459f44ca2166f92e47781e43a519
+
+[\*assocarray#(flit_transaction_object_nmu[$][[]bitS][[]bitS],string) \]
+A/\*assocarray#(flit_transaction_object_nmu[$][[]bitS][[]bitS],string) \=22|||1*31671
+AICT=404726977359616
+BinI32/\*assocarray#(flit_transaction_object_nmu[$][[]bitS][[]bitS],string) \=3*178592
+CLI=0*14130
+SLP=3*180784
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|28d50cbe667753a254d0ce15b290b843cc18b7d319c84623fa2897544fd3a6dd24bf9644e80856fc5a4283dad3a275920ed8cd4c252468dfd9cb415b2276154e8ded337b145dcd27ec1959bcd3e24c418102f4b2ff6d52d78ffa020277cec6f2
+
+[\*dynarray#([]bit) \]
+A/\*dynarray#([]bit) \=22|||1*486
+AICT=404726977342465
+BinI32/\*dynarray#([]bit) \=3*172
+CLI=0*1899
+SLP=3*1077
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|f070d1783f92d86aefbc6bad4bec87a35d159f19ef803d642987edca6c15b6bd68e5bdd6cb29995492cad6397fa2996e
+
+[\*dynarray#([]bitS) \]
+A/\*dynarray#([]bitS) \=22|||1*167698
+AICT=404726977489152
+BinI32/\*dynarray#([]bitS) \=3*983638
+CLI=0*80907
+SLP=3*984546
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|f070d1783f92d86aefbc6bad4bec87a3f76430531817b60f5ee3c53679579ec0a6fbef8a3b3a2928ec808a2682590bd2
+
+[\*dynarray#([]logic) \]
+A/\*dynarray#([]logic) \=22|||1*109928
+AICT=404726977448960
+BinI32/\*dynarray#([]logic) \=3*648860
+CLI=0*60603
+SLP=3*649769
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|f070d1783f92d86aefbc6bad4bec87a39c0ee4dec21c2b62d9ae4be4d9d4e9573a2652b1030cfec992fd7cace7d1b8d3
+
+[\*dynarray#(bit) \]
+A/\*dynarray#(bit) \=22|||1*110895
+AICT=404726977449216
+BinI32/\*dynarray#(bit) \=3*650373
+CLI=0*61449
+SLP=3*651151
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|d5ac22ef0c143a14bf8f7b7187941f03298b91a9e444f4088d83e29eef12fd94db719a109efe25b3f31445ce178632f1
+
+[\*dynarray#(string) \]
+A/\*dynarray#(string) \=22|||1*30817
+AICT=404726977359360
+BinI32/\*dynarray#(string) \=3*177222
+CLI=0*13736
+SLP=3*178004
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|366af72d09977ec5bc37533285232b79c76ae05fe33c14cbc92810d899a7576946fa6caba09fa82fd296ad566cccb324
+
+[\*queue#([]bit) \]
+A/\*queue#([]bit) \=22|||1*1435
+AICT=404726977343233
+BinI32/\*queue#([]bit) \=3*1678
+CLI=0*2308
+SLP=3*3383
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|ac315f1ee53bd5e82d18c46d474b59c486ecc9714881a909134cfbf0b9847b33a8a9cd2aeb04c49289da68059db6c5d4
+
+[\*queue#([]bitS) \]
+A/\*queue#([]bitS) \=22|||1*17635
+AICT=404726977350656
+BinI32/\*queue#([]bitS) \=3*122936
+CLI=0*8712
+SLP=3*124642
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|ac315f1ee53bd5e82d18c46d474b59c4220d91537624afd915116161cb7b9d312612dca0b1cd893455d63db5236ae4b2
+
+[\*queue#([]logicS) \]
+A/\*queue#([]logicS) \=22|||1*146985
+AICT=404726977463296
+BinI32/\*queue#([]logicS) \=3*900577
+CLI=0*75716
+SLP=3*902288
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|d50eecdb8ad8d5aa066d33d1185d165de8d6c45909684a28e3bca6698c7e8c4dd9aabc5390f8f8b0eda16304b8a6bb97
+
+[\*queue#(axi_data_integrity_checker_nmu_pkg::axi_transaction_nmu) \]
+A/\*queue#(axi_data_integrity_checker_nmu_pkg::axi_transaction_nmu) \=22|||1*166430
+AICT=404726977481984
+BinI32/\*queue#(axi_data_integrity_checker_nmu_pkg::axi_transaction_nmu) \=3*980953
+CLI=0*79837
+SLP=3*982458
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|4cef8939f1247a03e8b06d7d2e38cfbf6918a8117a9dd09daa17e51f59643b35da5f913864ff19b76ea486372a051b576e2ccc0fe3b17608e8f9eb755102d4cf3b5473d179c492895c24cb749be4e2d7328ccdc00a3fe81793a35445a11e2620
+
+[\*queue#(axi_vip_v1_0_axi4pc::t_Wxfer) \]
+A/\*queue#(axi_vip_v1_0_axi4pc::t_Wxfer) \=22|||1*141496
+AICT=404726977462016
+BinI32/\*queue#(axi_vip_v1_0_axi4pc::t_Wxfer) \=3*888135
+CLI=0*73587
+SLP=3*889952
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|4cef8939f1247a03e8b06d7d2e38cfbfc15524c10f914fe104e6384eb0cba80f661a19698e43c11ce970c94dc2b8a10a5f1efef2429c7abd24561e6293326bcd
+
+[\*queue#(axi_vip_v1_0_axi4pc::t_cmd_message) \]
+A/\*queue#(axi_vip_v1_0_axi4pc::t_cmd_message) \=22|||1*144329
+AICT=404726977462784
+BinI32/\*queue#(axi_vip_v1_0_axi4pc::t_cmd_message) \=3*894859
+CLI=0*74668
+SLP=3*896450
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|4cef8939f1247a03e8b06d7d2e38cfbfc15524c10f914fe104e6384eb0cba80f536bced5994c820ffdd9dee0ea25dfb79c59dbd34c14d4ca77058025995b2fefe4f2d0cae24e2a8bc89d7e8550c467e2
+
+[\*queue#(axi_vip_v1_0_axi4pc::t_rburst_xfer) \]
+A/\*queue#(axi_vip_v1_0_axi4pc::t_rburst_xfer) \=22|||1*148222
+AICT=404726977463297
+BinI32/\*queue#(axi_vip_v1_0_axi4pc::t_rburst_xfer) \=3*903424
+CLI=0*76205
+SLP=3*905027
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|4cef8939f1247a03e8b06d7d2e38cfbfc15524c10f914fe104e6384eb0cba80f2d97ffe30fa55cd7d27ee773084a9a6353aac4520e1f5e05ba1b1776fc5c522a5f6e9490e53ce3f7587ab804739bf8e7
+
+[\*queue#(axi_vip_v1_0_axi4pc::t_wdata_message) \]
+A/\*queue#(axi_vip_v1_0_axi4pc::t_wdata_message) \=22|||1*145672
+AICT=404726977462785
+BinI32/\*queue#(axi_vip_v1_0_axi4pc::t_wdata_message) \=3*897636
+CLI=0*75183
+SLP=3*899388
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|4cef8939f1247a03e8b06d7d2e38cfbfc15524c10f914fe104e6384eb0cba80ff12dd517d4fb674518bf939c2efc0a57e3fd48ee8f84fd11d8df09b6737b167492bd732c0c5a7ac1733e820fef29f6f5
+
+[\*queue#(flit_transaction_object_nmu) \]
+A/\*queue#(flit_transaction_object_nmu) \=22|||1*21516
+AICT=404726977351936
+BinI32/\*queue#(flit_transaction_object_nmu) \=3*132572
+CLI=0*10253
+SLP=3*134049
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|2feb450425856a0f8696aab0d4a19a750e7d3ff14d3d3832e79a1bf0985905363733214a1aaed384cc02a45b0aef249c26527262ddaa47cb266f3a3c4d9b973a72661a19897fac67ae242806f7816c9f
+
+[\*queue#(nmu_async_fifos::noc_axi_ar_t) \]
+A/\*queue#(nmu_async_fifos::noc_axi_ar_t) \=22|||1*51417
+AICT=404726977375232
+BinI32/\*queue#(nmu_async_fifos::noc_axi_ar_t) \=3*225452
+CLI=0*26842
+SLP=3*226936
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|b2c5859c9fb0446d930d7282c1f75d49e1a510d933f5631cb869b0d9434920b9931e88b2b41cd2abdfe4c6f4c2d4d27dc9995b1a86c8f0be58bfd2ea114a7d1f26dc45b4bf510fa4a71c1bb25b168230
+
+[\*queue#(nmu_async_fifos::noc_axi_aw_t) \]
+A/\*queue#(nmu_async_fifos::noc_axi_aw_t) \=22|||1*52723
+AICT=404726977375488
+BinI32/\*queue#(nmu_async_fifos::noc_axi_aw_t) \=3*228102
+CLI=0*27336
+SLP=3*229586
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|b2c5859c9fb0446d930d7282c1f75d49e1a510d933f5631cb869b0d9434920b911545b5475192d2b722257776b59c8c354744ef0b248f7c8974fc8b9512d15269323c4a5d856d8c550be49614da28d0d
+
+[\*queue#(nmu_async_fifos::noc_axi_b_t) \]
+A/\*queue#(nmu_async_fifos::noc_axi_b_t) \=22|||1*56607
+AICT=404726977376256
+BinI32/\*queue#(nmu_async_fifos::noc_axi_b_t) \=3*236036
+CLI=0*28816
+SLP=3*237521
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|b2c5859c9fb0446d930d7282c1f75d49e1a510d933f5631cb869b0d9434920b9f75fa775ef1900c99f1ab5dfd52456522e44290a8794afea0706605a3a8edac9c3d727ef4f85104c9bcb1ee4cfed1340
+
+[\*queue#(nmu_async_fifos::noc_axi_r_t) \]
+A/\*queue#(nmu_async_fifos::noc_axi_r_t) \=22|||1*55334
+AICT=404726977376000
+BinI32/\*queue#(nmu_async_fifos::noc_axi_r_t) \=3*233404
+CLI=0*28323
+SLP=3*234885
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|b2c5859c9fb0446d930d7282c1f75d49e1a510d933f5631cb869b0d9434920b91370f608dcdca43609bd6a2756d1a5bb0d1fbeba94d0b2f33614fe6d8f7b3107fcbf3a426f6ca6a871769d46453bc186
+
+[\*queue#(nmu_async_fifos::noc_axi_w_t) \]
+A/\*queue#(nmu_async_fifos::noc_axi_w_t) \=22|||1*54029
+AICT=404726977375744
+BinI32/\*queue#(nmu_async_fifos::noc_axi_w_t) \=3*230748
+CLI=0*27830
+SLP=3*232240
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|b2c5859c9fb0446d930d7282c1f75d49e1a510d933f5631cb869b0d9434920b9552d3405968aa03000079e0dffc7ebdc198ec6b6a0ba330f494377b51402ce3afcbf3a426f6ca6a871769d46453bc186
+
+[\*queue#(nmu_axi_req_write_data_conversion::noc_axi_w_t) \]
+A/\*queue#(nmu_axi_req_write_data_conversion::noc_axi_w_t) \=22|||1*66834
+AICT=404726977391616
+BinI32/\*queue#(nmu_axi_req_write_data_conversion::noc_axi_w_t) \=3*328814
+CLI=0*34589
+SLP=3*330324
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|b2c5859c9fb0446d930d7282c1f75d4967e65ec4324b42d7823dede52cc3e1e06d72762c9638d22391bd16935793f57575ab3f49f5b7f5020a66747220ff6b3726527262ddaa47cb266f3a3c4d9b973aab48d1e9d36481a15e9d15656c73a91b
+
+[\*queue#(nmu_read_reorder_buffer::read_buffer_entry) \]
+A/\*queue#(nmu_read_reorder_buffer::read_buffer_entry) \=22|||1*86303
+AICT=404726977408512
+BinI32/\*queue#(nmu_read_reorder_buffer::read_buffer_entry) \=3*486713
+CLI=0*45285
+SLP=3*488210
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|b2c5859c9fb0446d930d7282c1f75d490d37d4eba69166cb11cc6ea4bca5a38c5d4d893cad8f01ae97e7b5a75e6332e766813d8942fa7b57071c8476c64decd104cb4e868b2f7d86ae3015cd9e4550ae
+
+[\*queue#(nmu_read_reorder_buffer::rrc_entry) \]
+A/\*queue#(nmu_read_reorder_buffer::rrc_entry) \=22|||1*79336
+AICT=404726977409024
+BinI32/\*queue#(nmu_read_reorder_buffer::rrc_entry) \=3*418348
+CLI=0*41934
+SLP=3*420455
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|b2c5859c9fb0446d930d7282c1f75d490d37d4eba69166cb11cc6ea4bca5a38cd4f6ab579ec1674999a09e4ac61eb920cbbe998bf0edf0733c70aee2ee831ca772f480e464004d6ae3dbeea10df91849
+
+[\*queue#(nmu_write_tracker::wr_resp_tracker_entry) \]
+A/\*queue#(nmu_write_tracker::wr_resp_tracker_entry) \=22|||1*89976
+AICT=404726977420801
+BinI32/\*queue#(nmu_write_tracker::wr_resp_tracker_entry) \=3*506368
+CLI=0*47272
+SLP=3*507862
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|b2c5859c9fb0446d930d7282c1f75d498c7f8da4cab16691403b0ca816639f16e4e42d90bd5453dfcbd31b52ccd6c25524efbdcb5c6359e72ceb0b0f3213419c9e15ba5d30e0ed88bbf0d3a118d9d8cf
+
+[\axi_data_integrity_checker_nmu_pkg axi_data_integrity_checker_nmu \]
+A/\axi_data_integrity_checker_nmu_pkg axi_data_integrity_checker_nmu \=22|./../.cxl.ip/incl/axi_data_integrity_checker_nmu.sv|6|1*112975
+AICT=404726977449728
+BinI32/\axi_data_integrity_checker_nmu_pkg axi_data_integrity_checker_nmu \=3*654806
+CLI=0*64118
+R=./../.cxl.ip/incl/axi_data_integrity_checker_nmu.sv|6
+SLP=3*675813
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|3c9022d4878e9111f53f3e7210bf22206d6dfda2a9ed96f43423d76ee31a9f69898f96b67036072d22d2c93590b7f174b9aed873503d5a24b94ab5e34825fdf68df6cf5e1c85d5fdcc544dbea8724eb7
+
+[\axi_data_integrity_checker_nmu_pkg axi_transaction_nmu \]
+A/\axi_data_integrity_checker_nmu_pkg axi_transaction_nmu \=22|./../.cxl.ip/incl/axi_trans_nmu.sv|3|1*107566
+AICT=404726977448704
+BinI32/\axi_data_integrity_checker_nmu_pkg axi_transaction_nmu \=3*637178
+CLI=0*59398
+R=./../.cxl.ip/incl/axi_trans_nmu.sv|3
+SLP=3*642931
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|3c9022d4878e9111f53f3e7210bf22206d6dfda2a9ed96f43423d76ee31a9f69c416c5c4c1604c056a485e9901eee1055a9bfd1147cdb8b57d7ec207d14d2b12fc4609ad13eba5dd0b95d1dec0e8cce7
+
+[\noc_npp_if_nmu \\noc_npp_if_nmu.sig_in \\ \]
+A/\noc_npp_if_nmu \\noc_npp_if_nmu.sig_in \\ \=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|2557|1*44797
+BinI32/\noc_npp_if_nmu \\noc_npp_if_nmu.sig_in \\ \=3*193652
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|2557
+SLP=3*193865
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|2efcd91eedc3e485a38c808b62822299d27b2a780521c117afe890fdf9126eeacf1f475fd912e4d10c9032bdb4b966143b1168efdbe599cf2b67c5a619391765
+
+[\noc_npp_if_nmu \\noc_npp_if_nmu.sig_out \\ \]
+A/\noc_npp_if_nmu \\noc_npp_if_nmu.sig_out \\ \=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|2567|1*45578
+BinI32/\noc_npp_if_nmu \\noc_npp_if_nmu.sig_out \\ \=3*194074
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|2567
+SLP=3*194288
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|2efcd91eedc3e485a38c808b62822299c63f7d082be8b94ac94138a997cab84a5e6e344cbf335316f07fc1867db1437d0f0218f4eeb2477d8cb58e0468754d51
+
+[\noc_npp_if_nmu.sig_out.cb_m \]
+A/\noc_npp_if_nmu.sig_out.cb_m \=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|2573|1*46520
+BinI32/\noc_npp_if_nmu.sig_out.cb_m \=3*194529
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|2573
+SLP=3*194808
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|2efcd91eedc3e485a38c808b628222993282ab1093d7294ffcf213b6db014b03b64cc52f780c3239bbff2facdf2f746c3f3720c8278123ec785503866dd4e0ec
+
+[\ref_axi512_if \\ref_axi512_if.master \\ \]
+A/\ref_axi512_if \\ref_axi512_if.master \\ \=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|2072|1*37462
+BinI32/\ref_axi512_if \\ref_axi512_if.master \\ \=3*189314
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|2072
+SLP=3*189525
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|e80c60c7ec651cabc8a54afee0221aafd9638ab287f193804642d7b713ce295301df7bfa1975f97cc81eb58d827fe3c40a6944c09ebd11619622f6850f718da4
+
+[\ref_axi512_if \\ref_axi512_if.master_par \\ \]
+A/\ref_axi512_if \\ref_axi512_if.master_par \\ \=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|2185|1*39755
+BinI32/\ref_axi512_if \\ref_axi512_if.master_par \\ \=3*190662
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|2185
+SLP=3*190877
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|e80c60c7ec651cabc8a54afee0221aaf103c10b159a50375d33f14a700d24524d678cc70b2867c0186090a9df796286e73097e1990591fc1314ba4873befe630
+
+[\ref_axi512_if \\ref_axi512_if.master_par_cid \\ \]
+A/\ref_axi512_if \\ref_axi512_if.master_par_cid \\ \=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|2339|1*42216
+BinI32/\ref_axi512_if \\ref_axi512_if.master_par_cid \\ \=3*192105
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|2339
+SLP=3*192324
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|e80c60c7ec651cabc8a54afee0221aaf103c10b159a50375d33f14a700d24524cc9c92f1a5b0794c03d884720d50722de345b0f17b7d4861af490e5e4056f0e0
+
+[\ref_axi512_if \\ref_axi512_if.slave \\ \]
+A/\ref_axi512_if \\ref_axi512_if.slave \\ \=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|2128|1*38609
+BinI32/\ref_axi512_if \\ref_axi512_if.slave \\ \=3*189978
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|2128
+SLP=3*190188
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|e80c60c7ec651cabc8a54afee0221aaf4788ccb7f1aaff79553f0a1f37f61ec63e445fc61355e4ffba4001d6f6135d1b52666d37db28855385a89ee3dec9e165
+
+[\ref_axi512_if \\ref_axi512_if.slave_par \\ \]
+A/\ref_axi512_if \\ref_axi512_if.slave_par \\ \=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|2262|1*40986
+BinI32/\ref_axi512_if \\ref_axi512_if.slave_par \\ \=3*191384
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|2262
+SLP=3*191598
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|e80c60c7ec651cabc8a54afee0221aaf5003f605a7d4e4db64b7b399a24205444741f352a768d0155e9cd2d2ef5e662f506d804e2fa7930e2c91e91f3dd6109a
+
+[\ref_axi512_if \\ref_axi512_if.slave_par_cid \\ \]
+A/\ref_axi512_if \\ref_axi512_if.slave_par_cid \\ \=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|2416|1*43515
+BinI32/\ref_axi512_if \\ref_axi512_if.slave_par_cid \\ \=3*192880
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|2416
+SLP=3*193098
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|e80c60c7ec651cabc8a54afee0221aaf1d59427f044ada101b0e8698ec5c2664d1f6c252f12e296eb4fb5db08b67a6b52c8cd2cc3fb2feac38e4bb6b53bae5a7
+
+[\std::mailbox#(flit_transaction_object_nmu) \]
+A/\std::mailbox#(flit_transaction_object_nmu) \=22|||1*16645
+AICT=404726977350145
+BinI32/\std::mailbox#(flit_transaction_object_nmu) \=3*120156
+CLI=0*8262
+SLP=3*121922
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|1e719b6ecd2368499b5e157e46e8cd70bea008003df85b890018aad1a1263836b5d5ab22d48eaae8c465ffd7ef5935e6cc1b6814158626cfc35e9676b22dd79be7f8923e65094e53d37bebdde527509e
+
+[\std::mailbox#(singular) \]
+A/\std::mailbox#(singular) \=22|||1*165459
+AICT=404726977481216
+BinI32/\std::mailbox#(singular) \=3*978275
+CLI=0*79406
+SLP=3*979968
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|1e719b6ecd2368499b5e157e46e8cd709306316c26aae8d752b72b80361805e1e056f1f7172a1dd6f2b6ee26c3e1f5a03692cdedb872861c1c464a46ec6633a0
+
+[axi_data_integrity_checker_nmu_pkg]
+A/axi_data_integrity_checker_nmu_pkg=22|./../.cxl.ip/incl/axi_data_integrity_checker_nmu.sv|2|1*107035
+BinI32/axi_data_integrity_checker_nmu_pkg=3*636916
+R=./../.cxl.ip/incl/axi_data_integrity_checker_nmu.sv|2
+SLP=3*637049
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|c001a0290fe5ab777dbfd7913efbc2e362a8d07e89cf1037272890a7afeb64cab1c3e3adb1859e51c7cf0833cebc3184362a6e6e89aaccb0b84a6e3bff007cdb
+
+[axi_vip_v1_0_axi4pc]
+A/axi_vip_v1_0_axi4pc=22|./../.cxl.ip/incl/nmu_axi4pc.sv|558|1*118004
+BinI32/axi_vip_v1_0_axi4pc=3*691062
+R=./../.cxl.ip/incl/nmu_axi4pc.sv|558
+SLP=3*782305
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|741f472a1713d36fd55f3d11549762ca8d41e821d52d2b8945c5b338ba0db08fd30004f12f9a5e3bdffbb8e423947946
+
+[dbg_noc_npp_nmu_if]
+A/dbg_noc_npp_nmu_if=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|615|1*6985
+BinI32/dbg_noc_npp_nmu_if=3*46992
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|615
+SLP=3*50453
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|3b97d106a8cf88d0851416332dad77056e2261a58ed4b78096f84b368afc87745eb261c257c43c966259e4631540ce24
+
+[flit_transaction_object_nmu]
+A/flit_transaction_object_nmu=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|152|1*2669
+AICT=404726977341184
+BinI32/flit_transaction_object_nmu=3*4511
+CLI=0*4390
+CUSP=UnitScopePackage_1
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|152
+SLP=3*26553
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|f3ba296845b80d2c2138ed8b801e2ceb2d50a7bdb3e69305dfccf36403c0a7b8ac02298b1419ea695d1dfd233684d3425433aac00b87affc0f34946220e79c2d
+
+[load_parameters_nmu]
+A/load_parameters_nmu=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|2770|1*49781
+AICT=404726977370112
+BinI32/load_parameters_nmu=3*202027
+CLI=0*26274
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|2770
+SLP=3*214257
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|70a898ecd66f25071de13c96e7c4a64e00260753c0b99347fe3f363e7ac6b4209a1bfb60227b197259ce6a613997b2c0
+
+[nmu_addr_map]
+A/nmu_addr_map=22|./../.cxl.ip/incl/nmu_addr_map.sv|1|1*62136
+AICT=404726977381632
+BinI32/nmu_addr_map=3*276575
+CLI=0*32478
+CUSP=UnitScopePackage_1
+R=./../.cxl.ip/incl/nmu_addr_map.sv|1
+SLP=3*292500
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|2b24f8184ad59ccc70b625f54220e1079699a5cf74711682737fc63c4c5dd244adcf2edc86f086818ffb66c130aa4a68
+
+[nmu_async_fifos]
+A/nmu_async_fifos=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|2845|1*57848
+AICT=404726977374720
+BinI32/nmu_async_fifos=3*238684
+CLI=0*30749
+CUSP=UnitScopePackage_1
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|2845
+SLP=3*258134
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|f160e96b58b00aaef39eaec26fa48014cf5de6a19c10417faf0d88aa3dfbf4e30a8a123cb7c5fda35fed0a328545ff00
+
+[nmu_axi_ctrl]
+A/nmu_axi_ctrl=22|./../.cxl.ip/incl/nmu_axi_ctrl.sv|1|1*64549
+AICT=404726977387008
+BinI32/nmu_axi_ctrl=3*310812
+CLI=0*33964
+CUSP=UnitScopePackage_1
+R=./../.cxl.ip/incl/nmu_axi_ctrl.sv|1
+SLP=3*319700
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|d4db637ff7616a8d90cac91b081ecf465e4ad48ddbb7dceed564a7dcd66877f72a4ae916764df0f55ceb2bcd2256449e
+
+[nmu_axi_req_write_data_conversion]
+A/nmu_axi_req_write_data_conversion=22|./../.cxl.ip/incl/nmu_axi_req_write_data_conversion.sv|3|1*68157
+AICT=404726977391104
+BinI32/nmu_axi_req_write_data_conversion=3*331517
+CLI=0*36366
+CUSP=UnitScopePackage_1
+R=./../.cxl.ip/incl/nmu_axi_req_write_data_conversion.sv|3
+SLP=3*347106
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|7e2b3b67ea2d6877d6bea21d62d5e692381f12c423210c4b6d76ae4d7785378a1c36c67945749f83627523c327f9a3945dd1a9d2ea175fceaf7a32d2fc924625
+
+[nmu_axi_resp_read_data_conversion]
+A/nmu_axi_resp_read_data_conversion=22|./../.cxl.ip/incl/nmu_axi_resp_read_data_conversion.sv|2|1*87590
+AICT=404726977416448
+BinI32/nmu_axi_resp_read_data_conversion=3*489388
+CLI=0*46706
+CUSP=UnitScopePackage_1
+R=./../.cxl.ip/incl/nmu_axi_resp_read_data_conversion.sv|2
+SLP=3*496975
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|9eb19debb89f841df86d8e015894c6185e1ef27b61594bb8f2ddb5f39c47cd1c75f0cef800e984e4b6943b83e37789bbf5e7a73847404b48ff9398e66a802da2
+
+[nmu_class]
+A/nmu_class=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|3207|1*104449
+AICT=404726977440768
+BinI32/nmu_class=3*617726
+CLI=0*57595
+CUSP=UnitScopePackage_1
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|3207
+SLP=3*626833
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|b67420c6b3a301522f5862950707bc931cf3f6da28b33b2380de57447e82435174ef9ed7a39915b0559279445c72f7fd
+
+[nmu_rate_limiter]
+A/nmu_rate_limiter=22|./../.cxl.ip/incl/nmu_rate_limiter.sv|4|1*93807
+AICT=404726977425152
+BinI32/nmu_rate_limiter=3*528904
+CLI=0*50170
+CUSP=UnitScopePackage_1
+R=./../.cxl.ip/incl/nmu_rate_limiter.sv|4
+SLP=3*535438
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|3a970092115b7614d87e6afeee7cf77e11b32e5eab6db47adb341eea3c9816a11b2ed5738fb33fc91c13efd319a7b52f
+
+[nmu_read_fe]
+A/nmu_read_fe=22|./../.cxl.ip/incl/nmu_read_fe.sv|4|1*75516
+AICT=404726977402624
+BinI32/nmu_read_fe=3*388901
+CLI=0*40862
+CUSP=UnitScopePackage_1
+R=./../.cxl.ip/incl/nmu_read_fe.sv|4
+SLP=3*403891
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|c7c7602e79cec99cf8048412248c0232a9f835578a9c9e21f04336de4d1768c8dc60cc287527d143749782ef1e19dc0c
+
+[nmu_read_reorder_buffer]
+A/nmu_read_reorder_buffer=22|./../.cxl.ip/incl/nmu_read_reorder_buffer.sv|4|1*80999
+AICT=404726977408000
+BinI32/nmu_read_reorder_buffer=3*423069
+CLI=0*44089
+CUSP=UnitScopePackage_1
+R=./../.cxl.ip/incl/nmu_read_reorder_buffer.sv|4
+SLP=3*455761
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|f447c0613e15dd6fd29c6f57f3db97c329075171d92a9f04f7edf643793e97a33398dda7cf357c55912159036a1b67c7
+
+[nmu_reg_class]
+A/nmu_reg_class=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|2586|1*47367
+AICT=404726977369344
+BinI32/nmu_reg_class=3*195035
+CLI=0*23596
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|2586
+SLP=3*198325
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|83c9fbab6ec8c7d55971f734f0e1342fea339b090d13cff31e18ba6169dc9a929a59a24eecfb571481adeb0d9d52f030
+
+[nmu_vc_arbiter_in]
+A/nmu_vc_arbiter_in=22|./../.cxl.ip/incl/nmu_vc_arbiter_in.sv|1|1*102207
+AICT=404726977439232
+BinI32/nmu_vc_arbiter_in=3*596920
+CLI=0*55963
+CUSP=UnitScopePackage_1
+R=./../.cxl.ip/incl/nmu_vc_arbiter_in.sv|1
+SLP=3*606591
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|8d96ba565499c688745934bf7d07843d460f94eef18553d19f25ab61fdabe7caac64c9f7c9d80a32bce2cdb3bb80b491
+
+[nmu_vc_arbiter_out]
+A/nmu_vc_arbiter_out=22|./../.cxl.ip/incl/nmu_vc_arbiter_out.sv|102|1*99756
+AICT=404726977434368
+BinI32/nmu_vc_arbiter_out=3*569511
+CLI=0*54482
+CUSP=UnitScopePackage_1
+R=./../.cxl.ip/incl/nmu_vc_arbiter_out.sv|102
+SLP=3*581941
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|8d96ba565499c688745934bf7d07843dde5d188facd9e824325f9cc9e2649b86043ce2cc17ff7cc32a70e87bb29a6ecb
+
+[nmu_write_buffer]
+A/nmu_write_buffer=22|./../.cxl.ip/incl/nmu_write_buffer.sv|3|1*95776
+AICT=404726977429504
+BinI32/nmu_write_buffer=3*542625
+CLI=0*51648
+CUSP=UnitScopePackage_1
+R=./../.cxl.ip/incl/nmu_write_buffer.sv|3
+SLP=3*549247
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|2adabc156d14f46a3314a9536b09f33660a7a77abd1d678544511444ddbf060671b842c815cc6b9adc10aed07ea5f9f2
+
+[nmu_write_fe]
+A/nmu_write_fe=22|./../.cxl.ip/incl/nmu_write_fe.sv|4|1*71711
+AICT=404726977397248
+BinI32/nmu_write_fe=3*362341
+CLI=0*38577
+CUSP=UnitScopePackage_1
+R=./../.cxl.ip/incl/nmu_write_fe.sv|4
+SLP=3*375853
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|676d25292d733671fb279f2d2df2179747926a6efe7f5909c0de35acca64658c44c33de45135c5600888312e8f0b12df
+
+[nmu_write_tracker]
+A/nmu_write_tracker=22|./../.cxl.ip/incl/nmu_write_tracker.sv|3|1*91277
+AICT=404726977420800
+BinI32/nmu_write_tracker=3*509040
+CLI=0*48691
+CUSP=UnitScopePackage_1
+R=./../.cxl.ip/incl/nmu_write_tracker.sv|3
+SLP=3*519099
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|7c1cad794964015d32d51c152cd3853562f96ccac216aab2d2ebe8864a5c56544448663366f0c7fb5e61ba7b127d5d34
+
+[noc_npp_if_nmu]
+A/noc_npp_if_nmu=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|2539|1*13895
+BinI32/noc_npp_if_nmu=3*113614
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|2539
+SLP=3*115853
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|bf32c9714b3648611074a0723863d528916535e48bf575d63908f5501eba35c7e328c5ae721210d4d35ae68e192578ad
+
+[protected_1a426e52cbde2d6dec4c9c0d61d43239]
+A/protected_1a426e52cbde2d6dec4c9c0d61d43239=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|6151|1*187023
+BinI32/protected_1a426e52cbde2d6dec4c9c0d61d43239=3*1007351
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|6151
+SLP=3*1012580
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|bec1fb53095a301f2791ec1fb09fdd90df313ca089bd4cb38ba5440c3cd7d5c8d1732491df7ec3945b321aa67598ecbfaceb1b22afda3a2f25103e5dbc721830267d09cd03cc9430e5428848e6c39640
+
+[protected_55a53f8de1b0fccbba80d1de0fe4e1f3]
+A/protected_55a53f8de1b0fccbba80d1de0fe4e1f3=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|1320|1*26726
+BinI32/protected_55a53f8de1b0fccbba80d1de0fe4e1f3=3*145680
+CUSP=UnitScopePackage_1
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|1320
+SLP=3*163018
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|0e8999b494982936513773ee7ab9ce6d51d8c7b703950e41a74767e90b4372e9b777e6674922dc78ffaaeadc835b21dadc431fd67fbfa25146472eb1ff072845f9410b15179f42a0bddf3a8d3728379a
+
+[protected_8656e4a7fda29b2cb800f1bf19328cba1a129680c6c2cde898ccb59c53c260d2]
+A/protected_8656e4a7fda29b2cb800f1bf19328cba1a129680c6c2cde898ccb59c53c260d2=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|732|1*8924
+BinI32/protected_8656e4a7fda29b2cb800f1bf19328cba1a129680c6c2cde898ccb59c53c260d2=3*52904
+CUSP=UnitScopePackage_1
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|732
+SLP=3*85914
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|f255dab45f6d772a0f7583c126be87ac705276f388a810a7d13a80ec95f34f09cb8a6f1c99f7f182da3e84c01d7629e9cfeb85a09ce3f2d95e280e3dfd29a67e638adc6e4ab52a2a4c2961e49618c876dba238b2074ddf946aba49c07e67cf20
+
+[protected_9caadf20e5c43618c41c871f2e46058c]
+A/protected_9caadf20e5c43618c41c871f2e46058c=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|3420|1*152488
+BinI32/protected_9caadf20e5c43618c41c871f2e46058c=3*913210
+CUSP=UnitScopePackage_1
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|3420
+SLP=3*952911
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|d10e9d68cd2ae83327573f45936a69d7f6b83b08b889909f3b27ba11c51cbf71fa98910c704584775ab51ebf5ea3cd40e3dcf8785a403eb898aa44736e5fdb7bac84d9074ef0b4200edf5d3650beab94
+
+[protected_ac0f84009656e6645e08ea32870fbda1]
+A/protected_ac0f84009656e6645e08ea32870fbda1=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|5287|1*178516
+BinI32/protected_ac0f84009656e6645e08ea32870fbda1=3*997954
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|5287
+SLP=3*1003292
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|c126455952a177fbce9e65b76a34e387bddd633394d100fa8c01135f87a5fc80fc245abd83eb378a0c72d954aeb7653e5268e5b53b81ff0293b2c6639d1fdf40826503937c23a690f5cc44d0956570c5
+
+[protected_de89f68f4b18e239846b468fc9708544]
+A/protected_de89f68f4b18e239846b468fc9708544=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|4435|1*169977
+BinI32/protected_de89f68f4b18e239846b468fc9708544=3*988775
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|4435
+SLP=3*994023
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|fcdad2f0131c4c0da6be43f2c1953e8c5b27cead3f8989fbe985d4177cf37f6da7b3ea3f8f641e7e25d1c532108714049961d1dd352fcf45ab55e2edcee2b0eb8632add65a5c17cfbd7cbf84e197af62
+
+[ref_axi512_if]
+A/ref_axi512_if=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|1989|1*35720
+BinI32/ref_axi512_if=3*189008
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/noc_nmu_v1_0/hdl/noc_nmu_v1_0_vl_rfs.sv|1989
+SLP=3*189190
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|bdfc5b674eccf03aa10837bad7fd06ccdf31721af184e5d413458f4f71d01e02035a2d91562ffa3271385f4de9bde851
+
+[vc_arbiter]
+A/vc_arbiter=22|./../.cxl.ip/incl/nmu_vc_arbiter_out.sv|3|1*97777
+AICT=404726977433600
+BinI32/vc_arbiter=3*556124
+CLI=0*53056
+CUSP=UnitScopePackage_1
+R=./../.cxl.ip/incl/nmu_vc_arbiter_out.sv|3
+SLP=3*562780
+Version=10.5.217.6767 (Windows)|0000006d789c1d8cbb0a80300c007fa5bbf868dd5c7574750b841aab146395c68a9f6f7139b81bae64154ec270247c3436d8a8c2075a7c2cfa0e26715180135981e1a474b8700bacd76681ed6c60cc40bbde2e66fdedefd8a2868a5eaefc55e71bab521eb36bf30161d1267c|b1c01dc6eb07fb8797fd8f84f33cb43159930043eac6044e59c4f161c0abed8a41f329d14eed1f883c07f0b2af2609c8
+
+[~MFT]
+0=106|0noc_nmu_v1_0_0.mgf|87755|0
+1=81|1noc_nmu_v1_0_0.mgf|195530|0
+3=162|3noc_nmu_v1_0_0.mgf|1017163|0
+
+[~U]
+$root=12|0*0|
+UnitScopePackage_1=12|0*87755||0x40200000
+\*assocarray#([]bit,[]bit) \=12|||0x10030000
+\*assocarray#([]bitS,[]bitS) \=12|||0x10030000
+\*assocarray#([]bitS[$],[]bitS) \=12|||0x10030000
+\*assocarray#([]bitS[$][[]bitS],string) \=12|||0x10030000
+\*assocarray#([]bitS[],[]bitS) \=12|||0x10030000
+\*assocarray#([]logic,[]bitS) \=12|||0x10030000
+\*assocarray#(axi_vip_v1_0_axi4pc::t_Wxfer[$],[]bitS) \=12|||0x10030000
+\*assocarray#(axi_vip_v1_0_axi4pc::t_exclsive_xfer,[]bitS) \=12|||0x10030000
+\*assocarray#(axi_vip_v1_0_axi4pc::t_rburst_xfer[$],[]bitS) \=12|||0x10030000
+\*assocarray#(bit,[]bitS) \=12|||0x10030000
+\*assocarray#(flit_transaction_object_nmu,[]bitS) \=12|||0x10030000
+\*assocarray#(flit_transaction_object_nmu[$],[]bitS) \=12|||0x10030000
+\*assocarray#(flit_transaction_object_nmu[$][[]bitS],[]bitS) \=12|||0x10030000
+\*assocarray#(flit_transaction_object_nmu[$][[]bitS][[]bitS],string) \=12|||0x10030000
+\*dynarray#([]bit) \=12|0*1382||0x10030000
+\*dynarray#([]bitS) \=12|0*80389||0x10030000
+\*dynarray#([]logic) \=12|0*60084||0x10030000
+\*dynarray#(bit) \=12|0*61030||0x10030000
+\*dynarray#(string) \=12|0*13314||0x10030000
+\*queue#([]bit) \=12|||0x10030000
+\*queue#([]bitS) \=12|||0x10030000
+\*queue#([]logicS) \=12|||0x10030000
+\*queue#(axi_data_integrity_checker_nmu_pkg::axi_transaction_nmu) \=12|||0x10030000
+\*queue#(axi_vip_v1_0_axi4pc::t_Wxfer) \=12|||0x10030000
+\*queue#(axi_vip_v1_0_axi4pc::t_cmd_message) \=12|||0x10030000
+\*queue#(axi_vip_v1_0_axi4pc::t_rburst_xfer) \=12|||0x10030000
+\*queue#(axi_vip_v1_0_axi4pc::t_wdata_message) \=12|||0x10030000
+\*queue#(flit_transaction_object_nmu) \=12|||0x10030000
+\*queue#(nmu_async_fifos::noc_axi_ar_t) \=12|||0x10030000
+\*queue#(nmu_async_fifos::noc_axi_aw_t) \=12|||0x10030000
+\*queue#(nmu_async_fifos::noc_axi_b_t) \=12|||0x10030000
+\*queue#(nmu_async_fifos::noc_axi_r_t) \=12|||0x10030000
+\*queue#(nmu_async_fifos::noc_axi_w_t) \=12|||0x10030000
+\*queue#(nmu_axi_req_write_data_conversion::noc_axi_w_t) \=12|||0x10030000
+\*queue#(nmu_read_reorder_buffer::read_buffer_entry) \=12|||0x10030000
+\*queue#(nmu_read_reorder_buffer::rrc_entry) \=12|||0x10030000
+\*queue#(nmu_write_tracker::wr_resp_tracker_entry) \=12|||0x10030000
+\axi_data_integrity_checker_nmu_pkg axi_data_integrity_checker_nmu \=12|0*62321||0x30000
+\axi_data_integrity_checker_nmu_pkg axi_transaction_nmu \=12|0*58492||0x30000
+\noc_npp_if_nmu \\noc_npp_if_nmu.sig_in \\ \=12|0*20740||0x80040000
+\noc_npp_if_nmu \\noc_npp_if_nmu.sig_out \\ \=12|0*21137||0x80040000
+\noc_npp_if_nmu.sig_out.cb_m \=12|0*21631||0x80000
+\ref_axi512_if \\ref_axi512_if.master \\ \=12|0*16429||0x80040000
+\ref_axi512_if \\ref_axi512_if.master_par \\ \=12|0*17730||0x80040000
+\ref_axi512_if \\ref_axi512_if.master_par_cid \\ \=12|0*19167||0x80040000
+\ref_axi512_if \\ref_axi512_if.slave \\ \=12|0*17080||0x80040000
+\ref_axi512_if \\ref_axi512_if.slave_par \\ \=12|0*18449||0x80040000
+\ref_axi512_if \\ref_axi512_if.slave_par_cid \\ \=12|0*19954||0x80040000
+\std::mailbox#(flit_transaction_object_nmu) \=12|||0x10030000
+\std::mailbox#(singular) \=12|||0x10030000
+axi_data_integrity_checker_nmu_pkg=12|0*58249||0x40000000
+axi_vip_v1_0_axi4pc=12|0*65055||0x80000
+dbg_noc_npp_nmu_if=12|0*5814||0x80000
+flit_transaction_object_nmu=12|0*2794||0x30000
+load_parameters_nmu=12|0*25582||0x30000
+nmu_addr_map=12|0*31649||0x30000
+nmu_async_fifos=12|0*29309||0x30000
+nmu_axi_ctrl=12|0*33087||0x30000
+nmu_axi_req_write_data_conversion=12|0*35116||0x30000
+nmu_axi_resp_read_data_conversion=12|0*45808||0x30000
+nmu_class=12|0*56577||0x30000
+nmu_rate_limiter=12|0*49337||0x30000
+nmu_read_fe=12|0*39618||0x30000
+nmu_read_reorder_buffer=12|0*42449||0x30000
+nmu_reg_class=12|0*22078||0x30000
+nmu_vc_arbiter_in=12|0*55161||0x30000
+nmu_vc_arbiter_out=12|0*53631||0x30000
+nmu_write_buffer=12|0*50879||0x30000
+nmu_write_fe=12|0*37364||0x30000
+nmu_write_tracker=12|0*47793||0x30000
+noc_npp_if_nmu=12|0*7252||0x80000
+protected_1a426e52cbde2d6dec4c9c0d61d43239=12|0*85776||0x10
+protected_55a53f8de1b0fccbba80d1de0fe4e1f3=12|0*12359|
+protected_8656e4a7fda29b2cb800f1bf19328cba1a129680c6c2cde898ccb59c53c260d2=12|0*6489|
+protected_9caadf20e5c43618c41c871f2e46058c=12|0*77859|
+protected_ac0f84009656e6645e08ea32870fbda1=12|0*83797||0x10
+protected_de89f68f4b18e239846b468fc9708544=12|0*81834||0x10
+ref_axi512_if=12|0*15791||0x80000
+vc_arbiter=12|0*52293||0x30000

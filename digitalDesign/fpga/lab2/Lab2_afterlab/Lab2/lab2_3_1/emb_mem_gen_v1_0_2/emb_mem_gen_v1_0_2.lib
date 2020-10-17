@@ -1,0 +1,29 @@
+timestamp=1580964538730
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emb_mem_gen_v1_0/hdl/emb_mem_gen_v1_0_rfs.sv=0*1124*9120
+LastVerilogToplevel=emb_mem_gen_v1_0_2
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000071789c1d8cbb0a80300c007fa5bbf868dd5c7574750b845aa314d32a8d8a9f6f7139b81bae644561c64001378af8686cd0a8c247b7f854f41d4c4249806f670586c3dd81e225b09e9b05b6b3813103ed7a51cafadbdfb1450d957bb9f2679d6fac4a79ccaecd07073c27fa|c73a565f2ade592f8ac1c68f484c921623760208b74c684610f6003e3dedcc27
+
+[emb_mem_gen_v1_0_2]
+A/emb_mem_gen_v1_0_2=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/emb_mem_gen_v1_0/hdl/emb_mem_gen_v1_0_rfs.sv|56|1*374
+BinI32/emb_mem_gen_v1_0_2=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/emb_mem_gen_v1_0/hdl/emb_mem_gen_v1_0_rfs.sv|56
+SLP=3*21349
+Version=10.5.217.6767 (Windows)|00000071789c1d8cbb0a80300c007fa5bbf868dd5c7574750b845aa314d32a8d8a9f6f7139b81bae644561c64001378af8686cd0a8c247b7f854f41d4c4249806f670586c3dd81e225b09e9b05b6b3813103ed7a51cafadbdfb1450d957bb9f2679d6fac4a79ccaecd07073c27fa|e8b8e4235dcf69f6500768e57201120abbcd625ba7a8f3237dceb012df1c3b1069dba75f4b800d0cabd0b840cb9e768f
+
+[~MFT]
+0=4|0emb_mem_gen_v1_0_2.mgf|9120|0
+1=2|1emb_mem_gen_v1_0_2.mgf|374|0
+3=4|3emb_mem_gen_v1_0_2.mgf|21349|0
+
+[~U]
+$root=12|0*0|
+emb_mem_gen_v1_0_2=12|0*182||0x10

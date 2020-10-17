@@ -1,0 +1,23 @@
+Aldec, Inc. VHDL Compiler, build 10.5.217.6767
+VLM Initialized with path: "C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\library.cfg".
+DAGGEN WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\ip\xilinx\emc_common_v3_0\hdl\emc_common_v3_0_vh_rfs.vhd
+COMP96 Compile Entity "ld_arith_reg"
+COMP96 Compile Architecture "imp" of Entity "ld_arith_reg"
+COMP96 Compile Entity "ipic_if"
+COMP96 Compile Architecture "imp" of Entity "ipic_if"
+COMP96 Compile Entity "io_registers"
+COMP96 Compile Architecture "imp" of Entity "io_registers"
+COMP96 Compile Entity "counters"
+COMP96 Compile Architecture "imp" of Entity "counters"
+COMP96 Compile Entity "mem_state_machine"
+COMP96 Compile Architecture "imp" of Entity "mem_state_machine"
+COMP96 Compile Entity "select_param"
+COMP96 Compile Architecture "imp" of Entity "select_param"
+COMP96 Compile Entity "addr_counter_mux"
+COMP96 Compile Architecture "imp" of Entity "addr_counter_mux"
+COMP96 Compile Entity "mem_steer"
+COMP96 Compile Architecture "imp" of Entity "mem_steer"
+COMP96 Compile Entity "EMC"
+COMP96 Compile Architecture "imp" of Entity "EMC"
+COMP96 Compile success 0 Errors 0 Warnings  Analysis time :  0.7 [s]

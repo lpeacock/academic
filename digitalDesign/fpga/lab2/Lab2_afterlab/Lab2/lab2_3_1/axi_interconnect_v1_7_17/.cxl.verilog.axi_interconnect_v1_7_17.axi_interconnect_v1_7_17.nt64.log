@@ -1,0 +1,30 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+WARNING VCP2515 "Undefined module: MUXCY was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_interconnect_v1_7/hdl/axi_interconnect_v1_7_vl_rfs.v" 3885  11
+WARNING VCP2515 "Undefined module: XORCY was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_interconnect_v1_7/hdl/axi_interconnect_v1_7_vl_rfs.v" 3916  11
+WARNING VCP2515 "Undefined module: fifo_generator_v13_2_5 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_interconnect_v1_7/hdl/axi_interconnect_v1_7_vl_rfs.v" 6044  9
+WARNING VCP2515 "Undefined module: AND2B1L was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_interconnect_v1_7/hdl/axi_interconnect_v1_7_vl_rfs.v" 13215  11
+WARNING VCP2515 "Undefined module: OR2L was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_interconnect_v1_7/hdl/axi_interconnect_v1_7_vl_rfs.v" 13332  11
+WARNING VCP2515 "Undefined module: FDRE was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_interconnect_v1_7/hdl/axi_interconnect_v1_7_vl_rfs.v" 13839  10
+WARNING VCP2515 "Undefined module: SRLC32E was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_interconnect_v1_7/hdl/axi_interconnect_v1_7_vl_rfs.v" 13944  15
+WARNING VCP2515 "Undefined module: SRLC16E was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_interconnect_v1_7/hdl/axi_interconnect_v1_7_vl_rfs.v" 13958  15
+WARNING VCP2515 "Undefined module: MUXF7 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_interconnect_v1_7/hdl/axi_interconnect_v1_7_vl_rfs.v" 20356  15
+WARNING VCP2515 "Undefined module: MUXF8 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_interconnect_v1_7/hdl/axi_interconnect_v1_7_vl_rfs.v" 20377  15
+WARNING VCP2515 "Undefined module: LUT6_2 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_interconnect_v1_7/hdl/axi_interconnect_v1_7_vl_rfs.v" 22909  11
+WARNING VCP2515 "Undefined module: LUT6 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_interconnect_v1_7/hdl/axi_interconnect_v1_7_vl_rfs.v" 23058  9
+WARNING VCP2515 "Undefined module: FDSE was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_interconnect_v1_7/hdl/axi_interconnect_v1_7_vl_rfs.v" 23068  10
+WARNING VCP2515 "Undefined module: LUT4 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_interconnect_v1_7/hdl/axi_interconnect_v1_7_vl_rfs.v" 26091  11
+MESSAGE "Pass 2. Processing instantiations."
+WARNING VCP2605 "Port connection for port S_AXI_RDATA violates IEEE 1364. Only net expression can be connected to output/inout port." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_interconnect_v1_7/hdl/axi_interconnect_v1_7_vl_rfs.v" 15990  1
+WARNING VCP2605 "Port connection for port M_AXI_WDATA violates IEEE 1364. Only net expression can be connected to output/inout port." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_interconnect_v1_7/hdl/axi_interconnect_v1_7_vl_rfs.v" 16010  1
+WARNING VCP2605 "Port connection for port M_AXI_WSTRB violates IEEE 1364. Only net expression can be connected to output/inout port." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_interconnect_v1_7/hdl/axi_interconnect_v1_7_vl_rfs.v" 16011  1
+WARNING VCP2507 "Potentially recursive instantiation of module axi_interconnect_v1_7_17_mux detected." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_interconnect_v1_7/hdl/axi_interconnect_v1_7_vl_rfs.v" 20510  36
+WARNING VCP2507 "Potentially recursive instantiation of module axi_interconnect_v1_7_17_mux detected." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_interconnect_v1_7/hdl/axi_interconnect_v1_7_vl_rfs.v" 20510  36
+WARNING VCP2507 "Potentially recursive instantiation of module axi_interconnect_v1_7_17_mux detected." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_interconnect_v1_7/hdl/axi_interconnect_v1_7_vl_rfs.v" 20510  36
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: axi_interconnect_v1_7_17_carry axi_interconnect_v1_7_17_comparator_mask_static axi_interconnect_v1_7_17_comparator_mask axi_interconnect_v1_7_17_comparator_sel_mask_static axi_interconnect_v1_7_17_comparator_sel_mask axi_interconnect_v1_7_17_top."
+MESSAGE "$root top modules: axi_interconnect_v1_7_17_carry axi_interconnect_v1_7_17_comparator_mask_static axi_interconnect_v1_7_17_comparator_mask axi_interconnect_v1_7_17_comparator_sel_mask_static axi_interconnect_v1_7_17_comparator_sel_mask axi_interconnect_v1_7_17_top."
+SUCCESS "Compile success 0 Errors 20 Warnings  Analysis time: 1[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

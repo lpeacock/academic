@@ -1,0 +1,22 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol phased_pulse has not been declared in module v_uhdsdi_audio_v2_0_1_sd_demux_clock_interp_2." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v2_0/hdl/v_uhdsdi_audio_v2_0_rfs.v" 17737  24
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol audio24_ok_now has not been declared in module v_uhdsdi_audio_v2_0_1_sd_demux_aes." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v2_0/hdl/v_uhdsdi_audio_v2_0_rfs.v" 18237  24
+WARNING VCP2515 "Undefined module: xpm_fifo_async was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v2_0/hdl/v_uhdsdi_audio_v2_0_rfs.v" 131  5
+WARNING VCP2515 "Undefined module: xpm_fifo_sync was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v2_0/hdl/v_uhdsdi_audio_v2_0_rfs.v" 402  5
+WARNING VCP2515 "Undefined module: xpm_cdc_array_single was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v2_0/hdl/v_uhdsdi_audio_v2_0_rfs.v" 2250  5
+WARNING VCP2515 "Undefined module: xpm_memory_sdpram was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v2_0/hdl/v_uhdsdi_audio_v2_0_rfs.v" 10519  5
+WARNING VCP2515 "Undefined module: RAMB16_S36_S36 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v2_0/hdl/v_uhdsdi_audio_v2_0_rfs.v" 15987  29
+WARNING VCP2515 "Undefined module: RAMB16_S18_S18 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v2_0/hdl/v_uhdsdi_audio_v2_0_rfs.v" 16012  29
+MESSAGE "Pass 2. Processing instantiations."
+WARNING VCP2597 "Some unconnected ports remain at instance: hd_mux_anc_det. Module v_uhdsdi_audio_v2_0_1_hd_mux_anc_det has unconnected  port(s) : line_end." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v2_0/hdl/v_uhdsdi_audio_v2_0_rfs.v" 3484  1
+MESSAGE "Pass 3. Processing behavioral statements."
+WARNING VCP3005 "The implicit event expression list (@*) is empty; the process will never be executed." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v2_0/hdl/v_uhdsdi_audio_v2_0_rfs.v" 1668  16
+WARNING VCP3005 "The implicit event expression list (@*) is empty; the process will never be executed." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v2_0/hdl/v_uhdsdi_audio_v2_0_rfs.v" 7298  12
+WARNING VCP3005 "The implicit event expression list (@*) is empty; the process will never be executed." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/v_uhdsdi_audio_v2_0/hdl/v_uhdsdi_audio_v2_0_rfs.v" 18661  16
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: v_uhdsdi_audio_v2_0_1_mux_top v_uhdsdi_audio_v2_0_1_demux_top."
+MESSAGE "$root top modules: v_uhdsdi_audio_v2_0_1_mux_top v_uhdsdi_audio_v2_0_1_demux_top."
+SUCCESS "Compile success 0 Errors 10 Warnings  Analysis time: 1[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

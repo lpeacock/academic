@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Jan 30 09:50:43 2020
+# Process ID: 10568
+# Current directory: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_2/lab2_2_2.runs/impl_1
+# Command line: vivado.exe -log bcdto2outof5.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source bcdto2outof5.tcl -notrace
+# Log file: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_2/lab2_2_2.runs/impl_1/bcdto2outof5.vdi
+# Journal file: C:/Temp/lucaspeacock/FPGA/Lab2/lab2_2_2/lab2_2_2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source bcdto2outof5.tcl -notrace

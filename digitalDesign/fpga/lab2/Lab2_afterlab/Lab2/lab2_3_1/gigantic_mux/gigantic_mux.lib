@@ -1,0 +1,28 @@
+timestamp=1580964565994
+
+[~A]
+LastVerilogToplevel=protected_5649dfe8b5b9e419547f7a6d580f8ccf7d3c823c035f51018e6413038b210c0f
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c92164a4fa88ad05879d011f5b4fb5db02b1f
+
+[protected_5649dfe8b5b9e419547f7a6d580f8ccf7d3c823c035f51018e6413038b210c0f]
+A/protected_5649dfe8b5b9e419547f7a6d580f8ccf7d3c823c035f51018e6413038b210c0f=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/gigantic_mux_v1_0/hdl/gigantic_mux_v1_0_cntr.v|23|1*422
+BinI32/protected_5649dfe8b5b9e419547f7a6d580f8ccf7d3c823c035f51018e6413038b210c0f=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/gigantic_mux_v1_0/hdl/gigantic_mux_v1_0_cntr.v|23
+SLP=3*11947
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|44f53ad1f85b68e20c00c87802a73830ceaf2a6f1f1c66b0fc66e30415e7033bd2cdbc4860b66e8e291c3bea5df1dddddc05d5cc7ded02ae245d006c4a06fa7de4c443120625c5629b09aef618ea2f484a01493cd1d61b92051cbd8e81cd6ed8
+
+[~MFT]
+0=2|0gigantic_mux.mgf|230|0
+1=2|1gigantic_mux.mgf|422|0
+3=4|3gigantic_mux.mgf|11947|0
+
+[~U]
+$root=12|0*0|
+protected_5649dfe8b5b9e419547f7a6d580f8ccf7d3c823c035f51018e6413038b210c0f=12|0*230||0x10

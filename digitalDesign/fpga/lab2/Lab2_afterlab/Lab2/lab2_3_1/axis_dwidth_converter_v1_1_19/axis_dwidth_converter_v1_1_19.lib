@@ -1,0 +1,45 @@
+timestamp=1580965155644
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axis_dwidth_converter_v1_1/hdl/axis_dwidth_converter_v1_1_vl_rfs.v=0*4478*14592
+LastVerilogToplevel=axis_dwidth_converter_v1_1_19_axis_dwidth_converter
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c92164714a67f23f71106509a9666931f5883
+
+[axis_dwidth_converter_v1_1_19_axis_dwidth_converter]
+A/axis_dwidth_converter_v1_1_19_axis_dwidth_converter=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_dwidth_converter_v1_1/hdl/axis_dwidth_converter_v1_1_vl_rfs.v|810|1*59950
+BinI32/axis_dwidth_converter_v1_1_19_axis_dwidth_converter=3*69656
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_dwidth_converter_v1_1/hdl/axis_dwidth_converter_v1_1_vl_rfs.v|810
+SLP=3*84852
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|0ef23c44398663780d7ca06288ebda47be263a172840932eea7cfc9d8ef466aa8ad8da635cb63a2e37d9db2e7bd50dd2b6aa5bb98df77a2f2615b77d872d5160
+
+[axis_dwidth_converter_v1_1_19_axisc_downsizer]
+A/axis_dwidth_converter_v1_1_19_axisc_downsizer=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_dwidth_converter_v1_1/hdl/axis_dwidth_converter_v1_1_vl_rfs.v|62|1*390
+BinI32/axis_dwidth_converter_v1_1_19_axisc_downsizer=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_dwidth_converter_v1_1/hdl/axis_dwidth_converter_v1_1_vl_rfs.v|62
+SLP=3*23806
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|0ef23c44398663780d7ca06288ebda47be263a172840932eea7cfc9d8ef466aa1cca5af87416d097707f970badd1b5236e1ff92c396c590ab79f6a559b9eba2ed8563f6b70f045433d0ef378267f6615
+
+[axis_dwidth_converter_v1_1_19_axisc_upsizer]
+A/axis_dwidth_converter_v1_1_19_axisc_upsizer=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_dwidth_converter_v1_1/hdl/axis_dwidth_converter_v1_1_vl_rfs.v|437|1*31129
+BinI32/axis_dwidth_converter_v1_1_19_axisc_upsizer=3*34151
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_dwidth_converter_v1_1/hdl/axis_dwidth_converter_v1_1_vl_rfs.v|437
+SLP=3*59189
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|0ef23c44398663780d7ca06288ebda47be263a172840932eea7cfc9d8ef466aa716937ec0c1e381c1830f69fd4864f2d26527262ddaa47cb266f3a3c4d9b973a17838fe56742b732a3e243c6d55105b5
+
+[~MFT]
+0=6|0axis_dwidth_converter_v1_1_19.mgf|14592|0
+1=4|1axis_dwidth_converter_v1_1_19.mgf|59950|0
+3=8|3axis_dwidth_converter_v1_1_19.mgf|84852|0
+
+[~U]
+$root=12|0*0|
+axis_dwidth_converter_v1_1_19_axis_dwidth_converter=12|0*3004||0x10
+axis_dwidth_converter_v1_1_19_axisc_downsizer=12|0*246|
+axis_dwidth_converter_v1_1_19_axisc_upsizer=12|0*1609|

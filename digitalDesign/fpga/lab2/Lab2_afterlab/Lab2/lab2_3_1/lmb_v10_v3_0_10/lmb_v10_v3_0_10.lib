@@ -1,0 +1,24 @@
+timestamp=1580964643022
+
+[~A]
+ModifyID=1
+Version=74
+
+[lmb_v10]
+A/imp=A/IMP 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lmb_v10_v3_0/hdl/lmb_v10_v3_0_vh_rfs.vhd|141|1*0
+BinI32/imp=3*0
+I=0*2038
+I/imp=I/IMP 0*4736
+M=11|0|vde|1580964642682|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lmb_v10_v3_0/hdl/lmb_v10_v3_0_vh_rfs.vhd|0*436*0x66b4fb7b4707cd35d97e40eca7e0fa9563f559b0|0*1898*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=M/IMP 21|0|vde|1580964642956|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lmb_v10_v3_0/hdl/lmb_v10_v3_0_vh_rfs.vhd|0*2239*0xf3c00450b9da4f09c3eb06ee51888e9699bee4d1|0*4589*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/lmb_v10_v3_0/hdl/lmb_v10_v3_0_vh_rfs.vhd|92
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|52acbbb628648e34524b4d882b09b23026527262ddaa47cb266f3a3c4d9b973a4dd06ebee6d1ef66c6dff98cf3cbf2f1
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f62941bcf3d31ae4864f645c1feac893b752ae
+
+[~MFT]
+0=7|0lmb_v10_v3_0_10.mgf|4736|0
+1=1|1lmb_v10_v3_0_10.mgf|0|0
+3=1|3lmb_v10_v3_0_10.mgf|0|0
+
+[~U]
+lmb_v10=11|0*0|

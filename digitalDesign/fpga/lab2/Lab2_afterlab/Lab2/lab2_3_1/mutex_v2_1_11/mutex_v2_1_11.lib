@@ -1,0 +1,96 @@
+timestamp=1580964746984
+
+[~A]
+ModifyID=1
+Version=74
+
+[axi_decode]
+A/imp=A/IMP 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mutex_v2_1/hdl/mutex_v2_1_vh_rfs.vhd|1401|1*23724
+BinI32/imp=3*9815
+I=0*23436
+I/imp=I/IMP 0*28322
+M=11|0|vde|1580964746835|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mutex_v2_1/hdl/mutex_v2_1_vh_rfs.vhd|0*21502*0x43312f28354c1153e2190df54e44058b59b0b263|0*23297*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=M/IMP 21|0|vde|1580964746841|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mutex_v2_1/hdl/mutex_v2_1_vh_rfs.vhd|0*23640*0xce38c72b2e7f3c6292be7dd8c840a8c42f581cf8|0*28176*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mutex_v2_1/hdl/mutex_v2_1_vh_rfs.vhd|1344
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|2f51a4b557c7e790c6988dc7ca1aa672ec9fd8795d75d2201e82173a2f48637d60098fc4755c5836cf88f167a7f27b95
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f62941a33183bb8d3d9e8f73b671a933e79c70
+
+[gen_dram]
+A/syn=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mutex_v2_1/hdl/mutex_v2_1_vh_rfs.vhd|350|1*3863
+BinI32/syn=3*1220
+I=0*3906
+I/syn=0*4759
+M=11|0|vde|1580964746524|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mutex_v2_1/hdl/mutex_v2_1_vh_rfs.vhd|0*3273*0x4474d7fbf87b1fa9c679bf4bfd87cc22e8e0198f|0*3769*0x24f53803c3278f1d7f185bd51c58332c
+M/syn=21|0|vde|1580964746526|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mutex_v2_1/hdl/mutex_v2_1_vh_rfs.vhd|0*4189*0xa3ac50693bbd86ed91835542ababc9e07de42ae5|0*4615*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mutex_v2_1/hdl/mutex_v2_1_vh_rfs.vhd|335
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|5bf0c86cb316201c815a10f6d88cf9e621fbe190f4161edc23c1a73ed41f53dda016b8e6406bfb28060ebffd97b36e85
+Version/syn=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|8a5c0e2d78964c6e927a15fa4f2151be3ef18843655000464f8ae760e1f53a98
+
+[multi_channel_mutex]
+A/imp=A/IMP 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mutex_v2_1/hdl/mutex_v2_1_vh_rfs.vhd|680|1*8271
+BinI32/imp=3*2930
+I=0*9311
+I/imp=I/IMP 0*11257
+M=11|0|vde|1580964746815|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mutex_v2_1/hdl/mutex_v2_1_vh_rfs.vhd|0*8310*0x1cc3994dd876a05ee51e177512578ac204ba2756|0*9163*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=M/IMP 21|0|vde|1580964746817|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mutex_v2_1/hdl/mutex_v2_1_vh_rfs.vhd|0*9607*0x066f36543351524805fef5026fbd4fa42ba83259|0*11102*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mutex_v2_1/hdl/mutex_v2_1_vh_rfs.vhd|657
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|0d3c0d1ab30a68399983ef996a171d0da93510da5a987bcb4a841dda4472637dd74650e7d4b571288d9b0cd13cd3ff92
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f62941fccf025164fc89e9db17235b9a46bdf9
+
+[multi_channel_register]
+A/imp=A/IMP 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mutex_v2_1/hdl/mutex_v2_1_vh_rfs.vhd|486|1*5508
+BinI32/imp=3*2130
+I=0*6211
+I/imp=I/IMP 0*7635
+M=11|0|vde|1580964746806|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mutex_v2_1/hdl/mutex_v2_1_vh_rfs.vhd|0*5362*0xfe2377e9853fcfa1b7444c043157a1eb44da04b9|0*6060*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=M/IMP 21|0|vde|1580964746808|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mutex_v2_1/hdl/mutex_v2_1_vh_rfs.vhd|0*6510*0x603c08db56a22df04df1b07c7559486639a106cb|0*7477*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mutex_v2_1/hdl/mutex_v2_1_vh_rfs.vhd|465
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|0d3c0d1ab30a68399983ef996a171d0d9ec7fb612bc3f97fcb5ce7ff2a2baf404418a7cd60c12b9cfee4309d245a0ef1
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f62941c5f319090a70c02b74e3d0de1c620004
+
+[mutex]
+A/imp=A/IMP 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mutex_v2_1/hdl/mutex_v2_1_vh_rfs.vhd|2019|1*35291
+BinI32/imp=3*13321
+I=0*38855
+I/imp=I/IMP 0*58254
+M=11|0|vde|1580964746850|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mutex_v2_1/hdl/mutex_v2_1_vh_rfs.vhd|0*29717*0xeb42d7fc7fd0a3979368accd2f49174f9b320063|0*38721*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=M/IMP 21|0|vde|1580964746854|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mutex_v2_1/hdl/mutex_v2_1_vh_rfs.vhd|0*39093*0x7b93f5e5e7a3618b016e30375e86a579c1fc2269|0*58113*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mutex_v2_1/hdl/mutex_v2_1_vh_rfs.vhd|1780
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d16d4049894b8e422c1589a3dc44774b44672a5b7b95eb7001d47139298f3d9c
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f62941c3e454508d6820efafaf827f45bf85e1
+
+[mutex_core]
+A/imp=A/IMP 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mutex_v2_1/hdl/mutex_v2_1_vh_rfs.vhd|911|1*11844
+BinI32/imp=3*3986
+I=0*13385
+I/imp=I/IMP 0*20669
+M=11|0|vde|1580964746823|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mutex_v2_1/hdl/mutex_v2_1_vh_rfs.vhd|0*12036*0x83557b9b3a7f8e9d96a7a2b1620c735a68c1f483|0*13246*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=M/IMP 21|0|vde|1580964746825|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mutex_v2_1/hdl/mutex_v2_1_vh_rfs.vhd|0*13628*0x2ce61cde487161971149af0a5d413533f34d42b2|0*20523*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mutex_v2_1/hdl/mutex_v2_1_vh_rfs.vhd|870
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|5bc8fd15fa84df9db3cde423b56b5c04a856c5395a69b4041a150eb856b65c592a9db446fa97273e62ef195533559630
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f62941b0d788f7864a16f5b638889cd13edb96
+
+[pselect]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mutex_v2_1/hdl/mutex_v2_1_vh_rfs.vhd|149|1*0
+BinI32/imp=3*0
+I=0*859
+I/imp=0*2693
+M=11|0|vde|1580964746489|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mutex_v2_1/hdl/mutex_v2_1_vh_rfs.vhd|0*248*0x188f39715a1db3e856ab4addabff90ef521a6990|0*723*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=21|0|vde|1580964746491|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mutex_v2_1/hdl/mutex_v2_1_vh_rfs.vhd|0*1139*0x07cd095c7b013aa8395943c87955cb10f00cd5bc|0*2550*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/mutex_v2_1/hdl/mutex_v2_1_vh_rfs.vhd|130
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|18b8fc5e331b33f42c860ef79c27a16326527262ddaa47cb266f3a3c4d9b973a01c1a862eeb2e3b9cd894509535cfa3f
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f62941e667dcff7bd950ff1c8f41113f23aa0f
+
+[~MFT]
+0=49|0mutex_v2_1_11.mgf|58254|0
+1=7|1mutex_v2_1_11.mgf|35291|0
+3=7|3mutex_v2_1_11.mgf|13321|0
+
+[~U]
+axi_decode=11|0*20995|
+gen_dram=Gen_DRAM 11|0*3016|
+multi_channel_mutex=11|0*7972|
+multi_channel_register=11|0*5046|
+mutex=11|0*28672|
+mutex_core=11|0*11603|
+pselect=11|0*0|

@@ -1,0 +1,53 @@
+timestamp=1580965180888
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_clock_converter_v2_1/hdl/axi_clock_converter_v2_1_vl_rfs.v=0*3501*25084
+LastVerilogToplevel=axi_clock_converter_v2_1_19_axi_clock_converter
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c92163f9e59e7adb9c10a14cd09ac1d822684
+
+[axi_clock_converter_v2_1_19_axi_clock_converter]
+A/axi_clock_converter_v2_1_19_axi_clock_converter=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_clock_converter_v2_1/hdl/axi_clock_converter_v2_1_vl_rfs.v|654|1*19135
+BinI32/axi_clock_converter_v2_1_19_axi_clock_converter=3*17820
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_clock_converter_v2_1/hdl/axi_clock_converter_v2_1_vl_rfs.v|654
+SLP=3*57987
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|9e5dfb74022707bab563080d754a55c9978168e013dfd23085ca9a8027374c845c3b5c9fb55767a7471ca81634ccc37ace70e65d07c7b0df5fb8a17292c9f0b3
+
+[axi_clock_converter_v2_1_19_axic_sample_cycle_ratio]
+A/axi_clock_converter_v2_1_19_axic_sample_cycle_ratio=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_clock_converter_v2_1/hdl/axi_clock_converter_v2_1_vl_rfs.v|359|1*9776
+BinI32/axi_clock_converter_v2_1_19_axic_sample_cycle_ratio=3*8689
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_clock_converter_v2_1/hdl/axi_clock_converter_v2_1_vl_rfs.v|359
+SLP=3*11636
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|9e5dfb74022707bab563080d754a55c94456fc1e4230117f14b786d72dd80795ce23d6b807be0a1d6349fc4dbefddb191ac3b921511181f5ae122fd490749a02f0cc2ded55ebe22815407a7f2270cb3f
+
+[axi_clock_converter_v2_1_19_axic_sync_clock_converter]
+A/axi_clock_converter_v2_1_19_axic_sync_clock_converter=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_clock_converter_v2_1/hdl/axi_clock_converter_v2_1_vl_rfs.v|63|1*390
+BinI32/axi_clock_converter_v2_1_19_axic_sync_clock_converter=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_clock_converter_v2_1/hdl/axi_clock_converter_v2_1_vl_rfs.v|63
+SLP=3*6157
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|9e5dfb74022707bab563080d754a55c94456fc1e4230117f14b786d72dd80795cd361637cc54395019584af96599df819a4ccc866a0da2f7147f34cc85ac0785
+
+[axi_clock_converter_v2_1_19_lite_async]
+A/axi_clock_converter_v2_1_19_lite_async=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_clock_converter_v2_1/hdl/axi_clock_converter_v2_1_vl_rfs.v|517|1*13962
+BinI32/axi_clock_converter_v2_1_19_lite_async=3*12612
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axi_clock_converter_v2_1/hdl/axi_clock_converter_v2_1_vl_rfs.v|517
+SLP=3*16266
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|9e5dfb74022707bab563080d754a55c919a1899c620b8022368cfed2e8ac021030e51350d605dc02ee6152a141c7878ffd8568f191be965c8daa3dd816881c62
+
+[~MFT]
+0=7|0axi_clock_converter_v2_1_19.mgf|25084|0
+1=5|1axi_clock_converter_v2_1_19.mgf|19135|0
+3=10|3axi_clock_converter_v2_1_19.mgf|57987|0
+
+[~U]
+$root=12|0*0|
+axi_clock_converter_v2_1_19_axi_clock_converter=12|0*1516||0x10
+axi_clock_converter_v2_1_19_axic_sample_cycle_ratio=12|0*698|
+axi_clock_converter_v2_1_19_axic_sync_clock_converter=12|0*198|
+axi_clock_converter_v2_1_19_lite_async=12|0*1057|

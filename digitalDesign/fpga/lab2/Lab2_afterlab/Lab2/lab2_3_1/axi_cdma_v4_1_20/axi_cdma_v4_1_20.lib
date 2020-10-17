@@ -1,0 +1,168 @@
+timestamp=1580965179147
+
+[~A]
+ModifyID=1
+Version=74
+
+[axi_cdma]
+A/implementation=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|15317|1*264567
+BinI32/implementation=3*65089
+I=0*246596
+I/implementation=0*256233
+M=11|0|vde|1580965178860|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|0*241811*0xbc5019cca58e9345a592ec3656b4363fc03dad37|0*246453*0x24f53803c3278f1d7f185bd51c58332c
+M/implementation=21|0|vde|1580965178862|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|0*247020*0xfb79192ad5d21aa23f3788f63e8449fa17504394|0*256072*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|15017
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|21c2b53e1bcc9781bc50306f56ca63e9cee55e7be2bf15ad5cf8257f1abb08f7c30da01a0e3ab2ba02781a8555e58dc8
+Version/implementation=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb9390caf9276264440cc032bceb167a60a6
+
+[axi_cdma_lite_if]
+A/implementation=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|2173|1*26626
+BinI32/implementation=3*6411
+I=0*31075
+I/implementation=0*52828
+M=11|0|vde|1580965178694|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|0*29044*0xb78c0fdb58457c2fb86c4e4d88e8b3bac5fdc40c|0*30924*0x24f53803c3278f1d7f185bd51c58332c
+M/implementation=21|0|vde|1580965178701|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|0*31552*0x82d5ddbe1ebdfc10eed9f2322f0fed19d7ef3653|0*52659*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|2107
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|dcd08e04662c3698448779c4909e3e147559f0791df5bb6a92c6f858096a18e25ec99c40a16aea43181cb8e4eead4841
+Version/implementation=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93afb75fc7c079cf183174dd983a4692fd
+
+[axi_cdma_pkg]
+BinI32/axi_cdma_pkg=3*0
+E=1*0
+I=0*6949
+I/axi_cdma_pkg=0*7949
+M=3|0|vde|1580965178293|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|0*1541*0x78a1e6a43cdac91016a491ac99ca9e23f00da32f|0*6802*0x24f53803c3278f1d7f185bd51c58332c
+M/axi_cdma_pkg=4|0|vde|1580965178300|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|0*7311*0x5dd211fdc59115c9f64c388b330079b87392b669|0*7787*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|70
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|9de780c278c936772f586bd5f9b802d382601a6b955b2263cff69161b3fb32fe3d019a00ea4dd29623b3e2266aad9141
+Version/axi_cdma_pkg=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|9de780c278c936772f586bd5f9b802d382601a6b955b2263cff69161b3fb32fe3d019a00ea4dd29623b3e2266aad9141
+
+[axi_cdma_pulse_gen]
+A/implementation=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|413|1*8727
+BinI32/implementation=3*357
+I=0*9434
+I/implementation=0*12676
+M=11|0|vde|1580965178312|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|0*8625*0x7db19a186a067777f8d0b9cdf1915c0742d82f99|0*9281*0x24f53803c3278f1d7f185bd51c58332c
+M/implementation=21|0|vde|1580965178669|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|0*9868*0xa3246c4b742f18320621e2d9d287834e1487bfe8|0*12505*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|374
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|695aeccde32d20fa9b6e8a540237a9ce7d2b7908ef80e5df021514a7d2fc97a806992e37882c493a44046e53a69ed7d8
+Version/implementation=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93bc81b6704950c747e9fd08efc3726dc0
+
+[axi_cdma_reg_module]
+A/implementation=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|5308|1*75355
+BinI32/implementation=3*29328
+I=0*80249
+I/implementation=0*89050
+M=11|0|vde|1580965178728|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|0*76714*0x477fb8e4bf47a922beb2f7bbe40438d7a63b3c81|0*80095*0x24f53803c3278f1d7f185bd51c58332c
+M/implementation=21|0|vde|1580965178730|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|0*80684*0x8e17cc1fe877b2420a5b565c0395b86f8d538d59|0*88878*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|5078
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|5a9cddf68dd746f78570589df70955ccf20dad2af2cefec4578a0132cf87cadfb038a4d1e31d48fbd431259cd739546b
+Version/implementation=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb931d176433bd235fd73ede8e045321acb9
+
+[axi_cdma_register]
+A/implementation=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|3808|1*52668
+BinI32/implementation=3*17655
+I=0*56797
+I/implementation=0*75565
+M=11|0|vde|1580965178712|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|0*53983*0xf419ee2b46fcfdde8aec6fdda09550880b356f29|0*56645*0x24f53803c3278f1d7f185bd51c58332c
+M/implementation=21|0|vde|1580965178716|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|0*57230*0x8e23091c04bbf091cfdc9e9c7fb3c728d598b036|0*75395*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|3625
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|ae7521b2309f5b2aaa135d7221a6fe5644a4d2a6a73a0ba789b667461e471bba16efd778a7b19b78d284891a7bf8d32c
+Version/implementation=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93e2719af00a81cb4638c63904aaebe520
+
+[axi_cdma_reset]
+A/implementation=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|984|1*13118
+BinI32/implementation=3*2171
+I=0*14937
+I/implementation=0*28074
+M=11|0|vde|1580965178680|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|0*13548*0x6a891dad903ffcdb6a6bcfd06d2f2df4bc88bc0d|0*14788*0x24f53803c3278f1d7f185bd51c58332c
+M/implementation=21|0|vde|1580965178682|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|0*15367*0x6d3ece18447c524d9d6d47cb56bddc142bc08353|0*27907*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|896
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|388d03b966a13eef7b48064469bf78f38aac7a39181f54e2b4369346243d834ff42889a6f99b98fb9c9e63ce606620f7
+Version/implementation=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93f42889a6f99b98fb9c9e63ce606620f7
+
+[axi_cdma_sf]
+A/implementation=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|6509|1*99776
+BinI32/implementation=3*33619
+I=0*99408
+I/implementation=0*113917
+M=11|0|vde|1580965178767|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|0*97764*0x1abe4d86846eb71331ada3c3d211e1bc8484fd0f|0*99262*0x24f53803c3278f1d7f185bd51c58332c
+M/implementation=21|0|vde|1580965178773|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|0*99769*0xf72a89bde04b973f1bfb606b86f53bee41efa052|0*113753*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|6379
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|5a8b33aea1eaa14093a115485339df7e5cd61fea502a3dac9f212caa6cfae90836125ddb22eee9815f6718427549dc18
+Version/implementation=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb9311cf44df27a5bf3c1ff8db0d9400446c
+
+[axi_cdma_sfifo_autord]
+A/imp=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|5899|1*91738
+BinI32/imp=3*31242
+I=0*91496
+I/imp=0*96908
+M=11|0|vde|1580965178740|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|0*90048*0xcd2851872206f5db28f75d47410356b50235759d|0*91340*0x24f53803c3278f1d7f185bd51c58332c
+M/imp=21|0|vde|1580965178751|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|0*91790*0xccf6dbcbebb21b42f965fba2a6923688d10b71e2|0*96745*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|5860
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|a54756dc700248d82f5a1fcf3b554c5534a178a95c28635b3f50628db76cfa06888750b74a8f6246129b1fb592fd85a3
+Version/imp=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d281f7a0ebd67a0f3ace0230f6f629417357836c8c943222fbef6db579cd0ba2
+
+[axi_cdma_sg_cntlr]
+A/implementation=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|10227|1*167244
+BinI32/implementation=3*48626
+I=0*161296
+I/implementation=0*191935
+M=11|0|vde|1580965178818|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|0*157242*0xb8846000acba1a9a33a6898884f28c69dc6fc54a|0*161144*0x24f53803c3278f1d7f185bd51c58332c
+M/implementation=21|0|vde|1580965178824|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|0*161696*0xf28697f30368fe1b634a745cd6af12a07ffc205b|0*191765*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|10024
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d902a98de746a161947a39a1f237a084d2971c40f7d411b7f91efc25264df8da81b1a33de00acff83b5ac18199b16750
+Version/implementation=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb9371ae9222ef91b8d0f0665a31e5a1be00
+
+[axi_cdma_sg_wrap]
+A/implementation=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|13099|1*207044
+BinI32/implementation=3*60409
+I=0*198562
+I/implementation=0*240209
+M=11|0|vde|1580965178839|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|0*193299*0x5a2898710598a0a1652138198352d5a99afc3369|0*198411*0x24f53803c3278f1d7f185bd51c58332c
+M/implementation=21|0|vde|1580965178846|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|0*199039*0x54c2c094f94836aa8607b817e8cec78122329ccb|0*240040*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|12797
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|90afd1a57b5c694804ec4a1dbc6c51a9bbec9a542d5b1f831b9bb026ac760ed4c07466d7d1528c697146b69ad6f6ae65
+Version/implementation=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93f6ff9b1eb24d1b379f1c777fde0a2c57
+
+[axi_cdma_simple_cntlr]
+A/implementation=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|7696|1*117167
+BinI32/implementation=3*40498
+I=0*117230
+I/implementation=0*127253
+M=11|0|vde|1580965178785|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|0*114964*0xb5b12947141b678405a30e464d7d70537577dbac|0*117074*0x24f53803c3278f1d7f185bd51c58332c
+M/implementation=21|0|vde|1580965178788|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|0*117634*0x53e18252727f0751373acb34fb8e3beaf95d938e|0*127079*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|7564
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|ee3e8d2e5d5dc1551685455102c00ece9c37654f09ada14f7d9932c978ee491dd158470ae985a47cc0163b964986e0fc
+Version/implementation=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93fc396678a54f0565b1a57ea4f3cd4c4b
+
+[axi_cdma_simple_wrap]
+A/implementation=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|8719|1*132796
+BinI32/implementation=3*45474
+I=0*132068
+I/implementation=0*155755
+M=11|0|vde|1580965178801|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|0*128418*0xb504ea17630c4b62255ce46bcb05bb0b020867a0|0*131913*0x24f53803c3278f1d7f185bd51c58332c
+M/implementation=21|0|vde|1580965178808|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|0*132505*0x650c6611ef5fb64b5516e23496855134f41c13c8|0*155582*0x4f3a0e4d6b49452134debcca3f6f763f
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_cdma_v4_1/hdl/axi_cdma_v4_1_vh_rfs.vhd|8483
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|ee3e8d2e5d5dc1551685455102c00ecea4a3eb57061540a0c95015621701ea5eed39172bfb5777c3521963f702987ca3
+Version/implementation=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb9316acb4b5229cc4325e90c466c4193060
+
+[~MFT]
+0=92|0axi_cdma_v4_1_20.mgf|256233|0
+1=13|1axi_cdma_v4_1_20.mgf|264567|0
+3=15|3axi_cdma_v4_1_20.mgf|65089|0
+
+[~U]
+axi_cdma=11|0*240938|
+axi_cdma_lite_if=11|0*28594|
+axi_cdma_pkg=3|0*0|0*130
+axi_cdma_pulse_gen=11|0*8324|
+axi_cdma_reg_module=11|0*76013|
+axi_cdma_register=11|0*53357|
+axi_cdma_reset=11|0*13163|
+axi_cdma_sf=11|0*97251|
+axi_cdma_sfifo_autord=11|0*89605|
+axi_cdma_sg_cntlr=11|0*156380|
+axi_cdma_sg_wrap=11|0*192394|
+axi_cdma_simple_cntlr=11|0*114378|
+axi_cdma_simple_wrap=11|0*127672|

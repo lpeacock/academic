@@ -1,0 +1,22 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+WARNING VCP5010 "Redefinition of the macro RECONFIG_INIT_RESET_1." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_v1_0/hdl/cal/rld3_pl_v1_0_cal_top.sv" 67  30
+WARNING VCP5010 "Redefinition of the macro SIMULATION." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_v1_0/hdl/cal/rld3_pl_v1_0_cal_top.sv" 69  19
+WARNING VCP2515 "Undefined module: rld3_pl_v1_0_1_cfg_mem_mod was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_v1_0/hdl/cal/rld3_pl_v1_0_cal_xsdb_bram.sv" 489  18
+MESSAGE "Pass 2. Processing instantiations."
+WARNING VCP2597 "Some unconnected ports remain at instance: cmd_mapper_inst. Module rld3_pl_v1_0_1_bank_queue_mapper has unconnected  port(s) : q_empty." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_v1_0/hdl/mc/rld3_pl_v1_0_mc.sv" 523  1
+MESSAGE "Pass 3. Processing behavioral statements."
+WARNING VCP2910 "Conditional expression 1'b1 at ?: operator is constant." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_v1_0/hdl/cal/rld3_pl_v1_0_cal_addr_decode.sv" 2785  1
+WARNING VCP2641 "Redundant digits given in number 13'b00000000000000." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_v1_0/hdl/mc/rld3_pl_v1_0_data_pi.sv" 254  31
+MESSAGE "Case expression too large, will not check for overlapping labels (C:/Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_v1_0/hdl/cal/rld3_pl_v1_0_cal_cplx_data.sv, ln 143)."
+MESSAGE "Case expression too large, will not check for overlapping labels (C:/Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_v1_0/hdl/cal/rld3_pl_v1_0_cal_rd_en.sv, ln 122)."
+MESSAGE "Case expression too large, will not check for overlapping labels (C:/Xilinx/Vivado/2019.2/data/ip/xilinx/rld3_pl_v1_0/hdl/cal/rld3_pl_v1_0_cal_top.sv, ln 1233)."
+MESSAGE "Running Assertions Compiler."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+MESSAGE "Unit top modules: rld3_pl_v1_0_1_cal_bfifo rld3_pl_v1_0_1_cal_odt rld3_pl_v1_0_1_cal_top rld3_pl_v1_0_1_cal_xsdb_bram rld3_pl_v1_0_1_cmd_addr_pi rld3_pl_v1_0_1_data_pi rld3_pl_v1_0_1_floping rld3_pl_v1_0_1_mc."
+MESSAGE "$root top modules: rld3_pl_v1_0_1_cal_init_bfm rld3_pl_v1_0_1_cal_bfifo rld3_pl_v1_0_1_cal_odt rld3_pl_v1_0_1_cal_top rld3_pl_v1_0_1_cal_xsdb_bram rld3_pl_v1_0_1_cmd_addr_pi rld3_pl_v1_0_1_data_pi rld3_pl_v1_0_1_floping rld3_pl_v1_0_1_mc."
+SUCCESS "Compile success 0 Errors 6 Warnings  Analysis time: 1[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

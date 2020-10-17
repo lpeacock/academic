@@ -1,0 +1,2 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/axi_sideband_util_v1_0_4
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  -l smartconnect_v1_0 -l axi_sideband_util_v1_0_4 +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -sv2k12 -work axi_sideband_util_v1_0_4 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/axi_sideband_util_v1_0_4/.cxl.systemverilog.axi_sideband_util_v1_0_4.axi_sideband_util_v1_0_4.nt64.cmf

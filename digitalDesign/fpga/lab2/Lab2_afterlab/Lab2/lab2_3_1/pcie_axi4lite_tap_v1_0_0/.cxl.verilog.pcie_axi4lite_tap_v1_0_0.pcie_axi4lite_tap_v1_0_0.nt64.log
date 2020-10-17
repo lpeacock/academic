@@ -1,0 +1,10 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: pcie_axi4lite_tap_v1_0_0_top."
+MESSAGE "$root top modules: pcie_axi4lite_tap_v1_0_0_top."
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 1[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

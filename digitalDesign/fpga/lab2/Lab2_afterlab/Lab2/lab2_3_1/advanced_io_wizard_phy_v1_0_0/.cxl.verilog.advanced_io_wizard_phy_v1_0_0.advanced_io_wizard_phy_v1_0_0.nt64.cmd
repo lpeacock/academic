@@ -1,0 +1,2 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/advanced_io_wizard_phy_v1_0_0
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  -l advanced_io_wizard_phy_v1_0_0 +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -sv2k12 -work advanced_io_wizard_phy_v1_0_0 -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/advanced_io_wizard_phy_v1_0_0/.cxl.systemverilog.advanced_io_wizard_phy_v1_0_0.advanced_io_wizard_phy_v1_0_0.nt64.cmf

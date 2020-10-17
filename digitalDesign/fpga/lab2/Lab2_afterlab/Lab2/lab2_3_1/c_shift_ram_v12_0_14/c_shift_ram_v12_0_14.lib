@@ -1,0 +1,124 @@
+timestamp=1580965328008
+
+[~A]
+ModifyID=1
+Version=74
+
+[c_shift_ram_speedmux]
+A/struct=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|2282|1*6726
+BinI32/struct=3*4632
+I=0*29523
+I/struct=0*33029
+M=11|0|vde|1580965327813|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|0*28238*0x9f6bd533880cd202b6bb705bd9e31d9fc793dccd|0*29360*0xbba181862c44b92d99e8f49010ab70a1
+M/struct=21|0|vde|1580965327815|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|0*29912*0xd5748c78345bc33b8ffab60cfda7fad8a2865602|0*32856*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|2282
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|da88430b99fa4524dcde62efeb8d55378ccb475a73226c74be4eb53b41e8727ea51fee6243a5fdf9d8c6cb7fcafce546
+Version/struct=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|68817935c6836d9b4f22134aa64f047edd31fd20724d015f90ade1100a42da4a
+
+[c_shift_ram_v12_0_14]
+A/xilinx=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|2282|1*16618
+BinI32/xilinx=3*18777
+I=0*61467
+I/xilinx=0*63228
+M=11|0|vde|1580965327853|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|0*59939*0xb05bcbb6dcd7fe2ec80061e1eb4027c47cc1dc91|0*61304*0xbba181862c44b92d99e8f49010ab70a1
+M/xilinx=21|0|vde|1580965327855|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|0*61792*0x7feba9777f209b7acee00946c800277a40c4ac66|0*63055*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|2282
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|da88430b99fa4524dcde62efeb8d55373b6fceb00169070c037cc0a277e3536856415adc2783c96aa38d202cc8df6e26
+Version/xilinx=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|2575045bca4fea1fc1b003ee1cd0d9a07924f8ab71c32212984a1bf1e53ac64b
+
+[c_shift_ram_v12_0_14_comp]
+E=1*446
+I=0*3783
+M=3|0|vde|1580965327468|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|0*2373*0xbf294a71c1732c3917211b0c105dea02439d8fda|0*3615*0xbba181862c44b92d99e8f49010ab70a1
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|2282
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|da88430b99fa4524dcde62efeb8d5537da26490b5da5d7b3ea80685f4c6226de2c3535ccb1d061796abf157086578a60c74082380b00486334919d72ebb0c651
+
+[c_shift_ram_v12_0_14_legacy]
+A/struct=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|2282|1*9373
+BinI32/struct=3*6542
+I=0*36472
+I/struct=0*54216
+M=11|0|vde|1580965327823|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|0*34045*0xaf60cdc49ec1b8d3639e444b7731f0dc1df4c9eb|0*36302*0xbba181862c44b92d99e8f49010ab70a1
+M/struct=21|0|vde|1580965327829|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|0*36916*0x9da559d94a32a46b42687fdc87f240af5c7d2500|0*54036*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|2282
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|da88430b99fa4524dcde62efeb8d5537ccf6751f0e14c2ccfabb22ebcb595e7d3c86f7570d538e223d79340121ef361496bffb7e0c635fdc29a069b8b0f23edc
+Version/struct=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|68817935c6836d9b4f22134aa64f047eaa9b7802d327186a633543fc40517834
+
+[c_shift_ram_v12_0_14_pkg]
+BinI32/c_shift_ram_v12_0_14_pkg=3*1671
+E=1*3309
+I=0*13706
+I/c_shift_ram_v12_0_14_pkg=0*27534
+M=3|0|vde|1580965327797|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|0*11174*0x028ac7fb65db53123dde76b5b8e6d6b1175025b8|0*13539*0xbba181862c44b92d99e8f49010ab70a1
+M/c_shift_ram_v12_0_14_pkg=4|0|vde|1580965327801|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|0*14012*0xd05ddd363e860969544fcf9ab14da38df533d14c|0*27340*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|2282
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|da88430b99fa4524dcde62efeb8d55379ef5880da216f715b815123720b2c73953f2df988e3c76d8fb35a7619e2e0519f9bcb410cd13627b2c276c4197f514e6
+Version/c_shift_ram_v12_0_14_pkg=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|da88430b99fa4524dcde62efeb8d55379ef5880da216f715b815123720b2c73953f2df988e3c76d8fb35a7619e2e0519f9bcb410cd13627b2c276c4197f514e6
+
+[c_shift_ram_v12_0_14_viv]
+A/synth=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|2282|1*15348
+BinI32/synth=3*18088
+I=0*57268
+I/synth=0*59007
+M=11|0|vde|1580965327842|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|0*55316*0x4c01e1967c7c6c4ece26fd3c33b75f3ce8499193|0*57101*0xbba181862c44b92d99e8f49010ab70a1
+M/synth=21|0|vde|1580965327844|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|0*57629*0x7f9541201b3c9e33a4c8dd5909f549993223cf14|0*58831*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|2282
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|da88430b99fa4524dcde62efeb8d5537d18c4022805e1f76674309ff727f53d3ba1cc44f38f53d1548bcac14205c0db4bddf4651433ee1365a3f1f8b1d4dc592
+Version/synth=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|e480b5c213cbe1f7e091cb6c53388268912dcdd9fbab5c19c404faf818b5a13b
+
+[c_shift_ram_v12_0_14_viv_comp]
+E=1*0
+I=0*1796
+M=3|0|vde|1580965327440|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|0*362*0x8d8374ba2298e6c266c4bbe67afbf625b4604211|0*1624*0xbba181862c44b92d99e8f49010ab70a1
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|2282
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|da88430b99fa4524dcde62efeb8d55375f8d648c720e0e34e71017a4c13acd09df532c465300deb4a67f425c9d3cf783e8b74d3dbb138cc802ff8f7f69f7463a
+
+[flop]
+A/xilinx=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|2282|1*888
+BinI32/xilinx=3*0
+I=0*4703
+I/xilinx=0*5462
+M=11|0|vde|1580965327471|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|0*4231*0xde4ae1e1ba8e6346733dcc6ca9bfcb66098ed204|0*4556*0xbba181862c44b92d99e8f49010ab70a1
+M/xilinx=21|0|vde|1580965327473|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|0*4916*0x5037cab2de560d94a316c4cdeb90457b4c00bac0|0*5305*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|2282
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|00cb107e56193ecaf1758c76a3989afc9ec9b5e83acad58d28ea92b0405f9688
+Version/xilinx=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|2575045bca4fea1fc1b003ee1cd0d9a03c1b7a7b6f9c192074deeff17612eef7
+
+[sr]
+A/xilinx=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|2282|1*1519
+BinI32/xilinx=3*524
+I=0*6565
+I/xilinx=0*7877
+M=11|0|vde|1580965327772|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|0*5957*0x21a5b6c191335c33fcf032d84432ec07517b29c5|0*6420*0xbba181862c44b92d99e8f49010ab70a1
+M/xilinx=21|0|vde|1580965327778|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|0*6856*0xed41d9280357bef78bd54d1c8ed1f3e3e868298c|0*7722*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|2282
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|f389f65ab75aec261ff255bab3652e049ed206d61e8125a0dc4ad6c9e14d7bb7
+Version/xilinx=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|2575045bca4fea1fc1b003ee1cd0d9a0b884c41416f25239868cc81616619b3d
+
+[srl_clb]
+A/xilinx=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|2282|1*2614
+BinI32/xilinx=3*975
+I=0*8999
+I/xilinx=0*9927
+M=11|0|vde|1580965327785|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|0*8503*0xc26181da9d54242bf1c13b3c884d430a57eb33cd|0*8849*0xbba181862c44b92d99e8f49010ab70a1
+M/xilinx=21|0|vde|1580965327787|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|0*9215*0xc4819f25fe3a668998b1ecc7046777e0eadf6024|0*9767*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/c_shift_ram_v12_0/hdl/c_shift_ram_v12_0_vh_rfs.vhd|2282
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|c49a0d67434d5ab9229cd7a502afc51626527262ddaa47cb266f3a3c4d9b973a2653bd2ef614be899567ebeda63316a4
+Version/xilinx=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|2575045bca4fea1fc1b003ee1cd0d9a085ceafbd32bb4cabf0bcbdae974370af
+
+[~MFT]
+0=67|0c_shift_ram_v12_0_14.mgf|63228|0
+1=10|1c_shift_ram_v12_0_14.mgf|16618|0
+3=8|3c_shift_ram_v12_0_14.mgf|18777|0
+
+[~U]
+c_shift_ram_speedmux=11|0*27865|
+c_shift_ram_v12_0_14=11|0*59406|
+c_shift_ram_v12_0_14_comp=3|0*2019|0*2188
+c_shift_ram_v12_0_14_legacy=11|0*33489|
+c_shift_ram_v12_0_14_pkg=3|0*10150|0*10334
+c_shift_ram_v12_0_14_viv=11|0*54795|
+c_shift_ram_v12_0_14_viv_comp=3|0*0|0*173
+flop=11|0*4002|
+sr=11|0*5682|
+srl_clb=11|0*8255|

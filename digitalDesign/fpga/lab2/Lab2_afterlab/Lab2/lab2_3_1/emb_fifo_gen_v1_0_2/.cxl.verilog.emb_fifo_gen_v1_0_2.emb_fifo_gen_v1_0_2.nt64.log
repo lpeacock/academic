@@ -1,0 +1,16 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+WARNING VCP2515 "Undefined module: xpm_fifo_base was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emb_fifo_gen_v1_0/hdl/emb_fifo_gen_v1_0_rfs.sv" 420  9
+WARNING VCP2515 "Undefined module: xpm_fifo_sync was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emb_fifo_gen_v1_0/hdl/emb_fifo_gen_v1_0_rfs.sv" 470  9
+WARNING VCP2515 "Undefined module: xpm_fifo_async was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emb_fifo_gen_v1_0/hdl/emb_fifo_gen_v1_0_rfs.sv" 523  9
+WARNING VCP2515 "Undefined module: xpm_fifo_axis was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emb_fifo_gen_v1_0/hdl/emb_fifo_gen_v1_0_rfs.sv" 585  9
+WARNING VCP2515 "Undefined module: xpm_fifo_axif was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emb_fifo_gen_v1_0/hdl/emb_fifo_gen_v1_0_rfs.sv" 742  7
+WARNING VCP2515 "Undefined module: xpm_fifo_axil was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/emb_fifo_gen_v1_0/hdl/emb_fifo_gen_v1_0_rfs.sv" 840  7
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: emb_fifo_gen_v1_0_2."
+MESSAGE "$root top modules: emb_fifo_gen_v1_0_2."
+SUCCESS "Compile success 0 Errors 6 Warnings  Analysis time: 0[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

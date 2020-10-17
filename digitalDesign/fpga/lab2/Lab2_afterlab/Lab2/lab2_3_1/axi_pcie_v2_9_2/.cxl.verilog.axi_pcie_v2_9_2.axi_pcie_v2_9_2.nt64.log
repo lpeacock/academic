@@ -1,0 +1,43 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+WARNING VCP2515 "Undefined module: MUXCY was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 618  11
+WARNING VCP2515 "Undefined module: XORCY was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 649  11
+MESSAGE_SP VCP2113 "Module axi_pcie_msi_irq found in current working library."
+WARNING VCP2515 "Undefined module: axi_pcie_v2_9_2_pcie_7x_v2_0_2 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 13425  3
+WARNING VCP2515 "Undefined module: AND2B1L was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 15875  11
+WARNING VCP2515 "Undefined module: OR2L was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 15991  11
+WARNING VCP2515 "Undefined module: FDRE was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 16376  10
+WARNING VCP2515 "Undefined module: SRLC32E was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 16481  15
+WARNING VCP2515 "Undefined module: SRLC16E was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 16495  15
+WARNING VCP2515 "Undefined module: fifo_gen was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 18835  24
+WARNING VCP2515 "Undefined module: GTPA1_DUAL was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 19962  8
+WARNING VCP2515 "Undefined module: BUFG was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 22184  20
+WARNING VCP2515 "Undefined module: GTPE2_CHANNEL was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 22829  8
+WARNING VCP2515 "Undefined module: GTHE2_CHANNEL was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 23537  7
+WARNING VCP2515 "Undefined module: GTXE2_CHANNEL was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 24108  7
+WARNING VCP2515 "Undefined module: PCIE_2_1 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 28717  5
+WARNING VCP2515 "Undefined module: BRAM_SDP_MACRO was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 28895  18
+WARNING VCP2515 "Undefined module: BRAM_TDP_MACRO was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 28928  18
+WARNING VCP2515 "Undefined module: MMCME2_ADV was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 33407  3
+WARNING VCP2515 "Undefined module: BUFGCTRL was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 33429  7
+WARNING VCP2515 "Undefined module: axi_pcie_v2_9_2_pcie_7x_v2_0_2_pipe_clock was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 41771  11
+WARNING VCP2515 "Undefined module: pipe_jtag_m was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 42011  11
+WARNING VCP2515 "Undefined module: pipe_jtag_s was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 42432  12
+WARNING VCP2515 "Undefined module: axi_pcie_v2_9_2_pcie_7x_v2_0_2_gt_common was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 42578  15
+WARNING VCP2515 "Undefined module: GTHE2_COMMON was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 45474  7
+WARNING VCP2515 "Undefined module: GTXE2_COMMON was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 45563  7
+WARNING VCP2515 "Undefined module: LUT6_2 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 46557  11
+WARNING VCP2515 "Undefined module: LUT6 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 46706  9
+WARNING VCP2515 "Undefined module: FDSE was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 46716  10
+WARNING VCP2515 "Undefined module: LUT4 was used. Port connection rules will not be checked at such instantiations." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 48248  11
+MESSAGE "Pass 2. Processing instantiations."
+WARNING VCP2597 "Some unconnected ports remain at instance: pipe_reset_i. Module axi_pcie_v2_9_2_pcie_7x_v2_0_2_pipe_reset has unconnected  port(s) : RST_DRP_DONE, RST_RXPMARESETDONE, RST_DRP_START, RST_DRP_X16X20_MODE, RST_DRP_X16." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 43605  1
+WARNING VCP2597 "Some unconnected ports remain at instance: pipe_drp_i. Module axi_pcie_v2_9_2_pcie_7x_v2_0_2_pipe_drp has unconnected  port(s) : DRP_X16X20_MODE, DRP_X16." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 43890  1
+WARNING VCP2597 "Some unconnected ports remain at instance: rxeq_scan_i. Module axi_pcie_v2_9_2_pcie_7x_v2_0_2_rxeq_scan has unconnected  port(s) : RXEQSCAN_CONTROL." "C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/hdl/axi_pcie_v2_9_rfs.v" 35992  1
+MESSAGE "Pass 3. Processing behavioral statements."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: axi_pcie_v2_9_2_axi_upsizer axi_pcie_v2_9_2_enhanced_core_top_wrap axi_pcie_v2_9_2_fifo axi_pcie_v2_9_2_GTPA1_DUAL_WRAPPER axi_pcie_v2_9_2_pcie_7x_v2_0_2_gt_top axi_pcie_v2_9_2_pcie_7x_v1_6_gt_top_ies axi_pcie_v2_9_2_pcie_7x_v2_0_2_pcie_top axi_pcie_v2_9_2_pcie_7x_v2_0_2_sys_clk_gen_ps."
+MESSAGE "$root top modules: axi_pcie_v2_9_2_axi_upsizer axi_pcie_v2_9_2_enhanced_core_top_wrap axi_pcie_v2_9_2_fifo axi_pcie_v2_9_2_GTPA1_DUAL_WRAPPER axi_pcie_v2_9_2_pcie_7x_v2_0_2_gt_top axi_pcie_v2_9_2_pcie_7x_v1_6_gt_top_ies axi_pcie_v2_9_2_pcie_7x_v2_0_2_pcie_top axi_pcie_v2_9_2_pcie_7x_v2_0_2_sys_clk_gen_ps."
+SUCCESS "Compile success 0 Errors 32 Warnings  Analysis time: 2[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done

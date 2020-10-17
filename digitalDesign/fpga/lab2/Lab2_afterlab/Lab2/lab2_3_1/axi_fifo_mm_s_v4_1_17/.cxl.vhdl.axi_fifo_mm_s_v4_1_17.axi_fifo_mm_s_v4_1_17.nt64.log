@@ -1,0 +1,25 @@
+Aldec, Inc. VHDL Compiler, build 10.5.217.6767
+VLM Initialized with path: "C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\library.cfg".
+DAGGEN WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\ip\xilinx\axi_fifo_mm_s_v4_1\hdl\axi_fifo_mm_s_v4_1_rfs.vhd
+COMP96 Compile Package "axi_fifo_mm_s_pkg"
+COMP96 Compile Package Body "axi_fifo_mm_s_pkg"
+COMP96 Compile Entity "axi_write_fsm"
+COMP96 Compile Architecture "axi_write_fsm_arch" of Entity "axi_write_fsm"
+COMP96 Compile Entity "axi_write_wrapper"
+COMP96 Compile Architecture "axi_write_wrap_arch" of Entity "axi_write_wrapper"
+COMP96 Compile Entity "axi_read_fsm"
+COMP96 Compile Architecture "axi_read_fsm_arch" of Entity "axi_read_fsm"
+COMP96 Compile Entity "axi_read_wrapper"
+COMP96 Compile Architecture "axi_read_wrapper_arch" of Entity "axi_read_wrapper"
+COMP96 Compile Entity "axi_wrapper"
+COMP96 Compile Architecture "xilinx" of Entity "axi_wrapper"
+COMP96 Compile Entity "axis_fg"
+COMP96 Compile Architecture "structure" of Entity "axis_fg"
+COMP96 Compile Entity "fifo"
+COMP96 Compile Architecture "structure" of Entity "fifo"
+COMP96 Compile Entity "ipic2axi_s"
+COMP96 Compile Architecture "beh" of Entity "ipic2axi_s"
+COMP96 Compile Entity "axi_fifo_mm_s"
+COMP96 Compile Architecture "structure" of Entity "axi_fifo_mm_s"
+COMP96 Compile success 0 Errors 0 Warnings  Analysis time :  0.7 [s]

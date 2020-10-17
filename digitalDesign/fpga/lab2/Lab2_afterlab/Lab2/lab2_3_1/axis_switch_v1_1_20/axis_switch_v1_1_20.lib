@@ -1,0 +1,141 @@
+timestamp=1580965160018
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v=0*11693*36716
+LastVerilogToplevel=axis_switch_v1_1_20_axis_switch
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c92168463a8219aa130e3eee930ce0d98d7e0
+
+[axis_switch_v1_1_20_arb_rr]
+A/axis_switch_v1_1_20_arb_rr=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|61|1*390
+BinI32/axis_switch_v1_1_20_arb_rr=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|61
+SLP=3*6382
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|9117dce0849112eaa0c9fe15b68ee30ce3b5ea16c57fb0d4b9754787fc3fcdfb64b94dc2ea08641230a61689340879feca0d7c7aa3e56b1f4996d348452f6e62
+
+[axis_switch_v1_1_20_arb_trr]
+A/axis_switch_v1_1_20_arb_trr=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|285|1*14809
+BinI32/axis_switch_v1_1_20_arb_trr=3*17699
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|285
+SLP=3*22630
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|9117dce0849112eaa0c9fe15b68ee30c8f230d8c6ad95b1fb551194579c50fbd2e99d08f915847a896803ed1263eeeba6d67619e6daa5ac7adc476ee43ef5753
+
+[axis_switch_v1_1_20_axi_ctrl_read]
+A/axis_switch_v1_1_20_axi_ctrl_read=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|1745|1*109434
+BinI32/axis_switch_v1_1_20_axi_ctrl_read=3*91117
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|1745
+SLP=3*95092
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|9117dce0849112eaa0c9fe15b68ee30cd85b89ac4e3db071831efbfe65586575ccc831c36932cf37ccf4460f9cfb60933eee910e946ade02c57df3ecba3aef07
+
+[axis_switch_v1_1_20_axi_ctrl_top]
+A/axis_switch_v1_1_20_axi_ctrl_top=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|2077|1*120287
+BinI32/axis_switch_v1_1_20_axi_ctrl_top=3*100892
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|2077
+SLP=3*104769
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|9117dce0849112eaa0c9fe15b68ee30ce722c734039a9c1616bd34e47b829fdea0f483c093bda99768bfc31d304f63c4e7531cdac2b72f787c3e29f931909551
+
+[axis_switch_v1_1_20_axi_ctrl_write]
+A/axis_switch_v1_1_20_axi_ctrl_write=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|1920|1*115193
+BinI32/axis_switch_v1_1_20_axi_ctrl_write=3*96373
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|1920
+SLP=3*99813
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|9117dce0849112eaa0c9fe15b68ee30ce722c734039a9c1616bd34e47b829fde756a0c0b1337bfa272756c6e474358b74cd8a6b548e887979c28a947693a0839
+
+[axis_switch_v1_1_20_axis_switch]
+A/axis_switch_v1_1_20_axis_switch=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|3090|1*155404
+BinI32/axis_switch_v1_1_20_axis_switch=3*125431
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|3090
+SLP=3*151320
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|9117dce0849112eaa0c9fe15b68ee30c1ad37cfa5f2d9973a92a8e0d0da10f13a66803ffebcd13d3ebee97d104c9abd8
+
+[axis_switch_v1_1_20_axis_switch_arbiter]
+A/axis_switch_v1_1_20_axis_switch_arbiter=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|1359|1*103218
+BinI32/axis_switch_v1_1_20_axis_switch_arbiter=3*88234
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|1359
+SLP=3*90323
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|9117dce0849112eaa0c9fe15b68ee30c3c9984d2e418b2b90335070e2fbe8944a875cc46548feb7846a394ccc691f39049229d37b62a42fdb21e119982ca3c0d
+
+[axis_switch_v1_1_20_axisc_arb_responder]
+A/axis_switch_v1_1_20_axisc_arb_responder=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|1123|1*79391
+BinI32/axis_switch_v1_1_20_axisc_arb_responder=3*68158
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|1123
+SLP=3*80207
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|9117dce0849112eaa0c9fe15b68ee30c744d0b4d1b7578ec5360edc159a6faa9a41043131f940871185848ef38b527fedeffbfeaffa8a614195fb77a66a40d54
+
+[axis_switch_v1_1_20_axisc_decoder]
+A/axis_switch_v1_1_20_axisc_decoder=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|479|1*21106
+BinI32/axis_switch_v1_1_20_axisc_decoder=3*24368
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|479
+SLP=3*38653
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|9117dce0849112eaa0c9fe15b68ee30c0ea30e33c53d11c3b8bcc65cbc4c8ccea92760c4d34fd2d8071ebe64da58ff7ffa0eca08172eaa54924a24b6331603e2
+
+[axis_switch_v1_1_20_axisc_transfer_mux]
+A/axis_switch_v1_1_20_axisc_transfer_mux=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|819|1*51475
+BinI32/axis_switch_v1_1_20_axisc_transfer_mux=3*46900
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|819
+SLP=3*60594
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|9117dce0849112eaa0c9fe15b68ee30cfa15b39495bb1e632333c260f86d421ed22346534b3821341d86b6780b2756b56ad29ffa5736a4ff37ed68ddce53c9da
+
+[axis_switch_v1_1_20_dynamic_priority_encoder]
+A/axis_switch_v1_1_20_dynamic_priority_encoder=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|1536|1*7701
+BinI32/axis_switch_v1_1_20_dynamic_priority_encoder=3*8664
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|1536
+SLP=3*15926
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|9117dce0849112eaa0c9fe15b68ee30c358d19a873d0464ccdfed1fb0b7f560c414b84b4d2deefdd4cfb18b666120a44fd8ee218e5fcc9a0868d44e4778aef2f36e304aa463d9cb7be8edfbc35e639a1
+
+[axis_switch_v1_1_20_reg_bank_16x32]
+A/axis_switch_v1_1_20_reg_bank_16x32=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|2971|1*130919
+BinI32/axis_switch_v1_1_20_reg_bank_16x32=3*106432
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|2971
+SLP=3*108697
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|9117dce0849112eaa0c9fe15b68ee30caded02ac751623a10d3ba4c6fd9b1313078f3168439189dd5975ec1da39a192ac049a839d82f66d46fe0aa597dba9536
+
+[axis_switch_v1_1_20_static_router]
+A/axis_switch_v1_1_20_static_router=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|2786|1*149358
+BinI32/axis_switch_v1_1_20_static_router=3*124173
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|2786
+SLP=3*125096
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|9117dce0849112eaa0c9fe15b68ee30c5ef1e01f9877ca3caa01df967c76e93deeb13481c403d69e753ae3ccb504972a6771e6e3cabec54f4036621b9c7d26a0
+
+[axis_switch_v1_1_20_static_router_config]
+A/axis_switch_v1_1_20_static_router_config=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|2578|1*143074
+BinI32/axis_switch_v1_1_20_static_router_config=3*119093
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|2578
+SLP=3*122941
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|9117dce0849112eaa0c9fe15b68ee30c5ef1e01f9877ca3caa01df967c76e93d46d4cc5601063a59324e8d56bb89776a1d2f8499740bb9fadf088513bfdb0928394c7f15b7b1879574e70332d343290e
+
+[axis_switch_v1_1_20_static_router_config_dp]
+A/axis_switch_v1_1_20_static_router_config_dp=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|2346|1*134140
+BinI32/axis_switch_v1_1_20_static_router_config_dp=3*109206
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|2346
+SLP=3*116900
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|9117dce0849112eaa0c9fe15b68ee30c5ef1e01f9877ca3caa01df967c76e93de41b505744217466f61303c580cdbd8a0f9a4747f98b201bd01458b720a1c5cfb86b6f70f4875692e30b5745d296317f
+
+[~MFT]
+0=18|0axis_switch_v1_1_20.mgf|36716|0
+1=16|1axis_switch_v1_1_20.mgf|155404|0
+3=32|3axis_switch_v1_1_20.mgf|151320|0
+
+[~U]
+$root=12|0*0|
+axis_switch_v1_1_20_arb_rr=12|0*342|
+axis_switch_v1_1_20_arb_trr=12|0*1216|
+axis_switch_v1_1_20_axi_ctrl_read=12|0*6121|
+axis_switch_v1_1_20_axi_ctrl_top=12|0*7025|
+axis_switch_v1_1_20_axi_ctrl_write=12|0*6567|
+axis_switch_v1_1_20_axis_switch=12|0*9640||0x10
+axis_switch_v1_1_20_axis_switch_arbiter=12|0*5690|
+axis_switch_v1_1_20_axisc_arb_responder=12|0*4474|
+axis_switch_v1_1_20_axisc_decoder=12|0*1695|
+axis_switch_v1_1_20_axisc_transfer_mux=12|0*3044|
+axis_switch_v1_1_20_dynamic_priority_encoder=12|0*836|
+axis_switch_v1_1_20_reg_bank_16x32=12|0*7693|
+axis_switch_v1_1_20_static_router=12|0*9031|
+axis_switch_v1_1_20_static_router_config=12|0*8516|
+axis_switch_v1_1_20_static_router_config_dp=12|0*8063|

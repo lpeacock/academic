@@ -1,0 +1,65 @@
+timestamp=1580964314394
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/verilog/src/unifast/DSP48E1.v_GTHE2_CHANNEL.v_GTXE2_CHANNEL.v_MMCME2_ADV.v_PLLE2_ADV.v=0*11989*104210
+LastVerilogToplevel=PLLE2_ADV
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000005789cd32d33ca360500045f0176|c73a565f2ade592f8ac1c68f484c9216b4714ae82902d71e71e62fe7ce9dbd9c
+
+[DSP48E1]
+A/DSP48E1=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unifast/DSP48E1.v|24|1*422
+BinI32/DSP48E1=3*172
+D/DSP48E1=4*0
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unifast/DSP48E1.v|24
+SLP=3*28872
+Version=10.5.217.6767 (Windows)|00000005789cd32d33ca360500045f0176|04e805a3180896edbae0bb817418173c26527262ddaa47cb266f3a3c4d9b973ab19e8e493aee099596c7ff501c165372
+
+[GTHE2_CHANNEL]
+A/GTHE2_CHANNEL=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unifast/GTHE2_CHANNEL.v|27|1*60759
+BinI32/GTHE2_CHANNEL=3*46412
+D/GTHE2_CHANNEL=4*988
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unifast/GTHE2_CHANNEL.v|27
+SLP=3*114256
+Version=10.5.217.6767 (Windows)|00000005789cd32d33ca360500045f0176|e4597cc0e64ec80e8f2bc652d394552540de69196b5d0633a4194be8983e089ead6a1df2144f16f488e9d386d1dc19a0
+
+[GTXE2_CHANNEL]
+A/GTXE2_CHANNEL=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unifast/GTXE2_CHANNEL.v|32|1*228370
+BinI32/GTXE2_CHANNEL=3*162937
+D/GTXE2_CHANNEL=4*4958
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unifast/GTXE2_CHANNEL.v|32
+SLP=3*218959
+Version=10.5.217.6767 (Windows)|00000005789cd32d33ca360500045f0176|c18db07e17e2a83c107197435834ec604e6ed784afc0b6c3d6a6cbef6eec72ee17a71b99a53d6aa7c59211c4ad349c27
+
+[MMCME2_ADV]
+A/MMCME2_ADV=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unifast/MMCME2_ADV.v|26|1*363470
+BinI32/MMCME2_ADV=3*258177
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unifast/MMCME2_ADV.v|26
+SLP=3*290358
+Version=10.5.217.6767 (Windows)|00000005789cd32d33ca360500045f0176|37bac950035a647b68765f983b52475d7b32919c0b8dde1dfe8854578e22a8a8f0b712e9f9347de3053bfd2c38cef84c
+
+[PLLE2_ADV]
+A/PLLE2_ADV=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unifast/PLLE2_ADV.v|23|1*406680
+BinI32/PLLE2_ADV=3*314687
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/verilog/src/unifast/PLLE2_ADV.v|23
+SLP=3*341021
+Version=10.5.217.6767 (Windows)|00000005789cd32d33ca360500045f0176|dedea8373192b182f2c150a2649e742986a9edbea789ddca3fad3bf054251bf2a494e6fa7118a301ce99f8b6c65a42d9
+
+[~MFT]
+0=8|0unifast_ver.mgf|104210|0
+1=6|1unifast_ver.mgf|406680|0
+3=12|3unifast_ver.mgf|341021|0
+4=3|4unifast_ver.mgf|4958|0
+
+[~U]
+$root=12|0*0|
+DSP48E1=12|0*230||0x10
+GTHE2_CHANNEL=12|0*1280||0x10
+GTXE2_CHANNEL=12|0*6000||0x10
+MMCME2_ADV=12|0*9881||0x10
+PLLE2_ADV=12|0*11032||0x10

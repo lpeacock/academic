@@ -1,0 +1,2 @@
+C:/Aldec/Active-HDL-Student-Edition/bin/vlib C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/axi_tg_lib
+C:/Aldec/Active-HDL-Student-Edition/bin/vlog  -l axi_tg_lib +incdir+C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\.cxl.ip/incl -sv2k12 -work axi_tg_lib -f C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1/axi_tg_lib/.cxl.systemverilog.axi_tg_lib.axi_tg_lib.nt64.cmf

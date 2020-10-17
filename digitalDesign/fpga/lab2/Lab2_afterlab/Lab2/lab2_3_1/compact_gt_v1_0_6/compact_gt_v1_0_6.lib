@@ -1,0 +1,216 @@
+timestamp=1580964526121
+
+[~A]
+ModifyID=1
+Version=74
+
+[brick_10]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1579|1*14678
+BinI32/behavioral=3*27471
+I=0*47792
+I/behavioral=I/Behavioral 0*50330
+M=11|0|vde|1580964525871|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*47167*0x266aaf316a7c22b433cb66fea0243f390e34d938|0*47647*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964525873|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*48073*0xd4c8846ebaa401e2724380d57fe1ad7d1ecb4ccf|0*50171*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1579
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|973609364c3f0a8f6fb1095ac4d74e6124d0c4b69b7f279fb39249987c1290e186c0ec575014db89fab6dabee4704074
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb806cdbdd00edfaee0e30410f2e2720547b
+
+[brick_10_adv]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1579|1*16508
+BinI32/behavioral=3*29980
+I=0*55195
+I/behavioral=I/Behavioral 0*57314
+M=11|0|vde|1580964525890|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*54554*0x34af713ec325c938035965d746db4dc055b9905b|0*55046*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964525892|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*55480*0x3a2f5b5d4016343764403d08915b0f43706bd97c|0*57151*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1579
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|8bccbd704d9475a974c90f847b5489b22c2e5ac8f111177d8e874d0c8eddadeaaf12539f57c1cdbc8c6d68b133705327
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb80783d0227f2cf8ead6211c9baba51bd8a
+
+[brick_5]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1579|1*15873
+BinI32/behavioral=3*28542
+I=0*51243
+I/behavioral=I/Behavioral 0*54010
+M=11|0|vde|1580964525880|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*50678*0xd77a5598fcfc02a01521f71c5fc8df9d88987004|0*51099*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964525882|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*51523*0x63249b46e46632cd06ae15d3ca540f3f3b88084e|0*53852*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1579
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|fc0b841501671e3f6e1f2992290096eb26527262ddaa47cb266f3a3c4d9b973abe21e9ade5a24de110cc7b694614ba5f
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb80222358e207cb71daa2bac08de80ec35a
+
+[bs_flex]
+A/behavior=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/bs_flex_v_2.vhd|319|1*0
+BinI32/behavior=3*0
+I=0*1056
+I/behavior=0*4252
+M=11|0|vde|1580964525620|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/bs_flex_v_2.vhd|0*312*0x4be31d06eb9fae25011be44a9557801229d2458b|0*913*0xbba181862c44b92d99e8f49010ab70a1
+M/behavior=21|0|vde|1580964525622|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/bs_flex_v_2.vhd|0*1384*0x494c702bfef9de7f74f4a4242b9ef474dc580fc8|0*4097*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/bs_flex_v_2.vhd|319
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|bc1834fba0f195915b1a375d68aaf12f26527262ddaa47cb266f3a3c4d9b973aecece66fda3617bc543de5a58721d1f5
+Version/behavior=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|1a15ec0a832cc257c522ba57f65e4af214bdda985a12bf2eace5f014fcf18c5d3547cc4bc382088cbd2c6eb04728106c
+
+[cg]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1579|1*13835
+BinI32/behavioral=3*23724
+I=0*43508
+I/behavioral=I/Behavioral 0*46632
+M=11|0|vde|1580964525860|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*42951*0x535f64e58c526b99286ee49458b5d6ccdd428618|0*43369*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964525862|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*43783*0x13255260dcae284d0aeab43f55ca16f87346b98b|0*46479*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1579
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|6f446802352699abe82dcf7bd0549074470fab442b5856674ace033228d6738c
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb8001108bda8d0ea551fd6cdd7c52e0422d
+
+[control]
+A/behavior=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/bs_flex_v_2.vhd|319|1*1721
+BinI32/behavior=3*2984
+I=0*5438
+I/behavior=0*6854
+M=11|0|vde|1580964525659|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/bs_flex_v_2.vhd|0*4693*0x518309ec102a29cdb8bffdc55260e129350844e7|0*5295*0xbba181862c44b92d99e8f49010ab70a1
+M/behavior=21|0|vde|1580964525661|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/bs_flex_v_2.vhd|0*5766*0x2d53ef10905dca440d90dba5784dfd72ef0e096a|0*6699*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/bs_flex_v_2.vhd|319
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|c3851a3d88b15e3097e1369eb69911d626527262ddaa47cb266f3a3c4d9b973a6273bb59dae9618dbdd3ebb1849aa359
+Version/behavior=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|1a15ec0a832cc257c522ba57f65e4af214bdda985a12bf2eace5f014fcf18c5da3d544ae0103853a701e289094371ece
+
+[dru]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1579|1*4107
+BinI32/behavioral=3*8395
+I=0*13368
+I/behavioral=I/Behavioral 0*19461
+M=11|0|vde|1580964525750|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*11723*0x75cb73c3450873d43ce49aa9ddec0a4ecee04237|0*13228*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964525752|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*13644*0x181046dd05f3353dd4bac1438b7f43aaac5be0db|0*19307*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1579
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|cb09490eb3d175b76588ddd0561dca3d8d96cffa945edc13f29ed0a4112fd202
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb80167f46dc63daee417e8e4dbd85503263
+
+[lp_filter]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1579|1*8570
+BinI32/behavioral=3*11114
+I=0*25182
+I/behavioral=I/Behavioral 0*28038
+M=11|0|vde|1580964525776|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*24295*0xb74e96b9007bf93b9d8100fcc4ae38bd8df8a26a|0*25036*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964525778|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*25512*0x88b504157ba9164c77ef4c2733e1168345a00982|0*27878*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1579
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|06b4ed82e02752321323b158b4b5f2702ebceee3d4ef06b5dd57924db35a106ed321088f54efe2c4bedbcc7372f94f37
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb8077a361037404ccb829e8947ce7cb17bb
+
+[lp_filter_r]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1579|1*17367
+BinI32/behavioral=3*30757
+I=0*58853
+I/behavioral=I/Behavioral 0*61452
+M=11|0|vde|1580964525898|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*57958*0xcc0e8ab5df4f9684709de28617861dbe46ef4a8f|0*58705*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964525900|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*59185*0xd4504a6ceb4b1bfe7d0fd157eb2bf7e363c37c08|0*61290*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1579
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|d4fa458a0f458f70071bf62f8508374ba09ceccdd1b1389f3a6512e10deca67a4d35e9a53ffefb6ebf10472e91f1241a
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb8041c85f65dc2787422312a61f36d773b7
+
+[nidru_20_wrapper]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_wrapper.vhd|186|1*21624
+BinI32/behavioral=3*42230
+I=0*75291
+I/behavioral=I/Behavioral 0*78031
+M=11|0|vde|1580964526093|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_wrapper.vhd|0*73906*0xa0968dad0affb4799bfd812bece8eae694abc197|0*75134*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964526095|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_wrapper.vhd|0*75580*0xb128b778712f6c11f0a2eaeee102f4e210174fd3|0*77860*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_wrapper.vhd|186
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|1d3374393d0e2b6dc1f737c6950b8c22044862ecfc1b7fcda674fcd6a72302d712a01d59bbe806b29e10b239d3258d43
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb809b365f6dedc283aee0ae991aea4c7396
+
+[pd]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1579|1*9733
+BinI32/behavioral=3*13807
+I=0*29451
+I/behavioral=I/Behavioral 0*37710
+M=11|0|vde|1580964525834|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*28702*0x1f6343b424db9a47cd629b1ffb03650d43050a71|0*29312*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964525838|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*29758*0x39ab89465ae0afbc59b1f2491077f3ab552e0c4b|0*37557*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1579
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|70ef874a7c4227dfef9657c66f6c935d1c97e33fd04a40cac936dcf2b4dcf3f5
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb80473a062e5d1a2648407f17d92c36e6cd
+
+[pd_r]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1579|1*18466
+BinI32/behavioral=3*33126
+I=0*62819
+I/behavioral=I/Behavioral 0*66553
+M=11|0|vde|1580964525909|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*62088*0x634bc039b8f4ba4397330213c8669ec82e3b1e4c|0*62678*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964525911|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*63144*0xebc1f4b7436975b29d261eef84065a98e77c4e1d|0*66398*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1579
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|cbb7f89c15f16a2997f0740d0d115ae6cf7c8dab267abb2f1973d5c152a91452
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb80629c16e84624d1dd4d52ad85cf78e261
+
+[rotwdt]
+A/behavior=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/bs_flex_v_2.vhd|319|1*2706
+BinI32/behavior=3*4623
+I=0*8306
+I/behavior=0*10935
+M=11|0|vde|1580964525667|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/bs_flex_v_2.vhd|0*7518*0x223428709cabbf30a918e7dbf84b00f78c3a4e2a|0*8164*0xbba181862c44b92d99e8f49010ab70a1
+M/behavior=21|0|vde|1580964525669|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/bs_flex_v_2.vhd|0*8633*0x8bd1deebad5293fb5b625a094dfae96499abc1fa|0*10781*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/bs_flex_v_2.vhd|319
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|da220afad11f8a3ad29c424a301a62577891d503b93e5712f8d2db9b2f378051
+Version/behavior=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|1a15ec0a832cc257c522ba57f65e4af214bdda985a12bf2eace5f014fcf18c5d615171947c698a4aafd69d4fe2cf9053
+
+[ss]
+A/behavioral=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1579|1*12016
+BinI32/behavioral=3*20311
+I=0*39052
+I/behavioral=0*42582
+M=11|0|vde|1580964525849|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*38335*0x28b720eb1d484360ec4be45f9773fae6e2a28cc0|0*38913*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=21|0|vde|1580964525851|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*39375*0x2350ce881dcad126143745af74be49d32dd57482|0*42429*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1579
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|3ad6998772081493a5932a8d82f014341bb025536c0588db4c506310339abbc9
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb806b493d3d65dcf76f8675bef87923fae0
+
+[ss_r]
+A/behavioral=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1579|1*19869
+BinI32/behavioral=3*36682
+I=0*67854
+I/behavioral=0*73121
+M=11|0|vde|1580964525920|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*67166*0xd7a46c80720938942ded26609c09a4ee666b6361|0*67713*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=21|0|vde|1580964525922|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*68179*0x27de294facf51ba0bc23e2c8ba0688a1e2408e03|0*72966*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1579
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|01503144fba390ea0b60bf54ddf0d470ddd76fe5db894891dae6792ff93d7998
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb8060b34af482e67e292e9b233b928169f4
+
+[td]
+A/behavior=21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1579|1*7793
+BinI32/behavior=3*10514
+I=0*22707
+I/behavior=0*23649
+M=11|0|vde|1580964525769|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*22108*0xac9445a060928d3a3d25f137476f2c138da3388c|0*22568*0xbba181862c44b92d99e8f49010ab70a1
+M/behavior=21|0|vde|1580964525771|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*23030*0xe9c6bad664cc581099d0f497da039ed0b15d4077|0*23498*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1579
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|bf82517887d1b428d35abe9c4f3a411239a3557662e648018c3af495d104a981
+Version/behavior=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|1a15ec0a832cc257c522ba57f65e4af214bdda985a12bf2eace5f014fcf18c5d80476fb66ba53b3081ac802df3aae83d
+
+[vco]
+A/behavioral=A/Behavioral 21|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1579|1*6966
+BinI32/behavioral=3*9212
+I=0*20511
+I/behavioral=I/Behavioral 0*21578
+M=11|0|vde|1580964525759|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*19848*0xc42170f78aa293c9877dfc0b0e07d84804eaf032|0*20371*0xbba181862c44b92d99e8f49010ab70a1
+M/behavioral=M/Behavioral 21|0|vde|1580964525761|C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|0*20787*0xeaf161624fda3127b27a0a9ab8dba8731656c3d1|0*21424*0x81b406dca0391b5fc762a661cc319c02
+R=C:/Xilinx/Vivado/2019.2/data/ip/xilinx/compact_gt_v1_0/hdl/src/vhd/nidru_20_v_7.vhd|1579
+Version=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|1f8cbcbf0954515d2105e0670723c1ce06a7f316eff2947080ba9079596452c5
+Version/behavioral=10.5.217.6767 (Windows)|00000006789cd32d4acd49ac00000760024a|34c34f031de35b95262f242c9cb48d07d0c89e52d901bbeda267054e124deb808d16cf8844156e7dea61754f9252a9a4
+
+[~MFT]
+0=119|0compact_gt_v1_0_6.mgf|78031|0
+1=17|1compact_gt_v1_0_6.mgf|21624|0
+3=17|3compact_gt_v1_0_6.mgf|42230|0
+
+[~U]
+brick_10=11|0*46918|
+brick_10_adv=11|0*54301|
+brick_5=11|0*50462|
+bs_flex=11|0*0|
+cg=11|0*42708|
+control=11|0*4381|
+dru=11|0*11271|
+lp_filter=11|0*23981|
+lp_filter_r=11|0*57642|
+nidru_20_wrapper=11|0*73457|
+pd=11|0*28379|
+pd_r=11|0*61795|
+rotwdt=11|0*7191|
+ss=11|0*38028|
+ss_r=11|0*66889|
+td=11|0*21865|
+vco=11|0*19588|

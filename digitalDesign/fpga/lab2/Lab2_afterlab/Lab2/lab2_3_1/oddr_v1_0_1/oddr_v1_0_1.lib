@@ -1,0 +1,29 @@
+timestamp=1580964763797
+
+[~A]
+C:/Xilinx/Vivado/2019.2/data/ip/xilinx/oddr_v1_0/hdl/oddr_v1_0_vl_rfs.v=0*433*1264
+LastVerilogToplevel=oddr_v1_0_1_oddr
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c9216d9e5de3eef8d714c384a56bd2e7ac699
+
+[oddr_v1_0_1_oddr]
+A/oddr_v1_0_1_oddr=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/oddr_v1_0/hdl/oddr_v1_0_vl_rfs.v|23|1*374
+BinI32/oddr_v1_0_1_oddr=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/oddr_v1_0/hdl/oddr_v1_0_vl_rfs.v|23
+SLP=3*849
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|8fec4e780b767e25d40c129c9bbeee37060d38e2d1ccd24e3f3e1af74c8769c0041d6319f344e834ab8921d8a2441d2b
+
+[~MFT]
+0=4|0oddr_v1_0_1.mgf|1264|0
+1=2|1oddr_v1_0_1.mgf|374|0
+3=4|3oddr_v1_0_1.mgf|849|0
+
+[~U]
+$root=12|0*0|
+oddr_v1_0_1_oddr=12|0*198||0x10

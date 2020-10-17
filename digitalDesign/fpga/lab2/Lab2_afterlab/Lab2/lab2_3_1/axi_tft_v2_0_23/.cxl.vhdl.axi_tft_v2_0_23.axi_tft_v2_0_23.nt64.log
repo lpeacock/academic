@@ -1,0 +1,8 @@
+Aldec, Inc. VHDL Compiler, build 10.5.217.6767
+VLM Initialized with path: "C:\Users\lucas\Documents\fpga\lab2\Lab2_afterlab\Lab2\lab2_3_1\library.cfg".
+DAGGEN WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+COMP96 File: C:\Xilinx\Vivado\2019.2\data\ip\xilinx\axi_tft_v2_0\hdl\axi_tft_v2_0_rfs.vhd
+COMP96 Compile Entity "axi_tft"
+COMP96 Compile Architecture "imp" of Entity "axi_tft"
+ELAB1 WARNING ELAB1_0026: "There is no default binding for component "axi_tft_v2_0_23_tft_controller". (No entity named "axi_tft_v2_0_23_tft_controller" was found)." "C:\Xilinx\Vivado\2019.2\data\ip\xilinx\axi_tft_v2_0\hdl\axi_tft_v2_0_rfs.vhd" 874 0
+COMP96 Compile success 0 Errors 1 Warnings  Analysis time :  94.0 [ms]

@@ -1,0 +1,28 @@
+timestamp=1580964826447
+
+[~A]
+LastVerilogToplevel=protected_5cff91cc40bfa145376008f408b85508
+ModifyID=1
+Version=74
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|c73a565f2ade592f8ac1c68f484c9216ca60e09151e7212f22e930c1563737f7
+
+[protected_5cff91cc40bfa145376008f408b85508]
+A/protected_5cff91cc40bfa145376008f408b85508=22|./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/sd_fec_v1_0/hdl/sd_fec_v1_0_vl_rfs.v|49|1*390
+BinI32/protected_5cff91cc40bfa145376008f408b85508=3*172
+R=./../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xilinx/sd_fec_v1_0/hdl/sd_fec_v1_0_vl_rfs.v|49
+SLP=3*4726
+Version=10.5.217.6767 (Windows)|00000053789cd3cecc4b4ec92cd276b68a092d4e2d2a8ec9294d4e2c8e71c94f2ecd4dcd2b298e492b484f8cc9494c328af10112f1896925a945402e9807168f378e378cd14baec8d1cb2cd0079a9603000f081e5a|0cd1b8cd21c883502c8b2a74329a6fd084d329f962ed2fb212ee7b705e14080104fb6480f2d5567d2eaabd2300cf7a51512c1a36e8f6285a9f2fd148b6a391f818e1b5e23e3f8b8dc035087459e48e8e
+
+[~MFT]
+0=2|0sd_fec_v1_0_2.mgf|214|0
+1=2|1sd_fec_v1_0_2.mgf|390|0
+3=4|3sd_fec_v1_0_2.mgf|4726|0
+
+[~U]
+$root=12|0*0|
+protected_5cff91cc40bfa145376008f408b85508=12|0*214||0x10
